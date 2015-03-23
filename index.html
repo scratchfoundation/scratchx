@@ -1,29 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="en"> <!-- Set this to the main language of your site -->
 <head>
-<meta charset="utf-8">
-<title>Whoops! Something went wrong</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-.main {
-	width: 100%;
-	height: 100%;
-	color: #585858;
-	text-align: center;
-	font-family: "helvetica neue",arial,sans-serif;
-}
-</style>
+    <meta charset="utf-8">
+    <title>ScratchX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/scratchx.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="libs/swfobject.js"></script>
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script type="text/javascript">
+        function handleEmbedStatus(e) {
+            $('#scratch-loader').hide();
+            var scratch = $('#scratch');
+            if (!e.success) {
+                scratch.css('marginTop', '10');
+                scratch.find('IMG.proj_thumb').css('width', '179px');
+                scratch.find('DIV.scratch_unsupported').show();
+                scratch.find('DIV.scratch_loading').hide();
+            } else {
+                scratch.css('visibility', 'visible');
+            }
+        }
+
+        var flashVars = {
+            autostart: 'false',
+            extensionDevMode: 'true',
+            server: encodeURIComponent(location.host),
+            cloudToken: '4af4863d-a921-4004-b2cb-e0ad00ee1927',
+            cdnToken: '34f16bc63e8ada7dfd7ec12c715d0c94',
+            urlOverrides: {
+                sitePrefix: "http://scratch.mit.edu/",
+                siteCdnPrefix: "http://cdn.scratch.mit.edu/",
+                assetPrefix: "http://assets.scratch.mit.edu/",
+                assetCdnPrefix: "http://cdn.assets.scratch.mit.edu/",
+                projectPrefix: "http://projects.scratch.mit.edu/",
+                projectCdnPrefix: "http://cdn.projects.scratch.mit.edu/",
+                internalAPI: "internalapi/",
+                siteAPI: "site-api/",
+                staticFiles: "scratchr2/static/"
+            },
+            inIE: (navigator.userAgent.indexOf('MSIE') > -1)
+        };
+
+        var params = {
+            allowscriptaccess: 'always',
+            allowfullscreen: 'true',
+            wmode: 'direct',
+            menu: 'false'
+        };
+
+        $.each(flashVars, function (prop, val) {
+            if ($.isPlainObject(val))
+                flashVars[prop] = encodeURIComponent(JSON.stringify(val));
+        });
+
+        swfobject.embedSWF('Scratch.swf', 'scratch', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
+                flashVars, params, null, handleEmbedStatus);
+
+    </script>
 </head>
-<body>
-</body>
-<div class="main">
-<h2>Greetings!</h2>
-<h2>We are working on scratchx.org and will be launching soon</h2>
-<br>
-<img src="http://wiki.scratch.mit.edu/w/images/Nano3.png" style="margin:20px;padding: 10px;">
-<p>
-Stay tuned for further announcements!
-</p>
+<body class="editor scratchx">
+<div id="scratch"
+     style="text-align:center;margin-top:30px;visibility:hidden;position:relative;">
+    <div class="scratch_unsupported">
+        <p style="color:#aaa;font-size:22px;margin-top:14px;line-height:28px;">
+            Oh Noes! Scratch project cannot display.<br/>
+            Flash player is disabled, missing, or less than version 10.2.
+        </p>
+        <a href="http://www.adobe.com/go/getflashplayer" target="_blank"><img
+                src="//www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                alt="Get Adobe Flash player"/></a>
+    </div>
+    <div class="scratch_loading"></div>
 </div>
+</body>
 </html>
