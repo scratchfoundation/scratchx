@@ -27,6 +27,51 @@
             }
         }
 
+        // enables the SWF to log errors
+        function JSthrowError(e) {
+            if (window.onerror) window.onerror(e, 'swf', 0);
+            else console.error(e);
+        }
+
+        function JSeditorReady() {
+            console.log('swfReady');
+            try {
+                handleParameters();
+                return true;
+            } catch (error) {
+                console.error(error.message, "\n", error.stack);
+                throw error;
+            }
+        }
+
+        var extensionQueue = [];
+        function handleParameters() {
+            var project;
+            var queryString = window.location.search.substring(1);
+            var queryVars = queryString.split(/[&;]/);
+            for (var i = 0; i < queryVars.length; i++) {
+                var nameVal = queryVars[i].split('=');
+                switch(nameVal[0]){
+                    case 'ext':
+                        extensionQueue.push(nameVal[1]);
+                        break;
+                    case 'proj':
+                        project = nameVal[1];
+                        break;
+                }
+            }
+            // TODO: load project if specified
+            loadExtensionQueue();
+        }
+
+        function loadExtensionQueue() {
+            for (var i = 0; i < extensionQueue.length; ++i) {
+                var extensionURL = extensionQueue[i];
+                ScratchExtensions.loadExternalJS(extensionURL);
+            }
+            extensionQueue = [];
+        }
+
         var flashVars = {
             autostart: 'false',
             extensionDevMode: 'true',
