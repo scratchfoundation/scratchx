@@ -44,6 +44,10 @@
             }
         }
 
+        function JSprojectLoaded() {
+            loadExtensionQueue();
+        }
+
         var extensionQueue = [];
         function handleParameters() {
             var project;
@@ -60,8 +64,12 @@
                         break;
                 }
             }
-            // TODO: load project if specified
-            loadExtensionQueue();
+            if (project) {
+                Scratch.FlashApp.ASobj.ASloadSBXFromURL(project);
+            }
+            else {
+                loadExtensionQueue();
+            }
         }
 
         function loadExtensionQueue() {
