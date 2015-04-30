@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>ScratchX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
     <link href="css/scratchx.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="libs/swfobject.js"></script>
     <script type="text/javascript" src="libs/jquery.min.js"></script>
@@ -22,7 +24,6 @@
                 scratch.find('DIV.scratch_unsupported').show();
                 scratch.find('DIV.scratch_loading').hide();
             } else {
-                scratch.css('visibility', 'visible');
                 Scratch.FlashApp.ASobj = scratch[0];
             }
         }
@@ -112,16 +113,18 @@
                 flashVars[prop] = encodeURIComponent(JSON.stringify(val));
         });
 
+        swfobject.switchOffAutoHideShow();
+
         swfobject.embedSWF('Scratch.swf', 'scratch', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
                 flashVars, params, null, handleEmbedStatus);
 
     </script>
 </head>
 <body class="editor scratchx">
-<div id="scratch"
-     style="text-align:center;margin-top:30px;visibility:hidden;position:relative;">
+
+<div id="scratch">
     <div class="scratch_unsupported">
-        <p style="color:#aaa;font-size:22px;margin-top:14px;line-height:28px;">
+        <p>
             Oh Noes! Scratch project cannot display.<br/>
             Flash player is disabled, missing, or less than version 10.2.
         </p>
