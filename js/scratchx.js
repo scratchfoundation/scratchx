@@ -4,7 +4,7 @@ Scratch.FlashApp = Scratch.FlashApp || {};
 
 function handleEmbedStatus(e) {
     $('#scratch-loader').hide();
-    var scratch = $('#scratch');
+    var scratch = $('#editor');
     if (!e.success) {
         scratch.css('marginTop', '10');
         scratch.find('IMG.proj_thumb').css('width', '179px');
@@ -101,5 +101,5 @@ $.each(flashVars, function (prop, val) {
 
 swfobject.switchOffAutoHideShow();
 
-swfobject.embedSWF('Scratch.swf', 'scratch', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
+swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
         flashVars, params, null, handleEmbedStatus);

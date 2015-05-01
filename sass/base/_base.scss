@@ -10,3 +10,8 @@
 @import "lists";
 @import "tables";
 @import "typography";
+
+dialog {
+    display: block;
+    position: static;
+}

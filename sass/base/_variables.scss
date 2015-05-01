@@ -16,15 +16,24 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$white: #fff;
+$blue: #21b4f0;
+$bright-blue: #24a3ec;
+$dark-blue: #3f5975;
+$dark-gray: #58595b;
+$medium-gray: #c5c5c5;
+$light-gray: #dfe3e7;
+$green: #18ba37;
+$yellow: #fff447;
+
 
 // Font Colors
 $base-background-color: #fff;
+$alt-background-color: $dark-blue;
 $base-font-color: $dark-gray;
 $action-color: $blue;
+$warning-color: $yellow;
+$alt-action-color: $green;
 
 // Border
 $base-border-color: $light-gray;

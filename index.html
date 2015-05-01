@@ -8,9 +8,127 @@
     <script type="text/javascript" src="libs/swfobject.js"></script>
     <script type="text/javascript" src="libs/jquery-1.11.2.min.js"></script>
 </head>
-<body class="editor scratchx">
+<body>
+<main>
+    <header>
+        <div>
+            <h1>ScratchX</h1>
+            <nav>
+            Related Sites:
+            <ul>
+                <li><a href="https://scratch.mit.edu/">Scratch</a></li>
+                <li><a href="https://scratch.mit.edu/">ScratchEd</a></li>
+                <li><a href="https://scratch.mit.edu/">ScratchJr</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <article id="home">
+        <header>
+            <div>
+                <aside class="warning">Warning: These extensions are experimental. Please read the FAQ before trying them.</aside>
 
-<div id="scratch">
+                <h1>About ScratchX</h1>
+                <p>
+                    ScratchX allows you to try out experimental extensions to the Scratch programming environment. With extensions, you can connect Scratch to the physical world (such as electronic devices and kits) and online resources (including web data and web services). 
+                </p>
+
+                <section id="dialogs">
+                    <dialog open>
+                        <section>
+                            <h2>Open an Extension File</h2>
+                            <p>Choose a .sbx file from your local drive</p>
+                            <p><a href="">What is a .sbx file?</a></p>
+                        </section>
+                        <section>
+                            <button>Browse for local file</button>
+                        </section>
+                    </dialog>
+
+                    <dialog open>
+                        <section>
+                            <h2>Open an Extension URL</h2>
+                            <p>Paste the web address below</p>
+                            <p><a href="">What is a ScratchX URL?</a></p>
+                        </section>
+                        <section>
+                            <button>Browse for local file</button>
+                        </section>
+                    </dialog>
+
+                    <dialog open>
+                        <section>
+                            <h2>Featured Extensions</h2>
+                            <p><a href="">Download hardware plugin</a></p>
+                        </section>
+                        <section>
+                            <ul>
+                                <li><a href="">
+                                    <h3>Extension 1</h3>
+                                    <p>Extension 1 description</p>
+                                </a></li>
+                                <li><a href="">
+                                    <h3>Extension 2</h3>
+                                    <p>Extension 2 description</p>
+                                </a></li>
+                                <li><a href="">
+                                    <h3>Extension 3</h3>
+                                    <p>Extension 3 description</p>
+                                </a></li>
+                            </ul>
+                        </section>
+                    </dialog>
+                </section>
+
+                <aside class="info">
+                    Note: To use any physical extensions, you need to download the <a href="">Hardware Plugin</a>.
+                </aside>
+
+                <aside class="info">
+                    Official Scratch Extensions (such as LEGO WeDo) are available on the main <a href="https://scratch.mit.edu">Scratch site</a>.
+                </aside>
+            </div>
+        </header>
+        <section>
+            <div>
+                <h2>Developer Documentation</h2>
+                <p>Developers can create new Experimental Extensions using Javascript. To learn more, read the <a href="">Developer Documentation</a>.</p>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div>
+            <section>
+                <p>Extensions on ScratchX are experimental and are not reviewed by the Scratch Team or the MIT Media Lab.</p>
+                <p>Scratch is a project of the Lifelong Kindergarten Group at the MIT Media Lab.</p>
+            </section>
+
+            <nav>
+                <h2>ScratchX</h2>
+                <ul>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Forums</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h2>Scratch Family</h2>
+                <ul>
+                    <li><a href="">Scratch</a></li>
+                    <li><a href="">ScratchEd</a></li>
+                    <li><a href="">ScratchJr</a></li>
+                    <li><a href="">Scratch Conference</a></li>
+                    <li><a href="">Scratch Day</a></li>
+                    <li><a href="">Code-to-Learn Foundation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</main>
+<section id="editor">
     <div class="scratch_unsupported">
         <p>
             Oh Noes! Scratch project cannot display.<br/>
@@ -21,7 +139,7 @@
                 alt="Get Adobe Flash player"/></a>
     </div>
     <div class="scratch_loading"></div>
-</div>
+</section>
 <script type="text/javascript" src="scratch_extensions/scratch_ext.js"></script>
 <script type="text/javascript" src="js/scratchx.js"></script>
 </body>

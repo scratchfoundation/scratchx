@@ -4,10 +4,14 @@
 @import "base/base";
 
 
-#scratch {
+a[href=""] {
+    outline: 1px solid red;
+}
+
+#editor {
     text-align: center ;
     margin-top: 30px;
-    visibility: hidden;
+    display: none;
     position: relative;
 }
 
@@ -18,3 +22,36 @@
     line-height: 28px;
 }
 
+body > main {
+    > header,
+    > article > header,
+    > article > section,
+    > footer {
+        > div {
+            @include outer-container;
+        }
+    }
+}
+
+dialog {
+    @include span-columns(4);
+}
+
+footer {
+    section {
+        @include span-columns(4);
+        @include shift(1);
+    }
+
+    nav {
+        @include span-columns(2);
+        &:first-of-type {
+            @include shift(1);
+        }
+    }
+}
+
+footer, main header {
+    background-color: $alt-background-color;
+    color: $white;
+}

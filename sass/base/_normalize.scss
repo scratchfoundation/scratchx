@@ -33,6 +33,7 @@ body {
 article,
 aside,
 details,
+dialog,
 figcaption,
 figure,
 footer,
@@ -424,4 +425,25 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* Dialogs
+   ========================================================================== */
+
+/**
+ * Destroy normal layout for dialogs
+ */
+
+dialog {
+  position: static;
+  border: none;
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+  padding: 0;
+  color: inherit;
 }
