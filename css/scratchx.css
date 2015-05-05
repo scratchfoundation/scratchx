@@ -809,7 +809,7 @@ body > main > footer > div {
 body > main > article,
 body > section {
   display: none; }
-body #privacy-policy {
+body #home {
   display: block; }
 
 #dialogs {
@@ -999,10 +999,9 @@ body > main > header {
     text-align: center; }
 
 #editor {
-  text-align: center;
-  margin-top: 30px;
-  display: none;
-  position: relative; }
+  position: absolute;
+  width: 100%;
+  height: 100%; }
 
 .scratch_unsupported p {
   color: #aaa;

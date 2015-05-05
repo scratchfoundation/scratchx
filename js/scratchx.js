@@ -103,3 +103,26 @@ swfobject.switchOffAutoHideShow();
 
 swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
         flashVars, params, null, handleEmbedStatus);
+
+function showPage(path) {
+    var toHide = "body > main, body > main > article, #editor";
+    var toShow = "#" + path;
+    if (path != "editor") {
+        toShow += ", body > main";
+    }
+
+    $(toHide).hide();
+    $(toShow).show();
+}
+
+$("[data-staticlink]").click(function(e) {
+    e.preventDefault();
+    showPage(e.target.attributes['data-staticlink'].value)
+});
+
+
+$(function (){
+    if (window.location.hash) {
+        showPage(window.location.hash.substr(1));
+    }
+});
