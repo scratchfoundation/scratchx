@@ -81,3 +81,35 @@ article header h1 + p {
     @include shift(1);
 }
 
+.twitter, .github {
+    display: block;
+    float: left;
+    margin-right: 2 * $gutter;
+    span {
+        display: none;
+    }
+}
+
+.twitter {
+    @include icon(before, twitter, circular, false, 4 * $vertical-base){
+        display: inline-block;
+        line-height: 5 * $vertical-base;
+        width: 5 * $vertical-base;
+        height: 5 * $vertical-base;
+        border-radius: 2.5 * $vertical-base;
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.github {
+    @include icon(before, github, circular, false, 4 * $vertical-base){
+        display: inline-block;
+        line-height: 5 * $vertical-base;
+        width: 5 * $vertical-base;
+        height: 5 * $vertical-base;
+        border-radius: 2.5 * $vertical-base;
+        background-color: $blue;
+        color: $white;
+    }
+}

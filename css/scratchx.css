@@ -691,6 +691,63 @@ article header h1 + p {
   article header h1 + p:last-child {
     margin-right: 0; }
 
+.twitter, .github {
+  display: block;
+  float: left;
+  margin-right: 24px; }
+  .twitter span, .github span {
+    display: none; }
+
+.twitter:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.5em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.375em;
+  width: 0.75em;
+  height: 0.75em;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.875em;
+  width: 1.875em;
+  height: 1.875em;
+  border-radius: 0.9375em;
+  background-color: #21b4f0;
+  color: #fff; }
+
+.github:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.5em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.375em;
+  width: 0.75em;
+  height: 0.75em;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.875em;
+  width: 1.875em;
+  height: 1.875em;
+  border-radius: 0.9375em;
+  background-color: #21b4f0;
+  color: #fff; }
+
 a[href=""] {
   outline: 1px solid red; }
 
