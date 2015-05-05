@@ -1,0 +1,34 @@
+/* Homepage */
+
+#home > header {
+    background: url(../images/editor.png);
+    background-size: cover;
+}
+
+#home > header > div {
+    /* To stop child elements from adding margin */
+    padding: 1px 0;
+}
+
+#home > section > div {
+    border-top: $base-border;
+    margin-top: 10 * $vertical-base;
+    padding: 10 * $vertical-base 0;
+    position: relative;
+
+    @include icon(before, documentation) {
+        font-size: 2em;
+        color: $base-border-color;
+        position: absolute;
+        top: -.55em;
+        left: 50%;
+        margin-left: -1.3em;
+        background-color: $white;
+        border: 1em solid $white;
+        border-width: 0 0.4em;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+}

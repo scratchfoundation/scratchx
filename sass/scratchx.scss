@@ -8,20 +8,6 @@ a[href=""] {
     outline: 1px solid red;
 }
 
-#editor {
-    text-align: center ;
-    margin-top: 30px;
-    display: none;
-    position: relative;
-}
-
-.scratch_unsupported p {
-    color: #aaa;
-    font-size: 22px;
-    margin-top: 14px;
-    line-height: 28px;
-}
-
 body > main {
     > header,
     > article > header,
@@ -29,15 +15,105 @@ body > main {
     > footer {
         > div {
             @include outer-container;
+            > div {
+                @include row();
+                .main {
+                    @include span-columns(8);
+                }
+                nav {
+                    @include span-columns(4);
+                }
+            }
         }
     }
 }
 
-dialog {
-    @include span-columns(4);
+body {
+    > main > article,
+    > section {
+        display: none;
+    }
+    #home {
+        display: block;
+    }
+}
+
+#dialogs {
+    @include row();
+    dialog {
+        @include span-columns(4);
+    }
+}
+
+.extension-file {
+    section:first-child {
+        /* Add a border equal to the number of featured extensions - 1 */
+        border-top: 2px solid $alt-background-color;
+        position: relative;
+        padding-top: 18 * $vertical-base;
+
+        @include icon(before, upload, circular, true, 8*$vertical-base) {
+            background-color: $green;
+            color: $white;
+            top: 2 * $vertical-base;
+        }
+    }
+
+    button {
+        background-color: $green;
+        color: $alt-font-color;
+    }
+}
+
+.extension-url {
+    section:first-child {
+        /* Add a border equal to the number of featured extensions - 1 */
+        border-top: 2px solid $alt-background-color;
+        position: relative;
+        padding-top: 18 * $vertical-base;
+
+        @include icon(before, link, circular, true, 8*$vertical-base) {
+            background-color: $blue;
+            color: $white;
+            top: 2 * $vertical-base;
+        }
+    }
+
+}
+
+.extension-feature {
+    section:first-child {
+        h2 {
+            margin-top: $vertical-base;
+        }
+    }
+
+    section:last-child {
+        padding: 0px;
+    }
+
+    ul {
+        li {
+            border-bottom: 1px solid $light-gray;
+            padding: 2 * $vertical-base;
+
+            h3 {
+                font-size: 1.125 * $base-font-size;
+                font-weight: 600;
+                margin-bottom: $vertical-base;
+            }
+
+            p {
+                text-align: left;
+                margin: 0;
+                color: $base-font-color;
+            }
+        }
+    }
 }
 
 footer {
+    @include pad(5 * $vertical-base 0);
     section {
         @include span-columns(4);
         @include shift(1);
@@ -48,10 +124,47 @@ footer {
         &:first-of-type {
             @include shift(1);
         }
+        h2 {
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
     }
 }
 
 footer, main header {
     background-color: $alt-background-color;
-    color: $white;
+    color: $alt-font-color;
 }
+
+
+body > main > header {
+    @include row();
+    height: $vertical-base * 10;
+    line-height: $vertical-base * 10;
+}
+
+.scratchx-logo {
+    float: left;
+
+    span {
+        @include hide-text;
+        display: inline-block;
+        background: url(../images/scratchx-logo.png) left center no-repeat;
+        width: 192px;
+        height: $vertical-base * 10;
+    }
+}
+
+.main-nav {
+    float: right;
+
+    ul, li {
+        display: inline-block;
+    }
+    li {
+        margin-left: 50px;
+    }
+}
+
+@import "home";
+@import "editor";

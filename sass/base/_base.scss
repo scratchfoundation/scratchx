@@ -4,6 +4,8 @@
 // MIT License
 
 @import "normalize";
+@import "mixins";
+@import "icons";
 @import "variables";
 @import "buttons";
 @import "forms";
@@ -14,4 +16,68 @@
 dialog {
     display: block;
     position: static;
+
+    h2 {
+        text-align: center;
+        margin: 4 * $vertical-base 0 $vertical-base 0;
+    }
+    
+    section {
+        background-color: $alt-background-color;
+        color: $alt-font-color;
+        /* Kill margin collapse */
+        padding: 1px;
+    }
+
+    section:last-child {
+        background-color: $base-background-color;
+        padding: 2 * $vertical-base;
+        color: $base-font-color;
+    }
+
+    button {
+        display: inline-block;
+        line-height: normal;
+        width: 100%;
+        padding: $vertical-base;
+        /*
+            Needed so that all buttons are the same height
+            as text inputs
+        */
+        border: 1px solid;
+    }
+
 }
+
+.message {
+    border-radius: $base-border-radius;
+    line-height: 49px;
+    text-align: center;
+    margin: $vertical-base * 4 0;
+}
+
+.warning {
+    @extend .message;
+    background-color: $yellow;
+    color: $dark-gray;
+}
+
+.info {
+    @extend .message;
+    background-color: $light-gray;
+    color: $dark-gray;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article header p {
+    text-align: center;
+}
+
+article h1 + p {
+    @include span-columns(10);
+    @include shift(1);
+}
+

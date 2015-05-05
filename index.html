@@ -12,8 +12,8 @@
 <main>
     <header>
         <div>
-            <h1>ScratchX</h1>
-            <nav>
+            <h1 class="scratchx-logo"><span>ScratchX</span></h1>
+            <nav class="main-nav">
             Related Sites:
             <ul>
                 <li><a href="https://scratch.mit.edu/">Scratch</a></li>
@@ -26,7 +26,7 @@
     <article id="home">
         <header>
             <div>
-                <aside class="warning">Warning: These extensions are experimental. Please read the FAQ before trying them.</aside>
+                <aside class="warning"><strong>Warning:</strong> These extensions are experimental. Please read the FAQ before trying them.</aside>
 
                 <h1>About ScratchX</h1>
                 <p>
@@ -34,7 +34,7 @@
                 </p>
 
                 <section id="dialogs">
-                    <dialog open>
+                    <dialog open class="extension-file">
                         <section>
                             <h2>Open an Extension File</h2>
                             <p>Choose a .sbx file from your local drive</p>
@@ -45,18 +45,21 @@
                         </section>
                     </dialog>
 
-                    <dialog open>
+                    <dialog open class="extension-url">
                         <section>
                             <h2>Open an Extension URL</h2>
                             <p>Paste the web address below</p>
                             <p><a href="">What is a ScratchX URL?</a></p>
                         </section>
                         <section>
-                            <button>Browse for local file</button>
+                            <div class="input-plus-button">
+                                <input type="text" placeholder="paste url..." />
+                                <button>Open</button>
+                            </div>
                         </section>
                     </dialog>
 
-                    <dialog open>
+                    <dialog open class="extension-feature">
                         <section>
                             <h2>Featured Extensions</h2>
                             <p><a href="">Download hardware plugin</a></p>
@@ -81,7 +84,7 @@
                 </section>
 
                 <aside class="info">
-                    Note: To use any physical extensions, you need to download the <a href="">Hardware Plugin</a>.
+                    <strong>Note:</strong> To use any physical extensions, you need to download the <a href="">Hardware Plugin</a>.
                 </aside>
 
                 <aside class="info">
@@ -100,7 +103,11 @@
         <div>
             <section>
                 <p>Extensions on ScratchX are experimental and are not reviewed by the Scratch Team or the MIT Media Lab.</p>
-                <p>Scratch is a project of the Lifelong Kindergarten Group at the MIT Media Lab.</p>
+                <p><a href="https://scratch.mit.edu/">Scratch</a> is a project of the Lifelong Kindergarten Group at the MIT Media Lab.</p>
+                <p>
+                    <a class="twitter" title="Follow us on Twitter" href="https://twitter.com/scratch/" target="_blank">@scratch on Twitter</a>
+                    <a class="github" title="Fork us on GitHub" href="https://twitter.com/scratch/" target="_blank">LLK on GitHub</a>
+                </p>
             </section>
 
             <nav>

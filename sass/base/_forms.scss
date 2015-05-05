@@ -76,3 +76,33 @@ select {
   max-width: 100%;
   width: auto;
 }
+
+.input-plus-button {
+  overflow: hidden;
+
+  input, input:focus, input:hover, button {
+    @include reset-box;
+    display: block;
+    float: left;
+    border-radius: $base-border-radius;
+    padding: $vertical-base;
+    @include placeholder{
+      @include reset-box;
+    }
+  }
+
+  input, input:focus, input:hover {
+      width: 75%;
+      text-align: center;
+      @include border-right-radius(0);
+      border: 1px solid $light-gray;
+      border-right: 0px;
+  }
+
+  button {
+      width: 25%;
+      @include border-left-radius(0);
+      border: 1px solid $blue;
+  }
+
+}

@@ -1,0 +1,74 @@
+$font-icon: "ScratchX";
+@font-face {
+    font-family: '#{$font-icon}';
+    src:url('../fonts/ScratchX.eot?-omdesu');
+    src:url('../fonts/ScratchX.eot?#iefix-omdesu') format('embedded-opentype'),
+        url('../fonts/ScratchX.woff?-omdesu') format('woff'),
+        url('../fonts/ScratchX.ttf?-omdesu') format('truetype'),
+        url('../fonts/ScratchX.svg?-omdesu#ScratchX') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$icon-documentation: "\e600";
+$icon-download: "\e601";
+$icon-github: "\e602";
+$icon-link: "\e603";
+$icon-right-arrow: "\e604";
+$icon-twitter: "\e605";
+$icon-upload: "\e606";
+
+$icons: (
+    "documentation": "#{$icon-documentation}",
+    "download":      "#{$icon-download}",
+    "github":        "#{$icon-github}",
+    "link":          "#{$icon-link}",
+    "right-arrow":   "#{$icon-right-arrow}",
+    "twitter":       "#{$icon-twitter}",
+    "upload":        "#{$icon-upload}",
+);
+
+@mixin icon($position: before, $icon: false, $style: plain, $centered: false, $font-size: 1em) {
+    @if $position == both {
+        $position: 'before, &:after';
+    }
+    // Either a :before or :after pseudo-element, or both, defaulting to :before
+    &:#{$position} {
+        @if $icon {
+            // A particular icon has been specified
+            content: "#{map-get($icons, $icon)}";
+        }
+
+        font-family: $font-icon;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        font-size: $font-size;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        @if $style == circular {
+            border-radius: $font-size/4;
+            width: $font-size/2;
+            height: $font-size/2;
+            text-align: center;
+        }
+
+
+        @if $centered {
+            line-height: 1.5;
+            position: absolute;
+            left: 50%;
+            margin-left: -$font-size/4;
+        }
+
+        // Include any extra rules supplied for the pseudo-element
+        @content;
+    }
+}

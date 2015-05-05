@@ -1,0 +1,13 @@
+
+@mixin box-shadow($shadows...) {
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+@mixin reset-box {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    @include box-shadow(none);
+ }

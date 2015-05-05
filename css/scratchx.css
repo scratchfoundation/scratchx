@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic);
 html {
   box-sizing: border-box; }
 
@@ -381,6 +383,12 @@ dialog {
   padding: 0;
   color: inherit; }
 
+@font-face {
+  font-family: "ScratchX";
+  src: url("../fonts/ScratchX.eot?-omdesu");
+  src: url("../fonts/ScratchX.eot?#iefix-omdesu") format("embedded-opentype"), url("../fonts/ScratchX.woff?-omdesu") format("woff"), url("../fonts/ScratchX.ttf?-omdesu") format("truetype"), url("../fonts/ScratchX.svg?-omdesu#ScratchX") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button {
   -webkit-appearance: none;
@@ -390,12 +398,12 @@ button {
   appearance: none;
   -webkit-font-smoothing: antialiased;
   background-color: #21b4f0;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -415,8 +423,8 @@ button {
     opacity: 0.5; }
 
 fieldset {
-  background-color: #fcfcfd;
-  border: 1px solid #dfe3e7;
+  background-color: #dfdfdf;
+  border: 1px solid #c5c5c5;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
@@ -424,7 +432,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em; }
 
 label {
@@ -439,11 +447,11 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 select[multiple=multiple],
 textarea {
   background-color: #fff;
-  border: 1px solid #dfe3e7;
-  border-radius: 3px;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -452,7 +460,7 @@ textarea {
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover,
   textarea:hover {
-    border-color: #c2c9d1; }
+    border-color: #acacac; }
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
@@ -484,6 +492,60 @@ select {
   max-width: 100%;
   width: auto; }
 
+.input-plus-button {
+  overflow: hidden; }
+  .input-plus-button input, .input-plus-button input:focus, .input-plus-button input:hover, .input-plus-button button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    padding: 0.375em; }
+    .input-plus-button input::-webkit-input-placeholder, .input-plus-button input:focus::-webkit-input-placeholder, .input-plus-button input:hover::-webkit-input-placeholder, .input-plus-button button::-webkit-input-placeholder {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .input-plus-button input::-moz-placeholder, .input-plus-button input:focus::-moz-placeholder, .input-plus-button input:hover::-moz-placeholder, .input-plus-button button::-moz-placeholder {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .input-plus-button input:-moz-placeholder, .input-plus-button input:focus:-moz-placeholder, .input-plus-button input:hover:-moz-placeholder, .input-plus-button button:-moz-placeholder {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .input-plus-button input:-ms-input-placeholder, .input-plus-button input:focus:-ms-input-placeholder, .input-plus-button input:hover:-ms-input-placeholder, .input-plus-button button:-ms-input-placeholder {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  .input-plus-button input, .input-plus-button input:focus, .input-plus-button input:hover {
+    width: 75%;
+    text-align: center;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid #dfe3e7;
+    border-right: 0px; }
+  .input-plus-button button {
+    width: 25%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px solid #21b4f0; }
+
 ul,
 ol {
   list-style-type: none;
@@ -508,13 +570,13 @@ table {
   width: 100%; }
 
 th {
-  border-bottom: 1px solid #b3bdc6;
+  border-bottom: 1px solid #9f9f9f;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #dfe3e7;
+  border-bottom: 1px solid #c5c5c5;
   padding: 0.75em 0; }
 
 tr,
@@ -529,7 +591,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #58595b;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -539,10 +601,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
+
+article h1 {
+  font-size: 1.5em; }
+
+article h2 {
+  font-size: 1.5em; }
 
 p {
   margin: 0 0 0.75em; }
@@ -557,7 +625,7 @@ a {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #dfe3e7;
+  border-bottom: 1px solid #c5c5c5;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -571,21 +639,60 @@ picture {
 dialog {
   display: block;
   position: static; }
+  dialog h2 {
+    text-align: center;
+    margin: 1.5em 0 0.375em 0; }
+  dialog section {
+    background-color: #3f5975;
+    color: #fff;
+    /* Kill margin collapse */
+    padding: 1px; }
+  dialog section:last-child {
+    background-color: #fff;
+    padding: 0.75em;
+    color: #58595b; }
+  dialog button {
+    display: inline-block;
+    line-height: normal;
+    width: 100%;
+    padding: 0.375em;
+    /*
+        Needed so that all buttons are the same height
+        as text inputs
+    */
+    border: 1px solid; }
+
+.message, .warning, .info {
+  border-radius: 5px;
+  line-height: 49px;
+  text-align: center;
+  margin: 1.5em 0; }
+
+.warning {
+  background-color: #fff447;
+  color: #58595b; }
+
+.info {
+  background-color: #dfe3e7;
+  color: #58595b; }
+
+article h1 {
+  text-align: center; }
+
+article header p {
+  text-align: center; }
+
+article h1 + p {
+  float: left;
+  display: block;
+  margin-right: 1.25%;
+  width: 83.125%;
+  margin-left: 8.4375%; }
+  article h1 + p:last-child {
+    margin-right: 0; }
 
 a[href=""] {
   outline: 1px solid red; }
-
-#editor {
-  text-align: center;
-  margin-top: 30px;
-  display: none;
-  position: relative; }
-
-.scratch_unsupported p {
-  color: #aaa;
-  font-size: 22px;
-  margin-top: 14px;
-  line-height: 28px; }
 
 body > main > header > div,
 body > main > article > header > div,
@@ -601,35 +708,247 @@ body > main > footer > div {
     clear: both;
     content: "";
     display: table; }
+  body > main > header > div > div,
+  body > main > article > header > div > div,
+  body > main > article > section > div > div,
+  body > main > footer > div > div {
+    display: block; }
+    body > main > header > div > div::after,
+    body > main > article > header > div > div::after,
+    body > main > article > section > div > div::after,
+    body > main > footer > div > div::after {
+      clear: both;
+      content: "";
+      display: table; }
+    body > main > header > div > div .main,
+    body > main > article > header > div > div .main,
+    body > main > article > section > div > div .main,
+    body > main > footer > div > div .main {
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 66.25%; }
+      body > main > header > div > div .main:last-child,
+      body > main > article > header > div > div .main:last-child,
+      body > main > article > section > div > div .main:last-child,
+      body > main > footer > div > div .main:last-child {
+        margin-right: 0; }
+    body > main > header > div > div nav,
+    body > main > article > header > div > div nav,
+    body > main > article > section > div > div nav,
+    body > main > footer > div > div nav {
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 32.5%; }
+      body > main > header > div > div nav:last-child,
+      body > main > article > header > div > div nav:last-child,
+      body > main > article > section > div > div nav:last-child,
+      body > main > footer > div > div nav:last-child {
+        margin-right: 0; }
 
-dialog {
-  float: left;
-  display: block;
-  margin-right: 1.25%;
-  width: 32.5%; }
-  dialog:last-child {
-    margin-right: 0; }
+body > main > article,
+body > section {
+  display: none; }
+body #home {
+  display: block; }
 
-footer section {
-  float: left;
-  display: block;
-  margin-right: 1.25%;
-  width: 32.5%;
-  margin-left: 8.4375%; }
-  footer section:last-child {
-    margin-right: 0; }
-footer nav {
-  float: left;
-  display: block;
-  margin-right: 1.25%;
-  width: 15.625%; }
-  footer nav:last-child {
-    margin-right: 0; }
-  footer nav:first-of-type {
+#dialogs {
+  display: block; }
+  #dialogs::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #dialogs dialog {
+    float: left;
+    display: block;
+    margin-right: 1.25%;
+    width: 32.5%; }
+    #dialogs dialog:last-child {
+      margin-right: 0; }
+
+.extension-file section:first-child {
+  /* Add a border equal to the number of featured extensions - 1 */
+  border-top: 2px solid #3f5975;
+  position: relative;
+  padding-top: 6.75em; }
+  .extension-file section:first-child:before {
+    content: "";
+    font-family: "ScratchX";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 3em;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-radius: 0.75em;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.75em;
+    background-color: #18ba37;
+    color: #fff;
+    top: 0.75em; }
+.extension-file button {
+  background-color: #18ba37;
+  color: #fff; }
+
+.extension-url section:first-child {
+  /* Add a border equal to the number of featured extensions - 1 */
+  border-top: 2px solid #3f5975;
+  position: relative;
+  padding-top: 6.75em; }
+  .extension-url section:first-child:before {
+    content: "";
+    font-family: "ScratchX";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 3em;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-radius: 0.75em;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.75em;
+    background-color: #21b4f0;
+    color: #fff;
+    top: 0.75em; }
+
+.extension-feature section:first-child h2 {
+  margin-top: 0.375em; }
+.extension-feature section:last-child {
+  padding: 0px; }
+.extension-feature ul li {
+  border-bottom: 1px solid #dfe3e7;
+  padding: 0.75em; }
+  .extension-feature ul li h3 {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-bottom: 0.375em; }
+  .extension-feature ul li p {
+    text-align: left;
+    margin: 0;
+    color: #58595b; }
+
+footer {
+  padding: 1.875em 0; }
+  footer section {
+    float: left;
+    display: block;
+    margin-right: 1.25%;
+    width: 32.5%;
     margin-left: 8.4375%; }
+    footer section:last-child {
+      margin-right: 0; }
+  footer nav {
+    float: left;
+    display: block;
+    margin-right: 1.25%;
+    width: 15.625%; }
+    footer nav:last-child {
+      margin-right: 0; }
+    footer nav:first-of-type {
+      margin-left: 8.4375%; }
+    footer nav h2 {
+      line-height: 1.5;
+      margin-bottom: 0; }
 
 footer, main header {
   background-color: #3f5975;
   color: #fff; }
+
+body > main > header {
+  display: block;
+  height: 3.75em;
+  line-height: 3.75em; }
+  body > main > header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.scratchx-logo {
+  float: left; }
+  .scratchx-logo span {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    display: inline-block;
+    background: url(../images/scratchx-logo.png) left center no-repeat;
+    width: 192px;
+    height: 3.75em; }
+
+.main-nav {
+  float: right; }
+  .main-nav ul, .main-nav li {
+    display: inline-block; }
+  .main-nav li {
+    margin-left: 50px; }
+
+/* Homepage */
+#home > header {
+  background: url(../images/editor.png);
+  background-size: cover; }
+
+#home > header > div {
+  /* To stop child elements from adding margin */
+  padding: 1px 0; }
+
+#home > section > div {
+  border-top: 1px solid #c5c5c5;
+  margin-top: 3.75em;
+  padding: 3.75em 0;
+  position: relative; }
+  #home > section > div:before {
+    content: "";
+    font-family: "ScratchX";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 1em;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 2em;
+    color: #c5c5c5;
+    position: absolute;
+    top: -.55em;
+    left: 50%;
+    margin-left: -1.3em;
+    background-color: #fff;
+    border: 1em solid #fff;
+    border-width: 0 0.4em; }
+  #home > section > div h2, #home > section > div p {
+    text-align: center; }
+
+#editor {
+  text-align: center;
+  margin-top: 30px;
+  display: none;
+  position: relative; }
+
+.scratch_unsupported p {
+  color: #aaa;
+  font-size: 22px;
+  margin-top: 14px;
+  line-height: 28px; }
 
 /*# sourceMappingURL=scratchx.css.map */
