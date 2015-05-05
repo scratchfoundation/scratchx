@@ -68,7 +68,7 @@ dialog {
     color: $dark-gray;
 }
 
-article h1 {
+article header h1 {
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ article header p {
     text-align: center;
 }
 
-article h1 + p {
+article header h1 + p {
     @include span-columns(10);
     @include shift(1);
 }

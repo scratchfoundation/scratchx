@@ -676,19 +676,19 @@ dialog {
   background-color: #dfe3e7;
   color: #58595b; }
 
-article h1 {
+article header h1 {
   text-align: center; }
 
 article header p {
   text-align: center; }
 
-article h1 + p {
+article header h1 + p {
   float: left;
   display: block;
   margin-right: 1.25%;
   width: 83.125%;
   margin-left: 8.4375%; }
-  article h1 + p:last-child {
+  article header h1 + p:last-child {
     margin-right: 0; }
 
 a[href=""] {
@@ -737,10 +737,12 @@ body > main > footer > div {
     body > main > article > header > div > div nav,
     body > main > article > section > div > div nav,
     body > main > footer > div > div nav {
+      border-left: 1px solid #c5c5c5;
       float: left;
       display: block;
       margin-right: 1.25%;
-      width: 32.5%; }
+      width: 32.5%;
+      padding: 0 0 0 24px; }
       body > main > header > div > div nav:last-child,
       body > main > article > header > div > div nav:last-child,
       body > main > article > section > div > div nav:last-child,
@@ -750,7 +752,7 @@ body > main > footer > div {
 body > main > article,
 body > section {
   display: none; }
-body #home {
+body #privacy-policy {
   display: block; }
 
 #dialogs {

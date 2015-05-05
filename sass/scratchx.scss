@@ -21,7 +21,9 @@ body > main {
                     @include span-columns(8);
                 }
                 nav {
+                    border-left: 1px solid $base-border-color;
                     @include span-columns(4);
+                    @include pad(0 0 0 2 * $gutter)
                 }
             }
         }
@@ -33,7 +35,7 @@ body {
     > section {
         display: none;
     }
-    #home {
+    #privacy-policy {
         display: block;
     }
 }
