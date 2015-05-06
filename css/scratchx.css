@@ -551,7 +551,7 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-  body > main > article section ul {
+  body > main > article > section ul {
     list-style-type: disc;
     margin-bottom: 0.75em;
     padding-left: 1.5em; }
@@ -900,6 +900,28 @@ body #home {
 .extension-feature ul li {
   border-bottom: 1px solid #dfe3e7;
   padding: 0.75em; }
+  .extension-feature ul li a {
+    position: relative;
+    display: block; }
+    .extension-feature ul li a:before {
+      content: "";
+      font-family: "ScratchX";
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      font-size: 1em;
+      text-transform: none;
+      line-height: 1;
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #21b4f0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -.5em;
+      font-size: 1.5em; }
   .extension-feature ul li h3 {
     font-size: 1.125em;
     font-weight: 600;

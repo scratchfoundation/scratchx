@@ -99,6 +99,19 @@ body {
             border-bottom: 1px solid $light-gray;
             padding: 2 * $vertical-base;
 
+            a {
+                position: relative;
+                display: block;
+                @include icon(before, right-arrow) {
+                    color: $blue;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    margin-top: -.5em;
+                    font-size: 1.5em;
+                }
+            }
+
             h3 {
                 font-size: 1.125 * $base-font-size;
                 font-weight: 600;
