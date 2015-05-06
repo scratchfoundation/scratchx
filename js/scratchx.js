@@ -155,12 +155,17 @@ $("[data-staticlink]").click(function(e) {
 });
 
 function showPage(path) {
-    var toHide = "body > main, body > main > article, #editor";
+    var toHide = "body > main, body > main > article";
     var toShow = "#" + path;
+    var $toShow = $(toShow);
 
     $(toHide).hide();
-    $("body > main, body > main > article").has(toShow).show();
-    $(toShow).show();
+    $("#editor").css({top: "-9999px"});
+    $("body > main, body > main > article").has($toShow).show();
+    $toShow.show();
+    if (path == "editor") {
+        $toShow.css({top: 0});
+    }
 
     window.location.hash = toShow;
     if ($("body > main > article").has(toShow).length == 0) {
