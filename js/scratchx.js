@@ -104,6 +104,27 @@ swfobject.switchOffAutoHideShow();
 swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
         flashVars, params, null, handleEmbedStatus);
 
+
+/* File uploads */
+
+function sendFileToFlash() {
+    var file = this.files[0];
+    console.log("Got file for Flash", file);
+}
+
+$("[data-action='load-file']").click(function(e) {
+    $('<input type="file" />').on('change', sendFileToFlash).click();
+});
+
+function sendURLtoFlash(url) {
+    console.log("Got URL for Flash", url)
+}
+
+$("[data-action='load-url'] button").click(function(e) {
+        sendURLtoFlash($(e.target).siblings('input[type="text"]').val());
+});
+
+
 /* Page switching */
 
 $("[data-staticlink]").click(function(e) {
