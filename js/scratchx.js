@@ -108,8 +108,11 @@ swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expr
 /* File uploads */
 
 function sendFileToFlash() {
-    var file = this.files[0];
-    console.log("Got file for Flash", file);
+    var fileReader = new FileReader();
+    var fileAsArrayBuffer = fileReader.readAsArrayBuffer(this.files[0]);
+    var fileAsB64 = ab_to_b64(fileAsArrayBuffer);
+    Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
+    showPage("editor");
 }
 
 $("[data-action='load-file']").click(function(e) {
@@ -117,7 +120,8 @@ $("[data-action='load-file']").click(function(e) {
 });
 
 function sendURLtoFlash(url) {
-    console.log("Got URL for Flash", url)
+    Scratch.FlashApp.ASobj.ASloadSBXFromURL(url);
+    showPage("editor");
 }
 
 $("[data-action='load-url'] button").click(function(e) {
