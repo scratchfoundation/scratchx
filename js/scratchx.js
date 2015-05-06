@@ -139,7 +139,13 @@ function sendURLtoFlash(url) {
     }
 }
 
-$("[data-action='load-url']").submit(function(e) {
+$("[data-action='load-url']").click(function(e) {
+    e.preventDefault();
+    showPage("editor");
+    sendURLtoFlash($(this).attr("href"));
+});
+
+$(".url-load-form").submit(function(e) {
     e.preventDefault();
     showPage("editor");
     sendURLtoFlash($('input[type="text"]', this).val());
