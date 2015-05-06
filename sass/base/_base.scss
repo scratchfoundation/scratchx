@@ -81,6 +81,13 @@ article header h1 + p {
     @include shift(1);
 }
 
+body > main > article section {
+    ul {
+        @extend %default-ul;
+    }
+
+}
+
 .twitter, .github {
     display: block;
     float: left;

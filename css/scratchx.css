@@ -551,6 +551,10 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+  body > main > article section ul {
+    list-style-type: disc;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
 dl {
   margin-bottom: 0.75em; }
   dl dt {
