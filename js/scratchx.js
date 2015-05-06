@@ -140,8 +140,9 @@ function sendURLtoFlash(url) {
     }
 }
 
-$("[data-action='load-url'] button").click(function(e) {
-    sendURLtoFlash($(e.target).siblings('input[type="text"]').val());
+$("[data-action='load-url']").submit(function(e) {
+    e.preventDefault();
+    sendURLtoFlash($('input[type="text"]', this).val());
 });
 
 
