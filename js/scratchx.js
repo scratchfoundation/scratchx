@@ -108,10 +108,11 @@ swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expr
 
 /* File uploads */
 var JSeditorReadyCallback = function(){};
-function sendFileToFlash() {
+function sendFileToFlash(file) {
     var fileReader = new FileReader();
     fileReader.onload = function (e) {
         var fileAsB64 = ab_to_b64(fileReader.result);
+        showPage("editor");
         if (Scratch.FlashApp.ASobj.ASloadBase64SBX !== undefined) {
             Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
         } else {
@@ -121,29 +122,44 @@ function sendFileToFlash() {
         }
         
     }
-    fileReader.readAsArrayBuffer(this.files[0]);
-    showPage("editor");
+    fileReader.readAsArrayBuffer(file);
 }
 
 $("[data-action='load-file']").click(function(e) {
-    $('<input type="file" />').on('change', sendFileToFlash).click();
+    $('<input type="file" />').on('change', function(){sendFileToFlash(this.files[0])}).click();
 });
 
 function sendURLtoFlash(url) {
-    showPage("editor");
-    if (Scratch.FlashApp.ASobj.ASloadSBXFromURL !== undefined) {
-        Scratch.FlashApp.ASobj.ASloadSBXFromURL(url);
+    if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
+        Scratch.FlashApp.ASobj.ASloadGithubURL(url);
     } else {
         JSeditorReadyCallback = function() {
-            Scratch.FlashApp.ASobj.ASloadSBXFromURL(url);
+            Scratch.FlashApp.ASobj.ASloadGithubURL(url);
         }        
     }
 }
 
 $("[data-action='load-url']").submit(function(e) {
     e.preventDefault();
+    showPage("editor");
     sendURLtoFlash($('input[type="text"]', this).val());
 });
+
+function loadFromURLParameter() {
+    var paramString = window.location.search.replace(/^\?|\/$/g, '');
+    var vars = paramString.split("&");
+    var showedEditor = false;
+    for (var i=0; i<vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair.length > 1 && pair[0]=="url") {
+            if (!showedEditor) {
+                showPage("editor");
+                showedEditor = true;
+            }
+            sendURLtoFlash(pair[1]);
+        }
+    }
+}
 
 
 /* Page switching */
@@ -159,8 +175,8 @@ function showPage(path) {
     var toShow = "#" + path;
     var $toShow = $(toShow);
 
-    $(toHide).hide();
-    $("#editor").css({top: "-9999px"});
+    $(toHide).filter(":visible").hide();
+    if (toShow != "#editor") $("#editor").css({top: "-9999px"});
     $("body > main, body > main > article").has($toShow).show();
     $toShow.show();
     if (path == "editor") {
@@ -177,5 +193,6 @@ var initialID = "home";
 function initPage() {
     if (window.location.hash) initialID = window.location.hash.substr(1);
     showPage(initialID);
+    loadFromURLParameter();
 }
 $(initPage);
