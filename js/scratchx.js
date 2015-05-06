@@ -24,6 +24,7 @@ function JSthrowError(e) {
 function JSeditorReady() {
     try {
         handleParameters();
+        JSeditorReadyCallback();
         return true;
     } catch (error) {
         console.error(error.message, "\n", error.stack);
@@ -106,12 +107,21 @@ swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expr
 
 
 /* File uploads */
-
+var JSeditorReadyCallback = function(){};
 function sendFileToFlash() {
     var fileReader = new FileReader();
-    var fileAsArrayBuffer = fileReader.readAsArrayBuffer(this.files[0]);
-    var fileAsB64 = ab_to_b64(fileAsArrayBuffer);
-    Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
+    fileReader.onload = function (e) {
+        var fileAsB64 = ab_to_b64(fileReader.result);
+        if (Scratch.FlashApp.ASobj.ASloadBase64SBX !== undefined) {
+            Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
+        } else {
+            JSeditorReadyCallback = function() {
+                Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
+            }        
+        }
+        
+    }
+    fileReader.readAsArrayBuffer(this.files[0]);
     showPage("editor");
 }
 
@@ -120,8 +130,14 @@ $("[data-action='load-file']").click(function(e) {
 });
 
 function sendURLtoFlash(url) {
-    Scratch.FlashApp.ASobj.ASloadSBXFromURL(url);
     showPage("editor");
+    if (Scratch.FlashApp.ASobj.ASloadSBXFromURL !== undefined) {
+        Scratch.FlashApp.ASobj.ASloadSBXFromURL(url);
+    } else {
+        JSeditorReadyCallback = function() {
+            Scratch.FlashApp.ASobj.ASloadSBXFromURL(url);
+        }        
+    }
 }
 
 $("[data-action='load-url'] button").click(function(e) {
