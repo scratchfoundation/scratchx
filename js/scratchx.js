@@ -170,9 +170,9 @@ function loadFromURLParameter() {
 
 /* Page switching */
 
-$("[data-staticlink]").click(function(e) {
+$("[data-action='static-link']").click(function(e) {
     e.preventDefault();
-    var path = $(this).attr("data-staticlink");
+    var path = $(this).attr("href").substring(1);
     showPage(path);
 });
 
