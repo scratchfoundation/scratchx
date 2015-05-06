@@ -152,10 +152,6 @@ $("[data-staticlink]").click(function(e) {
     e.preventDefault();
     var path = $(this).attr("data-staticlink");
     showPage(path);
-    window.location.hash = $(this).attr('href');
-    if ($("body > main > article").has(path).length == 0) {
-        document.body.scrollTop = 0;
-    }
 });
 
 function showPage(path) {
@@ -165,6 +161,11 @@ function showPage(path) {
     $(toHide).hide();
     $("body > main, body > main > article").has(toShow).show();
     $(toShow).show();
+
+    window.location.hash = toShow;
+    if ($("body > main > article").has(toShow).length == 0) {
+        document.body.scrollTop = 0;
+    }
 }
 
 var initialID = "home";
