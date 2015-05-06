@@ -107,11 +107,9 @@ swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expr
 function showPage(path) {
     var toHide = "body > main, body > main > article, #editor";
     var toShow = "#" + path;
-    if (path != "editor") {
-        toShow += ", body > main";
-    }
 
     $(toHide).hide();
+    $("body > main, body > main > article").has(toShow).show();
     $(toShow).show();
 }
 
@@ -120,9 +118,9 @@ $("[data-staticlink]").click(function(e) {
     showPage(e.target.attributes['data-staticlink'].value)
 });
 
-
-$(function (){
-    if (window.location.hash) {
-        showPage(window.location.hash.substr(1));
-    }
-});
+var initialID = "home";
+function initPage() {
+    if (window.location.hash) initialID = window.location.hash.substr(1);
+    showPage(initialID);
+}
+$(initPage);
