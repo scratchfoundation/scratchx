@@ -198,6 +198,83 @@ function loadFromURLParameter() {
 }
 
 
+/* Popovers */
+
+function getOrCreateFromTemplate(elementId, templateId, appendTo, initialStyle) {
+    if (initialStyle === undefined) {
+        initialStyle = {};
+    }
+    if (appendTo) {
+        appendTo = "body";
+    }
+    var $element = $("#" + elementId);
+    if (!$element.length) {
+        $template = $("#" + templateId);
+        $element = $("<dialog></dialog>")
+            .attr("id", elementId)
+            .html($template.html())
+            .appendTo(appendTo);
+    }
+    $element.css(initialStyle);
+    return $element;
+};
+
+function enableOverlay(forZIndex) {
+    var overlayId = "popover-overlay";
+    var $overlay = $("#" + overlayId);
+    if (!$overlay.length) {
+        $overlay = $("<div></div>")
+            .attr("id", overlayId)
+            .appendTo("body")
+            .click(function(){
+                $(this).trigger("popover:exit");
+            });
+    }
+    $overlay.css({
+        position: "fixed",
+        display: "block",
+        "z-index": forZIndex - 1,
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        opacity: "0.8",
+        background: "black"
+    });
+    return $overlay;
+}
+
+$("[data-action='popover']").click(function(e){
+    /*
+     * Usage:
+     *     <a href="#content" data-action="popover" data-template="id-for-content">Popup</a>
+     *
+     * Copies the HTML referenced by data-template into a new element,
+     * with id="popover-[template value]" and creates an overlay on the
+     * page, which when clicked will close the popup.
+     */
+
+    e.preventDefault();
+    var templateId = $(this).data("template");
+    var popoverId = "popover-" + templateId;
+    var zIndex = 100;
+    var $overlay = enableOverlay(zIndex);
+    var $popover = getOrCreateFromTemplate(
+        popoverId, templateId, "body", {
+            position: "fixed",
+            display: "block",
+            top: "50%",
+            left: "50%",
+            "z-index": zIndex,
+        });
+    $(document).on("popover:exit", function(){
+        $overlay.css({display: 'none'});
+        $popover.css({display: 'none'});
+        $(this).off();
+    });
+});
+
+
 /* Page switching */
 
 $("[data-action='static-link']").click(function(e) {
