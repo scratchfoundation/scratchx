@@ -36,6 +36,10 @@ function JSprojectLoaded() {
     loadExtensionQueue();
 }
 
+function JSshowExtensionDialog() {
+    showModal("dialogs");
+}
+
 var extensionQueue = [];
 function handleParameters() {
     var project;
@@ -198,36 +202,31 @@ function loadFromURLParameter() {
 }
 
 
-/* Popovers */
+/* Modals */
 
-function getOrCreateFromTemplate(elementId, templateId, appendTo, initialStyle) {
-    if (initialStyle === undefined) {
-        initialStyle = {};
-    }
-    if (appendTo) {
-        appendTo = "body";
-    }
+function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, wrapper) {
+    elementType = elementType ? elementType : "div";
     var $element = $("#" + elementId);
     if (!$element.length) {
         $template = $("#" + templateId);
-        $element = $("<dialog></dialog>")
+        $element = $("<"+elementType+"></"+elementType+">")
             .attr("id", elementId)
-            .html($template.html())
-            .appendTo(appendTo);
+            .html($template.html());
+        if (wrapper) $element.wrapInner(wrapper);
+        $element.appendTo(appendTo)
     }
-    $element.css(initialStyle);
     return $element;
 };
 
 function enableOverlay(forZIndex) {
-    var overlayId = "popover-overlay";
+    var overlayId = "modal-overlay";
     var $overlay = $("#" + overlayId);
     if (!$overlay.length) {
         $overlay = $("<div></div>")
             .attr("id", overlayId)
             .appendTo("body")
             .click(function(){
-                $(this).trigger("popover:exit");
+                $(this).trigger("modal:exit");
             });
     }
     $overlay.css({
@@ -244,34 +243,38 @@ function enableOverlay(forZIndex) {
     return $overlay;
 }
 
-$("[data-action='popover']").click(function(e){
+function showModal(templateId) {
     /*
-     * Usage:
-     *     <a href="#content" data-action="popover" data-template="id-for-content">Popup</a>
-     *
      * Copies the HTML referenced by data-template into a new element,
-     * with id="popover-[template value]" and creates an overlay on the
+     * with id="modal-[template value]" and creates an overlay on the
      * page, which when clicked will close the popup.
      */
 
-    e.preventDefault();
-    var templateId = $(this).data("template");
-    var popoverId = "popover-" + templateId;
     var zIndex = 100;
-    var $overlay = enableOverlay(zIndex);
-    var $popover = getOrCreateFromTemplate(
-        popoverId, templateId, "body", {
-            position: "fixed",
-            display: "block",
-            top: "50%",
-            left: "50%",
-            "z-index": zIndex,
-        });
-    $(document).on("popover:exit", function(){
-        $overlay.css({display: 'none'});
-        $popover.css({display: 'none'});
+    var modalId = "modal-" + templateId;
+    $modalwrapper = $("<div class='modal-fade-screen'><div class='modal-inner'></div></div>");
+    var $modal = getOrCreateFromTemplate(modalId, templateId, "dialog", "body", $modalwrapper);
+    $modal.addClass("modal");
+    $(".modal-fade-screen", $modal)
+        .addClass("visible")
+        .click(function(e){$(this).trigger("modal:exit")});
+    $(".modal-inner", $modal).click(function(e){e.stopPropagation();})
+    $("body").addClass("modal-open");
+    $(document).on("modal:exit", function(){
+        $("body").removeClass("modal-open");
+        $(".modal-fade-screen", $modal).removeClass("visible");
         $(this).off();
     });
+}
+
+$("[data-action='modal']").click(function(e){
+    /*
+     * Usage:
+     *     <a href="#content" data-action="modal" data-template="id-for-content">Popup</a>
+     */
+
+    e.preventDefault();
+    showModal($(this).data("template"));
 });
 
 

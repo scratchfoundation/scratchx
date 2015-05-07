@@ -613,7 +613,7 @@ h6 {
 article h1 {
   font-size: 1.5em; }
 
-article h2 {
+article h2, dialog h2 {
   font-size: 1.5em; }
 
 p {
@@ -639,6 +639,132 @@ img,
 picture {
   margin: 0;
   max-width: 100%; }
+
+.modal label {
+  cursor: pointer;
+  margin-bottom: 0; }
+.modal label img {
+  border-radius: 150px;
+  display: block;
+  max-width: 300px; }
+.modal .modal-state {
+  display: none; }
+.modal .modal-trigger {
+  background-color: #21b4f0;
+  border-radius: 3px;
+  border: 0;
+  color: #333333;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-decoration: none;
+  background-clip: padding-box;
+  padding: 0.8em 1em; }
+  .modal .modal-trigger:hover:not(:disabled) {
+    background-color: #35bef6;
+    cursor: pointer; }
+  .modal .modal-trigger:active:not(:disabled), .modal .modal-trigger:focus:not(:disabled) {
+    background-color: #15a7e3;
+    cursor: pointer; }
+  .modal .modal-trigger:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+.modal .modal-fade-screen {
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  padding-top: 0.6em;
+  text-align: left;
+  visibility: hidden;
+  z-index: 99999999999; }
+  @media screen and (min-width: 60em) {
+    .modal .modal-fade-screen {
+      padding-top: 10em; } }
+  .modal .modal-fade-screen .modal-bg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer; }
+.modal .modal-close {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  height: 1.5em;
+  width: 1.5em;
+  background: #fff;
+  cursor: pointer; }
+  .modal .modal-close:after, .modal .modal-close:before {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 1.5em;
+    width: 0.15em;
+    background: #dfe3e7;
+    content: '';
+    display: block;
+    margin: -3px 0 0 -1px; }
+  .modal .modal-close:hover:after, .modal .modal-close:hover:before {
+    background: #c2c9d1; }
+  .modal .modal-close:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+.modal .modal-inner {
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1.5em;
+  position: relative;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto; }
+  .modal .modal-inner::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .modal .modal-inner .modal-content {
+    color: #58595b;
+    -webkit-columns: 2 8em;
+    -moz-columns: 2 8em;
+    columns: 2 8em; }
+  .modal .modal-inner a.cta {
+    color: white;
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-top: 1em; }
+    .modal .modal-inner a.cta:last-child {
+      padding: 0 2em; }
+.modal .modal-state:checked + .modal-fade-screen,
+.modal .modal-fade-screen.visible {
+  opacity: 1;
+  visibility: visible; }
+.modal .modal-state:checked + .modal-fade-screen .modal-inner,
+.modal .modal-fade-screen.visible .modal-inner {
+  top: 0.5em; }
+
+.modal-open {
+  overflow: hidden; }
 
 dialog {
   display: block;
@@ -816,19 +942,24 @@ body > section {
 body #home {
   display: block; }
 
-#dialogs {
+#dialogs, #modal-dialogs .modal-inner {
   display: block; }
-  #dialogs::after {
+  #dialogs::after, #modal-dialogs .modal-inner::after {
     clear: both;
     content: "";
     display: table; }
-  #dialogs dialog {
+  #dialogs dialog, #modal-dialogs .modal-inner dialog {
     float: left;
     display: block;
     margin-right: 1.25%;
     width: 32.5%; }
-    #dialogs dialog:last-child {
+    #dialogs dialog:last-child, #modal-dialogs .modal-inner dialog:last-child {
       margin-right: 0; }
+    #dialogs dialog p, #modal-dialogs .modal-inner dialog p {
+      text-align: center; }
+
+#modal-dialogs .modal-inner {
+  background-color: transparent; }
 
 .extension-file section:first-child {
   /* Add a border equal to the number of featured extensions - 1 */
