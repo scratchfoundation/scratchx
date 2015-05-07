@@ -1098,6 +1098,10 @@ body > main > header {
     content: "";
     display: table; }
 
+body > main > article {
+  padding-top: 3.75em;
+  margin-top: -3.75em; }
+
 .scratchx-logo {
   float: left; }
   .scratchx-logo span {

@@ -165,6 +165,11 @@ body > main > header {
     line-height: $vertical-base * 10;
 }
 
+body > main > article {
+    padding-top: $vertical-base * 10;
+    margin-top: -$vertical-base * 10;
+}
+
 .scratchx-logo {
     float: left;
 

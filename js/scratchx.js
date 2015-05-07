@@ -288,7 +288,6 @@ $("[data-action='static-link']").click(function(e) {
      *     <a href="#privacy-policy" data-action="static-link">Privacy Policy</a>
      * 
      */
-    e.preventDefault();
     var path = $(this).attr("href").substring(1);
     showPage(path);
 });
@@ -328,11 +327,6 @@ function showPage(path) {
     $toShow.show();
     if (path == "editor") {
         $toShow.css({top: 0});
-    }
-
-    window.location.hash = toShow;
-    if ($("body > main > article").has(toShow).length == 0) {
-        document.body.scrollTop = 0;
     }
 }
 
