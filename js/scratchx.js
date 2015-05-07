@@ -320,6 +320,8 @@ function showPage(path) {
     var toShow = "#" + path;
     var $toShow = $(toShow);
 
+    if (!$toShow.length) return;
+
     $(toHide).filter(":visible").hide();
     if (toShow != "#editor") $("#editor").css({top: "-9999px"});
     $("body > main, body > main > article").has($toShow).show();
