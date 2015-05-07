@@ -108,6 +108,11 @@ swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expr
 
 /* File uploads */
 function sendFileToFlash(file) {
+    /*
+     * Use the HTML5 FileReader API to send base-64 encoded file
+     * contents to Flash via ASloadBase64SBX (or do it when the SWF
+     * is ready).
+     */
     var fileReader = new FileReader();
     fileReader.onload = function (e) {
         var fileAsB64 = ab_to_b64(fileReader.result);
@@ -126,10 +131,20 @@ function sendFileToFlash(file) {
 }
 
 $("[data-action='load-file']").click(function(e) {
-    $('<input type="file" />').on('change', function(){sendFileToFlash(this.files[0])}).click();
+    /*
+     * Buttons with data-action="load-file" trigger a file input
+     * prompt, passed to a handler that passes the file to Flash.
+     */
+    $('<input type="file" />').on('change', function(){
+        sendFileToFlash(this.files[0])
+    }).click();
 });
 
 function sendURLtoFlash(url) {
+    /*
+     * Send a URL to Flash with ASloadGithubURL, or do it when the
+     * editor is ready.
+     */
     if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
         Scratch.FlashApp.ASobj.ASloadGithubURL(url);
     } else {
@@ -140,19 +155,32 @@ function sendURLtoFlash(url) {
     }
 }
 
+
+/* Load from URL */
 $("[data-action='load-url']").click(function(e) {
+    /*
+     * Links with data-action="load-url" send their href to Flash
+     * So use like...
+     *    <a href="?url=urlToLoad" data-action="load-url">Load this</a>
+     */
     e.preventDefault();
     showPage("editor");
     sendURLtoFlash($(this).attr("href"));
 });
 
 $(".url-load-form").submit(function(e) {
+    // Load text input value on submit
     e.preventDefault();
     showPage("editor");
     sendURLtoFlash($('input[type="text"]', this).val());
 });
 
 function loadFromURLParameter() {
+    /*
+     * Get all url=urlToLoad from the querystring and send to Flash
+     * Use like...
+     *     http://scratchx.org/?url=urlToLoad1&url=urlToLoad2
+     */
     var paramString = window.location.search.replace(/^\?|\/$/g, '');
     var vars = paramString.split("&");
     var showedEditor = false;
@@ -160,6 +188,7 @@ function loadFromURLParameter() {
         var pair = vars[i].split("=");
         if (pair.length > 1 && pair[0]=="url") {
             if (!showedEditor) {
+                // Only try to switch to the editor once
                 showPage("editor");
                 showedEditor = true;
             }
@@ -172,12 +201,41 @@ function loadFromURLParameter() {
 /* Page switching */
 
 $("[data-action='static-link']").click(function(e) {
+    /*
+     * Links with data-action="static-link" should switch the view
+     * to that page. Works like tabs sort of. Use like...
+     *     <!-- Makes a link to the Privacy Policy section -->
+     *     <a href="#privacy-policy" data-action="static-link">Privacy Policy</a>
+     * 
+     */
     e.preventDefault();
     var path = $(this).attr("href").substring(1);
     showPage(path);
 });
 
 function showPage(path) {
+    /*
+     * Show a part of the page.  The site is set up like
+     * body
+     *   main
+     *     article#home
+     *     article#privacy-policy
+     *     ...
+     *   editor
+     * 
+     * Each <article> is a "page" of the site, plus one special
+     * view, which is the editor.
+     * 
+     * The editor is not actually hidden, but located -9999px above
+     * the viewport. This is because if it's hidden, it doesn't load
+     * when the page is loaded.
+     *
+     * So first we have to hide everything that we're not going to show
+     * or move the editor up, then display everything we're going to show
+     * if it's hidden.
+     *
+     * If we are linking to an anchor within a page, then show its parent.
+     */
     var toHide = "body > main, body > main > article";
     var toShow = "#" + path;
     var $toShow = $(toShow);
@@ -198,6 +256,9 @@ function showPage(path) {
 
 var initialID = "home";
 function initPage() {
+    /*
+     * On load, show the page identified by the URL fragment. Default to #home.
+     */
     if (window.location.hash) initialID = window.location.hash.substr(1);
     showPage(initialID);
     loadFromURLParameter();
