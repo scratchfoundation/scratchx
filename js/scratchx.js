@@ -292,6 +292,10 @@ $("[data-action='static-link']").click(function(e) {
     showPage(path);
 });
 
+$(window).bind('hashchange', function(e) {
+    if (document.location.hash == '') showPage('home');
+});
+
 function showPage(path) {
     /*
      * Show a part of the page.  The site is set up like
