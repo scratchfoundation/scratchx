@@ -170,8 +170,8 @@ $(document).on('click', "[data-action='load-url']", function(e) {
      *    <a href="?url=urlToLoad" data-action="load-url">Load this</a>
      */
     e.preventDefault();
-    sendURLtoFlash($(this).attr("href"));
     showPage(editorId);
+    loadFromURLParameter($(this).attr("href"));
 });
 
 $(document).on('submit', ".url-load-form", function(e) {
@@ -181,13 +181,13 @@ $(document).on('submit', ".url-load-form", function(e) {
     sendURLtoFlash($('input[type="text"]', this).val());
 });
 
-function loadFromURLParameter() {
+function loadFromURLParameter(queryString) {
     /*
      * Get all url=urlToLoad from the querystring and send to Flash
      * Use like...
      *     http://scratchx.org/?url=urlToLoad1&url=urlToLoad2
      */
-    var paramString = window.location.search.replace(/^\?|\/$/g, '');
+    var paramString = queryString.replace(/^\?|\/$/g, '');
     var vars = paramString.split("&");
     var showedEditor = false;
     for (var i=0; i<vars.length; i++) {
@@ -351,6 +351,6 @@ function initPage() {
         }
     }
     showPage(initialID);
-    loadFromURLParameter();
+    loadFromURLParameter(window.location.search);
 }
 $(initPage);
