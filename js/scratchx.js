@@ -220,31 +220,6 @@ function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, w
     return $element;
 };
 
-function enableOverlay(forZIndex) {
-    var overlayId = "modal-overlay";
-    var $overlay = $("#" + overlayId);
-    if (!$overlay.length) {
-        $overlay = $("<div></div>")
-            .attr("id", overlayId)
-            .appendTo("body")
-            .click(function(){
-                $(this).trigger("modal:exit");
-            });
-    }
-    $overlay.css({
-        position: "fixed",
-        display: "block",
-        "z-index": forZIndex - 1,
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        opacity: "0.8",
-        background: "black"
-    });
-    return $overlay;
-}
-
 function showModal(templateId) {
     /*
      * Copies the HTML referenced by data-template into a new element,
