@@ -1051,20 +1051,26 @@ body #home {
     color: #fff;
     top: 0.75em; }
 
+.extension-feature section:first-child h2,
 #dialogs .extension-feature section:first-child h2,
 #modal-dialogs .extension-feature section:first-child h2 {
   margin-top: 0.375em; }
+.extension-feature section:last-child,
 #dialogs .extension-feature section:last-child,
 #modal-dialogs .extension-feature section:last-child {
   padding: 0px; }
+.extension-feature ul li,
 #dialogs .extension-feature ul li,
 #modal-dialogs .extension-feature ul li {
   border-bottom: 1px solid #dfe3e7;
   padding: 0.75em; }
+  .extension-feature ul li a,
   #dialogs .extension-feature ul li a,
   #modal-dialogs .extension-feature ul li a {
     position: relative;
-    display: block; }
+    display: block;
+    padding-right: 25px; }
+    .extension-feature ul li a:before,
     #dialogs .extension-feature ul li a:before,
     #modal-dialogs .extension-feature ul li a:before {
       content: "";
@@ -1085,11 +1091,13 @@ body #home {
       top: 50%;
       margin-top: -.5em;
       font-size: 1.5em; }
+  .extension-feature ul li h3,
   #dialogs .extension-feature ul li h3,
   #modal-dialogs .extension-feature ul li h3 {
     font-size: 1.125em;
     font-weight: 600;
     margin-bottom: 0.375em; }
+  .extension-feature ul li p,
   #dialogs .extension-feature ul li p,
   #modal-dialogs .extension-feature ul li p {
     text-align: left;

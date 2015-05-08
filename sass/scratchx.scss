@@ -97,6 +97,7 @@ body {
 
 }
 
+.extension-feature,
 #dialogs .extension-feature,
 #modal-dialogs .extension-feature
  {
@@ -118,6 +119,7 @@ body {
             a {
                 position: relative;
                 display: block;
+                padding-right: 25px;
                 @include icon(before, right-arrow) {
                     color: $blue;
                     position: absolute;
