@@ -249,6 +249,8 @@ $(document).keyup(function(e) {
     if (e.keyCode == 27) $(document).trigger("modal:exit");
 });
 
+$(document).on("modal:exit", function(e){Scratch.FlashApp.ASobj.ASsetModalOverlay(false);});
+
 $(document).on('click', "[data-action='modal']", function(e){
     /*
      * Usage:
