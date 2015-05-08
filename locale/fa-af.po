@@ -1,0 +1,976 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa_AF\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Language-Name"
+msgstr "Dari"
+
+msgid "%b and %b"
+msgstr ""
+
+msgid "%b or %b"
+msgstr ""
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr ""
+
+msgid "%m.list contains %s"
+msgstr ""
+
+msgid "%m.mathOp of %n"
+msgstr ""
+
+msgid "%m.sensor sensor value"
+msgstr ""
+
+msgid "%n mod %n"
+msgstr ""
+
+msgid "add %s to %m.list"
+msgstr ""
+
+msgid "answer"
+msgstr ""
+
+msgid "ask %s and wait"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr ""
+
+msgid "broadcast %m.broadcast"
+msgstr ""
+
+msgid "broadcast %m.broadcast and wait"
+msgstr ""
+
+msgid "change %m.effect effect by %n"
+msgstr ""
+
+msgid "change %m.var by %n"
+msgstr ""
+
+msgid "change pen color by %n"
+msgstr ""
+
+msgid "change pen shade by %n"
+msgstr ""
+
+msgid "change pen size by %n"
+msgstr ""
+
+msgid "change size by %n"
+msgstr ""
+
+msgid "change tempo by %n"
+msgstr ""
+
+msgid "change volume by %n"
+msgstr ""
+
+msgid "change x by %n"
+msgstr ""
+
+msgid "change y by %n"
+msgstr ""
+
+msgid "clear"
+msgstr ""
+
+msgid "clear graphic effects"
+msgstr ""
+
+msgid "clone startup"
+msgstr ""
+
+msgid "color %c is touching %c?"
+msgstr ""
+
+msgid "Control"
+msgstr ""
+
+msgid "costume #"
+msgstr ""
+
+msgid "create clone of %m.spriteOnly"
+msgstr ""
+
+msgid "current %m.timeAndDate"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "define"
+msgstr ""
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr ""
+
+msgid "delete this clone"
+msgstr ""
+
+msgid "direction"
+msgstr ""
+
+msgid "distance"
+msgstr ""
+
+msgid "distance to %m.spriteOrMouse"
+msgstr ""
+
+msgid "else"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "forever"
+msgstr ""
+
+msgid "forever if %b"
+msgstr ""
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr ""
+
+msgid "go back %n layers"
+msgstr ""
+
+msgid "go to %m.spriteOrMouse"
+msgstr ""
+
+msgid "go to front"
+msgstr ""
+
+msgid "go to x:%n y:%n"
+msgstr ""
+
+msgid "hide"
+msgstr ""
+
+msgid "hide all sprites"
+msgstr ""
+
+msgid "hide monitor %m.varOrList"
+msgstr ""
+
+msgid "if %b"
+msgstr ""
+
+msgid "if on edge, bounce"
+msgstr ""
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr ""
+
+msgid "item %d.listItem of %m.list"
+msgstr ""
+
+msgid "join %s %s"
+msgstr ""
+
+msgid "key %m.key pressed?"
+msgstr ""
+
+msgid "length of %m.list"
+msgstr ""
+
+msgid "length of %s"
+msgstr ""
+
+msgid "letter %n of %s"
+msgstr ""
+
+msgid "Looks"
+msgstr ""
+
+msgid "loudness"
+msgstr ""
+
+msgid "More Blocks"
+msgstr ""
+
+msgid "Motion"
+msgstr ""
+
+msgid "motor direction %m.motorDirection"
+msgstr ""
+
+msgid "motor off"
+msgstr ""
+
+msgid "motor on"
+msgstr ""
+
+msgid "motor on for %n secs"
+msgstr ""
+
+msgid "motor power %n"
+msgstr ""
+
+msgid "mouse down?"
+msgstr ""
+
+msgid "mouse x"
+msgstr ""
+
+msgid "mouse y"
+msgstr ""
+
+msgid "move %n steps"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr ""
+
+msgid "next costume"
+msgstr ""
+
+msgid "not %b"
+msgstr ""
+
+msgid "Operators"
+msgstr ""
+
+msgid "Pen"
+msgstr ""
+
+msgid "pen down"
+msgstr ""
+
+msgid "pen up"
+msgstr ""
+
+msgid "pick random %n to %n"
+msgstr ""
+
+msgid "play drum %d.drum for %n beats"
+msgstr ""
+
+msgid "play note %n for %n beats"
+msgstr ""
+
+msgid "play sound %m.sound"
+msgstr ""
+
+msgid "play sound %m.sound until done"
+msgstr ""
+
+msgid "point in direction %d.direction"
+msgstr ""
+
+msgid "point towards %m.spriteOrMouse"
+msgstr ""
+
+msgid "repeat %n"
+msgstr ""
+
+msgid "repeat until %b"
+msgstr ""
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr ""
+
+msgid "reset timer"
+msgstr ""
+
+msgid "rest for %n beats"
+msgstr ""
+
+msgid "round %n"
+msgstr ""
+
+msgid "say %s"
+msgstr ""
+
+msgid "say %s for %n secs"
+msgstr ""
+
+msgid "Scratch days"
+msgstr ""
+
+msgid "Sensing"
+msgstr ""
+
+msgid "sensor %m.booleanSensor?"
+msgstr ""
+
+msgid "set %m.effect effect to %n"
+msgstr ""
+
+msgid "set %m.var to %s"
+msgstr ""
+
+msgid "set instrument to %d.instrument"
+msgstr ""
+
+msgid "set pen color to %c"
+msgstr ""
+
+msgid "set pen color to %n"
+msgstr ""
+
+msgid "set pen shade to %n"
+msgstr ""
+
+msgid "set pen size to %n"
+msgstr ""
+
+msgid "set size to %n%"
+msgstr ""
+
+msgid "set tempo to %n bpm"
+msgstr ""
+
+msgid "set video transparency to %n%"
+msgstr ""
+
+msgid "set volume to %n%"
+msgstr ""
+
+msgid "set x to %n"
+msgstr ""
+
+msgid "set y to %n"
+msgstr ""
+
+msgid "show"
+msgstr ""
+
+msgid "show monitor %m.varOrList"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
+msgid "Sound"
+msgstr ""
+
+msgid "stamp"
+msgstr ""
+
+msgid "stop %m.stop"
+msgstr ""
+
+msgid "stop all sounds"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr ""
+
+msgid "switch costume to %m.costume"
+msgstr ""
+
+msgid "tempo"
+msgstr ""
+
+msgid "think %s"
+msgstr ""
+
+msgid "think %s for %n secs"
+msgstr ""
+
+msgid "tilt"
+msgstr ""
+
+msgid "timer"
+msgstr ""
+
+msgid "touching %m.touching?"
+msgstr ""
+
+msgid "touching color %c?"
+msgstr ""
+
+msgid "turn @turnLeft %n degrees"
+msgstr ""
+
+msgid "turn @turnRight %n degrees"
+msgstr ""
+
+msgid "turn video %m.videoState"
+msgstr ""
+
+msgid "user id"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+msgid "wait %n secs"
+msgstr ""
+
+msgid "wait until %b"
+msgstr ""
+
+msgid "when %m.key key pressed"
+msgstr ""
+
+msgid "when @greenFlag clicked"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr ""
+
+msgid "when I am clicked"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr ""
+
+msgid "x position"
+msgstr ""
+
+msgid "y position"
+msgstr ""
+
+msgid "A connected"
+msgstr ""
+
+msgid "abs"
+msgstr ""
+
+msgid "acos"
+msgstr ""
+
+msgid "Add a boolean input:"
+msgstr ""
+
+msgid "Add a number input:"
+msgstr ""
+
+msgid "Add a string input:"
+msgstr ""
+
+msgid "Add label text:"
+msgstr ""
+
+msgid "all"
+msgstr ""
+
+msgid "any"
+msgstr ""
+
+msgid "asin"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr ""
+
+msgid "backdrop1"
+msgstr ""
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Bass"
+msgstr ""
+
+msgid "Bassoon"
+msgstr ""
+
+msgid "bottom-left"
+msgstr ""
+
+msgid "bottom-right"
+msgstr ""
+
+msgid "brightness"
+msgstr ""
+
+msgid "button pressed"
+msgstr ""
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr ""
+
+msgid "Choir"
+msgstr ""
+
+msgid "Clarinet"
+msgstr ""
+
+msgid "Claves"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr ""
+
+msgid "color"
+msgstr ""
+
+msgid "copy"
+msgstr ""
+
+msgid "cos"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "Cowbell"
+msgstr ""
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+msgid "delete"
+msgstr ""
+
+msgid "down"
+msgstr ""
+
+msgid "down arrow"
+msgstr ""
+
+msgid "duplicate"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr ""
+
+msgid "edit"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "fisheye"
+msgstr ""
+
+msgid "floor"
+msgstr ""
+
+msgid "Floor Tom"
+msgstr ""
+
+msgid "Flute"
+msgstr ""
+
+msgid "ghost"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr ""
+
+msgid "High Bongo"
+msgstr ""
+
+msgid "High Tom"
+msgstr ""
+
+msgid "High Wood Block"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "int"
+msgstr ""
+
+msgid "Kick Drum"
+msgstr ""
+
+msgid "last"
+msgstr ""
+
+msgid "left"
+msgstr ""
+
+msgid "left arrow"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr ""
+
+msgid "ln"
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "Long Guiro"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "Low Bongo"
+msgstr ""
+
+msgid "Low Conga"
+msgstr ""
+
+msgid "Low Tom"
+msgstr ""
+
+msgid "Low Wood Block"
+msgstr ""
+
+msgid "Maracas"
+msgstr ""
+
+msgid "Marimba"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Mid Tom"
+msgstr ""
+
+msgid "middle"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "mosaic"
+msgstr ""
+
+msgid "motion"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr ""
+
+msgid "Music Box"
+msgstr ""
+
+msgid "Mute High Conga"
+msgstr ""
+
+msgid "Mute Triangle"
+msgstr ""
+
+msgid "name"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New backdrop"
+msgstr ""
+
+msgid "New costume"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New sound"
+msgstr ""
+
+msgid "New sprite:"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr ""
+
+msgid "Open Hi-Hat"
+msgstr ""
+
+msgid "Open High Conga"
+msgstr ""
+
+msgid "Open Triangle"
+msgstr ""
+
+msgid "Organ"
+msgstr ""
+
+msgid "other scripts in stage"
+msgstr ""
+
+msgid "Paint"
+msgstr ""
+
+msgid "paste"
+msgstr ""
+
+msgid "Pedal Hi-Hat"
+msgstr ""
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "pixelate"
+msgstr ""
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr ""
+
+msgid "Record"
+msgstr ""
+
+msgid "recording1"
+msgstr ""
+
+msgid "redo"
+msgstr ""
+
+msgid "Remix"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr ""
+
+msgid "right"
+msgstr ""
+
+msgid "right arrow"
+msgstr ""
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "say"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Short Guiro"
+msgstr ""
+
+msgid "shout"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "Side Stick"
+msgstr ""
+
+msgid "silence"
+msgstr ""
+
+msgid "sin"
+msgstr ""
+
+msgid "slider"
+msgstr ""
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "space"
+msgstr ""
+
+msgid "Sprites"
+msgstr ""
+
+msgid "sqrt"
+msgstr ""
+
+msgid "Stage"
+msgstr ""
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr ""
+
+msgid "tan"
+msgstr ""
+
+msgid "that way"
+msgstr ""
+
+msgid "think"
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this way"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "top-left"
+msgstr ""
+
+msgid "top-right"
+msgstr ""
+
+msgid "Trombone"
+msgstr ""
+
+msgid "undo"
+msgstr ""
+
+msgid "up"
+msgstr ""
+
+msgid "up arrow"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr ""
+
+msgid "Vibraslap"
+msgstr ""
+
+msgid "whirl"
+msgstr ""
+
+msgid "whisper"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "year"
+msgstr ""

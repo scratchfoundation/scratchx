@@ -1,0 +1,2024 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-03-06 11:13+0000\n"
+"Last-Translator: vinayakumar  <vnkmr7620@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1394104438.000000\n"
+
+msgid "%b and %b"
+msgstr "%b ಮತ್ತು %b"
+
+msgid "%b or %b"
+msgstr "%b ಅಥವಾ %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m ಲಕ್ಷಣಗಳು %m.ಮೋಹಿನಿ ಅಥವಾ ವೇದಿಕೆ"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp ರ %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.ಗ್ರಹಿಕೆಯ ಗ್ರಹಿಕೆ ಮೌಲ್ಯ"
+
+msgid "%n mod %n"
+msgstr "%n ಶೇಷ %n"
+
+msgid "add %s to %m.list"
+msgstr "ಕೂಡಿಸು %s ಅನ್ನು %mಗೆ.ಪಟ್ಟಿ"
+
+msgid "answer"
+msgstr "ಉತ್ತರ"
+
+msgid "ask %s and wait"
+msgstr "ಕೇಳು %s ಅನ್ನುಮತ್ತು ನಿಧಾನಿಸು"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "ಹಿಂದಣ #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "ಹಿಂದಣದ ಹೆಸರು"
+
+msgid "broadcast %m.broadcast"
+msgstr "ಪ್ರಸರಿಸು %m.ಪ್ರಸರಿಸು"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "ಪ್ರಸರಿಸು %m.ಪ್ರಸರಿಸು ಮತ್ತು ಕಾಯಬೇಕು"
+
+msgid "change %m.effect effect by %n"
+msgstr "ಪರಿಣಾಮವನ್ನು %m.effect ಗೆ ಬದಲಾಹಿಸು %n"
+
+msgid "change %m.var by %n"
+msgstr "ಪರಿಣಾಮವನ್ನು %m.var ಗೆ ಬದಲಾಹಿಸು %n"
+
+msgid "change pen color by %n"
+msgstr "ಲೇಖಣಿ ಬಣ್ಣ %nರಷ್ಟು ಬದಲಾಹಿಸು"
+
+msgid "change pen shade by %n"
+msgstr "ಲೇಖಣಿ ನೆರಳನ್ನು %nರಷ್ಟು ಬದಲಾಹಿಸು"
+
+msgid "change pen size by %n"
+msgstr "ಲೇಖಣಿ ಗಾತ್ರವನ್ನು %nರಷ್ಟು ಬದಲಾಹಿಸು"
+
+msgid "change size by %n"
+msgstr "ಗಾತ್ರವನ್ನು %nರಷ್ಟು ಬದಲಾಹಿಸು"
+
+msgid "change tempo by %n"
+msgstr "ತಾಳವನ್ನು %nರಷ್ಟು ಬದಲಾಹಿಸು"
+
+msgid "change volume by %n"
+msgstr "ಗಾತ್ರವನ್ನು %nರಷ್ಟು ಬದಲಾಹಿಸು"
+
+msgid "change x by %n"
+msgstr "x ಅನ್ನು %n ಗೆ ಬದಲಾಹಿಸು"
+
+msgid "change y by %n"
+msgstr "y ಅನ್ನು %n ಗೆ ಬದಲಾಹಿಸು"
+
+msgid "clear"
+msgstr "ಅಳಿಸು"
+
+msgid "clear graphic effects"
+msgstr "ಎಲ್ಲಾ ಪರಿಣಾಮಗಳನ್ನು ಅಳಿಸು"
+
+msgid "color %c is touching %c?"
+msgstr "ಬಣ್ಣ %c ಅನ್ನು %c ಮುಟ್ಟಿದಾಗ?"
+
+msgid "Control"
+msgstr "ಹಿಡಿತ"
+
+msgid "costume #"
+msgstr "ಉಡುಪು #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "ತದ್ರೂಪು %mರಷ್ಟು ರಚಿಸಿ.ಮೋಹಿನಿ ಮಾತ್ರ"
+
+msgid "current %m.timeAndDate"
+msgstr "ಹೀಗಿನ %m.ಸಮಯಮತ್ತುದಿನಾಂಕ"
+
+msgid "Data"
+msgstr "ದತ್ತಾ೦ಸಗಳು"
+
+msgid "days since 2000"
+msgstr "2000 ದಿನದಿಂದಇಚಗೆ"
+
+msgid "define"
+msgstr "ವ್ಯಾಖ್ಯಾನ"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "ಅಳಿಸು %d.ಪಟ್ಟಿಅಳಿಸುವವಸ್ತುವು %m.ಪಟ್ಟಿ"
+
+msgid "delete this clone"
+msgstr "ಈ ತದ್ರೂಪು ಅನ್ನು ಅಳಿಸಿ"
+
+msgid "direction"
+msgstr "ದಿಕ್ಕು"
+
+msgid "distance"
+msgstr "ದೂರ"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "ದೂರ %m ಗೆ.ಮೋಹಿನಿ ಅಥವಾ ಮೌಸ್"
+
+msgid "else"
+msgstr "ಇಲ್ಲದಿದ್ದರೆ"
+
+msgid "Events"
+msgstr "ಸಂಭವಗಳು"
+
+msgid "forever"
+msgstr "ಯವಾಗಲು"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "ಸರಿ %n ಸೆಕೆಂಡಿನಲ್ಲಿ xಗೆ:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "ಪದರಗಳು %nರಷ್ಟು ಹಿಂದೆ ಹೋಗು"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "ಹೋಗು %mಗೆ.ಮೋಹಿನಿಅಥವಾಮೌಸ್"
+
+msgid "go to front"
+msgstr "ಮುಂದಕ್ಕೆ ಹೋಗು"
+
+msgid "go to x:%n y:%n"
+msgstr "x:%n y:%n ಗೆ ಹೋಗು"
+
+msgid "hide"
+msgstr "ಬಚ್ಚಿಡು"
+
+msgid "hide list %m.list"
+msgstr "ಪಟ್ಟಿಯನ್ನು %mರಷ್ಟು ಬಚ್ಚಿಡು.ಪಟ್ಟಿ"
+
+msgid "hide variable %m.var"
+msgstr "ಪರಿವರ್ತನೆಯನ್ನು %mರಷ್ಟು ಬಚ್ಚಿಡು.var"
+
+msgid "if %b then"
+msgstr "ಒಂದು ವೇಳೆ %b ಇಲ್ಲದಿದ್ದರೆ"
+
+msgid "if on edge, bounce"
+msgstr "ಒಂದುವೇಳೆ ಕೊನೆಗೆ ಹೋದಾಗ ಜಿಗಿ"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "ಕೂಡಿಸು %sಅನ್ನು %dನಲ್ಲಿ.ಪಟ್ಟಿವಸ್ತುವು %m.ಪಟ್ಟಿ"
+
+msgid "item %d.listItem of %m.list"
+msgstr "ವಸ್ತು %d.ಪತ್ತಿವಸ್ತುವು %m.ಪಟ್ಟಿ"
+
+msgid "join %s %s"
+msgstr "ಕೂಡಿಸು %s ಮತ್ತು %s"
+
+msgid "key %m.key pressed?"
+msgstr "ಕೀಲಿ %m.ಕೀಲಿ ಒತ್ತಿದರೆ?"
+
+msgid "length of %m.list"
+msgstr "ಉದ್ದ %mನದ್ದು.ಪಟ್ಟಿ"
+
+msgid "length of %s"
+msgstr "ಉದ್ದ %sನದ್ದು"
+
+msgid "letter %n of %s"
+msgstr "ಅಕ್ಷರ %nವು %sನದ್ದಾಗಿದೆ"
+
+msgid "Looks"
+msgstr "ಕಾಣುವುದು"
+
+msgid "loudness"
+msgstr "ಧ್ವನಿಯುಕ್ತ"
+
+msgid "More Blocks"
+msgstr "ಹೆಚ್ಚು ಇಟ್ಟಿಗೆಗಳು"
+
+msgid "Motion"
+msgstr "ಚಲನೆ"
+
+msgid "mouse down?"
+msgstr "ಮೌಸ್ ಒತ್ತಿದಾಗ?"
+
+msgid "mouse x"
+msgstr "ಮೌಸ್ x"
+
+msgid "mouse y"
+msgstr "ಮೌಸ್ y"
+
+msgid "move %n steps"
+msgstr "ಹೆಜ್ಜೆ %nರಷ್ಟು ಮುಂದೆ ಹೋಗು"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "ಮುಂದಿನ ಹಿಂದಣ"
+
+msgid "next costume"
+msgstr "ಮುಂದಿನ ಉಡುಪು"
+
+msgid "not %b"
+msgstr "ಅಲ್ಲ %bಯು"
+
+msgid "Operators"
+msgstr "ಚಿಹ್ನ್ಹೆ"
+
+msgid "Pen"
+msgstr "ಲೇಖಣಿ"
+
+msgid "pen down"
+msgstr "ಲೇಖಣಿಯುಕ್ತ"
+
+msgid "pen up"
+msgstr "ಲೇಖಣಿಮುಕ್ತ"
+
+msgid "pick random %n to %n"
+msgstr "ಯಾದೃಚಿಕವಾಗಿ %n ನಿಂದ %n ವರೆಗೂ ಆಯ್ದುಕೊ"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "ಡೋಲು ಬಾರಿಸು %dರಷ್ಟು.%n ಲಯದಲ್ಲಿ ಡೋಲನ್ನು ಬಾರಿಸು"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "ಗುರುತುಪಟ್ಟಿಯಲ್ಲಿರುವಂತೆ %dರಷ್ಟು ಸಂಗಿತದಸ್ವರ ಕೇಳಿಸು.ಗುರುತುಪಟ್ಟಿಯು %n ಲಯದಲ್ಲಿ"
+
+msgid "play sound %m.sound"
+msgstr "ಶಬ್ಧ ಕೇಳಿಸು %mರಷ್ಟು.ಶಬ್ದ"
+
+msgid "play sound %m.sound until done"
+msgstr "ಶಬ್ಧ ಕೇಳಿಸು %mರಷ್ಟು.ಶಬ್ದ ಆಗುವವರೆಗೂ"
+
+msgid "point in direction %d.direction"
+msgstr "ಚುಕ್ಕೆಯ ದಿಕ್ಕು %d ದಿಕ್ಕಿನಲ್ಲಿ"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "ಚುಕ್ಕೆಯ ದಿಕ್ಕು %mನ ಕಡೆಗೆ.ಮೋಹಿನಿ ಅಥವಾ ಮೌಸ್"
+
+msgid "repeat %n"
+msgstr "ಮರುಕಳಿಸು %n ರಷ್ಟು"
+
+msgid "repeat until %b"
+msgstr "ಮರುಕಳಿಸು %b ವರೆಗೂ"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "ಬದಲಾಹಿಸುವ ವಸ್ತು %d.ಪಟ್ಟಿಯವಸ್ತುವಿನ %m.ಪಟ್ಟಿಯ ಜೊತೆ %s"
+
+msgid "reset timer"
+msgstr "ಸಮಯಸೂಚಕವನ್ನು ಮರುಹೊಂದಿಸು"
+
+msgid "rest for %n beats"
+msgstr "ಲಯವನ್ನು %nಗೆ ನಿಲ್ಲಿಸು"
+
+msgid "round %n"
+msgstr "ಸರಿಮಾಡು %nರಷ್ಟು"
+
+msgid "say %s"
+msgstr "ಹೇಳು%s ಎಂದು"
+
+msgid "say %s for %n secs"
+msgstr "ಹೇಳು %s ಎಂದು %n ಸೆಕೆಂಡಿನಲ್ಲಿ"
+
+msgid "Sensing"
+msgstr "ಗ್ರಹಿಸುವುದು"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "ಗ್ರಹಿಕೆ %m.ಬೂಲಿಯನ್-ಗ್ರಹಿಕೆ?"
+
+msgid "set %m.effect effect to %n"
+msgstr "ಹೊಂದಿಸು %mರಷ್ಟು.ಪರಿಣಾಮದ ಪರಿಣಾಮವನ್ನು %n ಗೆ"
+
+msgid "set %m.var to %s"
+msgstr "ಹೊಂದಿಸು %mಅನ್ನು.var %s ಗೆ"
+
+msgid "set instrument to %d.instrument"
+msgstr "ವಾದ್ಯವನ್ನು ಹೊಂದಿಸು %dಗೆ ಹೊಂದಿಸು.ವಾದ್ಯ"
+
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "ವಾಹನದ ದಿಕ್ಕನ್ನು %mಗೆ ಹೊಂದಿಸು.ವಾಹನದದಿಕ್ಕು"
+
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
+msgstr "ವಾಹನದ ವಿದ್ಯುತ್ತನ್ನು %nಗೆ ಹೊಂದಿಸು"
+
+msgid "set pen color to %c"
+msgstr "ಲೇಖಣಿ ಬಣ್ಣವನ್ನು %cಗೆ ಹೊಂದಿಸು"
+
+msgid "set pen color to %n"
+msgstr "ಲೇಖಣಿ ಬಣ್ಣವನ್ನು %nಗೆ ಹೊಂದಿಸು"
+
+msgid "set pen shade to %n"
+msgstr "ಲೇಖಣಿ ನೆರಳನ್ನು %nರಷ್ಟಕ್ಕೆ ಹೊಂದಿಸು"
+
+msgid "set pen size to %n"
+msgstr "ಲೇಖಣಿ ಗಾತ್ರವನ್ನು %nರಷ್ಟಕ್ಕೆ ಹೊಂದಿಸು"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "ತಿರುಗು ದಿಕ್ಕನ್ನು %mಗೆ ಹೊಂದಿಸು.ತಿರುಗುದಿಕ್ಕು"
+
+msgid "set size to %n%"
+msgstr "ಗಾತ್ರವನ್ನು %n% ರಷ್ಟಕ್ಕೆ ಹೊಂದಿಸು"
+
+msgid "set tempo to %n bpm"
+msgstr "ಲಯವನ್ನು %n bpm ಗೆ ಹೊಂದಿಸು"
+
+msgid "set video transparency to %n%"
+msgstr "ದೃಶ್ಯ ಪಾರದರ್ಶಕವನ್ನು %n%ಗೆ ಹೊಂದಿಸು"
+
+msgid "set volume to %n%"
+msgstr "ಶಬ್ಧವನ್ನು %n% ಗೆ ಹೊಂದಿಸು"
+
+msgid "set x to %n"
+msgstr "x ಅನ್ನು %n ಗೆ ಹೊಂದಿಸು"
+
+msgid "set y to %n"
+msgstr "y ಅನ್ನು %n ಗೆ ಹೊಂದಿಸು"
+
+msgid "show"
+msgstr "ತೋರಿಸು"
+
+msgid "show list %m.list"
+msgstr "ಪಟ್ಟಿ %mಅನ್ನು ತೋರಿಸು.ಪಟ್ಟಿ"
+
+msgid "show variable %m.var"
+msgstr "ಪರಿವರ್ತನೆ %mಅನ್ನು ತೋರಿಸು.var"
+
+msgid "size"
+msgstr "ಗಾತ್ರ"
+
+msgid "Sound"
+msgstr "ಶಬ್ಧ"
+
+msgid "stamp"
+msgstr "ಮುದ್ರಿಸು"
+
+msgid "stop %m.stop"
+msgstr "ನಿಲ್ಲಿಸು %m.ನಿಲ್ಲಿಸು"
+
+msgid "stop all sounds"
+msgstr "ಎಲ್ಲಾ ಶಬ್ಧಗಳನ್ನು ನಿಲ್ಲಿಸು"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "ಹಿಂದಣವನ್ನು %mಗೆ ಬದಲಾಹಿಸು.ಹಿಂದಣ"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "ಹಿಂದಣವನ್ನು %mಗೆ ಬದಲಾಹಿಸು.ಹಿಂದಣ ಮತ್ತು ನಿಧಾನಿಸು"
+
+msgid "switch costume to %m.costume"
+msgstr "ಉಡುಪನ್ನು %mಗೆ ಬದಲಾಹಿಸು.ಉಡುಪು"
+
+msgid "tempo"
+msgstr "ತಾಳ"
+
+msgid "think %s"
+msgstr "ಯೋಚಿಸು %s ಎಂದು"
+
+msgid "think %s for %n secs"
+msgstr "ಯೋಚಿಸು %sರಷ್ಟು %n ಸೆಕೆಂಡಿನಲ್ಲಿ"
+
+msgid "tilt"
+msgstr "ಓರೆಮಾಡು"
+
+msgid "timer"
+msgstr "ಸಮಯಸೂಚಕ"
+
+msgid "touching %m.touching?"
+msgstr "ಮುಟ್ಟಿದಾಗ %m.ಮುಟ್ಟಿದರೆ?"
+
+msgid "touching color %c?"
+msgstr "ಬಣ್ಣ %cಅನ್ನು ಮುಟ್ಟಿದರೆ?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "ತಿರುಗು @ಎಡಗಡೆತಿರುಗು %n ಕೊನದಷ್ಟು"
+
+msgid "turn @turnRight %n degrees"
+msgstr "ತಿರುಗು @ಬಲಗಡೆತಿರುಗು %n ಕೊನದಷ್ಟು"
+
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
+msgstr "ವಾಹನವನ್ನು ನಿಲ್ಲಿಸು"
+
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
+msgstr "ವಾಹನವನ್ನು ಚಾಲನೆ ಮಾಡು"
+
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
+msgstr "ವಾಹನವನ್ನು %n ಸೆಕೆಂಡಿನಷ್ಟು ಚಲಾನೆ ಮಾಡು"
+
+msgid "turn video %m.videoState"
+msgstr "ದೃಶ್ಯವನ್ನು %mರಷ್ಟು ಚಾಲನೆ ಮಾಡು.ದೃಶ್ಯದ ಸ್ಥಿತಿ"
+
+msgid "username"
+msgstr "ಬಳಕೆದಾರರ ಹೆಸರು"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "ದೃಶ್ಯ %m.%mನ ಮೇಲೆ ದೃಶ್ಯದಚಲನೆಯವಿಧಾನ.ವೇದಿಕೆಅಥವಾಇದು"
+
+msgid "volume"
+msgstr "ಶಬ್ಧ"
+
+msgid "wait %n secs"
+msgstr "ಸೆಕೆಂಡು %nರಷ್ಟು ಕಾಯಬೇಕು"
+
+msgid "wait until %b"
+msgstr "ಕಾಯಿರಿ %b ವರೆಗೂ"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "ಯಾವಾಗ %m.ಬೂಲಿಯನ್-ಗ್ರಹಿಕೆ"
+
+msgid "when %m.key key pressed"
+msgstr "ಯಾವಾಗ %m.ಕೀಲಿ ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
+msgid "when %m.triggerSensor > %n"
+msgstr "ಯಾವಾಗ %m.ಪ್ರತಿಕ್ರಿಯೆಗ್ರಹಿಕೆ > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "ಯಾವಾಗ @ಹಸಿರುಬಾವುಟವನ್ನು ಒತ್ತಿದಾಗ"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "ಹಿಂದಣವು %mಗೆ ಬದಲಾದಾಗ.ಹಿಂದಣ"
+
+msgid "when distance %m.lessMore %n"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr "ಯಾವಗವೆಂದರೆ %mಅನ್ನು ಸ್ವಿಕರಿಸಿದಾಗ.ಪ್ರಸರಿಸು"
+
+msgid "when I start as a clone"
+msgstr "ಯಾವಗವೆಂದರೆ ತದ್ರೂಪುದಂತೆ ಪ್ರಾರಂಬಿಸಿದಾಗ"
+
+msgid "when Stage clicked"
+msgstr ""
+
+msgid "when this sprite clicked"
+msgstr "ಯಾವಗವೆಂದರೆ ಈ ಮೋಹಿನಿಯನ್ನು ಕ್ಲಿಕ್ಕಿಸಿದಾಗ"
+
+msgid "when tilt %m.eNe %n"
+msgstr ""
+
+msgid "x position"
+msgstr "x ಸ್ಥಾನ"
+
+msgid "y position"
+msgstr "y ಸ್ಥಾನ"
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.ಪಟ್ಟಿ %s ಅನ್ನು ಹೊಂದಿದೆ"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>ಮೋಡದ ಪರಿವರ್ತನೆಗಳ ಮಾಹಿತಿ</b><br>&nbsp;<br>ಈವಾಗ ಅಂಕಿಗಳಿಗೆ ಮಾತ್ರ ಬೆಂಬಲ "
+"ನೀಡುತ್ತದೆ<br>ಸಂಬಾಷಣೆ ಕೋಣಗಳಿಗೆ ಅವಕಾಶವಿಲ್ಲ,ಮತ್ತು ಇದನ್ನು ತಗೆದುಹಾಕಲಾಗುತ್ತದೆ<br>ಹೆಚ್ಚಿನ "
+"ಮಾಹಿತಿಗಾಗಿ,<a href=target=>ಮೋಡದ ದತ್ತಾ೦ಸಗಳನ್ನು ನೋಡಿ FAQ!</a>"
+
+msgid "A connected"
+msgstr "A ಕೂಡಿದೆ"
+
+msgid "a copy of the project file on your computer."
+msgstr "ನಿಮ್ಮ ಗಣಕಯಂತ್ರದಲ್ಲಿ ನೀಯೋಜನೆ ಕಡತದ ಪ್ರತಿ ಇದೆ"
+
+msgid "A newer version of Scratch is available"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
+msgid "abs"
+msgstr "ಪೂರ್ಣಾಂಕ"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr ""
+
+msgid "Add an Extension"
+msgstr ""
+
+msgid "Add boolean input:"
+msgstr "ಬೂಲಿಯನ್ ದತ್ತಾoಸವನ್ನು ಒಳಸೇರಿಸು"
+
+msgid "add comment"
+msgstr "ಟೀಕೆಯನ್ನು ಕೂಡಿಸು"
+
+msgid "add comment here..."
+msgstr ""
+
+msgid "Add label text:"
+msgstr "ಶೀರ್ಷಿಕೆ ಪಠ್ಯವನ್ನು ಕೂಡಿಸು"
+
+msgid "Add number input:"
+msgstr "ಅಂಕಿಗಳ ದತ್ತಾoಸವನ್ನು ಕೂಡಿಸಿ"
+
+msgid "Add string input:"
+msgstr "ಅಕ್ಷರ ಪುಂಜದ ದತ್ತಾoಸಾವನ್ನು ಕೂಡಿಸು"
+
+msgid "all"
+msgstr "ಎಲ್ಲಾ"
+
+msgid "All"
+msgstr "ಎಲ್ಲಾ"
+
+msgid "all around"
+msgstr "ಎಲ್ಲಾದರ ಸುತ್ತ"
+
+msgid "all motors"
+msgstr ""
+
+msgid "Animal"
+msgstr "ಪ್ರಾಣಿಗಳು"
+
+msgid "Animals"
+msgstr "ಪ್ರಾಣಿಗಳು"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "ಆಸ್ತಿಗಳು ತುoಬಿವೆ"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B ಕೂಡಿದೆ"
+
+msgid "Back a layer"
+msgstr "ಒಂದು ಪರದೆಯ ಹಿಂದೆ"
+
+msgid "backdrop"
+msgstr "ಹಿಂದಣ"
+
+msgid "Backdrop"
+msgstr "ಹಿಂದಣ"
+
+msgid "Backdrop Library"
+msgstr "ಹಿಂದಣದ ಗ್ರಂಥಾಲಯ"
+
+msgid "backdrop1"
+msgstr "ಹಿಂದಣ 1"
+
+msgid "backdrops"
+msgstr "ಹಿಂದಣಗಳು"
+
+msgid "Backdrops"
+msgstr "ಹಿಂದಣಗಳು"
+
+msgid "Backpack"
+msgstr "ಬೆನ್ನುಚೀಲ"
+
+msgid "Bass"
+msgstr "ಮಂದ್ರ ಧ್ವನಿ"
+
+msgid "Bass Drum"
+msgstr "ಮಂದ್ರ ಧ್ವನಿಯ ಡೋಲು"
+
+msgid "Bassoon"
+msgstr ""
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+
+msgid "Bitmap"
+msgstr ""
+
+msgid "Bitmap Mode"
+msgstr ""
+
+msgid "Block help"
+msgstr ""
+
+msgid "Bongo"
+msgstr ""
+
+msgid "brightness"
+msgstr "ಪ್ರಕಾಶಮಾನ"
+
+msgid "Bring to front"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Brush"
+msgstr ""
+
+msgid "button pressed"
+msgstr "ಒತ್ತುಗುಂಡಿಯನ್ನು ಒತ್ತಿದಾಗ"
+
+msgid "by"
+msgstr ""
+
+msgid "bytes loaded"
+msgstr ""
+
+# 90%
+#, fuzzy
+msgid "C connected"
+msgstr "A ಕೂಡಿದೆ"
+
+msgid "Cabasa"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "can drag in player:"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot Add"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "Can’t find network connection or reach server."
+msgstr ""
+
+msgid "Castle"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr ""
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Choir"
+msgstr ""
+
+msgid "Choose backdrop from library"
+msgstr ""
+
+msgid "Choose costume from library"
+msgstr ""
+
+msgid "Choose sound from library"
+msgstr ""
+
+msgid "Choose sprite from library"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Clarinet"
+msgstr ""
+
+msgid "Claves"
+msgstr ""
+
+msgid "clean up"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr ""
+
+msgid "Cloud"
+msgstr ""
+
+msgid "Cloud data"
+msgstr ""
+
+msgid "Cloud variable (stored on server)"
+msgstr ""
+
+msgid "color"
+msgstr "ಬಣ್ಣ"
+
+msgid "Color a shape"
+msgstr ""
+
+msgid "Conga"
+msgstr ""
+
+msgid "Connecting to Cloud data server..."
+msgstr ""
+
+msgid "Convert to bitmap"
+msgstr ""
+
+msgid "Convert to vector"
+msgstr ""
+
+msgid "Converting mp3..."
+msgstr ""
+
+msgid "copy"
+msgstr "ಪ್ರತಿ"
+
+msgid "Copying..."
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "cos"
+msgstr "acos"
+
+msgid "Costume"
+msgstr ""
+
+msgid "Costume Library"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "costume2"
+msgstr ""
+
+msgid "Costumes"
+msgstr ""
+
+msgid "Costumes > 1"
+msgstr ""
+
+msgid "Costumes:"
+msgstr ""
+
+msgid "Could not retrieve new application from server."
+msgstr ""
+
+msgid "Cowbell"
+msgstr ""
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "Creating..."
+msgstr ""
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+# 90%
+#, fuzzy
+msgid "D connected"
+msgstr "A ಕೂಡಿದೆ"
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+msgid "delete"
+msgstr "ಅಳಿಸು"
+
+# 83%
+#, fuzzy
+msgid "Delete"
+msgstr "ಅಳಿಸು"
+
+msgid "delete variable"
+msgstr ""
+
+msgid "direction:"
+msgstr ""
+
+msgid "don't rotate"
+msgstr ""
+
+msgid "Don't save"
+msgstr ""
+
+msgid "down"
+msgstr "ಕೆಳಗೆ"
+
+msgid "down arrow"
+msgstr "ಕೆಳ ಒತ್ತುಗುಂಡಿ"
+
+msgid "Download"
+msgstr ""
+
+msgid "Download to your computer"
+msgstr ""
+
+msgid "Downloading new version"
+msgstr ""
+
+msgid "duplicate"
+msgstr "ಪ್ರತಿ"
+
+msgid "Duplicate"
+msgstr "ಪ್ರತಿ"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "ಕೊನೆ"
+
+msgid "Edit"
+msgstr "ಚಿತ್ರ ಸಂಕಲನ"
+
+msgid "edit"
+msgstr "ಚಿತ್ರ ಸಂಕಲನ"
+
+msgid "Edit Block"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "Electronic"
+msgstr ""
+
+msgid "Ellipse"
+msgstr ""
+
+msgid "empty"
+msgstr ""
+
+msgid "Erase"
+msgstr ""
+
+msgid "Erase all"
+msgstr ""
+
+msgid "Eraser width"
+msgstr ""
+
+msgid "Error!"
+msgstr ""
+
+msgid "everything"
+msgstr ""
+
+msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "false"
+msgstr ""
+
+msgid "Fantasy"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Fill with color"
+msgstr ""
+
+msgid "fisheye"
+msgstr "ಮತ್ಸ್ಯ ನೋಟ"
+
+msgid "Flip left-right"
+msgstr ""
+
+msgid "Flip up-down"
+msgstr ""
+
+msgid "floor"
+msgstr ""
+
+msgid "Flute"
+msgstr ""
+
+msgid "Flying"
+msgstr ""
+
+msgid "Font:"
+msgstr ""
+
+msgid "For all sprites"
+msgstr ""
+
+msgid "For this sprite only"
+msgstr ""
+
+msgid "Forward a layer"
+msgstr ""
+
+msgid "ghost"
+msgstr "ಭೂತ"
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Grow"
+msgstr ""
+
+msgid "Guiro"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr ""
+
+msgid "Hardware"
+msgstr ""
+
+msgid "help"
+msgstr ""
+
+msgid "Hello!"
+msgstr ""
+
+msgid "Hmm..."
+msgstr ""
+
+msgid "hello"
+msgstr ""
+
+msgid "High C"
+msgstr ""
+
+msgid "Holiday"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Human"
+msgstr ""
+
+msgid "import"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Importing sound..."
+msgstr ""
+
+msgid "Indoors"
+msgstr ""
+
+msgid "Installing..."
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr ""
+
+msgid "left"
+msgstr "ಎಡ"
+
+msgid "left arrow"
+msgstr "ಎಡ ಒತ್ತುಗುಂಡಿ"
+
+msgid "left-right"
+msgstr ""
+
+msgid "length"
+msgstr ""
+
+msgid "Letters"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr "ಬೆಳಕು"
+
+# 83%
+#, fuzzy
+msgid "lights"
+msgstr "ಬೆಳಕು"
+
+msgid "limit reached"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Line width"
+msgstr ""
+
+msgid "list"
+msgstr ""
+
+msgid "List name"
+msgstr ""
+
+msgid "ln"
+msgstr ""
+
+msgid "Loading project..."
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "Low C"
+msgstr ""
+
+msgid "Make a Block"
+msgstr ""
+
+msgid "Make a List"
+msgstr ""
+
+msgid "Make a Variable"
+msgstr ""
+
+msgid "Marimba"
+msgstr ""
+
+msgid "Max"
+msgstr ""
+
+msgid "meow"
+msgstr ""
+
+msgid "Message Name"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Microphone volume:"
+msgstr ""
+
+msgid "Middle C"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "mosaic"
+msgstr "ತುಂಡುಗಳು"
+
+msgid "motion"
+msgstr ""
+
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "ಮೌಸ್"
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Music and Dance"
+msgstr ""
+
+msgid "Music Box"
+msgstr ""
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "My Stuff"
+msgstr ""
+
+msgid "myself"
+msgstr ""
+
+msgid "Nature"
+msgstr ""
+
+#, fuzzy
+msgid "New"
+msgstr "Nouveau"
+
+msgid "New backdrop from camera"
+msgstr ""
+
+msgid "New backdrop:"
+msgstr ""
+
+msgid "New Block"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr ""
+
+msgid "New costume:"
+msgstr ""
+
+msgid "New List"
+msgstr ""
+
+msgid "New Message"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New name"
+msgstr ""
+
+msgid "New sound:"
+msgstr ""
+
+msgid "New sprite from camera"
+msgstr ""
+
+msgid "New sprite:"
+msgstr ""
+
+msgid "New Variable"
+msgstr ""
+
+msgid "No motion blocks"
+msgstr ""
+
+msgid "normal readout"
+msgstr ""
+
+msgid "not ="
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr ""
+
+msgid "Not saved; project did not load."
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "off"
+msgstr "ನಿಲ್ಲಿಸು"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "on"
+msgstr "ಚಲಿಸು"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr ""
+
+msgid "Open Hi-Hat"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Organ"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "other scripts in sprite"
+msgstr ""
+
+msgid "other scripts in stage"
+msgstr ""
+
+msgid "Outdoors"
+msgstr ""
+
+msgid "Paint new backdrop"
+msgstr ""
+
+msgid "Paint new costume"
+msgstr ""
+
+msgid "Paint new sprite"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is required"
+msgstr ""
+
+msgid "paste"
+msgstr ""
+
+msgid "Pencil"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "Percussion"
+msgstr ""
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "Pick up color"
+msgstr ""
+
+msgid "pixelate"
+msgstr "ಚಿತ್ರಬಿಂಬಿಸು"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "ಪಾಪ್"
+
+msgid "previous backdrop"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Project did not load."
+msgstr ""
+
+msgid "Project not saved!"
+msgstr ""
+
+msgid "Project name"
+msgstr ""
+
+msgid "Project name is required"
+msgstr ""
+
+msgid "random"
+msgstr ""
+
+msgid "Record"
+msgstr "ಧ್ವನಿ ಗ್ರಹಣ"
+
+msgid "Record new sound"
+msgstr ""
+
+msgid "record..."
+msgstr ""
+
+msgid "recording1"
+msgstr ""
+
+msgid "Rectangle"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Redo"
+msgstr "ಮತ್ತೆ ಮಾಡು"
+
+msgid "redo"
+msgstr "ಮತ್ತೆ ಮಾಡು"
+
+msgid "Remix"
+msgstr ""
+
+msgid "Remixing..."
+msgstr ""
+
+msgid "Remove extension blocks"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "rename variable"
+msgstr ""
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "requires sign in"
+msgstr ""
+
+msgid "Reshape"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr ""
+
+msgid "Revert"
+msgstr ""
+
+msgid "Reverting..."
+msgstr ""
+
+msgid "right"
+msgstr "ಬಲ"
+
+msgid "right arrow"
+msgstr "ಬಲ ಒತ್ತುಗುಂಡಿ"
+
+msgid "rotation style:"
+msgstr ""
+
+msgid "Run without screen refresh"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr ""
+
+msgid "Save as"
+msgstr ""
+
+msgid "Save as a copy"
+msgstr ""
+
+msgid "Save now"
+msgstr ""
+
+msgid "Save project?"
+msgstr ""
+
+msgid "save to local file"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Saving changes..."
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "Scratch Updater"
+msgstr ""
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Scripts:"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid ""
+"See the Tips window (on the right) to install the plug-in and get the "
+"extension working."
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Select and duplicate"
+msgstr ""
+
+msgid "Send to back"
+msgstr ""
+
+msgid "Set Costume Center"
+msgstr ""
+
+msgid "Set costume center"
+msgstr ""
+
+msgid "set slider min and max"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Share to website"
+msgstr ""
+
+msgid "Share to Scratch website"
+msgstr ""
+
+msgid "shared"
+msgstr ""
+
+msgid "Shift:"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "show:"
+msgstr ""
+
+msgid "Shrink"
+msgstr ""
+
+msgid "Side Stick"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign in to save"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "silence"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "sin"
+msgstr "asin"
+
+msgid "slider"
+msgstr "ಜಾರಕ"
+
+msgid "Slider Range"
+msgstr ""
+
+msgid "Small stage layout"
+msgstr ""
+
+msgid "Smooth"
+msgstr ""
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "Sound Library"
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+# 80%
+#, fuzzy
+msgid "Space"
+msgstr "ಜಾಗ"
+
+msgid "space"
+msgstr "ಜಾಗ"
+
+msgid "Sports"
+msgstr ""
+
+msgid "Sprite"
+msgstr ""
+
+msgid "Sprite Library"
+msgstr ""
+
+msgid "Sprite1"
+msgstr ""
+
+msgid "Sprites"
+msgstr ""
+
+msgid "sqrt"
+msgstr "ವರ್ಗಮೂಲ"
+
+msgid "Square"
+msgstr ""
+
+msgid "Stage"
+msgstr "ವೇದಿಕೆ"
+
+msgid "Stage selected:"
+msgstr ""
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "stored on server"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "tan"
+msgstr "atan"
+
+msgid "text"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "that way"
+msgstr ""
+
+msgid "The name is already in use."
+msgstr ""
+
+msgid ""
+"The project failed to load and Scratch Team has been notified. Press OK to "
+"leave this page."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Things"
+msgstr ""
+
+msgid "thing"
+msgstr ""
+
+msgid "This is the current version."
+msgstr ""
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this sprite"
+msgstr ""
+
+msgid "this way"
+msgstr ""
+
+msgid "Throw away all changes since opening this project?"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "Transportation"
+msgstr ""
+
+msgid "Triangle"
+msgstr ""
+
+msgid "Trombone"
+msgstr ""
+
+msgid "true"
+msgstr ""
+
+msgid "Turbo mode"
+msgstr ""
+
+msgid "Turbo Mode"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Undelete"
+msgstr "ಅಳಿಸು"
+
+msgid "Underwater"
+msgstr ""
+
+msgid "undo"
+msgstr "ಮಾಡ ಬೇಡ"
+
+# 75%
+#, fuzzy
+msgid "Undo"
+msgstr "ಮಾಡ ಬೇಡ"
+
+msgid "Undo Revert"
+msgstr ""
+
+msgid "Ungroup"
+msgstr ""
+
+msgid "unshared"
+msgstr ""
+
+msgid "up"
+msgstr "ಮೇಲೆ"
+
+msgid "up arrow"
+msgstr "ಮೇಲೆ ಒತ್ತುಗುಂಡಿ"
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update not needed"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Upload backdrop from file"
+msgstr ""
+
+msgid "Upload costume from file"
+msgstr ""
+
+msgid "Upload from your computer"
+msgstr ""
+
+msgid "Upload sound from file"
+msgstr ""
+
+msgid "Upload sprite from file"
+msgstr ""
+
+msgid "Uploading image..."
+msgstr ""
+
+msgid "Uploading sound..."
+msgstr ""
+
+msgid "Uploading sprite..."
+msgstr ""
+
+msgid "variable"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Vector"
+msgstr ""
+
+msgid "Vector Mode"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr ""
+
+msgid "Vibraslap"
+msgstr ""
+
+msgid "video direction"
+msgstr ""
+
+msgid "video motion"
+msgstr ""
+
+msgid "Video on:"
+msgstr ""
+
+msgid "Vocals"
+msgstr ""
+
+msgid "Walking"
+msgstr ""
+
+msgid "Want to save? Click remix"
+msgstr ""
+
+msgid "Which column do you want to import"
+msgstr ""
+
+msgid "What's your name?"
+msgstr ""
+
+msgid "whirl"
+msgstr "ತಿರುಗು"
+
+msgid "Wood Block"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "world"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+
+msgid "Your Scratch name"
+msgstr ""
+
+msgid "Your Scratch name is required"
+msgstr ""
+
+msgid "Click  to try again or  to save"
+msgstr ""
+
+msgid "Eraser width:"
+msgstr ""
+
+msgid "Line width:"
+msgstr ""
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr ""
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+msgid "Save Project"
+msgstr ""
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr ""
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "ಭಾಷೆ-ಹೆಸರು"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.ಪಟ್ಟಿ %s ಅನ್ನು ಹೊಂದಿದೆ"
+
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "ವಾಹನದ ದಿಕ್ಕನ್ನು %mಗೆ ಹೊಂದಿಸು.ವಾಹನದದಿಕ್ಕು"
+
+#~ msgid "set motor power %n"
+#~ msgstr "ವಾಹನದ ವಿದ್ಯುತ್ತನ್ನು %nಗೆ ಹೊಂದಿಸು"
+
+#~ msgid "turn motor off"
+#~ msgstr "ವಾಹನವನ್ನು ನಿಲ್ಲಿಸು"
+
+#~ msgid "turn motor on"
+#~ msgstr "ವಾಹನವನ್ನು ಚಾಲನೆ ಮಾಡು"
+
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "ವಾಹನವನ್ನು %n ಸೆಕೆಂಡಿನಷ್ಟು ಚಲಾನೆ ಮಾಡು"
+
+#~ msgid "when distance < %n"
+#~ msgstr "ದೂರವು ಯಾವಾಗ < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "ಯಾವಗವೆಂದರೆ ಓರೆಮಾಡು = %n"
+
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "ವಾಹನದ ದಿಕ್ಕನ್ನು %mಗೆ ಹೊಂದಿಸು.ವಾಹನದದಿಕ್ಕು"
+
+#~ msgid "forever if %b"
+#~ msgstr "ಒಂದುವೇಳೆ %b ಯವಾಗಲು"
+
+#~ msgid "if %b"
+#~ msgstr "ಒಂದುವೇಳೆ %b"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "%d.note ಲಯದಲ್ಲಿ %n ಸಂಗಿತದಸ್ವರ ಕೇಳಿಸು"
+
+#~ msgid "Account settings"
+#~ msgstr "ಖಾತೆಯ ಅಳವಡಿಕೆಗಳು"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>ಮೋಡದ ಪರಿವರ್ತನೆಗಳ ಮಾಹಿತಿ</b><br>&nbsp;<br>ಈವಾಗ ಅಂಕಿಗಳಿಗೆ ಮಾತ್ರ ಬೆಂಬಲ "
+#~ "ನೀಡುತ್ತದೆ<br>ಸಂಬಾಷಣೆ ಕೋಣಗಳಿಗೆ ಅವಕಾಶವಿಲ್ಲ,ಮತ್ತು ಇದನ್ನು "
+#~ "ತಗೆದುಹಾಕಲಾಗುತ್ತದೆ<br>ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ,<a href=target=>ಮೋಡದ ದತ್ತಾ೦ಸಗಳನ್ನು "
+#~ "ನೋಡಿ FAQ!</a>"
+
+#~ msgid "Paint"
+#~ msgstr "ಚಿತ್ರ ಬರೆ"
+
+#~ msgid "More"
+#~ msgstr "ಹೆಚ್ಚು"

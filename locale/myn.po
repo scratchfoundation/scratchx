@@ -1,0 +1,1000 @@
+msgid "Language-Name"
+msgstr "Tenek"
+
+msgid "%b and %b"
+msgstr "%b ani' %b"
+
+msgid "%b or %b"
+msgstr "%b Kom %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute ti %m.spriteOrStage"
+
+msgid "%m.list contains %s"
+msgstr ""
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp ti %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor in jalbixtal axi ti láb in bij sensor"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "%s punchij %m.list"
+
+msgid "answer"
+msgstr ""
+
+msgid "ask %s and wait"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "backdrop #"
+msgstr "tin lupnel #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "backdrop name"
+msgstr ""
+
+msgid "broadcast %m.broadcast"
+msgstr "ka abaj patalchik %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "ka abaj patalchik %m.broadcast ani ka aychi"
+
+msgid "change %m.effect effect by %n"
+msgstr "jalk'unchij %m.effect in k'ijidhméj k'al %n"
+
+msgid "change %m.var by %n"
+msgstr "jalk'uy %m.var k'al %n"
+
+msgid "change pen color by %n"
+msgstr "jalk'uy majuxtalab k'al %n"
+
+msgid "change pen shade by %n"
+msgstr "jalk'uxtaláb in ts'apik an dhuchumtaláb k'al %n"
+
+msgid "change pen size by %n"
+msgstr "jalk'uy in pakdhá an dhúchumtalab k'al %n"
+
+msgid "change size by %n"
+msgstr "jalk'uxtaláb in pakdhá k'al %n"
+
+msgid "change tempo by %n"
+msgstr "jalk'uxtaláb biyal k'al %n"
+
+msgid "change volume by %n"
+msgstr "jalkúxtaláb pakdhá k'al %n"
+
+msgid "change x by %n"
+msgstr "jalk'uy x k'al %n"
+
+msgid "change y by %n"
+msgstr "jalk'uy y k'al %n"
+
+msgid "clear"
+msgstr "pakuy"
+
+msgid "clear graphic effects"
+msgstr "tixk'a an k'ijidhméj kiloxtalab"
+
+msgid "clone startup"
+msgstr ""
+
+msgid "color %c is touching %c?"
+msgstr "¿majuxtaláb %c éblim%c?"
+
+msgid "Control"
+msgstr "abatnaxtaláb"
+
+msgid "costume #"
+msgstr "# jalkúxtaláb"
+
+msgid "create clone of %m.spriteOnly"
+msgstr ""
+
+msgid "current %m.timeAndDate"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "define"
+msgstr ""
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "pakuxtaláb %d.listDeleteItem ti %m.list"
+
+msgid "delete this clone"
+msgstr ""
+
+msgid "direction"
+msgstr "belaxtaláb"
+
+msgid "distance"
+msgstr ""
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "nakdha a %m.spriteOrMouse"
+
+msgid "else"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "forever"
+msgstr "abal éts'ey"
+
+msgid "forever if %b"
+msgstr "abal éts'ey anits %b"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "ka edhlats %n ti segs a x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "ka aba %n kuxláb"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "kit k'alej ti %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "ka aba ti tamet"
+
+msgid "go to x:%n y:%n"
+msgstr "kit k'alej ti x:%n ani y:%n"
+
+msgid "hide"
+msgstr "tsinkádh"
+
+msgid "hide all sprites"
+msgstr ""
+
+msgid "hide monitor %m.varOrList"
+msgstr ""
+
+msgid "if %b"
+msgstr "aníts %b"
+
+msgid "if on edge, bounce"
+msgstr "ka t'ikónchi' max in tákal an walte'"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "ka %s baliy %d.listItem ti %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "item %d.listItem ti %m.list"
+
+msgid "join %s %s"
+msgstr ""
+
+msgid "key %m.key pressed?"
+msgstr "¿dhuchumtaláb %m.key pat'al ni'adh?"
+
+msgid "length of %m.list"
+msgstr "nakel ti %m.list"
+
+msgid "length of %s"
+msgstr "nakel ti %s"
+
+msgid "letter %n of %s"
+msgstr ""
+
+msgid "Looks"
+msgstr "jalk'uxtaláb"
+
+msgid "loudness"
+msgstr "ák' janiníl"
+
+msgid "More Blocks"
+msgstr ""
+
+msgid "Motion"
+msgstr "ka édhlats"
+
+msgid "motor direction %m.motorDirection"
+msgstr ""
+
+msgid "motor off"
+msgstr ""
+
+msgid "motor on"
+msgstr ""
+
+msgid "motor on for %n secs"
+msgstr ""
+
+msgid "motor power %n"
+msgstr ""
+
+msgid "mouse down?"
+msgstr "¿t'él ni'adh?"
+
+msgid "mouse x"
+msgstr "x t'él"
+
+msgid "mouse y"
+msgstr "y t'él"
+
+msgid "move %n steps"
+msgstr "ka édhlats %n an xákab"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "next backdrop"
+msgstr "taltal juneke'"
+
+msgid "next costume"
+msgstr "júneke jalk'uxtaláb"
+
+msgid "not %b"
+msgstr "ibaj %b"
+
+msgid "Operators"
+msgstr ""
+
+msgid "Pen"
+msgstr "dhuchumtaláb"
+
+msgid "pen down"
+msgstr "pa'baj dhuchumtaláb"
+
+msgid "pen up"
+msgstr "k'adhbáj dhuchumtaláb"
+
+msgid "pick random %n to %n"
+msgstr "ájumtalab wenkódh %n ani %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "t'eney %d.drum tambol %n ni'adh"
+
+msgid "play note %n for %n beats"
+msgstr "t'eney %d.note ajatláb %n ni'adh "
+
+msgid "play sound %m.sound"
+msgstr "t'eney dhininil %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "t'eney dhininil %m.sound aychixtaláb"
+
+msgid "point in direction %d.direction"
+msgstr "ch'ubchiy bolídh %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "ch'ubchiy ti %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "tsáb uluw %n"
+
+msgid "repeat until %b"
+msgstr "tsáb uluw ma' %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "jalk'udh %d.listItem ti %m.list %s"
+
+msgid "reset timer"
+msgstr "ka tuxchi' juníl (cronómetro)"
+
+msgid "rest for %n beats"
+msgstr "kwek'intaláb %n ni'adh"
+
+msgid "round %n"
+msgstr "kuechodhná %n"
+
+msgid "say %s"
+msgstr "uluw %s"
+
+msgid "say %s for %n secs"
+msgstr "úludh %s dhúbat %n"
+
+msgid "Scratch days"
+msgstr ""
+
+msgid "Sensing"
+msgstr "k'aldhaxtaláb"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "¿k'aldhaxtaláb lek'tsidh%m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "éts'ey %m.effect k'ijidhtaláb ti %n"
+
+msgid "set %m.var to %s"
+msgstr "éts'ey %m.var ti %n"
+
+msgid "set instrument to %d.instrument"
+msgstr "éts'ey eyaxtaláb ti %d.instrument"
+
+msgid "set pen color to %c"
+msgstr "éts'ey mukuxtaláb té ti %c"
+
+msgid "set pen color to %n"
+msgstr "éts'ey mukuxtaláb té ti %c"
+
+msgid "set pen shade to %n"
+msgstr "éts'ey ts'ápik dhuchumtaláb ti %n"
+
+msgid "set pen size to %n"
+msgstr "éts'ey puwel an dhuxumtaláb ti %n"
+
+msgid "set size to %n%"
+msgstr "éts'ey puwel ti n %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "éts'ey an k'icháj ti %n ppm"
+
+msgid "set video transparency to %n%"
+msgstr ""
+
+msgid "set volume to %n%"
+msgstr "éts'ey ák'nal ti %n%"
+
+msgid "set x to %n"
+msgstr "éts'ey x ti %n"
+
+msgid "set y to %n"
+msgstr "éts'ey y ti %n"
+
+msgid "show"
+msgstr "tejwamedha'"
+
+msgid "show monitor %m.varOrList"
+msgstr ""
+
+msgid "size"
+msgstr "in puwél"
+
+msgid "Sound"
+msgstr "tsininil"
+
+msgid "stamp"
+msgstr "ts'omay"
+
+msgid "stop %m.stop"
+msgstr ""
+
+msgid "stop all sounds"
+msgstr "kúbiy pátal dhininíl"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "switch backdrop to %m.backdrop"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr ""
+
+msgid "switch costume to %m.costume"
+msgstr ""
+
+msgid "tempo"
+msgstr "biyál"
+
+msgid "think %s"
+msgstr "tsalpay %s"
+
+msgid "think %s for %n secs"
+msgstr "tsálab %s dhúbath %n"
+
+msgid "tilt"
+msgstr ""
+
+msgid "timer"
+msgstr "pat'al jolataláb"
+
+msgid "touching %m.touching?"
+msgstr "¿in tákal %m.touching?"
+
+msgid "touching color %c?"
+msgstr "¿in tákal an majuxtaláb %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr ""
+
+msgid "turn @turnRight %n degrees"
+msgstr ""
+
+msgid "turn video %m.videoState"
+msgstr ""
+
+msgid "user id"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr ""
+
+msgid "volume"
+msgstr "ák'nal"
+
+msgid "wait %n secs"
+msgstr "aychij %n dhúbath"
+
+msgid "wait until %b"
+msgstr "ka aychij ma ka %b"
+
+msgid "when %m.key key pressed"
+msgstr "tám %m.key ka ni'a an dhuchumtalán láb"
+
+msgid "when @greenFlag clicked"
+msgstr "tam @greenFlag ka ni'a "
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "when backdrop switches to %m.backdrop"
+msgstr ""
+
+msgid "when I am clicked"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr ""
+
+msgid "x position"
+msgstr "kw'ajixtaláb x"
+
+msgid "y position"
+msgstr "kw'ajixtaláb y"
+
+
+##################
+# User Interface #
+##################
+msgid "A connected"
+msgstr ""
+
+msgid "abs"
+msgstr "abs"
+
+msgid "acos"
+msgstr ""
+
+msgid "Add a boolean input:"
+msgstr ""
+
+msgid "Add a number input:"
+msgstr ""
+
+msgid "Add a string input:"
+msgstr ""
+
+msgid "Add label text:"
+msgstr ""
+
+msgid "all"
+msgstr "pátal"
+
+msgid "any"
+msgstr "jawakits"
+
+msgid "asin"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr ""
+
+msgid "backdrop #"
+msgstr ""
+
+msgid "backdrop name"
+msgstr ""
+
+msgid "backdrop1"
+msgstr ""
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Bass"
+msgstr ""
+
+msgid "Bassoon"
+msgstr "Fagot"
+
+msgid "bottom-left"
+msgstr ""
+
+msgid "bottom-right"
+msgstr ""
+
+msgid "brightness"
+msgstr "mak'i'"
+
+msgid "button pressed"
+msgstr "lek'tsinchixtaláb ni'adh"
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr "T'enixtaláb axi ti láb in bij \"
+
+msgid "Choir"
+msgstr ""
+
+msgid "Clarinet"
+msgstr "T'enixtaláb axi ti láb in bij ti \"
+
+msgid "Claves"
+msgstr "T'enixtaláb axi ti láb in bij ti \"
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr "Charles mapudh"
+
+msgid "color"
+msgstr "mukuxtaláb"
+
+msgid "copy"
+msgstr "tsáb ts'ejka"
+
+msgid "cos"
+msgstr ""
+
+msgid "costume #"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "Cowbell"
+msgstr ""
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+msgid "delete"
+msgstr "pakuw"
+
+msgid "direction"
+msgstr ""
+
+msgid "down"
+msgstr "alál"
+
+msgid "down arrow"
+msgstr "ch'ichok'láb alál"
+
+msgid "duplicate"
+msgstr "tsábchil ts'ejkadh"
+
+msgid "Duplicate"
+msgstr "tsábchil ts'ejkadh"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "walte'"
+
+msgid "edit"
+msgstr "ka ábna'"
+
+msgid "Edit"
+msgstr "ka ábna'"
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "fisheye"
+msgstr "in wál an to'ol"
+
+msgid "floor"
+msgstr ""
+
+msgid "Floor Tom"
+msgstr ""
+
+msgid "Flute"
+msgstr "T'enixtaláb "
+
+msgid "ghost"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr "bok'bólchik"
+
+msgid "High Bongo"
+msgstr ""
+
+msgid "High Tom"
+msgstr ""
+
+msgid "High Wood Block"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Import"
+msgstr "Otselchixtaláb"
+
+msgid "int"
+msgstr ""
+
+msgid "Kick Drum"
+msgstr ""
+
+msgid "last"
+msgstr "táltal"
+
+msgid "left"
+msgstr "kw'atab"
+
+msgid "left arrow"
+msgstr "Ts'upídh té'  kw'atab"
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr "tajaxtaláb"
+
+msgid "ln"
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "Long Guiro"
+msgstr "T'enixtaláb nákat"
+
+msgid "louder"
+msgstr ""
+
+msgid "Low Bongo"
+msgstr "T'enixtaláb axi ti láb in bij \"
+
+msgid "Low Conga"
+msgstr "T'enixtaláb axi ti láb i bij \"
+
+msgid "Low Tom"
+msgstr "Tom K'ochól"
+
+msgid "Low Wood Block"
+msgstr "Balixtaláb \"
+
+msgid "Maracas"
+msgstr "Dhóth"
+
+msgid "Marimba"
+msgstr "Tsakám dhóth"
+
+msgid "message1"
+msgstr ""
+
+msgid "Mid Tom"
+msgstr ""
+
+msgid "middle"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "More"
+msgstr "yán"
+
+msgid "mosaic"
+msgstr "t'ujúb  láb"
+
+msgid "motion"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "chúbchix an t'él"
+
+msgid "Music Box"
+msgstr "Balchixtaláb t'enedh"
+
+msgid "Mute High Conga"
+msgstr ""
+
+msgid "Mute Triangle"
+msgstr "T'enixtaláb tsi'néj"
+
+msgid "name"
+msgstr ""
+
+msgid "New"
+msgstr "it'"
+
+msgid "New backdrop"
+msgstr ""
+
+msgid "New costume"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New sound"
+msgstr ""
+
+msgid "New sprite:"
+msgstr "Ít i eyaxtaláb"
+
+msgid "off"
+msgstr "Tepdhax"
+
+msgid "on"
+msgstr "Lekw'tsidh"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "Cuica walkadh"
+
+msgid "Open Hi-Hat"
+msgstr "Charles ja'pidh"
+
+msgid "Open High Conga"
+msgstr ""
+
+msgid "Open Triangle"
+msgstr "T'enixtaláb walkadh"
+
+msgid "Organ"
+msgstr ""
+
+msgid "other scripts in stage"
+msgstr ""
+
+msgid "Paint"
+msgstr "Mukuxtaláb"
+
+msgid "paste"
+msgstr ""
+
+msgid "Pedal Hi-Hat"
+msgstr "Charles pedal"
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "pixelate"
+msgstr "Pixelizar"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "pop"
+
+msgid "Record"
+msgstr "Ka ts'ataj"
+
+msgid "recording1"
+msgstr ""
+
+msgid "redo"
+msgstr "Tsáb ts'ejkadh"
+
+msgid "Remix"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr ""
+
+msgid "right"
+msgstr "wínap"
+
+msgid "right arrow"
+msgstr "Bolídh té' wínap"
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "say"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Short Guiro"
+msgstr "T'enixtaláb tsipkats"
+
+msgid "shout"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "Side Stick"
+msgstr "K'olodh tsapchil bolídh"
+
+msgid "silence"
+msgstr ""
+
+msgid "sin"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
+msgid "slider"
+msgstr "K'itnal"
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "space"
+msgstr "Jolataláb"
+
+msgid "Sprites"
+msgstr ""
+
+msgid "sqrt"
+msgstr "Ibíl \"
+
+msgid "Stage"
+msgstr "Tamkunél"
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "T'enixtaláb axi ti láb in bij ti \"
+
+msgid "tan"
+msgstr ""
+
+msgid "that way"
+msgstr ""
+
+msgid "think"
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this way"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "top-left"
+msgstr ""
+
+msgid "top-right"
+msgstr ""
+
+msgid "Trombone"
+msgstr "T'enixtaláb axi ti láb in bij \"
+
+msgid "undo"
+msgstr "Ka páku"
+
+msgid "up"
+msgstr "Walk'i"
+
+msgid "up arrow"
+msgstr "Ts'upidh té' walk'i"
+
+msgid "Vibraphone"
+msgstr "T'enixtaláb axi ti láb in bij \"
+
+msgid "Vibraslap"
+msgstr "T'enixtaláb axi ti láb in bij   \"
+
+msgid "volume"
+msgstr ""
+
+msgid "whirl"
+msgstr "Tsawixtaláb"
+
+msgid "whisper"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "x position"
+msgstr ""
+
+msgid "y position"
+msgstr ""
+
+msgid "year"
+msgstr ""
+

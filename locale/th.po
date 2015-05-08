@@ -1,0 +1,2090 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-02-08 17:03+0000\n"
+"Last-Translator: Thummarat <emmergv@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1423415016.000000\n"
+
+msgid "%b and %b"
+msgstr "%b และ %b"
+
+msgid "%b or %b"
+msgstr "%b หรือ %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute ของ %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp ของ %n"
+
+msgid "%m.sensor sensor value"
+msgstr "ค่าเซนเซอร์ %m.sensor"
+
+msgid "%n mod %n"
+msgstr "เศษของ %n หาร %n"
+
+msgid "add %s to %m.list"
+msgstr "บวก %s ไปยัง %m.list"
+
+msgid "answer"
+msgstr "คำตอบ"
+
+msgid "ask %s and wait"
+msgstr "ถาม %s และคอย"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "ฉากหลัง #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "ชื่อฉากหลัง"
+
+msgid "broadcast %m.broadcast"
+msgstr "ส่งกระจาย %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "ส่งกระจาย %m.broadcast และ รอ"
+
+msgid "change %m.effect effect by %n"
+msgstr "เปลี่ยนเอฟเฟคของ %m.effect ทีละ %n"
+
+msgid "change %m.var by %n"
+msgstr "เปลี่ยน %m.var ทีละ %n"
+
+msgid "change pen color by %n"
+msgstr "เปลี่ยนสีปากกาทีละ %n"
+
+msgid "change pen shade by %n"
+msgstr "เปลี่ยนความเข้มทีละ %n"
+
+msgid "change pen size by %n"
+msgstr "เปลี่ยนขนาดปากกาทีละ %n"
+
+msgid "change size by %n"
+msgstr "เปลี่ยนขนาดทีละ %n"
+
+msgid "change tempo by %n"
+msgstr "ปรับความเร็วทีละ %n"
+
+msgid "change volume by %n"
+msgstr "ปรับระดับเสียงทีละ %n"
+
+msgid "change x by %n"
+msgstr "เปลี่ยน x ทีละ %n"
+
+msgid "change y by %n"
+msgstr "เปลี่ยน y ทีละ %n"
+
+msgid "clear"
+msgstr "ล้าง"
+
+msgid "clear graphic effects"
+msgstr "ล้างเอฟเฟคภาพ"
+
+msgid "color %c is touching %c?"
+msgstr "สี %c สัมผัสกับสี %c?"
+
+msgid "Control"
+msgstr "ควบคุม"
+
+msgid "costume #"
+msgstr "ชุด #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "สร้างตัวโคลนของ %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "ขณะนี้เวลา %m.timeAndDate"
+
+msgid "Data"
+msgstr "ข้อมูล"
+
+msgid "days since 2000"
+msgstr "จำนวนวันตั้งแต่ปี ค.ศ 2000"
+
+msgid "define"
+msgstr "กำหนด"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "ลบ %d.listDeleteItem ของ %m.list"
+
+msgid "delete this clone"
+msgstr ""
+
+msgid "direction"
+msgstr "ทิศทาง"
+
+msgid "distance"
+msgstr "ระยะห่าง"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "ระยะห่างจาก %m.spriteOrMouse"
+
+msgid "else"
+msgstr "มิฉะนั้น"
+
+msgid "Events"
+msgstr "เหตุการณ์"
+
+msgid "forever"
+msgstr "วนซ้ำตลอด"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "ร่อน %n วินาที ไปที่ x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "กลับไป %n ชั้น"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "ไปยัง %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "ไปยังด้านหน้า"
+
+msgid "go to x:%n y:%n"
+msgstr "ไปยัง x:%n y:%n"
+
+msgid "hide"
+msgstr "ซ่อน"
+
+# 76%
+#, fuzzy
+msgid "hide list %m.list"
+msgstr "แสดงรายการ %m.list"
+
+msgid "hide variable %m.var"
+msgstr "ซ่อนตัวแปล %m.var"
+
+msgid "if %b then"
+msgstr "ถ้า %b แล้ว"
+
+msgid "if on edge, bounce"
+msgstr "ถ้าชนขอบให้สะท้อนกลับ"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "แทรก %s ที่ %d.listItem ของ %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "รายการที่ %d.listItem ของ %m.list"
+
+msgid "join %s %s"
+msgstr "เชื่อม %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "แป้น %m.key ถูกกด?"
+
+msgid "length of %m.list"
+msgstr "ความยาวของ %m.list"
+
+msgid "length of %s"
+msgstr "ความยาวของ %s"
+
+msgid "letter %n of %s"
+msgstr "ตัวอักษร %n ของ %s"
+
+msgid "Looks"
+msgstr "รูปร่าง"
+
+msgid "loudness"
+msgstr "ระดับความดัง"
+
+msgid "More Blocks"
+msgstr ""
+
+msgid "Motion"
+msgstr "การเคลื่อนที่"
+
+msgid "mouse down?"
+msgstr "เมาส์ถูกกด?"
+
+msgid "mouse x"
+msgstr "ตำแหน่ง x ของเมาส์"
+
+msgid "mouse y"
+msgstr "ตำแหน่ง y ของเมาส์"
+
+msgid "move %n steps"
+msgstr "เคลื่อน %n ก้าว"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "next backdrop"
+msgstr "พื้นหลังถัดไป"
+
+msgid "next costume"
+msgstr "ชุดถัดไป"
+
+msgid "not %b"
+msgstr "ไม่ %b"
+
+msgid "Operators"
+msgstr "โอเปอร์เรเตอร์"
+
+msgid "Pen"
+msgstr "ปากกา"
+
+msgid "pen down"
+msgstr "จรดปากกา"
+
+msgid "pen up"
+msgstr "ยกปากกาขึ้น"
+
+msgid "pick random %n to %n"
+msgstr "เลือกสุ่มจาก %n ถึง %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "เล่น กลอง %d.drum เป็น %n จังหวะ"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "เล่น โน้ต %d.note เป็น %n จังหวะ"
+
+msgid "play sound %m.sound"
+msgstr "เล่นเสียง %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "เล่นเสียง %m.sound จนจบ"
+
+msgid "point in direction %d.direction"
+msgstr "ชี้ไปที่ทิศทาง %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "ชี้ไปทาง %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "ทำซ้ำ %n"
+
+msgid "repeat until %b"
+msgstr "ทำซ้ำจน %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "แทนที่รายการ %d.listItem ของ %m.list ด้วย %s"
+
+msgid "reset timer"
+msgstr "จับเวลาใหม่"
+
+msgid "rest for %n beats"
+msgstr "หยุด %n จังหวะ"
+
+msgid "round %n"
+msgstr "รอบที่ %n"
+
+msgid "say %s"
+msgstr "พูด %s"
+
+msgid "say %s for %n secs"
+msgstr "พูด %s เป็นเวลา %n วินาที"
+
+msgid "Sensing"
+msgstr "กำลังรับรู้"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "เซนเซอร์ %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "ตั้งค่าเอฟเฟค %m.effect ไปเป็น %n"
+
+msgid "set %m.var to %s"
+msgstr "ตั้งค่า %m.var ไปเป็น %n"
+
+msgid "set instrument to %d.instrument"
+msgstr "ตั้งค่าเครื่องดนตรีเป็น %d.instrument"
+
+# 89%
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
+
+# 77%
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
+msgstr "พลังงานมอเตอร์ %n"
+
+msgid "set pen color to %c"
+msgstr "ตั้งค่าสีปากกาเป็น %c"
+
+msgid "set pen color to %n"
+msgstr "ตั้งค่าสีปากกาเป็น %c"
+
+msgid "set pen shade to %n"
+msgstr "ตั้งค่าความเข้มปากกาเป็น %n"
+
+msgid "set pen size to %n"
+msgstr "ตั้งค่าขนาดปากกาเป็น %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "ตั้งรูปแบบการหมุน %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "ตั้งค่าขนาดเป็น %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "ตั้งค่าความเร็วไปเป็น %n bpm"
+
+msgid "set video transparency to %n%"
+msgstr "ตั้งค่าความโปร่งใสเป็น %n%"
+
+msgid "set volume to %n%"
+msgstr "ตั้งค่าระดับเสียงเป็น %n%"
+
+msgid "set x to %n"
+msgstr "ตั้งค่า x เป็น %n"
+
+msgid "set y to %n"
+msgstr "ตั้งค่า y เป็น %n"
+
+msgid "show"
+msgstr "แสดง"
+
+msgid "show list %m.list"
+msgstr "แสดงรายการ %m.list"
+
+# 80%
+#, fuzzy
+msgid "show variable %m.var"
+msgstr "ซ่อนตัวแปล %m.var"
+
+msgid "size"
+msgstr "ขนาด"
+
+msgid "Sound"
+msgstr "เสียง"
+
+msgid "stamp"
+msgstr "ประทับ"
+
+msgid "stop %m.stop"
+msgstr "หยุด %m.stop"
+
+msgid "stop all sounds"
+msgstr "หยุดเสียงทั้งหมด"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "สลับฉากหลังเป็น %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "สลับฉากหลังเป็น %m.backdrop และคอย"
+
+msgid "switch costume to %m.costume"
+msgstr "สลับชุดเป็น %m.costume"
+
+msgid "tempo"
+msgstr "จังหวะ"
+
+msgid "think %s"
+msgstr "คิด %s"
+
+msgid "think %s for %n secs"
+msgstr "คิด %s เป็นเวลา %n วินาที"
+
+msgid "tilt"
+msgstr ""
+
+msgid "timer"
+msgstr "จับเวลา"
+
+msgid "touching %m.touching?"
+msgstr "สัมผัส %m.touching?"
+
+msgid "touching color %c?"
+msgstr "สัมผัสสี %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "หมุน @turnLeft %n องศา"
+
+msgid "turn @turnRight %n degrees"
+msgstr "หมุน @turnRight %n องศา"
+
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
+msgstr "ปิดมอเตอร์"
+
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
+msgstr "เืปิดมอเตอร์"
+
+# 80%
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
+msgstr "เปิดมอเตอร์เป็นเวลา %n วินาที"
+
+msgid "turn video %m.videoState"
+msgstr "เปิดวิดีโอ %m.videoState"
+
+msgid "username"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr ""
+
+msgid "volume"
+msgstr "ระดับเสียง"
+
+msgid "wait %n secs"
+msgstr "รอ %n วินาที"
+
+msgid "wait until %b"
+msgstr "รอจนกระทั้ง %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "เมื่อ %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "เมื่อคีย์ %m.key ถูกกด"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
+msgid "when %m.triggerSensor > %n"
+msgstr "เมื่อ %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "เมื่อ @greenFlag ถูกคลิก"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "เมื่อฉากหลังเปลี่ยนเป็น %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr "เมื่อฉันได้รับ %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr ""
+
+msgid "when Stage clicked"
+msgstr ""
+
+msgid "when this sprite clicked"
+msgstr ""
+
+msgid "when tilt %m.eNe %n"
+msgstr ""
+
+msgid "x position"
+msgstr "ตำแหน่ง x "
+
+msgid "y position"
+msgstr "ตำแหน่ง y"
+
+msgid "when tilt = %n"
+msgstr ""
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.list บรรจุ %s"
+
+msgid "10 ^"
+msgstr ""
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+
+msgid "A connected"
+msgstr ""
+
+msgid "a copy of the project file on your computer."
+msgstr ""
+
+msgid "A newer version of Scratch is available"
+msgstr ""
+
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
+msgid "abs"
+msgstr "ค่าสัมบูรณ์"
+
+msgid "acos"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add an Extension"
+msgstr "เพิ่มส่วนขยาย"
+
+msgid "Add boolean input:"
+msgstr ""
+
+msgid "add comment"
+msgstr "เพิ่มข้อคิดเห็น"
+
+msgid "add comment here..."
+msgstr ""
+
+msgid "Add label text:"
+msgstr "เพิ่มป้ายข้อความ:"
+
+msgid "Add number input:"
+msgstr "เพิ่มการป้อนตัวเลข:"
+
+msgid "Add string input:"
+msgstr "เพิ่มการป้อนข้อความ:"
+
+msgid "all"
+msgstr "ทั้งหมด"
+
+msgid "All"
+msgstr "ทั้งหมด"
+
+msgid "all around"
+msgstr "รอบด้าน"
+
+msgid "Animal"
+msgstr "สัตว์"
+
+msgid "Animals"
+msgstr "สัตว์"
+
+msgid "asin"
+msgstr ""
+
+msgid "assets loaded"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr ""
+
+msgid "Back a layer"
+msgstr ""
+
+msgid "backdrop"
+msgstr ""
+
+msgid "Backdrop"
+msgstr ""
+
+msgid "Backdrop Library"
+msgstr ""
+
+msgid "backdrop1"
+msgstr ""
+
+msgid "backdrops"
+msgstr ""
+
+msgid "Backdrops"
+msgstr ""
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Bass"
+msgstr ""
+
+msgid "Bass Drum"
+msgstr ""
+
+msgid "Bassoon"
+msgstr "ปี่บาซูน"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+
+msgid "Bitmap"
+msgstr ""
+
+msgid "Bitmap Mode"
+msgstr ""
+
+msgid "Block help"
+msgstr ""
+
+msgid "Bongo"
+msgstr ""
+
+msgid "brightness"
+msgstr "ความสว่าง"
+
+msgid "Bring to front"
+msgstr "นำไปไว้ด้านหน้า"
+
+msgid "Broadcast"
+msgstr "กระจาย"
+
+msgid "Brush"
+msgstr "แปรง"
+
+msgid "button pressed"
+msgstr "ปุ่มที่ถูกกด"
+
+msgid "by"
+msgstr "โดย"
+
+msgid "bytes loaded"
+msgstr "ไบต์โหลด"
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr "คาบาซา"
+
+msgid "Camera"
+msgstr "กล้อง"
+
+msgid "can drag in player:"
+msgstr ""
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Cannot Add"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr "ไม่สามารถลบได้"
+
+msgid "Can’t find network connection or reach server."
+msgstr "ไม่สามารถหาเครือข่ายหรือเซิร์ฟเวอร์ได้"
+
+msgid "Castle"
+msgstr "ปราสาท"
+
+msgid "Category"
+msgstr "หมวดหมู่"
+
+msgid "ceiling"
+msgstr "เพดาน"
+
+msgid "Cello"
+msgstr "เซลโล"
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Choir"
+msgstr ""
+
+#, fuzzy
+msgid "Choose backdrop from library"
+msgstr "เลือกเสียงจากห้องสมุด"
+
+#, fuzzy
+msgid "Choose costume from library"
+msgstr "เลือกเสียงจากห้องสมุด"
+
+msgid "Choose sound from library"
+msgstr "เลือกเสียงจากห้องสมุด"
+
+msgid "Choose sprite from library"
+msgstr "เลือกตัวละครจากห้องสมุด"
+
+msgid "Circle"
+msgstr "วงกลม"
+
+msgid "City"
+msgstr "เมือง"
+
+msgid "Clarinet"
+msgstr "แคริเน็ท"
+
+msgid "Claves"
+msgstr "เคลฟวส"
+
+msgid "clean up"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr ""
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Closed Hi-Hat"
+msgstr "โคลสไฮแฮท"
+
+msgid "Cloud data"
+msgstr "ข้อมูลคลาวด์"
+
+msgid "Cloud variable (stored on server)"
+msgstr ""
+
+msgid "color"
+msgstr "สี"
+
+msgid "Color a shape"
+msgstr "สีของรูปร่าง"
+
+msgid "Conga"
+msgstr ""
+
+msgid "Connecting to Cloud data server..."
+msgstr "เชื่อมต่อเซิร์ฟเวอร์ข้อมูลคลาวด์"
+
+msgid "Convert to bitmap"
+msgstr ""
+
+msgid "Convert to vector"
+msgstr ""
+
+msgid "Converting mp3..."
+msgstr "กำลังแปลงเป็น mp3..."
+
+msgid "copy"
+msgstr "คัดลอก"
+
+msgid "Copying..."
+msgstr "กำลังคัดลอก"
+
+msgid "cos"
+msgstr ""
+
+msgid "Costume"
+msgstr ""
+
+msgid "Costume Library"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "costume2"
+msgstr ""
+
+msgid "Costumes"
+msgstr ""
+
+msgid "Costumes > 1"
+msgstr ""
+
+msgid "Costumes:"
+msgstr ""
+
+msgid "Could not retrieve new application from server."
+msgstr ""
+
+msgid "Cowbell"
+msgstr "กระดิ่งวัว"
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "Creating..."
+msgstr "กำลังสร้าง..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr ""
+
+msgid "cut"
+msgstr "ตัด"
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr "วันที่"
+
+msgid "day of week"
+msgstr "วันของสัปดาห์"
+
+msgid "delete"
+msgstr "ลบ"
+
+# 83%
+#, fuzzy
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "delete variable"
+msgstr "ลบตัวแปร"
+
+msgid "direction:"
+msgstr "ทิศทาง:"
+
+msgid "don't rotate"
+msgstr "ห้ามหมุน"
+
+msgid "Don't save"
+msgstr ""
+
+msgid "down"
+msgstr "ลง"
+
+msgid "down arrow"
+msgstr "ลูกศรชี้ลง"
+
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+msgid "Download to your computer"
+msgstr "ดาวน์โหลดลงเครื่องคอมพิวเตอร์"
+
+msgid "Downloading new version"
+msgstr ""
+
+msgid "duplicate"
+msgstr "ทำซ้ำ"
+
+msgid "Duplicate"
+msgstr "ทำซ้ำ"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "ขอบ"
+
+msgid "Edit"
+msgstr "แก้ไข"
+
+msgid "edit"
+msgstr "แก้ไข"
+
+msgid "Edit Block"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "Electronic"
+msgstr ""
+
+msgid "Ellipse"
+msgstr "วงรี"
+
+msgid "empty"
+msgstr ""
+
+msgid "Erase"
+msgstr "ลบ"
+
+msgid "Erase all"
+msgstr ""
+
+msgid "Eraser width"
+msgstr "ความกว้างของการลบ"
+
+msgid "Error!"
+msgstr "ข้อผิดพลาด!"
+
+msgid "export"
+msgstr "ส่งออก"
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "false"
+msgstr ""
+
+msgid "Fantasy"
+msgstr "ความเพ้อฝัน"
+
+msgid "Features"
+msgstr "ลักษณะ"
+
+msgid "File"
+msgstr "แฟ้ม"
+
+msgid "Fill with color"
+msgstr "เติมด้วยสี"
+
+msgid "fisheye"
+msgstr "ตาปลา"
+
+msgid "Flip left-right"
+msgstr "พลิกจากซ้ายไปขวา"
+
+msgid "Flip up-down"
+msgstr "พลิกจากบนลงล่าง"
+
+msgid "floor"
+msgstr "พื้น"
+
+msgid "Flute"
+msgstr "ฟรุท"
+
+msgid "Flying"
+msgstr "บิน"
+
+msgid "Font:"
+msgstr "ตัวอักษร:"
+
+msgid "For all sprites"
+msgstr "สำหรับตัวละครทั้งหมด"
+
+msgid "For this sprite only"
+msgstr "สำหรับตัวละครนี้เท่านั้น"
+
+msgid "Forward a layer"
+msgstr ""
+
+msgid "ghost"
+msgstr "ล่องหน"
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr "กลุ่ม"
+
+msgid "Grow"
+msgstr ""
+
+msgid "Guiro"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr "เสียงปรบมือ"
+
+msgid "Hardware"
+msgstr ""
+
+msgid "help"
+msgstr ""
+
+msgid "Hello!"
+msgstr ""
+
+msgid "Hmm..."
+msgstr ""
+
+#, fuzzy
+msgid "hello"
+msgstr "เซลโล"
+
+msgid "High C"
+msgstr ""
+
+msgid "Holiday"
+msgstr ""
+
+msgid "hour"
+msgstr "ชั่วโมง"
+
+msgid "Human"
+msgstr "มนุษย์"
+
+# 83%
+#, fuzzy
+msgid "import"
+msgstr "นำเข้า"
+
+msgid "Import"
+msgstr "นำเข้า"
+
+msgid "Importing sound..."
+msgstr "นำเข้าเสียง..."
+
+msgid "Indoors"
+msgstr ""
+
+msgid "Installing..."
+msgstr "ติดตั้ง..."
+
+msgid "Instruments"
+msgstr ""
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr "ล่าสุด"
+
+msgid "left"
+msgstr "ซ้าย"
+
+msgid "left arrow"
+msgstr "ลูกศรชี้ทางซ้าย"
+
+msgid "left-right"
+msgstr "ซ้าย-ขวา"
+
+msgid "length"
+msgstr "ความยาว"
+
+msgid "Letters"
+msgstr ""
+
+msgid "Library"
+msgstr "ห้องสมุด"
+
+msgid "light"
+msgstr "แสง"
+
+# 83%
+#, fuzzy
+msgid "lights"
+msgstr "แสง"
+
+msgid "Line"
+msgstr "เส้น"
+
+msgid "Line width"
+msgstr "ความกว้างเส้น"
+
+# 75%
+msgid "list"
+msgstr "รายการ"
+
+msgid "List name"
+msgstr "รายการชื่อ"
+
+msgid "ln"
+msgstr "ใน"
+
+msgid "Loading project..."
+msgstr "กำลังโหลดโปรเจค"
+
+msgid "log"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "Low C"
+msgstr ""
+
+msgid "Make a Block"
+msgstr ""
+
+msgid "Make a List"
+msgstr "สร้างรายการ"
+
+msgid "Make a Variable"
+msgstr "สร้างตัวแปร"
+
+msgid "Marimba"
+msgstr "มาริมบา"
+
+msgid "Max"
+msgstr ""
+
+msgid "meow"
+msgstr "เหมียว"
+
+msgid "Message Name"
+msgstr "ชื่อข้อความ"
+
+msgid "message1"
+msgstr "ข้อความ1"
+
+#, fuzzy
+msgid "Microphone volume:"
+msgstr "ความดังไมโครโฟน:"
+
+msgid "Middle C"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "minute"
+msgstr "นาที"
+
+msgid "month"
+msgstr "เดือน"
+
+msgid "mosaic"
+msgstr "โมเสก"
+
+msgid "motion"
+msgstr "การเคลื่อนไหว"
+
+msgid "mouse-pointer"
+msgstr "ตัวชี้เมาส์"
+
+msgid "Multiple"
+msgstr "หลายอย่าง"
+
+msgid "Music and Dance"
+msgstr ""
+
+msgid "Music Box"
+msgstr "กล่องดนตรี"
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "My Stuff"
+msgstr ""
+
+msgid "myself"
+msgstr ""
+
+msgid "Nature"
+msgstr "ธรรมชาติ"
+
+msgid "New"
+msgstr "ใหม่"
+
+msgid "New backdrop from camera"
+msgstr ""
+
+msgid "New backdrop:"
+msgstr ""
+
+msgid "New Block"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr ""
+
+msgid "New costume:"
+msgstr ""
+
+msgid "New List"
+msgstr "รายการใหม่"
+
+msgid "New Message"
+msgstr ""
+
+msgid "new message..."
+msgstr "ข้อความใหม่..."
+
+msgid "New name"
+msgstr "ชื่อใหม่"
+
+msgid "New sound:"
+msgstr "เสียงใหม่:"
+
+msgid "New sprite from camera"
+msgstr "ตัวละครใหม่จากกล้อง"
+
+msgid "New sprite:"
+msgstr "ตัวละครใหม่"
+
+msgid "New Variable"
+msgstr "ตัวแปรใหม่"
+
+msgid "No motion blocks"
+msgstr ""
+
+msgid "normal readout"
+msgstr ""
+
+msgid "not ="
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr "ไม่สามารถจัดเก็บ; มีปัญหาที่เครือข่ายหรือเซิร์ฟเวอร์"
+
+msgid "Not saved; project did not load."
+msgstr "ไม่สามารถจัดเก็บ; โครงการยังไม่ได้โหลด."
+
+msgid "of"
+msgstr "ของ"
+
+msgid "off"
+msgstr "ปิด"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr "ตกลง"
+
+msgid "on"
+msgstr "เปิด"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "โอเพน ควีคา"
+
+msgid "Open Hi-Hat"
+msgstr "โอเพน ไฮ-แฮท"
+
+msgid "Options"
+msgstr "ตัวเลือก"
+
+msgid "Organ"
+msgstr ""
+
+msgid "Other"
+msgstr "อื่นๆ"
+
+msgid "other scripts in sprite"
+msgstr "สริปต์อื่นในตัวละคร"
+
+#, fuzzy
+msgid "other scripts in stage"
+msgstr "สริปต์อื่นในตัวละคร"
+
+msgid "Outdoors"
+msgstr ""
+
+msgid "Paint new backdrop"
+msgstr ""
+
+msgid "Paint new costume"
+msgstr ""
+
+msgid "Paint new sprite"
+msgstr "วาดตัวละครใหม่"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is required"
+msgstr ""
+
+msgid "paste"
+msgstr "แปะ"
+
+msgid "Pencil"
+msgstr "ดินสอ"
+
+msgid "People"
+msgstr "ผู้คน"
+
+msgid "Percussion"
+msgstr ""
+
+msgid "photo1"
+msgstr "รูป1"
+
+msgid "Piano"
+msgstr ""
+
+msgid "Pick up color"
+msgstr "เลือกสี"
+
+msgid "pixelate"
+msgstr "แยกพิกเซล"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "ป๊อบ"
+
+msgid "previous backdrop"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Project did not load."
+msgstr "โครงการไม่ได้โหลด."
+
+msgid "Project not saved!"
+msgstr "โครงการไม่ได้จัดเก็บ!"
+
+msgid "Project name"
+msgstr ""
+
+msgid "Project name is required"
+msgstr ""
+
+msgid "random"
+msgstr "สุ่ม"
+
+msgid "Record"
+msgstr "บันทึก"
+
+msgid "Record new sound"
+msgstr "บันทึกเสียงใหม่"
+
+msgid "record..."
+msgstr ""
+
+msgid "recording1"
+msgstr "การบันทึก1"
+
+msgid "Rectangle"
+msgstr "สี่เหลี่ยม"
+
+# 75%
+#, fuzzy
+msgid "Redo"
+msgstr "ทำซ้ำ"
+
+msgid "redo"
+msgstr "ทำซ้ำ"
+
+msgid "Remix"
+msgstr ""
+
+msgid "Remixing..."
+msgstr ""
+
+msgid "Remove extension blocks"
+msgstr ""
+
+msgid "Rename"
+msgstr "เปลี่ยนชื่อ"
+
+msgid "rename variable"
+msgstr "เปลี่ยนชื่อตัวแปร"
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "Reshape"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr "ย้อนกลับ"
+
+msgid "Revert"
+msgstr "ย้อนกลับ"
+
+msgid "Reverting..."
+msgstr "กำลังย้อนกลับ..."
+
+msgid "right"
+msgstr "ขวา"
+
+msgid "right arrow"
+msgstr "ลูกศรชี้ขวา"
+
+msgid "rotation style:"
+msgstr "รูปแบบการหมุน:"
+
+msgid "Run without screen refresh"
+msgstr ""
+
+msgid "Save"
+msgstr "จัดเก็บ"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr ""
+
+msgid "Save as"
+msgstr ""
+
+msgid "Save now"
+msgstr "จัดเก็บทันที"
+
+msgid "Save project?"
+msgstr ""
+
+msgid "save to local file"
+msgstr "จัดเก็บลงแฟ้ม"
+
+msgid "Saved"
+msgstr "จัดเก็บแล้ว"
+
+msgid "Saving changes..."
+msgstr "จัดเก็บการเปลี่ยนแปลง..."
+
+msgid "Saving..."
+msgstr "กำลังจัดเก็บ"
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "Scratch Updater"
+msgstr ""
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr ""
+
+msgid "Script"
+msgstr "สคริปต์"
+
+msgid "Scripts"
+msgstr "สคริปต์"
+
+msgid "second"
+msgstr "วินาที"
+
+msgid "See project page"
+msgstr "ดูหน้าโครงการ"
+
+msgid ""
+"See the Tips window (on the right) to install the plug-in and get the "
+"extension working."
+msgstr ""
+
+msgid "Select"
+msgstr "เลือก"
+
+msgid "select all"
+msgstr "เลือกทั้งหมด"
+
+msgid "Select and duplicate"
+msgstr "เลือกและทำซ้ำ"
+
+msgid "Send to back"
+msgstr "ส่งไปด้านหลัง"
+
+msgid "Set Costume Center"
+msgstr ""
+
+msgid "Set costume center"
+msgstr ""
+
+msgid "set slider min and max"
+msgstr ""
+
+msgid "Share"
+msgstr "แบ่ง"
+
+msgid "Share to website"
+msgstr ""
+
+msgid "Share to Scratch website"
+msgstr ""
+
+msgid "shared"
+msgstr "แบ่ง"
+
+msgid "Shift:"
+msgstr "เลื่อน:"
+
+msgid "show receivers"
+msgstr "แสดงผู้รับ"
+
+msgid "show senders"
+msgstr "แสดงผู้ส่ง"
+
+msgid "show:"
+msgstr "แสดง:"
+
+msgid "Shrink"
+msgstr "หด"
+
+msgid "Side Stick"
+msgstr "ไซด์สติค"
+
+msgid "Sign in"
+msgstr "ลงชื่อเข้าใช้"
+
+msgid "Sign in to save"
+msgstr "ลงชื่อเพื่อจัดเก็บ"
+
+msgid "silence"
+msgstr "เงียบ"
+
+msgid "sin"
+msgstr ""
+
+msgid "slider"
+msgstr "ตัวเลื่อน"
+
+msgid "Slider Range"
+msgstr "ระยะตัวเลื่อน"
+
+msgid "Small stage layout"
+msgstr ""
+
+msgid "Smooth"
+msgstr "เรียบ"
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr "เสียง"
+
+msgid "Sound Library"
+msgstr "ห้องสมุดเสียง"
+
+msgid "Sounds"
+msgstr "เสียง"
+
+# 80%
+#, fuzzy
+msgid "Space"
+msgstr "พื้นที่ว่าง"
+
+msgid "space"
+msgstr "พื้นที่ว่าง"
+
+msgid "Sports"
+msgstr "กีฬา"
+
+# 85%
+#, fuzzy
+msgid "Sprite"
+msgstr "ตัวละคร"
+
+msgid "Sprite Library"
+msgstr "ห้องสมุดตัวละคร"
+
+# 85%
+#, fuzzy
+msgid "Sprite1"
+msgstr "ตัวละคร"
+
+msgid "Sprites"
+msgstr "ตัวละคร"
+
+msgid "sqrt"
+msgstr "รากที่สอง"
+
+msgid "Square"
+msgstr "สี่เหลี่ยมจัตรัส"
+
+msgid "Stage"
+msgstr "ฉาก"
+
+msgid "Stage selected:"
+msgstr "ฉากที่เลือก:"
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "แทมโบรีน"
+
+msgid "tan"
+msgstr ""
+
+#, fuzzy
+msgid "text"
+msgstr "ข้อความ"
+
+msgid "Text"
+msgstr "ข้อความ"
+
+msgid "that way"
+msgstr "ทางนั้น"
+
+msgid "The name is already in use."
+msgstr ""
+
+msgid ""
+"The project failed to load and Scratch Team has been notified. Press OK to "
+"leave this page."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Things"
+msgstr ""
+
+msgid "thing"
+msgstr ""
+
+msgid "This is the current version."
+msgstr ""
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+
+msgid "this script"
+msgstr "สคริปต์นี้"
+
+msgid "this sprite"
+msgstr "ตัวละครนี้"
+
+msgid "this way"
+msgstr "ทางนี้"
+
+msgid "Throw away all changes since opening this project?"
+msgstr ""
+
+msgid "Tips"
+msgstr "เคล็ดลับ"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "Transportation"
+msgstr "การขนส่ง"
+
+msgid "Triangle"
+msgstr "สามเหลี่ยม"
+
+msgid "Trombone"
+msgstr "ทรอมโบน"
+
+msgid "true"
+msgstr ""
+
+msgid "Turbo mode"
+msgstr ""
+
+msgid "Turbo Mode"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+# 75%
+msgid "Undelete"
+msgstr "ยกเลิกการลบ"
+
+msgid "Underwater"
+msgstr "ใต้น้ำ"
+
+msgid "undo"
+msgstr "ยกเลิกการทำล่าสุด"
+
+# 75%
+#, fuzzy
+msgid "Undo"
+msgstr "ยกเลิกการทำล่าสุด"
+
+msgid "Undo Revert"
+msgstr "ยกเลิกการเปลี่ยน"
+
+msgid "Ungroup"
+msgstr "แยกกลุ่ม"
+
+msgid "unshared"
+msgstr "ยกเลิกการแบ่ง"
+
+msgid "up"
+msgstr "ขึ้น"
+
+msgid "up arrow"
+msgstr "ลูกศรขึ้น"
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update not needed"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Upload backdrop from file"
+msgstr ""
+
+#, fuzzy
+msgid "Upload costume from file"
+msgstr "อัพโหลดเสียงจากแฟ้ม"
+
+msgid "Upload from your computer"
+msgstr "อัพโหลดจากคอมพิวเตอร์"
+
+msgid "Upload sound from file"
+msgstr "อัพโหลดเสียงจากแฟ้ม"
+
+msgid "Upload sprite from file"
+msgstr "อัพโหลดตัวละครจากแฟ้ม"
+
+msgid "Uploading image..."
+msgstr "กำลังอัพโหลดรูป..."
+
+msgid "Uploading sound..."
+msgstr "กำลังอัพโหลดเสียง..."
+
+msgid "Uploading sprite..."
+msgstr "กำลังอัพโหลดตัวละคร..."
+
+msgid "variable"
+msgstr "ตัวแปร"
+
+msgid "Variable name"
+msgstr "ชื่อตัวแปร"
+
+msgid "Vector"
+msgstr ""
+
+msgid "Vector Mode"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr "ไวปราโฟน"
+
+msgid "Vibraslap"
+msgstr "ไวบราสแลป"
+
+msgid "video direction"
+msgstr ""
+
+msgid "video motion"
+msgstr ""
+
+msgid "Video on:"
+msgstr ""
+
+msgid "Vocals"
+msgstr ""
+
+msgid "Walking"
+msgstr "กำลังเดิน"
+
+msgid "Want to save? Click remix"
+msgstr ""
+
+msgid "Which column do you want to import"
+msgstr ""
+
+msgid "What's your name?"
+msgstr ""
+
+msgid "whirl"
+msgstr "หมุนวน"
+
+msgid "Wood Block"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "world"
+msgstr ""
+
+msgid "year"
+msgstr "ปี"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+
+msgid "Your Scratch name"
+msgstr ""
+
+msgid "Your Scratch name is required"
+msgstr ""
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+msgstr ""
+
+msgid "Click  to try again or  to save"
+msgstr ""
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr ""
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+msgid "Save Project"
+msgstr ""
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr ""
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "ไทย"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list บรรจุ %s"
+
+# 89%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
+
+# 77%
+#~ msgid "set motor power %n"
+#~ msgstr "พลังงานมอเตอร์ %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "ปิดมอเตอร์"
+
+#~ msgid "turn motor on"
+#~ msgstr "เืปิดมอเตอร์"
+
+# 80%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "เปิดมอเตอร์เป็นเวลา %n วินาที"
+
+#~ msgid "when distance < %n"
+#~ msgstr "เมื่อระยะห่าง < %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
+
+#~ msgid "forever if %b"
+#~ msgstr "วนซ้ำตลอดหาก %b"
+
+#~ msgid "if %b"
+#~ msgstr "ถ้า %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "ปิดมอเตอร์"
+
+#~ msgid "motor on"
+#~ msgstr "เปิดมอเตอร์"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "เปิดมอเตอร์เป็นเวลา %n วินาที"
+
+#~ msgid "motor power %n"
+#~ msgstr "พลังงานมอเตอร์ %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "เล่น โน้ต %d.note เป็น %n จังหวะ"
+
+#~ msgid "Account settings"
+#~ msgstr "ตั้งค่าบัญชี"
+
+#~ msgid "all motors"
+#~ msgstr "มอเตอร์ทั้งหมด"
+
+#~ msgid "Cloud"
+#~ msgstr "คลาวด์"
+
+#~ msgid "everything"
+#~ msgstr "ทุกสิ่ง"
+
+#~ msgid "Extension Library"
+#~ msgstr "ห้องสมุดส่วนขยาย"
+
+#~ msgid "Extension Problem"
+#~ msgstr "ปัญหาส่วนขยาย"
+
+#~ msgid "limit reached"
+#~ msgstr "ถึงค่าสุดแล้ว"
+
+#~ msgid "motor"
+#~ msgstr "มอเตอร์"
+
+#~ msgid "motor A"
+#~ msgstr "มอเตอร์ A"
+
+#~ msgid "motor B"
+#~ msgstr "มอเตอร์ B"
+
+#~ msgid "requires sign in"
+#~ msgstr "ต้องเข้าระบบก่อน"
+
+#~ msgid "Save as a copy"
+#~ msgstr "จัดเก็บแบบสำเนา"
+
+#~ msgid "Scripts:"
+#~ msgstr "สคริปต์:"
+
+#~ msgid "Sign out"
+#~ msgstr "ลงชื่อออก"
+
+#~ msgid "stored on server"
+#~ msgstr "เก็บไว้บนเซิร์ฟเวอร์"
+
+#~ msgid "Eraser width:"
+#~ msgstr "ความกว้างยางลบ:"
+
+#~ msgid "Line width:"
+#~ msgstr "ความกว้างเส้น:"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "ความดังไมโครโฟน:"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "ตัวละครใหม่"
+
+#~ msgid "Paint"
+#~ msgstr "วาดภาพ"
+
+#~ msgid "any"
+#~ msgstr "อะไรก็ได้"
+
+#~ msgid "High Tom"
+#~ msgstr "ไฮ ทอม"
+
+#~ msgid "Long Guiro"
+#~ msgstr "ลองกีโร"
+
+#~ msgid "Low Bongo"
+#~ msgstr "บองโกต่ำ"
+
+#~ msgid "Low Conga"
+#~ msgstr "คองกาต่ำ"
+
+#~ msgid "Low Tom"
+#~ msgstr "ทอมต่ำ"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "วู๊ดบล็อคต่ำ"
+
+#~ msgid "Maracas"
+#~ msgstr "มาราคาส์"
+
+#~ msgid "More"
+#~ msgstr "เพิ่มเติม"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "มิวท ไตรแองเกิล"
+
+#~ msgid "Open Triangle"
+#~ msgstr "โอเพน ไตรแองเกิล"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "เพดเดิล ไฮ-แฮท"
+
+#~ msgid "Short Guiro"
+#~ msgstr "ช็อตคิวโร"

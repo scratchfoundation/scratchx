@@ -1,0 +1,2015 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-02-08 15:37+0000\n"
+"Last-Translator: Fabrizio <utalabi@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1423409878.000000\n"
+
+msgid "%b and %b"
+msgstr "%b e %b"
+
+msgid "%b or %b"
+msgstr "%b o %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.atribute de %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp de %n"
+
+msgid "%m.sensor sensor value"
+msgstr "balore de su sensore %m.sensor"
+
+msgid "%n mod %n"
+msgstr "restu de %n divisu %n"
+
+msgid "add %s to %m.list"
+msgstr "agiunghe %s a %m.list"
+
+msgid "answer"
+msgstr "risposta"
+
+msgid "ask %s and wait"
+msgstr "pregonta %s e arrea"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "fundale #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "nùmene de su fundale"
+
+msgid "broadcast %m.broadcast"
+msgstr "imbia a totus %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "imbia a totus %m.broadcast e arrea"
+
+msgid "change %m.effect effect by %n"
+msgstr "muda efetu %m.effect de %n"
+
+msgid "change %m.var by %n"
+msgstr "muda %m.var de %n"
+
+msgid "change pen color by %n"
+msgstr "muda colore pinna de %n"
+
+msgid "change pen shade by %n"
+msgstr "muda craresa pinna de %n"
+
+msgid "change pen size by %n"
+msgstr "muda grussària pinna de %n"
+
+msgid "change size by %n"
+msgstr "muda sa mannària de %n"
+
+msgid "change tempo by %n"
+msgstr "muda su rìtmu de %n"
+
+msgid "change volume by %n"
+msgstr "muda su volùmene de %n"
+
+msgid "change x by %n"
+msgstr "muda x de %n"
+
+msgid "change y by %n"
+msgstr "muda y de %n"
+
+msgid "clear"
+msgstr "lìmpia"
+
+msgid "clear graphic effects"
+msgstr "boga sos efetos gràficos"
+
+msgid "color %c is touching %c?"
+msgstr "su colore %c tochende su colore %c est?"
+
+msgid "Control"
+msgstr "Controllu"
+
+msgid "costume #"
+msgstr "costùmene #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "cria unu clonu de %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "%m.timeAndDate currente"
+
+msgid "Data"
+msgstr "Datos"
+
+msgid "days since 2000"
+msgstr "dies dae su 2000"
+
+msgid "define"
+msgstr "defini"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "cantzella %d.listDeleteItem dae %m.list"
+
+msgid "delete this clone"
+msgstr "boga custu clonu"
+
+msgid "direction"
+msgstr "diretzione"
+
+msgid "distance"
+msgstr "tretu"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "tretu dae %m.spriteOrMouse"
+
+msgid "else"
+msgstr "si nono"
+
+msgid "Events"
+msgstr "Eventos"
+
+msgid "forever"
+msgstr "pro semper"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "giumpa in %n segundos a x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "bae a segus de %n pitzos"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "bae a ue est %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "bae su pitzu de susu"
+
+msgid "go to x:%n y:%n"
+msgstr "bae a x:%n y:%n"
+
+msgid "hide"
+msgstr "cua"
+
+msgid "hide list %m.list"
+msgstr "cua sa lista %m.list"
+
+msgid "hide variable %m.var"
+msgstr "cua sa variàbile %m.var"
+
+msgid "if %b then"
+msgstr "si %b tando"
+
+msgid "if on edge, bounce"
+msgstr "si tocas s'oru, rebòtia"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "pone %s in positzione %d.listItem de %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "elementu %d.listItem de %m.list"
+
+msgid "join %s %s"
+msgstr "auni %s cun %s"
+
+msgid "key %m.key pressed?"
+msgstr "su tastu %m.key carcadu est?"
+
+msgid "length of %m.list"
+msgstr "longària de %m.list"
+
+msgid "length of %s"
+msgstr "longària de %s"
+
+msgid "letter %n of %s"
+msgstr "lìtera %n de %s"
+
+msgid "Looks"
+msgstr "Bisura"
+
+msgid "loudness"
+msgstr "volùmene micròfonu"
+
+msgid "More Blocks"
+msgstr "Àteros Blocos"
+
+msgid "Motion"
+msgstr "Movimentu"
+
+msgid "mouse down?"
+msgstr "su pulsante de su sòrighe carcadu est?"
+
+msgid "mouse x"
+msgstr "x de su sòrighe"
+
+msgid "mouse y"
+msgstr "y de su sòrighe"
+
+msgid "move %n steps"
+msgstr "move de %n passos"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "fundale imbeniente"
+
+msgid "next costume"
+msgstr "costùmene imbeniente"
+
+msgid "not %b"
+msgstr "non %b"
+
+msgid "Operators"
+msgstr "Operadores"
+
+msgid "Pen"
+msgstr "Pinna"
+
+msgid "pen down"
+msgstr "pinna in iscritura"
+
+msgid "pen up"
+msgstr "àrtzia sa pinna"
+
+msgid "pick random %n to %n"
+msgstr "nùmeru a sorte intro %n e %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "sona su tamburu %d.drum pro %n tocos"
+
+msgid "play note %d.note for %n beats"
+msgstr "sona sa nota %d.note pro %n tocos"
+
+msgid "play sound %m.sound"
+msgstr "sona %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "sona %m.sound e arrea chi finat"
+
+msgid "point in direction %d.direction"
+msgstr "punta cara a %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "punta a bia de %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "repite %n bortas"
+
+msgid "repeat until %b"
+msgstr "repite fintzas a cando %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "càmbia s'elementu %d.listItem de %m.list cun %s"
+
+msgid "reset timer"
+msgstr "torra a zero su cronòmetru"
+
+msgid "rest for %n beats"
+msgstr "pasa pro %n tocos"
+
+msgid "round %n"
+msgstr "rotundare %n"
+
+msgid "say %s"
+msgstr "nara %s"
+
+msgid "say %s for %n secs"
+msgstr "nara %s pro %n segundos"
+
+msgid "Sensing"
+msgstr "Sensores"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "sensore %m.booleanSensor ativadu?"
+
+msgid "set %m.effect effect to %n"
+msgstr "pone efetu %m.effect a %n"
+
+msgid "set %m.var to %s"
+msgstr "pone %m.var a %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "sèbera s'aina %d.instrument"
+
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "pone sa diretzione de %m.motor2 a %m.motorDirection"
+
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "potèntzia de %m.motor a %n"
+
+msgid "set pen color to %c"
+msgstr "pinna de colore %c"
+
+msgid "set pen color to %n"
+msgstr "pinna de colore %n"
+
+msgid "set pen shade to %n"
+msgstr "pinna de craresa %n"
+
+msgid "set pen size to %n"
+msgstr "pinna de grussària %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "manera de rodeare %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "mannària a su %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "rìtmu de sos tocos a %n bpm"
+
+msgid "set video transparency to %n%"
+msgstr "trasparèntzia vìdeu a su %n%"
+
+msgid "set volume to %n%"
+msgstr "volùmene a su %n%"
+
+msgid "set x to %n"
+msgstr "bae a x %n"
+
+msgid "set y to %n"
+msgstr "bae a y %n"
+
+msgid "show"
+msgstr "mustra"
+
+msgid "show list %m.list"
+msgstr "mustra sa lista %m.list"
+
+msgid "show variable %m.var"
+msgstr "mustra sa variàbile %m.var"
+
+msgid "size"
+msgstr "mannària"
+
+msgid "Sound"
+msgstr "Sonu"
+
+msgid "stamp"
+msgstr "timbra"
+
+msgid "stop %m.stop"
+msgstr "firmare %m.stop"
+
+msgid "stop all sounds"
+msgstr "istuda totu sos sonos"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "càmbia su fundale a %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "càmbia su fundale a %m.backdrop e arrea"
+
+msgid "switch costume to %m.costume"
+msgstr "càmbia su costùmene a %m.costume"
+
+msgid "tempo"
+msgstr "rìtmu"
+
+msgid "think %s"
+msgstr "pensa %s"
+
+msgid "think %s for %n secs"
+msgstr "pensa %s pro %n segundos"
+
+msgid "tilt"
+msgstr "incurvadura"
+
+msgid "timer"
+msgstr "cronòmetru"
+
+msgid "touching %m.touching?"
+msgstr "tochende %m.touching est?"
+
+msgid "touching color %c?"
+msgstr "tochende su colore %c est?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "gira @turnLeft de %n grados"
+
+msgid "turn @turnRight %n degrees"
+msgstr "gira @turnRight de %n grados"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "istuda %m.motor"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "pone in motu %m.motor"
+
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "mantene in motu %m.motor pro %n segundos"
+
+msgid "turn video %m.videoState"
+msgstr "vìdeu %m.videoState"
+
+msgid "username"
+msgstr "nùmeme de impitadore"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "%m.videoMotionType de su vìdeu a %m.stageOrThis"
+
+msgid "volume"
+msgstr "volùmene"
+
+msgid "wait %n secs"
+msgstr "arrea %n segundos"
+
+msgid "wait until %b"
+msgstr "arrea fintzas a cando %b"
+
+msgid "when %m.booleanSensor"
+msgstr "cando %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "cando si carcat %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "cando %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "cando %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "cando si carcat @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "cando su fundale càmbiat a %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "cando sa distàntzia %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "cando deo retzo %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "cando comintzo che clonadu"
+
+msgid "when this sprite clicked"
+msgstr "cando si carcat custu duendu"
+
+msgid "when tilt %m.eNe %n"
+msgstr "cando s'incurvadura %m.eNe %n"
+
+msgid "x position"
+msgstr "positzione x"
+
+msgid "y position"
+msgstr "positzione y"
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.list cuntenet %s"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Informatziones a pitzu de sas variàbiles de sa Nue</b><br>&nbsp;<br>A oe "
+"si poderant petzi balores numèricos<br>Non sunt permitidos Aposentos de "
+"arrèsonu e ant a èssere burrados<br>Pro informatziones in prus, pompiade sa "
+"pagina <a href=\"/help/faq/#clouddata\" target=\"_blank\">Preguntas fitianas "
+"a pitzu de sos datos in sa Nue</a>"
+
+msgid "A connected"
+msgstr "A connessu"
+
+msgid "a copy of the project file on your computer."
+msgstr "una còpia de su file de su progetu in s'elaboradore tuo."
+
+msgid "A newer version of Scratch is available"
+msgstr "B'at una versione noa de Scratch"
+
+msgid "About"
+msgstr "Ite est"
+
+msgid "abs"
+msgstr "abs"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr "Agiunghe"
+
+msgid "Add an Extension"
+msgstr "Agiunghe un'Estensione"
+
+msgid "Add boolean input:"
+msgstr "Agiunghe un'intrada booleana:"
+
+msgid "add comment"
+msgstr "agiunghe unu cummentu"
+
+msgid "Add label text:"
+msgstr "Agiunghe un'eticheta:"
+
+msgid "Add number input:"
+msgstr "Agiunghe un'intrada numèrica:"
+
+msgid "Add string input:"
+msgstr "Agiunghe un'intrada de testu:"
+
+msgid "all"
+msgstr "totu"
+
+msgid "All"
+msgstr "Totus"
+
+msgid "all around"
+msgstr "podet girare a in tundu"
+
+msgid "Animal"
+msgstr "Animales"
+
+msgid "Animals"
+msgstr "Animales"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "elementos carrigados"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B connessu"
+
+msgid "Back a layer"
+msgstr "A segus de unu pitzu"
+
+msgid "backdrop"
+msgstr "fundale"
+
+msgid "Backdrop"
+msgstr "Fundale"
+
+msgid "Backdrop Library"
+msgstr "Regorta de fundales"
+
+msgid "backdrop1"
+msgstr "fundale1"
+
+msgid "backdrops"
+msgstr "fundales"
+
+msgid "Backdrops"
+msgstr "Fundales"
+
+msgid "Backpack"
+msgstr "Taschedda"
+
+msgid "Bass"
+msgstr "Bassu"
+
+msgid "Bass Drum"
+msgstr "Tamburu Mannu"
+
+msgid "Bassoon"
+msgstr "Bassone"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Si comente tenes un'identidade Scratch noa, cale si siat cambiamentu in sos "
+"datos de sa Nue no at a èssere allogadu. Sighende a partetzipare in su situ "
+"Scratch as a tènnere sos datos de sa Nue luego!"
+
+msgid "Bitmap"
+msgstr "Bitmap"
+
+msgid "Bitmap Mode"
+msgstr "Modu Bitmap"
+
+msgid "Block help"
+msgstr "Agiudu de su blocu"
+
+msgid "Bongo"
+msgstr "Bongos"
+
+msgid "brightness"
+msgstr "craresa"
+
+msgid "Bring to front"
+msgstr "Pone a in antis"
+
+msgid "Broadcast"
+msgstr "Imbia a totus"
+
+msgid "Brush"
+msgstr "Pintzellu"
+
+msgid "button pressed"
+msgstr "pulsante carcadu"
+
+msgid "by"
+msgstr "de"
+
+msgid "bytes loaded"
+msgstr "bytes carrigados"
+
+msgid "C connected"
+msgstr "C connessu"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Càmera"
+
+msgid "can drag in player:"
+msgstr "si podet trasinare in su giogu:"
+
+msgid "Cancel"
+msgstr "Annudda"
+
+msgid "Cannot Delete"
+msgstr "Non si podet iscantzellare"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Non s'agatat sa connessione o si retzit su serbidore."
+
+msgid "Castle"
+msgstr "Casteddu"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "ceiling"
+msgstr "rotunda a s'intreu a subra de"
+
+msgid "Cello"
+msgstr "Violontzellu"
+
+msgid "Check for updates"
+msgstr "Avèrgua sos annoamentos"
+
+msgid "Choir"
+msgstr "Cuncordu"
+
+msgid "Choose backdrop from library"
+msgstr "Sèbera unu fundale dae sa regorta"
+
+msgid "Choose costume from library"
+msgstr "Sèbera unu costùmene dae sa regorta"
+
+msgid "Choose sound from library"
+msgstr "Sèbera unu sonu dae sa regorta"
+
+msgid "Choose sprite from library"
+msgstr "Sèbera unu duendu dae sa regorta"
+
+msgid "Circle"
+msgstr "Chircu"
+
+msgid "City"
+msgstr "Tzitade"
+
+msgid "Clarinet"
+msgstr "Clarinetu"
+
+msgid "Claves"
+msgstr "Tauleddas"
+
+msgid "Clear"
+msgstr "Lìmpia"
+
+msgid "clear senders/receivers"
+msgstr "cua mitentes/retzidores"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr ""
+"Carca \"Alloga como\" pro torrare a proare o \"Iscàrriga\" pro allogare"
+
+msgid "Close"
+msgstr "Tanca"
+
+msgid "Closed Hi-Hat"
+msgstr "Charleston"
+
+msgid "Cloud data"
+msgstr "Datos in sa nue"
+
+msgid "color"
+msgstr "colore"
+
+msgid "Color a shape"
+msgstr "Colora una forma"
+
+msgid "Conga"
+msgstr "Conga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Connessione a su serbidore de sos datos in sa Nue..."
+
+msgid "Convert to bitmap"
+msgstr "Cunverti a bitmap"
+
+msgid "Convert to vector"
+msgstr "Cunverti a vetoriale"
+
+msgid "Converting mp3..."
+msgstr "Cunvertende a mp3..."
+
+msgid "copy"
+msgstr "còpia"
+
+msgid "Copying..."
+msgstr "Copiende..."
+
+msgid "cos"
+msgstr "cos"
+
+msgid "Costume"
+msgstr "Costùmene"
+
+msgid "Costume Library"
+msgstr "Regorta costùmenes"
+
+msgid "costume name"
+msgstr "nùmene costùmene"
+
+msgid "costume1"
+msgstr "costùmene1"
+
+msgid "costume2"
+msgstr "costùmene2"
+
+msgid "Costumes"
+msgstr "Costùmenes"
+
+msgid "Costumes > 1"
+msgstr "Costùmenes > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr "Non si podet iscarrigare s'aplicatzione noa dae su serbidore."
+
+msgid "Cowbell"
+msgstr "Matalla"
+
+msgid "Crash Cymbal"
+msgstr "Pratu Crash"
+
+msgid "Creating..."
+msgstr "Criende..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr ""
+"A como, petzi sos balores numèricos si podent allogare in sas variàbiles de "
+"sa Nue."
+
+msgid "cut"
+msgstr "mutza"
+
+msgid "D connected"
+msgstr "D connessu"
+
+msgid "date"
+msgstr "data"
+
+msgid "day of week"
+msgstr "die de sa chida"
+
+msgid "delete"
+msgstr "boga"
+
+msgid "Delete"
+msgstr "Boga"
+
+msgid "delete variable"
+msgstr "boga sa variàbile"
+
+msgid "direction:"
+msgstr "diretzione:"
+
+msgid "don't rotate"
+msgstr "non gires"
+
+msgid "Don't save"
+msgstr "No alloghes"
+
+msgid "down"
+msgstr "giosso"
+
+msgid "down arrow"
+msgstr "fritza a giosso"
+
+msgid "Download"
+msgstr "Iscàrriga"
+
+msgid "Download to your computer"
+msgstr "Iscàrriga in s'elaboradore tuo"
+
+msgid "duplicate"
+msgstr "dùplica"
+
+msgid "Duplicate"
+msgstr "Dùplica"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "s'oru"
+
+msgid "Edit"
+msgstr "Acontza"
+
+msgid "edit"
+msgstr "acontza"
+
+msgid "Edit Block"
+msgstr "Acontza su Blocu"
+
+msgid "Effects"
+msgstr "Efetos"
+
+msgid "Electric Guitar"
+msgstr "Chiterra Elètrica"
+
+msgid "Electric Piano"
+msgstr "Pianu Elètricu"
+
+msgid "Electronic"
+msgstr "Eletrònica"
+
+msgid "Ellipse"
+msgstr "Ellisse"
+
+msgid "Erase"
+msgstr "Cantzella"
+
+msgid "Eraser width"
+msgstr "Mannària de sa gomma"
+
+msgid "Error!"
+msgstr "Errore!"
+
+msgid "export"
+msgstr "esporta"
+
+msgid "fade in"
+msgstr "incarada"
+
+msgid "fade out"
+msgstr "isparèssida"
+
+msgid "Fantasy"
+msgstr "Fantasia"
+
+msgid "Features"
+msgstr "Faturas"
+
+msgid "File"
+msgstr "File"
+
+msgid "Fill with color"
+msgstr "Prena de colore"
+
+msgid "fisheye"
+msgstr "fish-eye"
+
+msgid "Flip left-right"
+msgstr "Fùrria cara a segus"
+
+msgid "Flip up-down"
+msgstr "Fùrria susu a giosso"
+
+msgid "floor"
+msgstr "rotunda a s'intreu a suta"
+
+msgid "Flute"
+msgstr "Flàutu"
+
+msgid "Flying"
+msgstr "Bolu"
+
+msgid "Font:"
+msgstr "Caràtere:"
+
+msgid "For all sprites"
+msgstr "Pro totu sos duendos"
+
+msgid "For this sprite only"
+msgstr "Pro custu duendu ebbia"
+
+msgid "Forward a layer"
+msgstr "A in antis de unu pitzu"
+
+msgid "ghost"
+msgstr "pantasma"
+
+msgid "Group"
+msgstr "Auni"
+
+msgid "Grow"
+msgstr "Cresche"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "Chiterra"
+
+msgid "Hand Clap"
+msgstr "Tzocamanos"
+
+msgid "Hardware"
+msgstr "Machinàriu"
+
+msgid "help"
+msgstr "agiutòriu"
+
+msgid "High C"
+msgstr "DO Artu"
+
+msgid "Holiday"
+msgstr "Fèria"
+
+msgid "hour"
+msgstr "ora"
+
+msgid "Human"
+msgstr "Umanos"
+
+msgid "import"
+msgstr "importa"
+
+msgid "Import"
+msgstr "Importa"
+
+msgid "Importing sound..."
+msgstr "Importende su sonu..."
+
+msgid "Indoors"
+msgstr "Parte de intro"
+
+msgid "Installing..."
+msgstr "Installatzione..."
+
+msgid "Instruments"
+msgstr "Ainas"
+
+msgid "large readout"
+msgstr "a mannu"
+
+msgid "last"
+msgstr "ùrtimu"
+
+msgid "left"
+msgstr "manca"
+
+msgid "left arrow"
+msgstr "fritza a manca"
+
+msgid "left-right"
+msgstr "manca-dereta"
+
+msgid "length"
+msgstr "longària"
+
+msgid "Letters"
+msgstr "Lìteras"
+
+msgid "Library"
+msgstr "Regorta"
+
+msgid "light"
+msgstr "lughe"
+
+msgid "Line"
+msgstr "Lìnia"
+
+msgid "Line width"
+msgstr "Grussària de sa lìnia"
+
+msgid "list"
+msgstr "lista"
+
+msgid "List name"
+msgstr "Nùmene de sa lista"
+
+msgid "ln"
+msgstr "ln"
+
+msgid "Loading project..."
+msgstr "Carrigamentu de su progetu..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "prus a forte"
+
+msgid "Low C"
+msgstr "DO Bassu"
+
+msgid "Make a Block"
+msgstr "Fràiga unu Blocu"
+
+msgid "Make a List"
+msgstr "Fràiga una Lista"
+
+msgid "Make a Variable"
+msgstr "Fràiga una Variàbile"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "Màssimu"
+
+msgid "meow"
+msgstr "miau"
+
+msgid "Message Name"
+msgstr "Nùmene de su Messàgiu"
+
+msgid "message1"
+msgstr "messàgiu1"
+
+msgid "Microphone volume:"
+msgstr "Volùmene de su micròfonu:"
+
+msgid "Middle C"
+msgstr "DO Mesanu"
+
+msgid "Min"
+msgstr "Mìnimu"
+
+msgid "minute"
+msgstr "minutu"
+
+msgid "month"
+msgstr "mese"
+
+msgid "mosaic"
+msgstr "mosàicu"
+
+msgid "motion"
+msgstr "movimentu"
+
+msgid "mouse-pointer"
+msgstr "su puntadore de su sòrighe"
+
+msgid "Multiple"
+msgstr "Mùltiplu"
+
+msgid "Music and Dance"
+msgstr "Mùsica e Ballos"
+
+msgid "Music Box"
+msgstr "Carillon"
+
+msgid "Music Loops"
+msgstr "Lòrigas Musicales"
+
+msgid "myself"
+msgstr "deo"
+
+msgid "Nature"
+msgstr "Natura"
+
+msgid "New"
+msgstr "Nou"
+
+msgid "New backdrop from camera"
+msgstr "Fundale nou dae sa càmera"
+
+msgid "New backdrop:"
+msgstr "Fundale nou:"
+
+msgid "New Block"
+msgstr "Blocu nou"
+
+msgid "New costume from camera"
+msgstr "Costùmene nou dae sa càmera"
+
+msgid "New costume:"
+msgstr "Costùmene nou:"
+
+msgid "New List"
+msgstr "Lista Noa"
+
+msgid "New Message"
+msgstr "Messàgiu nou"
+
+msgid "new message..."
+msgstr "messàgiu nou..."
+
+msgid "New name"
+msgstr "Nùmene nou"
+
+msgid "New sound:"
+msgstr "Sonu nou:"
+
+msgid "New sprite from camera"
+msgstr "Duendu nou dae sa càmera"
+
+msgid "New sprite:"
+msgstr "Duendu nou:"
+
+msgid "New Variable"
+msgstr "Variàbile Noa"
+
+msgid "No motion blocks"
+msgstr "Perunu blocu de movimentu"
+
+msgid "normal readout"
+msgstr "normale"
+
+msgid "Not saved; network or server problem."
+msgstr "No est istadu allogadu; problema in sa retza o in su serbidore."
+
+msgid "Not saved; project did not load."
+msgstr "No est istadu allogadu; su progetu no est istadu carrigadu."
+
+msgid "of"
+msgstr "de"
+
+msgid "off"
+msgstr "istuda"
+
+msgid "Offline Editor"
+msgstr "Editor Offline"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "on"
+msgstr "ativa"
+
+msgid "on-flipped"
+msgstr "ativa e fùrria"
+
+msgid "Open"
+msgstr "Aberi"
+
+msgid "Open Cuica"
+msgstr "Cuica aberta"
+
+msgid "Open Hi-Hat"
+msgstr "Hi-Hat abertu"
+
+msgid "Options"
+msgstr "Sèberos"
+
+msgid "Organ"
+msgstr "Òrganu"
+
+msgid "Other"
+msgstr "Àteru"
+
+msgid "other scripts in sprite"
+msgstr "àteros programmas de su duendu"
+
+msgid "other scripts in stage"
+msgstr "àteros programmas de su duendu"
+
+msgid "Outdoors"
+msgstr "A bia de foras"
+
+msgid "Paint new backdrop"
+msgstr "Pinta unu fundale nou"
+
+msgid "Paint new costume"
+msgstr "Pinta unu costùmene nou"
+
+msgid "Paint new sprite"
+msgstr "Pinta unu duendu nou"
+
+msgid "Password"
+msgstr "Crae"
+
+msgid "Password is required"
+msgstr "Si rechedit sa crae"
+
+msgid "paste"
+msgstr "apìtziga"
+
+msgid "Pencil"
+msgstr "Lapis"
+
+msgid "People"
+msgstr "Gente"
+
+msgid "Percussion"
+msgstr "Percussiones"
+
+msgid "photo1"
+msgstr "foto1"
+
+msgid "Piano"
+msgstr "Pianu"
+
+msgid "Pick up color"
+msgstr "Piga unu colore"
+
+msgid "pixelate"
+msgstr "efetu pixel"
+
+msgid "Pizzicato"
+msgstr "Pizzicato"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr "fundale de prima"
+
+msgid "Project did not load."
+msgstr "Su progetu no est istadu carrigadu."
+
+msgid "Project not saved!"
+msgstr "Su progetu no est istadu allogadu!"
+
+msgid "Project name"
+msgstr "Nùmene de su progetu"
+
+msgid "Project name is required"
+msgstr "Si rechedet su nùmene de su progetu"
+
+msgid "random"
+msgstr "a sorte"
+
+msgid "Record"
+msgstr "Registra"
+
+msgid "Record new sound"
+msgstr "Registra unu sonu nou"
+
+msgid "record..."
+msgstr "registrare..."
+
+msgid "recording1"
+msgstr "registratzione1"
+
+msgid "Rectangle"
+msgstr "Retàngulu"
+
+msgid "Redo"
+msgstr "Torra che a prima"
+
+msgid "redo"
+msgstr "torra che a prima"
+
+msgid "Remix"
+msgstr "Remixa"
+
+msgid "Remixing..."
+msgstr "Remixende..."
+
+msgid "Rename"
+msgstr "Càmbia su nùmene"
+
+msgid "rename variable"
+msgstr "càmbia nùmene a sa variàbile"
+
+msgid "Reshape"
+msgstr "Càmbia forma"
+
+msgid "resistance-A"
+msgstr "resistèntzia-A"
+
+msgid "resistance-B"
+msgstr "resistèntzia-B"
+
+msgid "resistance-C"
+msgstr "resistèntzia-C"
+
+msgid "resistance-D"
+msgstr "resistèntzia-D"
+
+msgid "reverse"
+msgstr "fùrriare"
+
+msgid "Revert"
+msgstr "Torra a segus"
+
+msgid "Reverting..."
+msgstr "Torrende a segus..."
+
+msgid "right"
+msgstr "dereta"
+
+msgid "right arrow"
+msgstr "fritza a dereta"
+
+msgid "rotation style:"
+msgstr "manera de rodeare:"
+
+msgid "Run without screen refresh"
+msgstr "Faghe sena annoare s'ischermu"
+
+msgid "Save"
+msgstr "Alloga"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Alloga una còpia de custu progetu e agiunghe sas ideas tuas."
+
+msgid "Save as"
+msgstr "Alloga comente"
+
+msgid "Save now"
+msgstr "Alloga deretu"
+
+msgid "Save project?"
+msgstr "Allogare su progetu?"
+
+msgid "save to local file"
+msgstr "alloga in unu file locale"
+
+msgid "Saved"
+msgstr "Allogadu"
+
+msgid "Saving changes..."
+msgstr "Alloghende sos cambiamentos..."
+
+msgid "Saving..."
+msgstr "Alloghende..."
+
+msgid "Saxophone"
+msgstr "Sassòfonu"
+
+msgid "Scratch Updater"
+msgstr "Annoadore de Scratch"
+
+msgid "Script"
+msgstr "Programma"
+
+msgid "Scripts"
+msgstr "Programmas"
+
+msgid "second"
+msgstr "segundu"
+
+msgid "See project page"
+msgstr "Bae a sa pàgina de su progetu"
+
+msgid "Select"
+msgstr "Sèbera"
+
+msgid "select all"
+msgstr "sèbera totucantu"
+
+msgid "Select and duplicate"
+msgstr "Sèbera e dùplica"
+
+msgid "Send to back"
+msgstr "Pone in fundu"
+
+msgid "Set Costume Center"
+msgstr "Defini su Tzentru de su Costùmene"
+
+msgid "Set costume center"
+msgstr "Defini su tzentru de su costùmene"
+
+msgid "set slider min and max"
+msgstr "sèbera min e max de su cursore"
+
+msgid "Share"
+msgstr "Cumpartzi"
+
+msgid "Share to website"
+msgstr "Cumpartzi in unu situ"
+
+msgid "shared"
+msgstr "cumpartzidu"
+
+msgid "Shift:"
+msgstr "Maiusc:"
+
+msgid "show receivers"
+msgstr "mustra sos retzidores"
+
+msgid "show senders"
+msgstr "mustra sos mitentes"
+
+msgid "show:"
+msgstr "mustra:"
+
+msgid "Shrink"
+msgstr "Mìnima"
+
+msgid "Side Stick"
+msgstr "Bachitas"
+
+msgid "Sign in"
+msgstr "Imbuca"
+
+msgid "Sign in to save"
+msgstr "Imbuca pro allogare"
+
+msgid "silence"
+msgstr "mudu"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "barra de iscurrimentu"
+
+msgid "Slider Range"
+msgstr "Tretu de sa barra de iscurrimentu"
+
+msgid "Small stage layout"
+msgstr "Palcu minore"
+
+msgid "Smooth"
+msgstr "Aprana"
+
+msgid "Snare Drum"
+msgstr "Rullante"
+
+msgid "softer"
+msgstr "prus a bellu"
+
+msgid "sound"
+msgstr "sonu"
+
+msgid "Sound Library"
+msgstr "Regorta de Sonos"
+
+msgid "Sounds"
+msgstr "Sonos"
+
+msgid "Space"
+msgstr "Ispàtziu"
+
+msgid "space"
+msgstr "ispàtziu"
+
+msgid "Sports"
+msgstr "Isports"
+
+msgid "Sprite"
+msgstr "Duendu"
+
+msgid "Sprite Library"
+msgstr "Regorta de Duendos"
+
+msgid "Sprite1"
+msgstr "Duendu1"
+
+msgid "Sprites"
+msgstr "Duendos"
+
+msgid "sqrt"
+msgstr "sqrt"
+
+msgid "Square"
+msgstr "Cuadradu"
+
+msgid "Stage"
+msgstr "Palcu"
+
+msgid "Stage selected:"
+msgstr "Palcu seberadu:"
+
+msgid "Steel Drum"
+msgstr "Tamburu metàllicu"
+
+msgid "Synth Lead"
+msgstr "Sintetizadore Melòdicu"
+
+msgid "Synth Pad"
+msgstr "Sintetizadore de fundu"
+
+msgid "Tambourine"
+msgstr "Tamburinu"
+
+msgid "tan"
+msgstr "tan"
+
+msgid "text"
+msgstr "testu"
+
+msgid "Text"
+msgstr "Testu"
+
+msgid "that way"
+msgstr "cabu a cue"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Things"
+msgstr "Cosas"
+
+msgid "This is the current version."
+msgstr "Custa est sa versione currente."
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Custu progetu podet averguare chie l'est usende, pro mèdiu de su blocu "
+"“nùmene de impitadore”. Pro cuare s'identidade, essinche in antis de usare "
+"su progetu."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Custu progetu tenet datos in sa Nue - una propriedade chi tenent petzi sos "
+"impitadores chi imbucant."
+
+msgid "this script"
+msgstr "custu programma"
+
+msgid "this sprite"
+msgstr "custu duendu"
+
+msgid "this way"
+msgstr "a cust'ala"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Annudda totu sos cambiamentos fatos dae s'abertura de custu progetu?"
+
+msgid "Tips"
+msgstr "Consìgios"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+"In antis de nche bogare sa definitzione de unu blocu, bogalu dae totu sos "
+"programmas."
+
+msgid "Transportation"
+msgstr "Trasportu"
+
+msgid "Triangle"
+msgstr "Triàngulu"
+
+msgid "Trombone"
+msgstr "Trumbone"
+
+msgid "Turbo mode"
+msgstr "Modu turbo"
+
+msgid "Turbo Mode"
+msgstr "Modu Turbo"
+
+msgid "Type"
+msgstr "Tipu"
+
+msgid "Undelete"
+msgstr "Recùbera"
+
+msgid "Underwater"
+msgstr "Suta de mare"
+
+msgid "undo"
+msgstr "annudda"
+
+msgid "Undo"
+msgstr "Annudda"
+
+msgid "Undo Revert"
+msgstr "Annudda sa torrada che a prima"
+
+msgid "Ungroup"
+msgstr "Partzi"
+
+msgid "unshared"
+msgstr "non cumpartzidu"
+
+msgid "up"
+msgstr "susu"
+
+msgid "up arrow"
+msgstr "fritza a susu"
+
+msgid "Update failed"
+msgstr "Annoamentu non renessidu"
+
+msgid "Update not needed"
+msgstr "Annoamentu non netzessàriu"
+
+msgid "Update now"
+msgstr "Annoa como"
+
+msgid "Upload backdrop from file"
+msgstr "Càrriga unu fundale dae unu file"
+
+msgid "Upload costume from file"
+msgstr "Càrriga unu costùmene dae unu file"
+
+msgid "Upload from your computer"
+msgstr "Càrriga dae s'elaboradore tuo"
+
+msgid "Upload sound from file"
+msgstr "Càarriga unu sonu dae unu file"
+
+msgid "Upload sprite from file"
+msgstr "Càrriga unu duendu dae unu file"
+
+msgid "Uploading image..."
+msgstr "Carrighende sa màgine..."
+
+msgid "Uploading sound..."
+msgstr "Carrighede su sonu..."
+
+msgid "Uploading sprite..."
+msgstr "Carrighende su duendu..."
+
+msgid "variable"
+msgstr "variàbile"
+
+msgid "Variable name"
+msgstr "Nùmene de variàbile"
+
+msgid "Vector"
+msgstr "Vetoriale"
+
+msgid "Vector Mode"
+msgstr "Modu Vetoriale"
+
+msgid "Vibraphone"
+msgstr "Vibràfonu"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video direction"
+msgstr "diretzione de su vìdeu"
+
+msgid "video motion"
+msgstr "movimentu de su vìdeu"
+
+msgid "Video on:"
+msgstr "Vìdeu ativu:"
+
+msgid "Vocals"
+msgstr "Càntigos"
+
+msgid "Walking"
+msgstr "Caminare"
+
+msgid "Want to save? Click remix"
+msgstr "Cheres allogare? Carca remixa"
+
+msgid "Which column do you want to import"
+msgstr "Cale colunna est de importare"
+
+msgid "whirl"
+msgstr "molineddu"
+
+msgid "Wood Block"
+msgstr "Blocu de Linna"
+
+msgid "Wooden Flute"
+msgstr "Flàutu de Linna"
+
+msgid "year"
+msgstr "annu"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Non podes mudare sos datos in sa Nue de unu progetu fatu dae un'àteru."
+"<br>Cale si siat cambiamentu at a èssere de s'ora e non de dura."
+
+msgid "Your Scratch name"
+msgstr "Su nùmene tuo de Scratch"
+
+msgid "Your Scratch name is required"
+msgstr "Si rechedet su nùmene tuo de Scratch"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "Non si podet iscarrigare s'aplicatzione noa dae su serbidore."
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "Non si podet iscarrigare s'aplicatzione noa dae su serbidore."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "Iscarrighende sa versione noa"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Replace existing project?"
+msgstr "Càmbia su progetu"
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "Allogare su progetu?"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "Cumpartzi in su situ de Scratch"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Sardu"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list cuntenet %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "cando su Fundale est carcadu"
+
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "diretzione de su motore a %m.motorDirection"
+
+#~ msgid "set motor power %n"
+#~ msgstr "potèntzia de su motore a %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "istuda su motore"
+
+#~ msgid "turn motor on"
+#~ msgstr "pone in motu"
+
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "mantene in motu pro %n segundos"
+
+#~ msgid "when distance < %n"
+#~ msgstr "cando su tretu < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "cando s'incurvadura = %n"
+
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "diretzione de %m.motor a %m.motorDirection"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "A pitzu de s'estensione LEGO WeDo..."
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "A pitzu de s'estensione PicoBoard..."
+
+#~ msgid "Account settings"
+#~ msgstr "Sèberos de s'identidade"
+
+#~ msgid "add comment here..."
+#~ msgstr "agiunghe unu cummentu..."
+
+#~ msgid "all motors"
+#~ msgstr "totu sos motores"
+
+#~ msgid "Cannot Add"
+#~ msgstr "Non si podet agiùnghere"
+
+#~ msgid "clean up"
+#~ msgstr "lìmpia"
+
+#~ msgid "Cloud"
+#~ msgstr "Nue"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "Variàbile de sa nue (allogada in su serbidore)"
+
+#~ msgid "Costumes:"
+#~ msgstr "Costùmenes:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "Iscarrighende sa versione noa"
+
+#~ msgid "empty"
+#~ msgstr "bòidu"
+
+#~ msgid "Erase all"
+#~ msgstr "Burra totucantu"
+
+#~ msgid "everything"
+#~ msgstr "totucantu"
+
+#~ msgid "Extension Library"
+#~ msgstr "Regorta de Estensiones"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Problema de Estensione"
+
+#~ msgid "false"
+#~ msgstr "farsu"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Bae a sas Cosas Meas"
+
+#~ msgid "Hello!"
+#~ msgstr "Oè!"
+
+#~ msgid "Hmm..."
+#~ msgstr "Uhmm..."
+
+#~ msgid "hello"
+#~ msgstr "oè"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "lughes"
+
+#~ msgid "limit reached"
+#~ msgstr "làcana lòmpida"
+
+#~ msgid "motor"
+#~ msgstr "motore"
+
+#~ msgid "motor A"
+#~ msgstr "motore A"
+
+#~ msgid "motor B"
+#~ msgstr "motore B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Cosas Meas"
+
+#~ msgid "not ="
+#~ msgstr "no ="
+
+#~ msgid "Profile"
+#~ msgstr "Perfilu"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Boga sos blocos de estensione"
+
+#~ msgid "Replace existing project"
+#~ msgstr "Càmbia su progetu"
+
+#~ msgid "requires sign in"
+#~ msgstr "rechedet de imbucare"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Alloga una còpia"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "Editore locale de Scratch 2.0"
+
+#~ msgid "Scripts:"
+#~ msgstr "Programmas:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Pòmpia sa bentana de consìgios (a dereta) pro installare unu connetore e "
+#~ "tènnere s'estensione traballende."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "Cumpartzi in su situ de Scratch"
+
+#~ msgid "Sign out"
+#~ msgstr "Essi"
+
+#~ msgid "stored on server"
+#~ msgstr "allogadu in su serbidore"
+
+#~ msgid "The name is already in use."
+#~ msgstr "Su nùmene est giai impitadu."
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "Su carrigamentu de su progetu no est renessidu e sa truma de Scratch est "
+#~ "avèrtida. Carca OK pro essire dae custa pàgina."
+
+#~ msgid "thing"
+#~ msgstr "cosa"
+
+#~ msgid "true"
+#~ msgstr "beru"
+
+#~ msgid "What's your name?"
+#~ msgstr "Ite ti naras?"
+
+#~ msgid "world"
+#~ msgstr "mundu"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Informatziones a pitzu de sas variàbiles de sa Nue</b><br>&nbsp;<br>A "
+#~ "oe si poderant petzi balores numèricos<br>No est permìtidu s'isvilupu de "
+#~ "Aposentos de arrèsonu e ant a èssere bogados<br>Pro informatziones in "
+#~ "prus pompiade sa pagina <a href= target=>see the cloud data FAQ!</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Carca  pro torrare a proare o  pro allogare"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Grussària de sa gomma:"
+
+#~ msgid "Line width:"
+#~ msgstr "Grussària de sa lìnia:"
+
+#~ msgid "cleanup"
+#~ msgstr "remuni"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "LEGO WeDo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Volùmene de su Micròfonu:"

@@ -1,0 +1,1997 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 13:50+0000\n"
+"Last-Translator: Natalie <nrusk@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429105854.000000\n"
+
+msgid "%b and %b"
+msgstr "%b и %b"
+
+msgid "%b or %b"
+msgstr "%b ма %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.атрибут %m.spriteOrStage аҟынтә"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp %n аҟынтә"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor арбага аҵакы"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "иацҵатәуп %s %m.list ахь"
+
+msgid "answer"
+msgstr "аҭак"
+
+msgid "ask %s and wait"
+msgstr "иазҵаатәуп %s нас иҧштәуп"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "аҿаҧшыра #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "аҿаҧшыра ахьӡ"
+
+msgid "broadcast %m.broadcast"
+msgstr "иҭатәуп %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "иҭатәуп %m.broadcast нас иҧштәуп"
+
+msgid "change %m.effect effect by %n"
+msgstr "иҧсахтәуп %m.effect аефеқт %n ала"
+
+msgid "change %m.var by %n"
+msgstr "иҧсахтәуп %m.var %n ала"
+
+msgid "change pen color by %n"
+msgstr "иҧсахтәуп акалам аҧштәы %n ала"
+
+msgid "change pen shade by %n"
+msgstr "иҧсахтәуп акалам агага %n ала"
+
+msgid "change pen size by %n"
+msgstr "иҧсахтәуп акалам ашәагаа %n ала"
+
+msgid "change size by %n"
+msgstr "иҧсахтәуп ашәагаа %n ала"
+
+msgid "change tempo by %n"
+msgstr "иҧсахтәуп атемп %n ала"
+
+msgid "change volume by %n"
+msgstr "иҧсахтәуп абжьы %n ала"
+
+msgid "change x by %n"
+msgstr "иҧсахтәуп x %n ала"
+
+msgid "change y by %n"
+msgstr "иҧсахтәуп y %n ала"
+
+msgid "clear"
+msgstr "ирыцқьатәуп"
+
+msgid "clear graphic effects"
+msgstr "иқәгатәуп аграфикатә ефеқтқәа"
+
+msgid "color %c is touching %c?"
+msgstr "аҧштәы %c иадкьыслоума %c?"
+
+msgid "Control"
+msgstr "Аконтроль"
+
+msgid "costume #"
+msgstr "акостиум №"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "иаҧҵатәуп аиҧш %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "уажәтәи %m.timeAndDate"
+
+msgid "Data"
+msgstr "Адыррақәа"
+
+msgid "days since 2000"
+msgstr "амшқәа 01.01.2000 инаркны"
+
+msgid "define"
+msgstr "ишьақәыргылатәуп"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "ианыхтәуп %d.listDeleteItem %m.list аҟынтә"
+
+msgid "delete this clone"
+msgstr "ианыхтәуп аиҧш"
+
+msgid "direction"
+msgstr "ахырхарҭа"
+
+msgid "distance"
+msgstr "ирыбжьоу"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "ирыбжьоу %m.spriteOrMouse аҟынӡа"
+
+msgid "else"
+msgstr "акәмзар"
+
+msgid "Events"
+msgstr "Ахҭысқәа"
+
+msgid "forever"
+msgstr "инагӡалатәуп"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "иқәҵәраатәуп x:%n y:%n ахь %n секундк"
+
+msgid "go back %n layers"
+msgstr "ииастәуп шьҭахьҟа %n ҿыгҳарак рыла"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "ииастәуп %m.spriteOrMouse ахь"
+
+msgid "go to front"
+msgstr "ииастәуп аҩадатәи аҿыгҳара ахь"
+
+msgid "go to x:%n y:%n"
+msgstr "ииастәуп x:%n y:%n ахь"
+
+msgid "hide"
+msgstr "аҽыҵәахра"
+
+msgid "hide list %m.list"
+msgstr "иҵәахтәуп ахьӡынҵа %m.list"
+
+msgid "hide variable %m.var"
+msgstr "иҵәахтәуп аҽеиҭак %m.var"
+
+msgid "if %b then"
+msgstr "%b акәзар"
+
+msgid "if on edge, bounce"
+msgstr "акьыҧшь акәзар, иадҧатәуп"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "иқәргылатәуп %s %d.listItem ахь %m.list аҟынтә"
+
+msgid "item %d.listItem of %m.list"
+msgstr "аелемент %d.listItem %m.list аҟынтә"
+
+msgid "join %s %s"
+msgstr "иеиҧшьтәуп %s%s"
+
+msgid "key %m.key pressed?"
+msgstr "аклавиша %m.key иақәӷәӷәоума?"
+
+msgid "length of %m.list"
+msgstr "ахьӡынҵа аура %m.list"
+
+msgid "length of %s"
+msgstr "ацәаҳәа аура %s"
+
+msgid "letter %n of %s"
+msgstr "анбан %n %s аҟны"
+
+msgid "Looks"
+msgstr "Аҧшра-асахьа"
+
+msgid "loudness"
+msgstr "абжьы аҳаракыра"
+
+msgid "More Blocks"
+msgstr "Аблок ҿыцқәа"
+
+msgid "Motion"
+msgstr "Аиҭаҵра"
+
+msgid "mouse down?"
+msgstr "ахәына иақәӷәӷәоума?"
+
+msgid "mouse x"
+msgstr "ахәына x ала"
+
+msgid "mouse y"
+msgstr "ахәына y ала"
+
+msgid "move %n steps"
+msgstr "ицатәуп %n шьаҿак"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "анаҩстәи аҿаҧшыра"
+
+msgid "next costume"
+msgstr "анаҩстәи акостиум"
+
+msgid "not %b"
+msgstr "%b акәӡам"
+
+msgid "Operators"
+msgstr "Аоператорқәа"
+
+msgid "Pen"
+msgstr "Акалам"
+
+msgid "pen down"
+msgstr "акалам лашьҭтәуп"
+
+msgid "pen up"
+msgstr "акалам иҩахатәуп"
+
+msgid "pick random %n to %n"
+msgstr "иарбанзаалакь %n -и %n рыбжьара"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "адаул %d.drum иастәуп %n тактк"
+
+msgid "play note %d.note for %n beats"
+msgstr "анота %d.note ихәмартәуп %n тактк"
+
+msgid "play sound %m.sound"
+msgstr "иргатәуп абжьы %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "иргатәуп абжьы %m.sound инҵәаанӡа"
+
+msgid "point in direction %d.direction"
+msgstr "инарҳәтәуп абрахь %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "%m.spriteOrMouse ахь инаҳәтәуп"
+
+msgid "repeat %n"
+msgstr "инагӡалатәуп %n - нтә"
+
+msgid "repeat until %b"
+msgstr "инагӡалатәуп %b акәмзар"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "иҧсахтәуп аелемент %d.listItem %m.list аҿы %s ала"
+
+msgid "reset timer"
+msgstr "аамҭарбага ҿыц идәықәҵатәуп"
+
+msgid "rest for %n beats"
+msgstr "иҧштәуп %n тақтк"
+
+msgid "round %n"
+msgstr "ихаргежьтәуп %n"
+
+msgid "say %s"
+msgstr "иҳәатәуп %s"
+
+msgid "say %s for %n secs"
+msgstr "иҳәалатәуп %s аамҭала %n секундк"
+
+msgid "Sensing"
+msgstr "Асенсорқәа"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "асенсор %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "ишьақәргылатәуп аефеқт %m.effect %n аҿы"
+
+msgid "set %m.var to %s"
+msgstr "ишьақәргылатәуп %m.var %s аҿы"
+
+msgid "set instrument to %d.instrument"
+msgstr "иалхтәуп амыруга %d.instrument"
+
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "ишьақәыргылатәуп ахырхарҭа %m.motor2 азы %m.motorDirection аҟны"
+
+msgid "set %m.motor power to %n"
+msgstr "ишьақәыргылатәуп амчра %m.motor азы %n аҟны"
+
+msgid "set pen color to %c"
+msgstr "ишьақәыргылатәуп акалам аҧштәы %c"
+
+msgid "set pen color to %n"
+msgstr "ишьақәыргылатәуп акалам аҧштәы %n"
+
+msgid "set pen shade to %n"
+msgstr "ишьақәыргылатәуп акалам агага %n"
+
+msgid "set pen size to %n"
+msgstr "ишьақәыргылатәуп акалам ашәагаа %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "аргежьра астиль %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "ишьақәыргылатәуп ашәагаа %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "ишьақәыргылатәуп атемп %n bpm"
+
+msgid "set video transparency to %n%"
+msgstr "ишьақәыргылатәуп авидео аҵәцара %n%"
+
+msgid "set volume to %n%"
+msgstr "ишьақәыргылатәуп абжьы аҳаракыра %n%"
+
+msgid "set x to %n"
+msgstr "ишьақәыргылатәуп x %n аҿы"
+
+msgid "set y to %n"
+msgstr "ишьақәыргылатәуп y %n аҿы"
+
+msgid "show"
+msgstr "ацәырҵра"
+
+msgid "show list %m.list"
+msgstr "иаарҧштәуп ахьӡынҵа %m.list"
+
+msgid "show variable %m.var"
+msgstr "иаарҧштәуп аҽеиҭак %m.var"
+
+msgid "size"
+msgstr "ашәагаа"
+
+msgid "Sound"
+msgstr "Абжьы"
+
+msgid "stamp"
+msgstr "аштамп"
+
+msgid "stop %m.stop"
+msgstr "аанкылара %m.stop"
+
+msgid "stop all sounds"
+msgstr "иаанкылатәуп абжьқәа зегьы"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "иҧсахтәуп аҿаҧшыра %m.backdrop ала"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "иҧсахтәуп аҿаҧшыра %m.backdrop ала нас иҧштәуп"
+
+msgid "switch costume to %m.costume"
+msgstr "иҧсахтәуп акостиум %m.costume ала"
+
+msgid "tempo"
+msgstr "атемп"
+
+msgid "think %s"
+msgstr "ахәцра %s"
+
+msgid "think %s for %n secs"
+msgstr "ахәцра %s %n секундк"
+
+msgid "tilt"
+msgstr "анаара"
+
+msgid "timer"
+msgstr "аамҭарбага"
+
+msgid "touching %m.touching?"
+msgstr "иадкьыслоума %m.touching?"
+
+msgid "touching color %c?"
+msgstr "иадкьыслоума аҧштәы %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "иргьежьтәуп @turnLeft %n градус рыла"
+
+msgid "turn @turnRight %n degrees"
+msgstr "иргьежьтәуп @turnRight %n градус рыла"
+
+msgid "turn %m.motor off"
+msgstr "ирцәатәуп %m.motor"
+
+msgid "turn %m.motor on"
+msgstr "иарктәуп %m.motor"
+
+msgid "turn %m.motor on for %n secs"
+msgstr "иарктәуп %m.motor %n секундк"
+
+msgid "turn video %m.videoState"
+msgstr "иргьежьтәуп авидео %m.videoState ала"
+
+msgid "username"
+msgstr "алахәлаҩ ихьӡ"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "авидео %m.videoMotionType %m.stageOrThis ала"
+
+msgid "volume"
+msgstr "абжьы аҳаракыра"
+
+msgid "wait %n secs"
+msgstr "иҧштәуп %n секундк"
+
+msgid "wait until %b"
+msgstr "иҧштәуп %b -нӡа"
+
+msgid "when %m.booleanSensor"
+msgstr "асенсор %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "аклавиша %m.key ианақәыӷәӷәоу"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "%m.sensor %m.lessMore %n анакәу"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "%m.triggerSensor анакәу > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "@greenFlag ианақәыӷәӷәалакь"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "аҿаҧшыра аҽанаҧсахуа %m.backdrop ала"
+
+msgid "when distance %m.lessMore %n"
+msgstr "ирыбжьоу %m.lessMore %n анакәу"
+
+msgid "when I receive %m.broadcast"
+msgstr "сара %m.broadcast ансоуа"
+
+msgid "when I start as a clone"
+msgstr "аиҧш еиҧш саналаго"
+
+msgid "when this sprite clicked"
+msgstr "анагӡаҩ ианақәыӷәӷәуалакь"
+
+msgid "when tilt %m.eNe %n"
+msgstr "анаара %m.eNe %n анакәу"
+
+msgid "x position"
+msgstr "x аҭыҧ"
+
+msgid "y position"
+msgstr "y аҭыҧ"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list иаҵанакуеит %s?"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Аҧсҭҳәатә ҽеиҭакқәа ринформациа</b><br>&nbsp;<br>Уажәазтәи аамҭазы ухы "
+"иаурхәар зуа ахыҧхьаӡаратә ҽеиҭакқәа роуп<br>Чат-ауадақәа ауӡом, "
+"ианыххоит<br>Ахарҭәаагатә информациа азы <a href=\"/help/faq/#clouddata\" "
+"target=\"_blank\">Шәахәаҧш АЦХЫРААГӠА аҧсҭҳәатә дыррақәа ирызкны</a>"
+
+msgid "A connected"
+msgstr "A аимадара шьақәыргылоуп"
+
+msgid "a copy of the project file on your computer."
+msgstr "апроеқт акопиа шәара шәкомпиутер аҿы."
+
+msgid "A newer version of Scratch is available"
+msgstr "Scratch аверсиа ҿыц ыҟоуп"
+
+msgid "About"
+msgstr "Апрограмма иазкны"
+
+msgid "abs"
+msgstr "амодуль"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr "Ацҵара"
+
+msgid "Add an Extension"
+msgstr "Иацҵатәуп ахарҭәаара"
+
+msgid "Add boolean input:"
+msgstr "Иҭагалатәуп алогикатә ҵакы:"
+
+msgid "add comment"
+msgstr "акоментари ацҵатәуп"
+
+msgid "Add label text:"
+msgstr "Иацҵатәуп атеқст аҵаҩымҭа:"
+
+msgid "Add number input:"
+msgstr "Иацҵатәуп ахыҧхьаӡарақәа рҭагаларатә ҭакыра:"
+
+msgid "Add string input:"
+msgstr "Иацҵатәуп ацәаҳәақәа рҭагаларатә ҭакыра:"
+
+msgid "all"
+msgstr "зегьы"
+
+msgid "All"
+msgstr "Зегьы"
+
+msgid "all around"
+msgstr "зегьы рыкәша-мыкәша"
+
+msgid "Animal"
+msgstr "Аҧстәы"
+
+msgid "Animals"
+msgstr "Аҧстәқәа"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "иҭагалоу аҽеиҭакқәа"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B аимадара шьақәыргылоуп"
+
+msgid "Back a layer"
+msgstr "Ҵаҟа ҿыгҳарак ала"
+
+msgid "backdrop"
+msgstr "аҿаҧшыра"
+
+msgid "Backdrop"
+msgstr "Аҿаҧшыра"
+
+msgid "Backdrop Library"
+msgstr "Аҿаҧшырақәа рбиблиотека"
+
+msgid "backdrop1"
+msgstr "аҿаҧшыра1"
+
+msgid "backdrops"
+msgstr "аҿаҧшырақәа"
+
+msgid "Backdrops"
+msgstr "Аҿаҧшырақәа"
+
+msgid "Backpack"
+msgstr "Абӷакыдҵа"
+
+msgid "Bass"
+msgstr "Абас"
+
+msgid "Bass Drum"
+msgstr "Идыуу абастә даул"
+
+msgid "Bassoon"
+msgstr "Афагот"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Шәара шәахьҿыцыу азы, иарбанзаалакь аиҭакрақәа адыррақәа рыҧсҭҳәаҿ "
+"иеиқәхазом. Шәҽалашәырхәла аидгылара аусура, шәхы иашәырхәарцаз адыррақәа "
+"рыҧсҭҳәа!"
+
+msgid "Bitmap"
+msgstr "Абиттә хсаала"
+
+msgid "Bitmap Mode"
+msgstr "Арастртә режим"
+
+msgid "Block help"
+msgstr "Ацхыраагӡа аблок иазкны"
+
+msgid "Bongo"
+msgstr "Абонго"
+
+msgid "brightness"
+msgstr "ажжара"
+
+msgid "Bring to front"
+msgstr "Ииагатәуп аҧхьаҟатәи аҿыгҳара ахь"
+
+msgid "Broadcast"
+msgstr "Иҭатәуп"
+
+msgid "Brush"
+msgstr "Ашәыга"
+
+msgid "button pressed"
+msgstr "акнопка иақәӷәӷәоуп"
+
+msgid "by"
+msgstr "рыла"
+
+msgid "bytes loaded"
+msgstr "баит ҭагалоуп"
+
+msgid "C connected"
+msgstr "C аимадара шьақәыргылоуп"
+
+msgid "Cabasa"
+msgstr "Акабаса"
+
+msgid "Camera"
+msgstr "Акамера"
+
+msgid "can drag in player:"
+msgstr "арҳәага ашҟа ииажәгар шәылшоит:"
+
+msgid "Cancel"
+msgstr "Аҟәыхра"
+
+msgid "Cannot Delete"
+msgstr "Аныхра ауӡом"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Иауам асет ахь аиасра ма асервер аҽамадара."
+
+msgid "Castle"
+msgstr "Аханқәа"
+
+msgid "Category"
+msgstr "Акатегориа"
+
+msgid "ceiling"
+msgstr "аҳәаа"
+
+msgid "Cello"
+msgstr "Авиолончель"
+
+msgid "Check for updates"
+msgstr "Аверсиа арҿыцра"
+
+msgid "Choir"
+msgstr "Ахор"
+
+msgid "Choose backdrop from library"
+msgstr "Иалхтәуп аҿаҧшыра абиблиотека аҟынтә"
+
+msgid "Choose costume from library"
+msgstr "Иалхтәуп акостиум абиблиотека аҟынтә"
+
+msgid "Choose sound from library"
+msgstr "Иалхтәуп абжьы абиблиотека аҟынтә"
+
+msgid "Choose sprite from library"
+msgstr "Иалхтәуп анагӡаҩ абиблиотека аҟынтә"
+
+msgid "Circle"
+msgstr "Агьежь"
+
+msgid "City"
+msgstr "Ақалақь"
+
+msgid "Clarinet"
+msgstr "Акларнет"
+
+msgid "Claves"
+msgstr "Аклавесин"
+
+msgid "Clear"
+msgstr "Ирыцқьатәуп"
+
+msgid "clear senders/receivers"
+msgstr "Ирыцқьатәуп адәықәҵаҩцәа/изауа"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "Шәақәыгәгәа аиҭаҟаҵаразы ма аиқәырхараз"
+
+msgid "Close"
+msgstr "Иарктәуп"
+
+msgid "Closed Hi-Hat"
+msgstr "Иаркыу хай-хэт"
+
+msgid "Cloud data"
+msgstr "Адыррақәа аҧсҭҳәа аҟынтә"
+
+msgid "color"
+msgstr "аҧштәы"
+
+msgid "Color a shape"
+msgstr "Ишәтәуп аформа"
+
+msgid "Conga"
+msgstr "Аконга"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Аҧсҭҳәатә дыррақәа рсервер аҽамадара..."
+
+msgid "Convert to bitmap"
+msgstr "Аконвертациа арастртә графика ахь"
+
+msgid "Convert to vector"
+msgstr "Аконвертациа авектортә графика ахь"
+
+msgid "Converting mp3..."
+msgstr "Аконвертациа mp3 ахь..."
+
+msgid "copy"
+msgstr "акопиа"
+
+msgid "Copying..."
+msgstr "Акопиа ахыхра..."
+
+msgid "cos"
+msgstr "cos"
+
+msgid "Costume"
+msgstr "Акостиум"
+
+msgid "Costume Library"
+msgstr "Акостиумқәа рбиблиотека"
+
+msgid "costume name"
+msgstr "акостиум ахьӡ"
+
+msgid "costume1"
+msgstr "акостиум1"
+
+msgid "costume2"
+msgstr "акостиум2"
+
+msgid "Costumes"
+msgstr "Акостиумқәа"
+
+msgid "Costumes > 1"
+msgstr "Акостиумқәа > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr "Иаузом асервер аҟынтәи."
+
+msgid "Cowbell"
+msgstr "Аҵәҵәа бжьы"
+
+msgid "Crash Cymbal"
+msgstr "Асаанқәа рысра"
+
+msgid "Creating..."
+msgstr "Аҧҵара..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Уажәазы ацифрақәа мацара роуп еиқәурхар зуа аҽеиҭакқәа рыҧсҭҳәаҿы."
+
+msgid "cut"
+msgstr "иагәылаҧҟатәуп"
+
+msgid "D connected"
+msgstr "D аимадара шьақәыргылоуп"
+
+msgid "date"
+msgstr "арыцхә"
+
+msgid "day of week"
+msgstr "амчыбжь амш"
+
+msgid "delete"
+msgstr "ианыхтәуп"
+
+msgid "Delete"
+msgstr "Ианыхтәуп"
+
+msgid "delete variable"
+msgstr "ианыхтәуп аҽеиҭак"
+
+msgid "direction:"
+msgstr "ахырхарҭа:"
+
+msgid "don't rotate"
+msgstr "инарҳәтәӡам"
+
+msgid "Don't save"
+msgstr "Иеиқәырхаӡам"
+
+msgid "down"
+msgstr "алада"
+
+msgid "down arrow"
+msgstr "ахыц алада"
+
+msgid "Download"
+msgstr "Иҭыгатәуп"
+
+msgid "Download to your computer"
+msgstr "Иҭыгатәуп шәара шәкомпиутер ахь"
+
+msgid "duplicate"
+msgstr "адубликат"
+
+msgid "Duplicate"
+msgstr "Адубликат"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "акьыҧшь"
+
+msgid "Edit"
+msgstr "Аредақтор"
+
+msgid "edit"
+msgstr "аредақтор"
+
+msgid "Edit Block"
+msgstr "Иҧсахтәуп аблок"
+
+msgid "Effects"
+msgstr "Аефеқтқәа"
+
+msgid "Electric Guitar"
+msgstr "Аелектро гитара"
+
+msgid "Electric Piano"
+msgstr "Аелектро пианино"
+
+msgid "Electronic"
+msgstr "Аелектроника"
+
+msgid "Ellipse"
+msgstr "Аеллипс"
+
+msgid "Erase"
+msgstr "Аныхга"
+
+msgid "Eraser width"
+msgstr "Аныхга аҭбаара"
+
+msgid "Error!"
+msgstr "Агха!"
+
+msgid "export"
+msgstr "аекспорт"
+
+msgid "fade in"
+msgstr "иазырҳалатәуп"
+
+msgid "fade out"
+msgstr "ақәӡаара"
+
+msgid "Fantasy"
+msgstr "Афантастика"
+
+msgid "Features"
+msgstr "Иҷыдақәоу"
+
+msgid "File"
+msgstr "Афаил"
+
+msgid "Fill with color"
+msgstr "Иҭырҭәаатәуп ҧшшәыла"
+
+msgid "fisheye"
+msgstr "аҧсыӡ абла"
+
+msgid "Flip left-right"
+msgstr "Ианырҧштәуп армарахьынтәи аргьарахь"
+
+msgid "Flip up-down"
+msgstr "Ианырҧштәуп хыхьынтәи ҵаҟа"
+
+msgid "floor"
+msgstr "адашьма"
+
+msgid "Flute"
+msgstr "Афлеита"
+
+msgid "Flying"
+msgstr "Аҧырра"
+
+msgid "Font:"
+msgstr "Ашрифт:"
+
+msgid "For all sprites"
+msgstr "Анагӡаҩцәа зегьы рзы"
+
+msgid "For this sprite only"
+msgstr "Абри анагӡаҩ мацара азы"
+
+msgid "Forward a layer"
+msgstr "Ҧхьаҟа ҿыгҳарак ала"
+
+msgid "ghost"
+msgstr "алаҧшҵашәара"
+
+msgid "Group"
+msgstr "Гәыҧ-гәыҧла"
+
+msgid "Grow"
+msgstr "Аиҵыхра"
+
+msgid "Guiro"
+msgstr "Агуиро"
+
+msgid "Guitar"
+msgstr "Агитара"
+
+msgid "Hand Clap"
+msgstr "Анапеинҟьабжь"
+
+msgid "Hardware"
+msgstr "Амыругақәа"
+
+msgid "help"
+msgstr "Ацхыраагӡа"
+
+msgid "High C"
+msgstr "Иҳаракыу До"
+
+msgid "Holiday"
+msgstr "Аныҳәа"
+
+msgid "hour"
+msgstr "сааҭк"
+
+msgid "Human"
+msgstr "Ауаҩы"
+
+msgid "import"
+msgstr "аимпорт"
+
+msgid "Import"
+msgstr "Аимпорт"
+
+msgid "Importing sound..."
+msgstr "Абжьы аимпорт..."
+
+msgid "Indoors"
+msgstr "Ауада аҩнуҵҟа"
+
+msgid "Installing..."
+msgstr "Ақәыргылара..."
+
+msgid "Instruments"
+msgstr "Амыругақәа"
+
+msgid "large readout"
+msgstr "Аҧшра рдыуны"
+
+msgid "last"
+msgstr "аҵыхәтәантәи"
+
+msgid "left"
+msgstr "армарахь"
+
+msgid "left arrow"
+msgstr "ахыц армарахь"
+
+msgid "left-right"
+msgstr "армарахь- арӷьарахь"
+
+msgid "length"
+msgstr "аура"
+
+msgid "Letters"
+msgstr "Ашәҟқәа"
+
+msgid "Library"
+msgstr "Абиблиотека"
+
+msgid "light"
+msgstr "алашара"
+
+msgid "Line"
+msgstr "Ацәаҳәа"
+
+msgid "Line width"
+msgstr "Ацәаҳәа аҭбаара"
+
+msgid "list"
+msgstr "ахьӡынҵа"
+
+msgid "List name"
+msgstr "Ахьӡынҵа ахьӡ"
+
+msgid "ln"
+msgstr "ln"
+
+msgid "Loading project..."
+msgstr "Апроеқт аҭагалара..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "абжьы иеиҳаны"
+
+msgid "Low C"
+msgstr "Илаҟәу До"
+
+msgid "Make a Block"
+msgstr "Иаҧҵатәуп аблок"
+
+msgid "Make a List"
+msgstr "Иаҧҵатәуп ахьӡынҵа"
+
+msgid "Make a Variable"
+msgstr "Иаҧҵатәуп аҽеиҭак"
+
+msgid "Marimba"
+msgstr "Маримба"
+
+msgid "Max"
+msgstr "Амаксимум"
+
+msgid "meow"
+msgstr "миау"
+
+msgid "Message Name"
+msgstr "Ацҳамҭа ахьӡ"
+
+msgid "message1"
+msgstr "ацҳамҭа1"
+
+msgid "Microphone volume:"
+msgstr "Амикрофон абжьы аҳаракыра"
+
+msgid "Middle C"
+msgstr "Ибжьаратәу До"
+
+msgid "Min"
+msgstr "Аминимум"
+
+msgid "minute"
+msgstr "аминуҭ"
+
+msgid "month"
+msgstr "амза"
+
+msgid "mosaic"
+msgstr "амозаика"
+
+msgid "motion"
+msgstr "аиҭаҵра"
+
+msgid "mouse-pointer"
+msgstr "ахәына арбага"
+
+msgid "Multiple"
+msgstr "Ишьҭыхтәуп"
+
+msgid "Music and Dance"
+msgstr "Амузыкеи акәашарақәеи"
+
+msgid "Music Box"
+msgstr "Амузыкатә шкатулка"
+
+msgid "Music Loops"
+msgstr "Амузыкатә ҟəараҟəантə"
+
+msgid "myself"
+msgstr "сара схала"
+
+msgid "Nature"
+msgstr "Аҧсабара"
+
+msgid "New"
+msgstr "Аҿыц"
+
+msgid "New backdrop from camera"
+msgstr "Аҿаҧшыра ҿыц акамера аҟынтә"
+
+msgid "New backdrop:"
+msgstr "Аҿаҧшыра ҿыц:"
+
+msgid "New Block"
+msgstr "Аблок ҿыц"
+
+msgid "New costume from camera"
+msgstr "Акостиум ҿыц акамера аҟынтә"
+
+msgid "New costume:"
+msgstr "Акостиум ҿыц:"
+
+msgid "New List"
+msgstr "Ахьӡынҵа ҿыц"
+
+msgid "New Message"
+msgstr "Аацҳара ҿыц"
+
+msgid "new message..."
+msgstr "аацҳара ҿыц..."
+
+msgid "New name"
+msgstr "Ахьӡ ҿыц"
+
+msgid "New sound:"
+msgstr "Абыжь ҿыц:"
+
+msgid "New sprite from camera"
+msgstr "Анагӡаҩ ҿыц акамера аҟынтә"
+
+msgid "New sprite:"
+msgstr "Анагӡаҩ ҿыц:"
+
+msgid "New Variable"
+msgstr "Аҽеиҭак ҿыц"
+
+msgid "No motion blocks"
+msgstr "Аиҭаҵратә блокқәа ыҟаӡам"
+
+msgid "normal readout"
+msgstr "аҧхьара маншәалоуп"
+
+msgid "Not saved; network or server problem."
+msgstr "Иеиқәырхаӡам; апроблема рымоуп асет ма асервер"
+
+msgid "Not saved; project did not load."
+msgstr "Иеиқәырхаӡам; апроеқт ҭагалаӡам."
+
+msgid "of"
+msgstr "аҟынтәи"
+
+msgid "off"
+msgstr "ирцәатәуп"
+
+msgid "Offline Editor"
+msgstr "Офлаин-аредақтор"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "on"
+msgstr "иарктәуп"
+
+msgid "on-flipped"
+msgstr "инарҳәыу"
+
+msgid "Open"
+msgstr "Аартра"
+
+msgid "Open Cuica"
+msgstr "Иаартыу Акуика"
+
+msgid "Open Hi-Hat"
+msgstr "Иаартыу хаи-хет"
+
+msgid "Options"
+msgstr "Аопциақәа"
+
+msgid "Organ"
+msgstr "Ауарӷан"
+
+msgid "Other"
+msgstr "Даҽакқәа"
+
+msgid "other scripts in sprite"
+msgstr "анагӡаҩ егьырҭ ипрограммақәа"
+
+msgid "other scripts in stage"
+msgstr "анагӡаҩ егьырҭ тпрограммақәа"
+
+msgid "Outdoors"
+msgstr "Адәахьы"
+
+msgid "Paint new backdrop"
+msgstr "Иҭыхтәуп аҿаҧшыра ҿыц"
+
+msgid "Paint new costume"
+msgstr "Иҭыхтәуп акостиум ҿыц"
+
+msgid "Paint new sprite"
+msgstr "Иҭыхтәуп анагӡаҩ ҿыц"
+
+msgid "Password"
+msgstr "Ажәамаӡа"
+
+msgid "Password is required"
+msgstr "Иаҭахәуп ажәамаӡа"
+
+msgid "paste"
+msgstr "аҭаргылара"
+
+msgid "Pencil"
+msgstr "Акарандашь"
+
+msgid "People"
+msgstr "Ауаа"
+
+msgid "Percussion"
+msgstr "Аперкуссиа"
+
+msgid "photo1"
+msgstr "афото1"
+
+msgid "Piano"
+msgstr "Апианино"
+
+msgid "Pick up color"
+msgstr "Апипетка"
+
+msgid "pixelate"
+msgstr "апикселқәа рырдура"
+
+msgid "Pizzicato"
+msgstr "Апиццикато"
+
+msgid "pop"
+msgstr "апоп"
+
+msgid "previous backdrop"
+msgstr "уаанӡатәи аҿаҧшыра"
+
+msgid "Project did not load."
+msgstr "Апроеқт ҭагалаӡам."
+
+msgid "Project not saved!"
+msgstr "Апроеқт еиқәырхаӡам!"
+
+msgid "Project name"
+msgstr "Апроеқт ахьӡ"
+
+msgid "Project name is required"
+msgstr "Иаҭахәуп апроеқт ахьӡ"
+
+msgid "random"
+msgstr "иарбанзаалакь"
+
+msgid "Record"
+msgstr "Иҭаҩтәуп"
+
+msgid "Record new sound"
+msgstr "Иҭаҩтәуп абыжь ҿыц"
+
+msgid "record..."
+msgstr "аҭаҩра..."
+
+msgid "recording1"
+msgstr "Аҭаҩра1"
+
+msgid "Rectangle"
+msgstr "Акәакьҭаиаша"
+
+msgid "Redo"
+msgstr "Архынҳәра ҧхьаҟа"
+
+msgid "redo"
+msgstr "архынҳәра ҧхьаҟа"
+
+msgid "Remix"
+msgstr "Аремикс"
+
+msgid "Remixing..."
+msgstr "Аремикс аҧҵара..."
+
+msgid "Rename"
+msgstr "Ахьӡ ҧсахтәуп"
+
+msgid "rename variable"
+msgstr "аҽеиҭак ахьӡ ҧсахтәуп"
+
+msgid "Reshape"
+msgstr "Аформа аҧсахра"
+
+msgid "resistance-A"
+msgstr "аҿагылара-A"
+
+msgid "resistance-B"
+msgstr "аҿагылара-B"
+
+msgid "resistance-C"
+msgstr "аҿагылара-C"
+
+msgid "resistance-D"
+msgstr "аҿагылара-D"
+
+msgid "reverse"
+msgstr "архынҳәра"
+
+msgid "Revert"
+msgstr "Ахынҳәра"
+
+msgid "Reverting..."
+msgstr "Ахынҳәра..."
+
+msgid "right"
+msgstr "арӷьарахь"
+
+msgid "right arrow"
+msgstr "ахыц арӷьарахь"
+
+msgid "rotation style:"
+msgstr "аргьежьра астиль:"
+
+msgid "Run without screen refresh"
+msgstr "Идәықәҵатәуп аекран арҿыцрада"
+
+msgid "Save"
+msgstr "Иеиқәырхатәуп"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Иеқәшәырха абри апроеқт акопиа,  нас иацышәҵала шәара шгәаанагарақәа."
+
+msgid "Save as"
+msgstr "Иеиқәырхатәуп иаба (ишҧа)"
+
+msgid "Save now"
+msgstr "Иеиқәырхатәуп абыржәы"
+
+msgid "Save project?"
+msgstr "Апроеқт еиқәырхатәума?"
+
+msgid "save to local file"
+msgstr "иеиқәырхатәуп алокалтә фаил"
+
+msgid "Saved"
+msgstr "Иеиқәырхоуп"
+
+msgid "Saving changes..."
+msgstr "Аҧсахрақәа реиқәрхара..."
+
+msgid "Saving..."
+msgstr "Аиқәрхара..."
+
+msgid "Saxophone"
+msgstr "Асаксафон"
+
+msgid "Scratch Updater"
+msgstr "Scratch Арҿыцра"
+
+msgid "Script"
+msgstr "Апрограмма"
+
+msgid "Scripts"
+msgstr "Апрограммақәа"
+
+msgid "second"
+msgstr "секундк"
+
+msgid "See project page"
+msgstr "Иахәаҧштәуп апроеқт адаҟьа"
+
+msgid "Select"
+msgstr "Иалхтәуп"
+
+msgid "select all"
+msgstr "иалхтәуп зегьы"
+
+msgid "Select and duplicate"
+msgstr "Иалхтәуп нас акопиа ахыхтәуп"
+
+msgid "Send to back"
+msgstr "Ииагатәуп шьҭахьҟа"
+
+msgid "Set Costume Center"
+msgstr "Ишьақәыргылатәуп Акостиум Агәҭа"
+
+msgid "Set costume center"
+msgstr "Ишьақәыргылатәуп акостиум агәҭа"
+
+msgid "set slider min and max"
+msgstr "Ишьақәыргылатәуп амаксимуми аминимуми аныраа хәуҷ азы"
+
+msgid "Share"
+msgstr "Акциа"
+
+msgid "Share to website"
+msgstr "Акциа web - саит аҟны"
+
+msgid "shared"
+msgstr "азеиҧш"
+
+msgid "Shift:"
+msgstr "Shift:"
+
+msgid "show receivers"
+msgstr "иаарҧштәуп изауқәо"
+
+msgid "show senders"
+msgstr "иаарҧштәуп изышьҭқәо"
+
+msgid "show:"
+msgstr "ацәырҵра:"
+
+msgid "Shrink"
+msgstr "Аиҵагалара"
+
+msgid "Side Stick"
+msgstr "Аганахьтәи амаа"
+
+msgid "Sign in"
+msgstr "Аҭалара"
+
+msgid "Sign in to save"
+msgstr "Иҭалатәуп, аиқәырхара азы"
+
+msgid "silence"
+msgstr "аҭынчра"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "арымаа хәуҷ"
+
+msgid "Slider Range"
+msgstr "Арымаа хәуҷ адиапазон"
+
+msgid "Small stage layout"
+msgstr "Асцена маҷ амакет"
+
+msgid "Smooth"
+msgstr "Иеиқәыршшатәуп"
+
+msgid "Snare Drum"
+msgstr "Имаҷыу адаул"
+
+msgid "softer"
+msgstr "иртатаны"
+
+msgid "sound"
+msgstr "абжьы"
+
+msgid "Sound Library"
+msgstr "Абжьқәа рбиблиотека"
+
+msgid "Sounds"
+msgstr "Абжьқәа"
+
+msgid "Space"
+msgstr "Акосмос"
+
+msgid "space"
+msgstr "абжьажьга"
+
+msgid "Sports"
+msgstr "Аспорт"
+
+msgid "Sprite"
+msgstr "Анагӡаҩ"
+
+msgid "Sprite Library"
+msgstr "Анагӡаҩцәа рбиблиотека"
+
+msgid "Sprite1"
+msgstr "Анагӡаҩ1"
+
+msgid "Sprites"
+msgstr "Анагӡаҩцәа"
+
+msgid "sqrt"
+msgstr "аквадраттә шьагуҭ"
+
+msgid "Square"
+msgstr "Аквадрат"
+
+msgid "Stage"
+msgstr "Асцена"
+
+msgid "Stage selected:"
+msgstr "Асцена алхыуп:"
+
+msgid "Steel Drum"
+msgstr "Аџыртә даул"
+
+msgid "Synth Lead"
+msgstr "Ихадоу асинтезатор"
+
+msgid "Synth Pad"
+msgstr "Асинтезатор Pad"
+
+msgid "Tambourine"
+msgstr "Атамбурин"
+
+msgid "tan"
+msgstr "tan"
+
+msgid "text"
+msgstr "Атеқст"
+
+msgid "Text"
+msgstr "Атеқст"
+
+msgid "that way"
+msgstr "анахь"
+
+msgid "Theme"
+msgstr "Атема"
+
+msgid "Things"
+msgstr "Амаҭәарқәа"
+
+msgid "This is the current version."
+msgstr "Ари уажәтәи аверсиа ауп"
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Ари апроеқт иеилнакаар алшоит, иара зхы иазырхәо, блокла \"ахархәаҩ ихьӡ\". "
+"Аӡәгьы изеилымкаарц азы, шәҭыҵ асистема, апроеқт ахархәара шәалагаанӡа."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Ари апроеқт ахы ианархәоит адыррақәа рыҧсҭҳәа- ари аҩыза алшарақәа рымоуп "
+"авторизациа змоу ахархәаҩцәа."
+
+msgid "this script"
+msgstr "абри апрограмма"
+
+msgid "this sprite"
+msgstr "абри анагӡаҩ"
+
+msgid "this way"
+msgstr "абрахь"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Иқәгатәума аҧсахрақәа зегьы, апроект аартра ашьҭахь иҟаҵақәаз?"
+
+msgid "Tips"
+msgstr "Аҵаҳәарақәа"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr "Аблок анышәхаанӡа, ианышәх иара ахархәара ахьамаз ахҭысқәа зегьы."
+
+msgid "Transportation"
+msgstr "Атранспорт"
+
+msgid "Triangle"
+msgstr "Ахкәакь"
+
+msgid "Trombone"
+msgstr "Атромбон"
+
+msgid "Turbo mode"
+msgstr "Турбо арежим"
+
+msgid "Turbo Mode"
+msgstr "Турбо Арежим"
+
+msgid "Type"
+msgstr "Атип"
+
+msgid "Undelete"
+msgstr "Ианыхыу ырхынҳәтәуп"
+
+msgid "Underwater"
+msgstr "Аӡаҵаҟатәи адунеи"
+
+msgid "undo"
+msgstr "архынҳәра шьҭахьҟа"
+
+msgid "Undo"
+msgstr "Архынҳәра шьҭахьҟа"
+
+msgid "Undo Revert"
+msgstr "Иаҟәыхтәуп аргежьра"
+
+msgid "Ungroup"
+msgstr "Иаҟәыхтәуп гәыҧ-гәыҧла ашара"
+
+msgid "unshared"
+msgstr "ихатәыу"
+
+msgid "up"
+msgstr "аҩада"
+
+msgid "up arrow"
+msgstr "ахыц аҩада"
+
+msgid "Update failed"
+msgstr "Арҿыцра амуӡеит"
+
+msgid "Update not needed"
+msgstr "Арҿыцра аҭахӡам"
+
+msgid "Update now"
+msgstr "Ирҿыцтәуп"
+
+msgid "Upload backdrop from file"
+msgstr "Иҭагалатәуп аҿаҧшыра афаил аҟынтәи"
+
+msgid "Upload costume from file"
+msgstr "Иҭагалатәуп акостиум афаил аҟынтәи"
+
+msgid "Upload from your computer"
+msgstr "Иҭагалатәуп акомпиутер аҟынтәи"
+
+msgid "Upload sound from file"
+msgstr "Иҭагалатәуп абжьы афаил аҟынтәи"
+
+msgid "Upload sprite from file"
+msgstr "Иҭагалатәуп анагӡаҩ афаил аҟынтәи"
+
+msgid "Uploading image..."
+msgstr "Асахьақәа рҭагалара..."
+
+msgid "Uploading sound..."
+msgstr "Абжьы аҭагалара..."
+
+msgid "Uploading sprite..."
+msgstr "Анагзаҩ аҭагалара..."
+
+msgid "variable"
+msgstr "аҽеиҭак"
+
+msgid "Variable name"
+msgstr "Аҽеиҭак ахьӡ"
+
+msgid "Vector"
+msgstr "Авеқтор"
+
+msgid "Vector Mode"
+msgstr "Авеқтортә режим"
+
+msgid "Vibraphone"
+msgstr "Авибрафон"
+
+msgid "Vibraslap"
+msgstr "Авибрациа змоу аслеп"
+
+msgid "video direction"
+msgstr "авидео ахырхарҭа"
+
+msgid "video motion"
+msgstr "авидео аиҭаҵра"
+
+msgid "Video on:"
+msgstr "Авидео аҿакыуп:"
+
+msgid "Vocals"
+msgstr "Абжьтәиқәа"
+
+msgid "Walking"
+msgstr "Иеиҭаҵқәо"
+
+msgid "Want to save? Click remix"
+msgstr "Ишәҭахыума иеиқәшәырхарц? Шәақәыгәгәа аремикс"
+
+msgid "Which column do you want to import"
+msgstr "Иарбан еиҵаргылоу аимпорт ахь ишәышьҭуа"
+
+msgid "whirl"
+msgstr "акьаҳәхара"
+
+msgid "Wood Block"
+msgstr "Амҿтәы шәындыҟәра хәҷы"
+
+msgid "Wooden Flute"
+msgstr "Амҿтәы флеита"
+
+msgid "year"
+msgstr "ашықәс"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Шәара ишәылшом аҧсҭҳәатә дыррақәа рыҧсахра ишәтәым апроеқтқәа "
+"рҿы<br>Иарбанзаалакь иалажәгало аҧсахрақәа, аредақциа арежим аҟны "
+"иаамҭалатәихоит."
+
+msgid "Your Scratch name"
+msgstr "Шәара шәыхьӡ Scratch аҟны"
+
+msgid "Your Scratch name is required"
+msgstr "иаҭахәуп шәара шәыхьӡ Scratch аҟны"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "Иаузом асервер аҟынтәи."
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "Иаузом асервер аҟынтәи."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "Аверсиа ҿыц ҭагалатәуп"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Replace existing project?"
+msgstr "Иҧсахтәуп иҟоу апроеқт "
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "Апроеқт еиқәырхатәума?"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "Акциа Scratch - асаит аҟны"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Аҧсшәа"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list иаҵанакуеит %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "Асцена ианақәыӷәӷәуалакь"
+
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "амотор ахырхарҭа %m.motorDirection"
+
+#~ msgid "set motor power %n"
+#~ msgstr "аматор амчра %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "аматор арцәара"
+
+#~ msgid "turn motor on"
+#~ msgstr "аматор аркра"
+
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "иарктәуп аматор %n секундк"
+
+#~ msgid "when distance < %n"
+#~ msgstr "ирыбжьоу < %n аасҭа"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "анаара = %n ианаҟароу"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "LEGO WeDo Ахарҭәаара иазкны..."
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "PicoBoard Ахарҭәаара иазкны..."
+
+#~ msgid "Account settings"
+#~ msgstr "Аккаунт архиарақәа"
+
+#~ msgid "add comment here..."
+#~ msgstr "Акоментари ацҵатәуп абрахь..."
+
+#~ msgid "all motors"
+#~ msgstr "аматорқәа зегьы"
+
+#~ msgid "Cannot Add"
+#~ msgstr "Ацҵара ауам"
+
+#~ msgid "clean up"
+#~ msgstr "арыцқьара"
+
+#~ msgid "Cloud"
+#~ msgstr "Аҧсҭҳәа"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "Аҽеҭак аҧсҭҳәа аҿы (асервер иҭагалоу)"
+
+#~ msgid "Costumes:"
+#~ msgstr "Акостиумқәа:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "Аверсиа ҿыц ҭагалатәуп"
+
+#~ msgid "empty"
+#~ msgstr "Иҭацәуп"
+
+#~ msgid "Erase all"
+#~ msgstr "Ианыхтәуп зегьы"
+
+#~ msgid "everything"
+#~ msgstr "зегьы"
+
+#~ msgid "Extension Library"
+#~ msgstr "Ахарҭәаарақәа рбиблиотека"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Ахарҭәаарақәа апроблема рымоуп"
+
+#~ msgid "false"
+#~ msgstr "амц"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Ииастәуп сара спроеқтқәа рахь"
+
+#~ msgid "Hello!"
+#~ msgstr "Абзиара умаз!"
+
+#~ msgid "Hmm..."
+#~ msgstr "Ҳымм..."
+
+#~ msgid "hello"
+#~ msgstr "абзиара умаз"
+
+#~ msgid "lights"
+#~ msgstr "алашара"
+
+#~ msgid "limit reached"
+#~ msgstr "аҳәааҿ инаӡоуп"
+
+#~ msgid "motor"
+#~ msgstr "аматор"
+
+#~ msgid "motor A"
+#~ msgstr "аматор A"
+
+#~ msgid "motor B"
+#~ msgstr "аматор B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Сара суысумҭақәа"
+
+#~ msgid "not ="
+#~ msgstr "акәӡам ="
+
+#~ msgid "Profile"
+#~ msgstr "Апрофиль"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Ианыхтәуп ахарҭәааратә блокқәа"
+
+#~ msgid "Replace existing project"
+#~ msgstr "Иҧсахтәуп иҟоу апроеқт "
+
+#~ msgid "requires sign in"
+#~ msgstr "иаҭахыуп абрахь аҭалара"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Иеиқәырхатәуп акопиа ҳасабла"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "Scratch 2.0 Оффлаин Аредақтор"
+
+#~ msgid "Scripts:"
+#~ msgstr "Апрограммақәа:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Шәаахәаҧш (аргьрахь) аҵаҳәарақәа рҧенџыр, ишықәыргылатәу амодуль "
+#~ "ишәоурцаз аус зуа ахарҭәаара."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "Акциа Scratch - асаит аҟны"
+
+#~ msgid "Sign out"
+#~ msgstr "Иҭыҵтәуп"
+
+#~ msgid "stored on server"
+#~ msgstr "иеиқәырхоуп асервер аҟны"
+
+#~ msgid "The name is already in use."
+#~ msgstr "Ахьӡ ахархәара амоуп"
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "Апроеқт аҭагалара ауам, ирзыцҳауп Scratch Агәҧ. Шәақәыӷәӷәа ОК ари адаҟьа "
+#~ "аҭыҵраз."
+
+#~ msgid "thing"
+#~ msgstr "амаҭәар"
+
+#~ msgid "true"
+#~ msgstr "Аиаша"
+
+#~ msgid "What's your name?"
+#~ msgstr "Шәара ишәыхьӡузеи?"
+
+#~ msgid "world"
+#~ msgstr "аҭынчра"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Аинформациа аҧсҭҳәатә ҽеиҭакқәа ирызкны</b><br>&nbsp;<br>Уажәтәи "
+#~ "аамҭазы ахархәара зуа ихыҧхьаӡаратәу аҽеиҭакқәа роуп<br>Чат-ауадақәа "
+#~ "ауӡом, ианыххоит<br>Ахарҭәаагатә информациа азы<a href= target=>шәахәаҧш "
+#~ "АЦХЫРААРА аҧсҭҳәатә дыррақәа ирызкыу</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Шәақәыгәгәа аиҭаҟаҵаразы ма аиқәырхараз"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Аныхга аҭбаара:"
+
+#~ msgid "Line width:"
+#~ msgstr "Ацәаҳәа аҭбаара:"
+
+#~ msgid "cleanup"
+#~ msgstr "арыцқьара"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "LEGO WeDo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Амикрофон абжьы аҳаракыра:"

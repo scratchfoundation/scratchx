@@ -1,0 +1,1000 @@
+msgid "Language-Name"
+msgstr "Tepehuan"
+
+msgid "%b and %b"
+msgstr "%b gio %b"
+
+msgid "%b or %b"
+msgstr "%b o %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute gu %m.spriteOrStage"
+
+msgid "%m.list contains %s"
+msgstr ""
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp gu %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor Na jᶤx jix chatda'"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "bᶤnda'%s a %m.list"
+
+msgid "answer"
+msgstr ""
+
+msgid "ask %s and wait"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "backdrop #"
+msgstr "J+'k mamxidhix #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "backdrop name"
+msgstr ""
+
+msgid "broadcast %m.broadcast"
+msgstr "b+x ja jossidha' %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "b+x ja joxxidha' %m.broadcast gio n+rada'"
+
+msgid "change %m.effect effect by %n"
+msgstr "makam maxdha' %m.effect na %n"
+
+msgid "change %m.var by %n"
+msgstr "makam %m.var por %n"
+
+msgid "change pen color by %n"
+msgstr "makam tu'm ka' gu ua'nkar ja'pna %n"
+
+msgid "change pen shade by %n"
+msgstr "Io'm piam palhᶤp maxdha' %n"
+
+msgid "change pen size by %n"
+msgstr "jumaika' gu ua'nkar por %n"
+
+msgid "change size by %n"
+msgstr "makam geka' por %n"
+
+msgid "change tempo by %n"
+msgstr "j+'k bhaan ka'm por %n"
+
+msgid "change volume by %n"
+msgstr "makam ap xi j+xkada' na %n"
+
+msgid "change x by %n"
+msgstr "makam x por %n"
+
+msgid "change y by %n"
+msgstr "makam y por %n"
+
+msgid "clear"
+msgstr "mai'chulhdha'"
+
+msgid "clear graphic effects"
+msgstr "ja'k bh+ya' ap"
+
+msgid "clone startup"
+msgstr ""
+
+msgid "color %c is touching %c?"
+msgstr "¿mamxi'ñkar %c bhaan %c?"
+
+msgid "Control"
+msgstr "ma'o'n"
+
+msgid "costume #"
+msgstr "j+'kim t+i'dhix #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr ""
+
+msgid "current %m.timeAndDate"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "define"
+msgstr ""
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "mai'chulhdha' %d.listDeleteItem gu %m.list"
+
+msgid "delete this clone"
+msgstr ""
+
+msgid "direction"
+msgstr "paja'k n+iñchu'ñ"
+
+msgid "distance"
+msgstr ""
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "j+'x a %m.spriteOrMouse"
+
+msgid "else"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "forever"
+msgstr "gammᶤjᶤ"
+
+msgid "forever if %b"
+msgstr "gammᶤjᶤ %b"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "da'npixdha' na %n segs a x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "ku' jimchuda' %n p+x ji ju'"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "jiim a %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "b++p+' jimchuda'"
+
+msgid "go to x:%n y:%n"
+msgstr "jiim a x:%n y:%n"
+
+msgid "hide"
+msgstr "ᶤxchu'"
+
+msgid "hide all sprites"
+msgstr ""
+
+msgid "hide monitor %m.varOrList"
+msgstr ""
+
+msgid "if %b"
+msgstr "jɇ' %b"
+
+msgid "if on edge, bounce"
+msgstr "m"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "muja'k bh+ichdha' %s gio %d.listItem de %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "item %d.listItem de %m.list"
+
+msgid "join %s %s"
+msgstr ""
+
+msgid "key %m.key pressed?"
+msgstr "¿d+lh ua'nakar %m.key mai'xpa'?"
+
+msgid "length of %m.list"
+msgstr "Na jᶤ'k jir tɇbka' gu %m.list"
+
+msgid "length of %s"
+msgstr "Na jᶤ'k jir tɇbka' gu %s"
+
+msgid "letter %n of %s"
+msgstr ""
+
+msgid "Looks"
+msgstr "puchu'm"
+
+msgid "loudness"
+msgstr "t+xsadhiñ kaidha'"
+
+msgid "More Blocks"
+msgstr ""
+
+msgid "Motion"
+msgstr "jimm+"
+
+msgid "motor direction %m.motorDirection"
+msgstr ""
+
+msgid "motor off"
+msgstr ""
+
+msgid "motor on"
+msgstr ""
+
+msgid "motor on for %n secs"
+msgstr ""
+
+msgid "motor power %n"
+msgstr ""
+
+msgid "mouse down?"
+msgstr "¿ bas+k mai'sap?"
+
+msgid "mouse x"
+msgstr "x gu bas+k"
+
+msgid "mouse y"
+msgstr "gio gu bas+k"
+
+msgid "move %n steps"
+msgstr "joiñi'ñ %n k+isap"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "next backdrop"
+msgstr "max jumai"
+
+msgid "next costume"
+msgstr "jumai jix j+mim"
+
+msgid "not %b"
+msgstr "cham %b"
+
+msgid "Operators"
+msgstr ""
+
+msgid "Pen"
+msgstr "u'uankar"
+
+msgid "pen down"
+msgstr "t+bañdha' u'uankar"
+
+msgid "pen up"
+msgstr "t+sa'ñdha' u'uankar"
+
+msgid "pick random %n to %n"
+msgstr "jax na p+x chu'm ja'kolhiñ bhaan %n y %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "sasbia' tambolh %d.drum j+'x %n joiñ"
+
+msgid "play note %n for %n beats"
+msgstr "Am tu sab palhᶤp %d.note"
+
+msgid "play sound %m.sound"
+msgstr "sasbia' gu sasab %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "sasbia' gu sasab %m.sound gio t+ n+rada'"
+
+msgid "point in direction %d.direction"
+msgstr "mujak xi k+xi'ñ s+lh %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "muja'k xi k+xi'ñ na pai' %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "gio up %n"
+
+msgid "repeat until %b"
+msgstr "giop mui' xi bh+ichdha' munmu na %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "makam ja'k bh+ichdha' %d.listItem dhi %m.list na pai' %s"
+
+msgid "reset timer"
+msgstr "giop bhai'p ji k+sa' na jax aagidha'"
+
+msgid "rest for %n beats"
+msgstr "dhupiñ na pai' %n"
+
+msgid "round %n"
+msgstr "xikolhgidha' %n"
+
+msgid "say %s"
+msgstr "xi a' %s"
+
+msgid "say %s for %n secs"
+msgstr "xi a' %s gio %n xi'"
+
+msgid "Scratch days"
+msgstr ""
+
+msgid "Sensing"
+msgstr "Mᶤmᶤichdhakar"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "¿Mᶤichkar %m.booleanSensor mᶤim ?"
+
+msgid "set %m.effect effect to %n"
+msgstr "Bha bi'spa' ap gux abhartugi'ñ %m.effect ja'pna %n"
+
+msgid "set %m.var to %s"
+msgstr "Bi'spa' %m.var piam %n"
+
+msgid "set instrument to %d.instrument"
+msgstr "Bi'spa' gu sasbikar a %m.costume"
+
+msgid "set pen color to %c"
+msgstr "Bha bi'spa' ap gux abhartugi'ñ gu lápiz %c"
+
+msgid "set pen color to %n"
+msgstr "Bha bi'spa' ap gux abhartugi'ñ gu lápiz %c"
+
+msgid "set pen shade to %n"
+msgstr "Bi'spa' na jᶤx maaxilhia' gu u'uankar %n"
+
+msgid "set pen size to %n"
+msgstr "Bi'spa' na jᶤx maaxilhia' gu u'uankar %n"
+
+msgid "set size to %n%"
+msgstr "Bi'spa' na jᶤx a %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "Bi'xpa' na jᶤ'x mᶤkiidha' %n bpm"
+
+msgid "set video transparency to %n%"
+msgstr ""
+
+msgid "set volume to %n%"
+msgstr "Xi dhaasa' gu kai'ch a %n%"
+
+msgid "set x to %n"
+msgstr "Bi'spa' x mummu %n"
+
+msgid "set y to %n"
+msgstr "maxdha'ap %n"
+
+msgid "show"
+msgstr "maxdha'ap"
+
+msgid "show monitor %m.varOrList"
+msgstr ""
+
+msgid "size"
+msgstr "j+'xka"
+
+msgid "Sound"
+msgstr "sasab"
+
+msgid "stamp"
+msgstr "daxdha'"
+
+msgid "stop %m.stop"
+msgstr ""
+
+msgid "stop all sounds"
+msgstr "ja tuttu' b+x gu sassab"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "switch backdrop to %m.backdrop"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr ""
+
+msgid "switch costume to %m.costume"
+msgstr ""
+
+msgid "tempo"
+msgstr "Tempo"
+
+msgid "think %s"
+msgstr "jum aaga' %s"
+
+msgid "think %s for %n secs"
+msgstr "jum aaga' %s na %n jotmoda'"
+
+msgid "tilt"
+msgstr ""
+
+msgid "timer"
+msgstr "Cronómetro"
+
+msgid "touching %m.touching?"
+msgstr "¿da'ng+ %m.touching?"
+
+msgid "touching color %c?"
+msgstr "da'ng+ gu mamxiñkar %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr ""
+
+msgid "turn @turnRight %n degrees"
+msgstr ""
+
+msgid "turn video %m.videoState"
+msgstr ""
+
+msgid "user id"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr ""
+
+msgid "volume"
+msgstr "gekada'"
+
+msgid "wait %n secs"
+msgstr "n+rada' %n xi'"
+
+msgid "wait until %b"
+msgstr "n+rada' na gu %b"
+
+msgid "when %m.key key pressed"
+msgstr "nap ma'ispa' gu d+lh u'uandam %m.key"
+
+msgid "when @greenFlag clicked"
+msgstr "nap ma'ispa' gu @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "when backdrop switches to %m.backdrop"
+msgstr ""
+
+msgid "when I am clicked"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr ""
+
+msgid "x position"
+msgstr "Na pai' kᶤk gu x"
+
+msgid "y position"
+msgstr "Na pai' kᶤk gu y"
+
+
+##################
+# User Interface #
+##################
+msgid "A connected"
+msgstr ""
+
+msgid "abs"
+msgstr "abc"
+
+msgid "acos"
+msgstr ""
+
+msgid "Add a boolean input:"
+msgstr ""
+
+msgid "Add a number input:"
+msgstr ""
+
+msgid "Add a string input:"
+msgstr ""
+
+msgid "Add label text:"
+msgstr ""
+
+msgid "all"
+msgstr "b+x"
+
+msgid "any"
+msgstr "jax na p+x chu'm"
+
+msgid "asin"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr ""
+
+msgid "backdrop #"
+msgstr ""
+
+msgid "backdrop name"
+msgstr ""
+
+msgid "backdrop1"
+msgstr ""
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Bass"
+msgstr ""
+
+msgid "Bassoon"
+msgstr ""
+
+msgid "bottom-left"
+msgstr ""
+
+msgid "bottom-right"
+msgstr ""
+
+msgid "brightness"
+msgstr "toobik"
+
+msgid "button pressed"
+msgstr "boi'xpaap gu butun"
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr ""
+
+msgid "Choir"
+msgstr ""
+
+msgid "Clarinet"
+msgstr "t+b tirimiax"
+
+msgid "Claves"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr ""
+
+msgid "color"
+msgstr "Aixim tu'm"
+
+msgid "copy"
+msgstr "ma'n na jax chu'm jupna'"
+
+msgid "cos"
+msgstr ""
+
+msgid "costume #"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "Cowbell"
+msgstr "samomdam sasoi' ja soso'm"
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+msgid "delete"
+msgstr "mai'chulhdha'"
+
+msgid "direction"
+msgstr ""
+
+msgid "down"
+msgstr "b+ta'n"
+
+msgid "down arrow"
+msgstr "u'uu b+ta'n"
+
+msgid "duplicate"
+msgstr "gokkada'ap"
+
+msgid "Duplicate"
+msgstr "gokkada'ap"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "ju'ñdharam"
+
+msgid "edit"
+msgstr "k+'mpigixkam ba busnia'."
+
+msgid "Edit"
+msgstr "k+'mpigixkam ba busnia'."
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "fisheye"
+msgstr "buiñ gu batoop"
+
+msgid "floor"
+msgstr ""
+
+msgid "Floor Tom"
+msgstr ""
+
+msgid "Flute"
+msgstr "tirimiax"
+
+msgid "ghost"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr "Gᶤbxi'ñ "
+
+msgid "High Bongo"
+msgstr ""
+
+msgid "High Tom"
+msgstr ""
+
+msgid "High Wood Block"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Import"
+msgstr "joossa'"
+
+msgid "int"
+msgstr ""
+
+msgid "Kick Drum"
+msgstr ""
+
+msgid "last"
+msgstr "daipui'"
+
+msgid "left"
+msgstr "o'nsopd+r"
+
+msgid "left arrow"
+msgstr "u'uu o'nsopd+r"
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr "Bᶤgi'ñ"
+
+msgid "ln"
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "Long Guiro"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "Low Bongo"
+msgstr ""
+
+msgid "Low Conga"
+msgstr ""
+
+msgid "Low Tom"
+msgstr ""
+
+msgid "Low Wood Block"
+msgstr ""
+
+msgid "Maracas"
+msgstr ""
+
+msgid "Marimba"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Mid Tom"
+msgstr ""
+
+msgid "middle"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "More"
+msgstr "mui'"
+
+msgid "mosaic"
+msgstr "aixim tu'm bh+ndhixim"
+
+msgid "motion"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "s+ss+ñkaru'n gu bas+k"
+
+msgid "Music Box"
+msgstr ""
+
+msgid "Mute High Conga"
+msgstr ""
+
+msgid "Mute Triangle"
+msgstr ""
+
+msgid "name"
+msgstr ""
+
+msgid "New"
+msgstr "xibkam"
+
+msgid "New backdrop"
+msgstr ""
+
+msgid "New costume"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New sound"
+msgstr ""
+
+msgid "New sprite:"
+msgstr ""
+
+msgid "off"
+msgstr "tuukix"
+
+msgid "on"
+msgstr "m+ichdhix"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr ""
+
+msgid "Open Hi-Hat"
+msgstr ""
+
+msgid "Open High Conga"
+msgstr ""
+
+msgid "Open Triangle"
+msgstr ""
+
+msgid "Organ"
+msgstr ""
+
+msgid "other scripts in stage"
+msgstr ""
+
+msgid "Paint"
+msgstr "mamxiñ"
+
+msgid "paste"
+msgstr ""
+
+msgid "Pedal Hi-Hat"
+msgstr ""
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "pixelate"
+msgstr "Pixelizar"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "pop"
+
+msgid "Record"
+msgstr "gamußap maßn na jaxchußm"
+
+msgid "recording1"
+msgstr ""
+
+msgid "redo"
+msgstr "dhi gio ja'k jup bua'"
+
+msgid "Remix"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr ""
+
+msgid "right"
+msgstr "k+'nd+r"
+
+msgid "right arrow"
+msgstr "u'uu k+'nd+r"
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "say"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Short Guiro"
+msgstr ""
+
+msgid "shout"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "Side Stick"
+msgstr "s+lh ja'k g++g+b"
+
+msgid "silence"
+msgstr ""
+
+msgid "sin"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
+msgid "slider"
+msgstr "ja'p xi bh+ichu'n"
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "space"
+msgstr "na pai jax jix chu bhai'"
+
+msgid "Sprites"
+msgstr ""
+
+msgid "sqrt"
+msgstr "ma'n na jax chu' bhaan ja'kolhiñ t+'k+b jim"
+
+msgid "Stage"
+msgstr "na pai' tum joojoiñ"
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr ""
+
+msgid "tan"
+msgstr ""
+
+msgid "that way"
+msgstr ""
+
+msgid "think"
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this way"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "top-left"
+msgstr ""
+
+msgid "top-right"
+msgstr ""
+
+msgid "Trombone"
+msgstr ""
+
+msgid "undo"
+msgstr "kañio'ka'"
+
+msgid "up"
+msgstr "damd+r"
+
+msgid "up arrow"
+msgstr "u'uu damd+r"
+
+msgid "Vibraphone"
+msgstr ""
+
+msgid "Vibraslap"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+msgid "whirl"
+msgstr "xiboolhik"
+
+msgid "whisper"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "x position"
+msgstr ""
+
+msgid "y position"
+msgstr ""
+
+msgid "year"
+msgstr ""
+

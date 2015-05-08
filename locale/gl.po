@@ -1,0 +1,2023 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 15:06+0000\n"
+"Last-Translator: Natalie <nrusk@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429110396.000000\n"
+
+msgid "%b and %b"
+msgstr "%b e %b"
+
+msgid "%b or %b"
+msgstr "%b ou %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute de %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp de %n"
+
+msgid "%m.sensor sensor value"
+msgstr "valor do sensor %m.sensor"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "engade %s a %m.list"
+
+msgid "answer"
+msgstr "resposta"
+
+msgid "ask %s and wait"
+msgstr "preguntar %s e agardar"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "fondo #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "nome de fondo"
+
+msgid "broadcast %m.broadcast"
+msgstr "enviar a todos %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "enviar a todos %m.broadcast e agardar"
+
+msgid "change %m.effect effect by %n"
+msgstr "cambiar efecto %m.effect por %n"
+
+msgid "change %m.var by %n"
+msgstr "trocar %m.var por %n"
+
+msgid "change pen color by %n"
+msgstr "cambiar a cor do lapis a %n"
+
+msgid "change pen shade by %n"
+msgstr "cambiar intensidade do lapis a %n"
+
+msgid "change pen size by %n"
+msgstr "cambiar tamaño do lapis a %n"
+
+msgid "change size by %n"
+msgstr "cambiar tamaño por %n"
+
+msgid "change tempo by %n"
+msgstr "cambiar ritmo por %n"
+
+msgid "change volume by %n"
+msgstr "cambiar volume por %n"
+
+msgid "change x by %n"
+msgstr "trocar x por %n"
+
+msgid "change y by %n"
+msgstr "trocar y por %n"
+
+msgid "clear"
+msgstr "borrar"
+
+msgid "clear graphic effects"
+msgstr "quitar efectos gráficos"
+
+msgid "color %c is touching %c?"
+msgstr "cor %c tocando sobre %c?"
+
+msgid "Control"
+msgstr "Control"
+
+msgid "costume #"
+msgstr "vestimenta # "
+
+msgid "create clone of %m.spriteOnly"
+msgstr "crear clon de %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "%m.timeAndDate xusto agora"
+
+msgid "Data"
+msgstr "Datos"
+
+msgid "days since 2000"
+msgstr "días dende o 2000"
+
+msgid "define"
+msgstr "definir"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "borrar %d.listDeleteItem de %m.list"
+
+msgid "delete this clone"
+msgstr "borrar este clon"
+
+msgid "direction"
+msgstr "dirección"
+
+msgid "distance"
+msgstr "distancia"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "distancia a %m.spriteOrMouse"
+
+msgid "else"
+msgstr "se non"
+
+msgid "Events"
+msgstr "Eventos"
+
+msgid "forever"
+msgstr "para sempre"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "esbarar %n seg cara a x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "enviar atrás %n capas"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "ir a %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "enviar á fronte"
+
+msgid "go to x:%n y:%n"
+msgstr "ir a x:%n y:%n"
+
+msgid "hide"
+msgstr "agochar"
+
+msgid "hide list %m.list"
+msgstr "esconder lista %m.list"
+
+msgid "hide variable %m.var"
+msgstr "esconder variable %m.var"
+
+msgid "if %b then"
+msgstr "si %b entón"
+
+msgid "if on edge, bounce"
+msgstr "rebotar se toca un bordo"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "insertar %s en %d.listItem de %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "elemento %d.listItem de %m.list"
+
+msgid "join %s %s"
+msgstr "xuntar %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "tecla %m.key premida?"
+
+msgid "length of %m.list"
+msgstr "lonxitude de %m.list"
+
+msgid "length of %s"
+msgstr "lonxitude de %s"
+
+msgid "letter %n of %s"
+msgstr "letra %n de %s"
+
+msgid "Looks"
+msgstr "Apariencia"
+
+msgid "loudness"
+msgstr "volume do son"
+
+msgid "More Blocks"
+msgstr "Máis Bloques"
+
+msgid "Motion"
+msgstr "Movemento"
+
+msgid "mouse down?"
+msgstr "botón esquerdo no rato premido?"
+
+msgid "mouse x"
+msgstr "rato x"
+
+msgid "mouse y"
+msgstr "rato y"
+
+msgid "move %n steps"
+msgstr "mover %n pasos"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "seguinte fondo de pantalla"
+
+msgid "next costume"
+msgstr "seguinte vestimenta"
+
+msgid "not %b"
+msgstr "non %b"
+
+msgid "Operators"
+msgstr "Operadores"
+
+msgid "Pen"
+msgstr "Lapis"
+
+msgid "pen down"
+msgstr "baixar lapis"
+
+msgid "pen up"
+msgstr "subir lapis"
+
+msgid "pick random %n to %n"
+msgstr "número ao chou entre %n e %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "facer soar o tambor %d.drum durante %n pulsos"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "facer soar a nota %d.note durante %n pulsos"
+
+msgid "play sound %m.sound"
+msgstr "reproducir son %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "reproducir son %m.sound ata rematar"
+
+msgid "point in direction %d.direction"
+msgstr "apuntar cara á dirección %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "apuntar cara %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "repetir %n"
+
+msgid "repeat until %b"
+msgstr "repetir ata %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "trocarr elemento %d.listItem de %m.list por %s"
+
+msgid "reset timer"
+msgstr "reiniciar cronómetro"
+
+msgid "rest for %n beats"
+msgstr "silencio por %n pulsos"
+
+msgid "round %n"
+msgstr "redondear %n"
+
+msgid "say %s"
+msgstr "dicir %s"
+
+msgid "say %s for %n secs"
+msgstr "dicir %s durante %n segundos"
+
+msgid "Sensing"
+msgstr "Sensores"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "sensor %m.booleanSensor activado?"
+
+msgid "set %m.effect effect to %n"
+msgstr "fixar efecto %m.effect a %n"
+
+msgid "set %m.var to %s"
+msgstr "fixar %m.var a %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "escoller o instrumento %d.instrument"
+
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "fixar dirección %m.motor2 a %m.motorDirection"
+
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "fixar potencia %m.motor a %n"
+
+msgid "set pen color to %c"
+msgstr "fixar cor do lapis a %c"
+
+msgid "set pen color to %n"
+msgstr "fixar cor do lapis a %n"
+
+msgid "set pen shade to %n"
+msgstr "fixar intensidade do lapis a %n"
+
+msgid "set pen size to %n"
+msgstr "fixar tamaño do lapis a %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "fixar estilo de rotación %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "fixar tamaño a %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "fijar tempo a %n ppm"
+
+msgid "set video transparency to %n%"
+msgstr "fixar transparencia de video a %n%"
+
+msgid "set volume to %n%"
+msgstr "fixar volume a %n%"
+
+msgid "set x to %n"
+msgstr "fixar x en %n"
+
+msgid "set y to %n"
+msgstr "fixar y en %n"
+
+msgid "show"
+msgstr "amosar"
+
+msgid "show list %m.list"
+msgstr "amosar lista %m.list"
+
+msgid "show variable %m.var"
+msgstr "amosar variable %m.var"
+
+msgid "size"
+msgstr "tamaño"
+
+msgid "Sound"
+msgstr "Son"
+
+msgid "stamp"
+msgstr "selar"
+
+msgid "stop %m.stop"
+msgstr "deter %m.stop"
+
+msgid "stop all sounds"
+msgstr "deter todos os sons"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "trocar fondo a %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "trocar fondo a %m.backdrop e agardar"
+
+msgid "switch costume to %m.costume"
+msgstr "trocar vestimenta a %m.costume"
+
+msgid "tempo"
+msgstr "tempo"
+
+msgid "think %s"
+msgstr "pensar %s"
+
+msgid "think %s for %n secs"
+msgstr "pensar %s durante %n segundos"
+
+msgid "tilt"
+msgstr "pendente"
+
+msgid "timer"
+msgstr "cronómetro"
+
+msgid "touching %m.touching?"
+msgstr "tocando %m.touching?"
+
+msgid "touching color %c?"
+msgstr "tocando a cor %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "xirar @turnLeft %n grados"
+
+msgid "turn @turnRight %n degrees"
+msgstr "xirar @turnRight %n grados"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "apagar %m.motor"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "acender %m.motor"
+
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "acender %m.motor durante %n segundos"
+
+msgid "turn video %m.videoState"
+msgstr "vídeo %m.videoState"
+
+msgid "username"
+msgstr "nome de usuario"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "%m.videoMotionType do video en %m.stageOrThis"
+
+msgid "volume"
+msgstr "volume"
+
+msgid "wait %n secs"
+msgstr "agardar %n segundos"
+
+msgid "wait until %b"
+msgstr "agardar ata %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "cando %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "ao premer a tecla %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "cando %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "cando o %m.triggerSensor sexa > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "ao premer @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "cando o fondo cambie a %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "cando a distancia %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "ao recibir %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "cando comence como clon"
+
+msgid "when this sprite clicked"
+msgstr "ao premer nesta figura"
+
+msgid "when tilt %m.eNe %n"
+msgstr "cando a pendente %m.eNe %n"
+
+msgid "x position"
+msgstr "posición x"
+
+msgid "y position"
+msgstr "posición y"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list contén %s?"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Información sobre variables da nube</b><br>&nbsp;<br>Agora, só se poden "
+"utilizar números<br>Non se permiten as salas de chat e serán "
+"eliminadas<br>Para máis información, <a href=\"/help/faq/#clouddata\" target="
+"\"_blank\">revisa as preguntas sobre información da nube!</a>"
+
+msgid "A connected"
+msgstr "A conectado"
+
+msgid "a copy of the project file on your computer."
+msgstr "unha copia do ficheiro do proxecto no teu ordenador."
+
+msgid "A newer version of Scratch is available"
+msgstr "Hai dispoñible unha nova versión de Scratch"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "abs"
+msgstr "valor absoluto"
+
+msgid "acos"
+msgstr "arco coseno"
+
+msgid "Add"
+msgstr "Engadir"
+
+msgid "Add an Extension"
+msgstr "Engadir una Extensión"
+
+msgid "Add boolean input:"
+msgstr "Engadir entrada lóxica:"
+
+msgid "add comment"
+msgstr "engadir comentario"
+
+msgid "Add label text:"
+msgstr "Engadir texto da etiqueta:"
+
+msgid "Add number input:"
+msgstr "Engadir entrada numérica:"
+
+msgid "Add string input:"
+msgstr "Engadir entrada de texto:"
+
+msgid "all"
+msgstr "todos"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "all around"
+msgstr "en todas as direccións"
+
+msgid "Animal"
+msgstr "Animal"
+
+msgid "Animals"
+msgstr "Animais"
+
+msgid "asin"
+msgstr "arco seno"
+
+msgid "assets loaded"
+msgstr "recursos cargados"
+
+msgid "atan"
+msgstr "arco tanxente"
+
+msgid "B connected"
+msgstr "B conectado"
+
+msgid "Back a layer"
+msgstr "Unha capa para atrás"
+
+msgid "backdrop"
+msgstr "fondo"
+
+msgid "Backdrop"
+msgstr "Fondo"
+
+msgid "Backdrop Library"
+msgstr "Biblioteca de fondos"
+
+msgid "backdrop1"
+msgstr "fondo1"
+
+msgid "backdrops"
+msgstr "fondos"
+
+msgid "Backdrops"
+msgstr "Fondos"
+
+msgid "Backpack"
+msgstr "Mochila"
+
+msgid "Bass"
+msgstr "Baixo"
+
+msgid "Bass Drum"
+msgstr "Bombo"
+
+msgid "Bassoon"
+msgstr "Fagot"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Como tes unha conta de Scratch nova os cambios en datos da nube non se "
+"gardarán. Segue participando no sitio para que poidas usar datos da nube "
+"axiña!"
+
+msgid "Bitmap"
+msgstr "Mapa de bits"
+
+msgid "Bitmap Mode"
+msgstr "Modo mapa de bits"
+
+msgid "Block help"
+msgstr "Axuda de bloques"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "luminosidade"
+
+msgid "Bring to front"
+msgstr "Traer á fronte"
+
+msgid "Broadcast"
+msgstr "Enviar a todos"
+
+msgid "Brush"
+msgstr "Pincel"
+
+msgid "button pressed"
+msgstr "botón premido"
+
+msgid "by"
+msgstr "por"
+
+msgid "bytes loaded"
+msgstr "bytes cargados"
+
+msgid "C connected"
+msgstr "C conectado"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Cámara"
+
+msgid "can drag in player:"
+msgstr "pode ser arrastrado:"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Cannot Delete"
+msgstr "Non se pode borrar"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Non se pudo conectar ao servidor."
+
+msgid "Castle"
+msgstr "Castelo"
+
+msgid "Category"
+msgstr "Categoría"
+
+msgid "ceiling"
+msgstr "teito"
+
+msgid "Cello"
+msgstr "Violonchelo"
+
+msgid "Check for updates"
+msgstr "Comrpobar si hai actualizacións"
+
+msgid "Choir"
+msgstr "Coro"
+
+msgid "Choose backdrop from library"
+msgstr "Elexir un fondo da biblioteca"
+
+msgid "Choose costume from library"
+msgstr "Elexir unha vestimenta da biblioteca"
+
+msgid "Choose sound from library"
+msgstr "Elexir un son da biblioteca"
+
+msgid "Choose sprite from library"
+msgstr "Elexir unha figura da biblioteca"
+
+msgid "Circle"
+msgstr "Círculo"
+
+msgid "City"
+msgstr "Cidade"
+
+msgid "Clarinet"
+msgstr "Clarinete"
+
+msgid "Claves"
+msgstr "Chaves"
+
+msgid "Clear"
+msgstr "Limpar"
+
+msgid "clear senders/receivers"
+msgstr "limpar emisores/receptores"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "Preme  para intentar de novo ou en  para gardar"
+
+msgid "Close"
+msgstr "Pechar"
+
+msgid "Closed Hi-Hat"
+msgstr "Charles pechado"
+
+msgid "Cloud data"
+msgstr "Datos na nube"
+
+msgid "color"
+msgstr "cor"
+
+msgid "Color a shape"
+msgstr "Colorear unha forma"
+
+msgid "Conga"
+msgstr "Conga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Conectándose ao servidor da nube..."
+
+msgid "Convert to bitmap"
+msgstr "Mudar a mapa de bits"
+
+msgid "Convert to vector"
+msgstr "Mudar a vector"
+
+msgid "Converting mp3..."
+msgstr "Mudando mp3..."
+
+msgid "copy"
+msgstr "copiar"
+
+msgid "Copying..."
+msgstr "Copiando..."
+
+msgid "cos"
+msgstr "coseno"
+
+msgid "Costume"
+msgstr "Vestimenta"
+
+msgid "Costume Library"
+msgstr "Biblioteca de vestimentas"
+
+msgid "costume name"
+msgstr "nome da vestimenta"
+
+msgid "costume1"
+msgstr "vestimenta1"
+
+msgid "costume2"
+msgstr "vestimenta2"
+
+msgid "Costumes"
+msgstr "Vestimentas"
+
+msgid "Costumes > 1"
+msgstr "Vestimentas > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr "Non se pode descargar a nova aplicación dende o servidor."
+
+msgid "Cowbell"
+msgstr "Cencerro"
+
+msgid "Crash Cymbal"
+msgstr "Platillo Crash"
+
+msgid "Creating..."
+msgstr "Creando..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Polo momento, só se poden gardar números nas variables da Nube."
+
+msgid "cut"
+msgstr "cortar"
+
+msgid "D connected"
+msgstr "D conectado"
+
+msgid "date"
+msgstr "data"
+
+msgid "day of week"
+msgstr "día da semana"
+
+msgid "delete"
+msgstr "borrar"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "delete variable"
+msgstr "borrar variable"
+
+msgid "direction:"
+msgstr "dirección:"
+
+msgid "don't rotate"
+msgstr "non rotar"
+
+msgid "Don't save"
+msgstr "Non gardar"
+
+msgid "down"
+msgstr "abaixo"
+
+msgid "down arrow"
+msgstr "frecha abaixo"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Download to your computer"
+msgstr "Descargar ao teu ordenador"
+
+msgid "duplicate"
+msgstr "duplicar"
+
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgid "e ^"
+msgstr "e elevado a"
+
+msgid "edge"
+msgstr "bordo"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "edit"
+msgstr "editar"
+
+msgid "Edit Block"
+msgstr "Editar bloque"
+
+msgid "Effects"
+msgstr "Efectos"
+
+msgid "Electric Guitar"
+msgstr "Guitarra eléctrica"
+
+msgid "Electric Piano"
+msgstr "Piano eléctrico"
+
+msgid "Electronic"
+msgstr "Electrónica"
+
+msgid "Ellipse"
+msgstr "Elipse"
+
+msgid "Erase"
+msgstr "Borrar"
+
+msgid "Eraser width"
+msgstr "Groso do borrador"
+
+msgid "Error!"
+msgstr "Erro!"
+
+msgid "export"
+msgstr "exportar"
+
+msgid "fade in"
+msgstr "aparecer"
+
+msgid "fade out"
+msgstr "esvaecer"
+
+msgid "Fantasy"
+msgstr "Fantasía"
+
+msgid "Features"
+msgstr "Características"
+
+msgid "File"
+msgstr "Ficheiro"
+
+msgid "Fill with color"
+msgstr "Encher con cor"
+
+msgid "fisheye"
+msgstr "ollo de peixe"
+
+msgid "Flip left-right"
+msgstr "Darlle a volta horizontalmente"
+
+msgid "Flip up-down"
+msgstr "Darlle a volta verticalmente"
+
+msgid "floor"
+msgstr "chan"
+
+msgid "Flute"
+msgstr "Flauta"
+
+msgid "Flying"
+msgstr "Voando"
+
+msgid "Font:"
+msgstr "Fonte:"
+
+msgid "For all sprites"
+msgstr "Para todos as figuras"
+
+msgid "For this sprite only"
+msgstr "Só para esta figura"
+
+msgid "Forward a layer"
+msgstr "Una capa cara adiante"
+
+msgid "ghost"
+msgstr "desaparecer"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Grow"
+msgstr "Medrar"
+
+msgid "Guiro"
+msgstr "Güiro"
+
+msgid "Guitar"
+msgstr "Guitarra"
+
+msgid "Hand Clap"
+msgstr "Palmada"
+
+msgid "Hardware"
+msgstr "Hardware"
+
+msgid "help"
+msgstr "axuda"
+
+msgid "High C"
+msgstr "Do Alto"
+
+msgid "Holiday"
+msgstr "Festivo"
+
+msgid "hour"
+msgstr "hora"
+
+msgid "Human"
+msgstr "Humáns"
+
+msgid "import"
+msgstr "importar"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Importing sound..."
+msgstr "Importando son..."
+
+msgid "Indoors"
+msgstr "Interiores"
+
+msgid "Installing..."
+msgstr "Instalando..."
+
+msgid "Instruments"
+msgstr "Instrumentos"
+
+msgid "large readout"
+msgstr "tamaño grande"
+
+msgid "last"
+msgstr "último"
+
+msgid "left"
+msgstr "esquerda"
+
+msgid "left arrow"
+msgstr "frecha esquerda"
+
+msgid "left-right"
+msgstr "esquerda-dereita"
+
+msgid "length"
+msgstr "lonxitude"
+
+msgid "Letters"
+msgstr "Letras"
+
+msgid "Library"
+msgstr "Biblioteca"
+
+# 80%
+msgid "light"
+msgstr "luz"
+
+msgid "Line"
+msgstr "Liña"
+
+msgid "Line width"
+msgstr "Groso de liña"
+
+msgid "list"
+msgstr "lista"
+
+msgid "List name"
+msgstr "Nome da lista"
+
+msgid "ln"
+msgstr "Dentro"
+
+msgid "Loading project..."
+msgstr "Cargando proxecto..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "máis forte"
+
+msgid "Low C"
+msgstr "Do Baixo"
+
+msgid "Make a Block"
+msgstr "Facer un Bloque"
+
+msgid "Make a List"
+msgstr "Facer unha lista"
+
+msgid "Make a Variable"
+msgstr "Facer unha variable"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "Máximo"
+
+msgid "meow"
+msgstr "miau"
+
+msgid "Message Name"
+msgstr "Nome da mensaxe"
+
+msgid "message1"
+msgstr "mensaxe1"
+
+msgid "Microphone volume:"
+msgstr "Volume do micrófono:"
+
+msgid "Middle C"
+msgstr "Do Central"
+
+msgid "Min"
+msgstr "Mínimo"
+
+msgid "minute"
+msgstr "minuto"
+
+msgid "month"
+msgstr "mes"
+
+msgid "mosaic"
+msgstr "mosaico"
+
+msgid "motion"
+msgstr "movemento"
+
+msgid "mouse-pointer"
+msgstr "punteiro do rato"
+
+msgid "Multiple"
+msgstr "Múltiple"
+
+msgid "Music and Dance"
+msgstr "Música e Baile"
+
+msgid "Music Box"
+msgstr "Caixa de Música"
+
+msgid "Music Loops"
+msgstr "Bucles Musicais"
+
+msgid "myself"
+msgstr "a min mesmo"
+
+msgid "Nature"
+msgstr "Natureza"
+
+msgid "New"
+msgstr "Novo"
+
+msgid "New backdrop from camera"
+msgstr "Novo fondo desde cámara"
+
+msgid "New backdrop:"
+msgstr "Novo fondo:"
+
+msgid "New Block"
+msgstr "Bloque Novo"
+
+msgid "New costume from camera"
+msgstr "Nova vestimenta dende a cámara"
+
+msgid "New costume:"
+msgstr "Nova vestimenta:"
+
+msgid "New List"
+msgstr "Nova lista"
+
+msgid "New Message"
+msgstr "Mensaxe Nova"
+
+msgid "new message..."
+msgstr "nova mensaxe..."
+
+msgid "New name"
+msgstr "Novo nome"
+
+msgid "New sound:"
+msgstr "Novo son:"
+
+msgid "New sprite from camera"
+msgstr "Nova figura dende a cámara"
+
+msgid "New sprite:"
+msgstr "Nova figura:"
+
+msgid "New Variable"
+msgstr "Nova Variable"
+
+msgid "No motion blocks"
+msgstr "Non hai bloques de movemento"
+
+msgid "normal readout"
+msgstr "tamaño normal"
+
+msgid "Not saved; network or server problem."
+msgstr "Non se gardou; problema de rede ou servidor."
+
+msgid "Not saved; project did not load."
+msgstr "Non se gardou; o proxecto non se cargou."
+
+msgid "of"
+msgstr "de"
+
+msgid "off"
+msgstr "apagado"
+
+msgid "Offline Editor"
+msgstr "Editor Fora de Liña"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "on"
+msgstr "aceso"
+
+msgid "on-flipped"
+msgstr "aceso e dado a volta"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Open Cuica"
+msgstr "Cuica solta"
+
+msgid "Open Hi-Hat"
+msgstr "Charles aberto"
+
+msgid "Options"
+msgstr "Opcións"
+
+msgid "Organ"
+msgstr "Órgano"
+
+msgid "Other"
+msgstr "Outro"
+
+msgid "other scripts in sprite"
+msgstr "outros programas na figura"
+
+msgid "other scripts in stage"
+msgstr "outros programas no escenario"
+
+msgid "Outdoors"
+msgstr "Exteriores"
+
+msgid "Paint new backdrop"
+msgstr "Debuxar novo fondo"
+
+msgid "Paint new costume"
+msgstr "Debuxar nova vestimenta"
+
+msgid "Paint new sprite"
+msgstr "Debuxar nova figura"
+
+msgid "Password"
+msgstr "Contrasinal"
+
+msgid "Password is required"
+msgstr "O contrasinal é necesario"
+
+msgid "paste"
+msgstr "pegar"
+
+msgid "Pencil"
+msgstr "Lapis"
+
+msgid "People"
+msgstr "Xente"
+
+msgid "Percussion"
+msgstr "Percusión"
+
+msgid "photo1"
+msgstr "foto1"
+
+msgid "Piano"
+msgstr "Piano"
+
+msgid "Pick up color"
+msgstr "Recoller cor"
+
+msgid "pixelate"
+msgstr "pixelar"
+
+msgid "Pizzicato"
+msgstr "Pizzicato"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr "fondo anterior"
+
+msgid "Project did not load."
+msgstr "Proxecto non cargado."
+
+msgid "Project not saved!"
+msgstr "Proxecto non gardado!"
+
+msgid "Project name"
+msgstr "Nome do proxecto"
+
+msgid "Project name is required"
+msgstr "Requírese o nome do proxecto"
+
+msgid "random"
+msgstr "ao chou"
+
+msgid "Record"
+msgstr "Gravar"
+
+msgid "Record new sound"
+msgstr "Gravar novo son"
+
+msgid "record..."
+msgstr "gravar..."
+
+msgid "recording1"
+msgstr "gravación1"
+
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+msgid "Redo"
+msgstr "Refacer"
+
+msgid "redo"
+msgstr "refacer"
+
+msgid "Remix"
+msgstr "Mesturar"
+
+msgid "Remixing..."
+msgstr "Mesturando..."
+
+msgid "Rename"
+msgstr "Renomear"
+
+msgid "rename variable"
+msgstr "renomear variable"
+
+msgid "Reshape"
+msgstr "Reformar"
+
+msgid "resistance-A"
+msgstr "resistencia-A"
+
+msgid "resistance-B"
+msgstr "resistencia-B"
+
+msgid "resistance-C"
+msgstr "resistencia-C"
+
+msgid "resistance-D"
+msgstr "resistencia-D"
+
+msgid "reverse"
+msgstr "reverter"
+
+msgid "Revert"
+msgstr "Reverter"
+
+msgid "Reverting..."
+msgstr "Revertendo..."
+
+msgid "right"
+msgstr "dereita"
+
+msgid "right arrow"
+msgstr "frecha dereita"
+
+msgid "rotation style:"
+msgstr "estilo de rotación:"
+
+msgid "Run without screen refresh"
+msgstr "Executar sen refrescar a pantalla"
+
+msgid "Save"
+msgstr "Gardar"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Garda unha copia deste proxecto e engade as túas propias ideas."
+
+msgid "Save as"
+msgstr "Gardar como"
+
+msgid "Save now"
+msgstr "Gargar agora"
+
+msgid "Save project?"
+msgstr "Gardar o proxecto?"
+
+msgid "save to local file"
+msgstr "gardar a un ficheiro local"
+
+msgid "Saved"
+msgstr "Gardado"
+
+msgid "Saving changes..."
+msgstr "Gardando cambios..."
+
+msgid "Saving..."
+msgstr "Gardando..."
+
+msgid "Saxophone"
+msgstr "Saxofón"
+
+msgid "Scratch Updater"
+msgstr "Actualizador de Scratch"
+
+msgid "Script"
+msgstr "Programa"
+
+msgid "Scripts"
+msgstr "Programas"
+
+msgid "second"
+msgstr "segundo"
+
+msgid "See project page"
+msgstr "Ver a páxina do proxecto"
+
+msgid "Select"
+msgstr "Seleccionar"
+
+msgid "select all"
+msgstr "seleccionar todo"
+
+msgid "Select and duplicate"
+msgstr "Seleccionar e duplicar"
+
+msgid "Send to back"
+msgstr "Enviar ao fondo"
+
+msgid "Set Costume Center"
+msgstr "Fixar o Centro da vestimenta"
+
+msgid "Set costume center"
+msgstr "Fixar o centro da vestimenta"
+
+msgid "set slider min and max"
+msgstr "fixar o máximo e mínimo da barra de desprazamento"
+
+msgid "Share"
+msgstr "Compartir"
+
+msgid "Share to website"
+msgstr "Compartir no sitio web"
+
+msgid "shared"
+msgstr "compartido"
+
+msgid "Shift:"
+msgstr "Alternar:"
+
+msgid "show receivers"
+msgstr "amosar receptores"
+
+msgid "show senders"
+msgstr "amosar emisores"
+
+msgid "show:"
+msgstr "amosar:"
+
+msgid "Shrink"
+msgstr "Encoller"
+
+msgid "Side Stick"
+msgstr "Golpe lateral"
+
+msgid "Sign in"
+msgstr "Entrar"
+
+msgid "Sign in to save"
+msgstr "Entrar para gardar"
+
+msgid "silence"
+msgstr "silencio"
+
+msgid "sin"
+msgstr "seno"
+
+msgid "slider"
+msgstr "barra de desprazamento"
+
+msgid "Slider Range"
+msgstr "Rango da Barra de Desprazamento"
+
+msgid "Small stage layout"
+msgstr "Escenario pequeno"
+
+msgid "Smooth"
+msgstr "Suave"
+
+msgid "Snare Drum"
+msgstr "Tambor de caixa"
+
+msgid "softer"
+msgstr "máis suave"
+
+msgid "sound"
+msgstr "son"
+
+msgid "Sound Library"
+msgstr "Biblioteca de Sons"
+
+msgid "Sounds"
+msgstr "Sons"
+
+msgid "Space"
+msgstr "Espazo"
+
+msgid "space"
+msgstr "espazo"
+
+msgid "Sports"
+msgstr "Deportes"
+
+msgid "Sprite"
+msgstr "Figura"
+
+msgid "Sprite Library"
+msgstr "Biblioteca de figura"
+
+msgid "Sprite1"
+msgstr "Figura1"
+
+msgid "Sprites"
+msgstr "Figurass"
+
+msgid "sqrt"
+msgstr "raíz cadrada"
+
+msgid "Square"
+msgstr "Cadrado"
+
+msgid "Stage"
+msgstr "Escenario"
+
+msgid "Stage selected:"
+msgstr "Escenario seleccionado:"
+
+msgid "Steel Drum"
+msgstr "Tambor metálico"
+
+msgid "Synth Lead"
+msgstr "Sintetizador melódico"
+
+msgid "Synth Pad"
+msgstr "Sintetizador de fondo"
+
+msgid "Tambourine"
+msgstr "Pandereta"
+
+msgid "tan"
+msgstr "tanxente"
+
+msgid "text"
+msgstr "texto"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "that way"
+msgstr "cara alá"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Things"
+msgstr "Cousas"
+
+msgid "This is the current version."
+msgstr "Esta é a versión actual."
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Este proxecto pode detectar quen o usa, a través do bloque “nome de "
+"usuario”. Para agochar a túa identidade, sae da túa conta antes de usar o "
+"proxecto."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Este proxecto usa datos na Nube - esta funcionalidade só está dispoñible "
+"para usuarios que entraran no sistema."
+
+msgid "this script"
+msgstr "este programa"
+
+msgid "this sprite"
+msgstr "esta figura"
+
+msgid "this way"
+msgstr "por aquí"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Descartar todos os cambios desde que se abreu o proxecto?"
+
+msgid "Tips"
+msgstr "Suxestións"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+"Para borrar unha definición de bloque, primeiro borra todos os usos do "
+"bloque."
+
+msgid "Transportation"
+msgstr "Transporte"
+
+msgid "Triangle"
+msgstr "Triángulo"
+
+msgid "Trombone"
+msgstr "Trombón"
+
+msgid "Turbo mode"
+msgstr "Modo turbo"
+
+msgid "Turbo Mode"
+msgstr "Modo Turbo"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Undelete"
+msgstr "Recuperar borrado"
+
+msgid "Underwater"
+msgstr "Baixo a auga"
+
+msgid "undo"
+msgstr "desfacer"
+
+msgid "Undo"
+msgstr "Desfacer"
+
+msgid "Undo Revert"
+msgstr "Desfacer Revertir"
+
+msgid "Ungroup"
+msgstr "Desagrupar"
+
+msgid "unshared"
+msgstr "non compartido"
+
+msgid "up"
+msgstr "arriba"
+
+msgid "up arrow"
+msgstr "frecha arriba"
+
+msgid "Update failed"
+msgstr "Non foi posible actualizar"
+
+msgid "Update not needed"
+msgstr "A actualización non é necesaria"
+
+msgid "Update now"
+msgstr "Actualizar agora"
+
+msgid "Upload backdrop from file"
+msgstr "Cargar fondo desde ficheiro"
+
+msgid "Upload costume from file"
+msgstr "Cargar vestimenta desde ficheiro"
+
+msgid "Upload from your computer"
+msgstr "Cargar dende o teu ordenador"
+
+msgid "Upload sound from file"
+msgstr "Cargar son desde ficheiro"
+
+msgid "Upload sprite from file"
+msgstr "Cargar figura desde ficheiro"
+
+msgid "Uploading image..."
+msgstr "Cargando imaxe..."
+
+msgid "Uploading sound..."
+msgstr "Cargando son..."
+
+msgid "Uploading sprite..."
+msgstr "Cargando figura..."
+
+msgid "variable"
+msgstr "variable"
+
+msgid "Variable name"
+msgstr "Nome da variable"
+
+msgid "Vector"
+msgstr "Vector"
+
+msgid "Vector Mode"
+msgstr "Modo Vector"
+
+msgid "Vibraphone"
+msgstr "Vibráfono"
+
+msgid "Vibraslap"
+msgstr "Trafaplás"
+
+msgid "video direction"
+msgstr "Dirección do vídeo"
+
+msgid "video motion"
+msgstr "movemento do vídeo"
+
+msgid "Video on:"
+msgstr "Video aceso:"
+
+msgid "Vocals"
+msgstr "Canto"
+
+msgid "Walking"
+msgstr "Camiñando"
+
+msgid "Want to save? Click remix"
+msgstr "Queres gardar? Preme mesturar"
+
+msgid "Which column do you want to import"
+msgstr "Que columna queres importar"
+
+msgid "whirl"
+msgstr "remuiño"
+
+msgid "Wood Block"
+msgstr "Bloque de Madeira"
+
+msgid "Wooden Flute"
+msgstr "Flauta de madeira"
+
+msgid "year"
+msgstr "ano"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Non podes editar datos da nube no proxecto de outro.<br>Calquera cambio que "
+"poidas facer no editor será temporal e non persistente."
+
+msgid "Your Scratch name"
+msgstr "O teu nome Scratch"
+
+msgid "Your Scratch name is required"
+msgstr "Fai falla o teu nome Scratch"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "Non se pode descargar a nova aplicación dende o servidor."
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "Non se pode descargar a nova aplicación dende o servidor."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "Descargando a nova versión"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Replace existing project?"
+msgstr "Reemplazar o proxecto existente"
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "Gardar o proxecto?"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "Compartir no sitio web Scratch"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Galego"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list contén %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "ao premer no Escenario"
+
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "fixar dirección do motor %m.motorDirection"
+
+#~ msgid "set motor power %n"
+#~ msgstr "fixar potencia do motor a %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "apagar motor"
+
+#~ msgid "turn motor on"
+#~ msgstr "acender motor"
+
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "acender motor durante %n segundos"
+
+#~ msgid "when distance < %n"
+#~ msgstr "cando a distancia sexa < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "cando a pendente = %n"
+
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "fixar dirección %m.motor a %m.motorDirection"
+
+#~ msgid "forever if %b"
+#~ msgstr "para sempre se %b"
+
+#~ msgid "if %b"
+#~ msgstr "se %b"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "facer soar a nota %d.note durante %n"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "Acerca da extensión LEGO WeDo"
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "Acerca da extensión PicoBoard..."
+
+#~ msgid "Account settings"
+#~ msgstr "Configuración da conta"
+
+#~ msgid "add comment here..."
+#~ msgstr "Engadir aquí un comentario"
+
+#~ msgid "all motors"
+#~ msgstr "tódolos motores"
+
+#~ msgid "Cannot Add"
+#~ msgstr "Non se pode Engadir"
+
+#~ msgid "clean up"
+#~ msgstr "limpar"
+
+#~ msgid "Cloud"
+#~ msgstr "Nube"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "Variable na nube (gardada no servidor)"
+
+#~ msgid "Costumes:"
+#~ msgstr "Vestimentas:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "Descargando a nova versión"
+
+#~ msgid "empty"
+#~ msgstr "baleiro"
+
+#~ msgid "Erase all"
+#~ msgstr "Borrar todo"
+
+#~ msgid "everything"
+#~ msgstr "todo"
+
+#~ msgid "Extension Library"
+#~ msgstr "Librería de Extensión"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Problema de Extensión"
+
+#~ msgid "false"
+#~ msgstr "falso"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Ir a Miñas Cousas"
+
+#~ msgid "Hello!"
+#~ msgstr "Ola!"
+
+#~ msgid "Hmm..."
+#~ msgstr "Hmm..."
+
+#~ msgid "hello"
+#~ msgstr "Ola"
+
+# 80%
+# 83%
+#~ msgid "lights"
+#~ msgstr "luces"
+
+#~ msgid "limit reached"
+#~ msgstr "límite acadado"
+
+#~ msgid "motor"
+#~ msgstr "motor"
+
+#~ msgid "motor A"
+#~ msgstr "motor A"
+
+#~ msgid "motor B"
+#~ msgstr "motor B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Miñas Cousas"
+
+#~ msgid "not ="
+#~ msgstr "non ="
+
+#~ msgid "Profile"
+#~ msgstr "Perfil"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Eliminar os bloques de extensión"
+
+#~ msgid "Replace existing project"
+#~ msgstr "Reemplazar o proxecto existente"
+
+#~ msgid "requires sign in"
+#~ msgstr "require entrar"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Gardar como unha copia"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "Editor Local Scratch 2.0"
+
+#~ msgid "Scripts:"
+#~ msgstr "Programas:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Mira a ventá de Axuda (á dereita) para instalar o plug-in e deixar a "
+#~ "extensión en funcionamento."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "Compartir no sitio web Scratch"
+
+#~ msgid "Sign out"
+#~ msgstr "Saír"
+
+#~ msgid "stored on server"
+#~ msgstr "gardado no servidor"
+
+#~ msgid "The name is already in use."
+#~ msgstr "O nome xa está sendo utilizado."
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "Non se pudo cargar o proxecto e notificouse ao Equipo Scratch. Preme OK "
+#~ "para sair desta páxina."
+
+#~ msgid "thing"
+#~ msgstr "cousa"
+
+#~ msgid "true"
+#~ msgstr "verdadeiro"
+
+#~ msgid "What's your name?"
+#~ msgstr "Como te chamas?"
+
+#~ msgid "world"
+#~ msgstr "mundo"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Información sobre variables da nube</b><br>&nbsp;<br>Agora, só se "
+#~ "poden utilizar números<br>Non se permiten as salas de chat e serán "
+#~ "eliminadas<br>Para máis información, <a href=\"/help/faq/#clouddata\" "
+#~ "target=\"_blank\">revisa as preguntas sobre información da nube!</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Preme  para intentar de novo ou en  para gardar"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Groso da goma:"
+
+#~ msgid "Line width:"
+#~ msgstr "Groso da liña:"
+
+#~ msgid "cleanup"
+#~ msgstr "limpar"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "LEGO WeDo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Volume do micrófono:"

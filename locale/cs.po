@@ -1,0 +1,2265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 13:56+0000\n"
+"Last-Translator: Natalie <nrusk@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429106191.000000\n"
+
+msgid "%b and %b"
+msgstr "%b a %b"
+
+msgid "%b or %b"
+msgstr "%b nebo %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute z %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp z %n"
+
+msgid "%m.sensor sensor value"
+msgstr "hodnota senzoru %m.sensor"
+
+msgid "%n mod %n"
+msgstr "zbytek dělení %n číslem %n"
+
+msgid "add %s to %m.list"
+msgstr "přidej %s k %m.list"
+
+msgid "answer"
+msgstr "odpověď"
+
+msgid "ask %s and wait"
+msgstr "ptej se %s a čekej"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "číslo pozadí"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "název pozadí"
+
+msgid "broadcast %m.broadcast"
+msgstr "rozešli všem %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "rozešli všem %m.broadcast a čekej"
+
+msgid "change %m.effect effect by %n"
+msgstr "změň efekt %m.effect o %n"
+
+msgid "change %m.var by %n"
+msgstr "změň %m.var o %n"
+
+msgid "change pen color by %n"
+msgstr "změň barvu pera o %n"
+
+msgid "change pen shade by %n"
+msgstr "změň odstín pera o %n"
+
+msgid "change pen size by %n"
+msgstr "změň tloušťku pera o %n"
+
+msgid "change size by %n"
+msgstr "změň velikost o %n"
+
+msgid "change tempo by %n"
+msgstr "změň tempo o %n"
+
+msgid "change volume by %n"
+msgstr "změň hlasitost o %n"
+
+msgid "change x by %n"
+msgstr "změň x o %n"
+
+msgid "change y by %n"
+msgstr "změň y o %n"
+
+msgid "clear"
+msgstr "smaž"
+
+msgid "clear graphic effects"
+msgstr "zruš grafické efekty"
+
+msgid "color %c is touching %c?"
+msgstr "barva %c je na barvě %c?"
+
+msgid "Control"
+msgstr "Ovládání"
+
+msgid "costume #"
+msgstr "číslo kostýmu"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "klonuj %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "aktuální %m.timeAndDate"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "days since 2000"
+msgstr "dnů od roku 2000"
+
+# deti pry nerozumi definuj
+msgid "define"
+msgstr "blok"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "zruš %d.listDeleteItem z %m.list"
+
+msgid "delete this clone"
+msgstr "zruš tento klon"
+
+msgid "direction"
+msgstr "směr"
+
+msgid "distance"
+msgstr "vzdálenost"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "vzdálenost od %m.spriteOrMouse"
+
+msgid "else"
+msgstr "jinak"
+
+msgid "Events"
+msgstr "Události"
+
+msgid "forever"
+msgstr "opakuj dokola"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "klouzej %n sekund na x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "jdi do pozadí o %n urovní"
+
+# J.Vaníček
+msgid "go to %m.spriteOrMouse"
+msgstr "skoč na %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "jdi do popředí"
+
+# J.Vaníček
+msgid "go to x:%n y:%n"
+msgstr "skoč na pozici x:%n y:%n"
+
+msgid "hide"
+msgstr "skryj se"
+
+msgid "hide list %m.list"
+msgstr "skryj seznam %m.list"
+
+msgid "hide variable %m.var"
+msgstr "skryj proměnnou %m.var"
+
+msgid "if %b then"
+msgstr "když %b tak"
+
+msgid "if on edge, bounce"
+msgstr "když narazíš na okraj, odraž se"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "vlož %s na %d.listItem v %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "prvek %d.listItem z %m.list"
+
+msgid "join %s %s"
+msgstr "spoj %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "klávesa %m.key stisknuta?"
+
+msgid "length of %m.list"
+msgstr "délka %m.list"
+
+msgid "length of %s"
+msgstr "délka %s"
+
+msgid "letter %n of %s"
+msgstr "písmeno %n z %s"
+
+msgid "Looks"
+msgstr "Vzhled"
+
+msgid "loudness"
+msgstr "hlasitost"
+
+# moje, senzory a WeDo
+msgid "More Blocks"
+msgstr "Bloky"
+
+msgid "Motion"
+msgstr "Pohyb"
+
+msgid "mouse down?"
+msgstr "myš stisknuta?"
+
+msgid "mouse x"
+msgstr "souřadnice myši x"
+
+msgid "mouse y"
+msgstr "souřadnice myši y"
+
+msgid "move %n steps"
+msgstr "posuň se o %n kroků"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "další pozadí"
+
+msgid "next costume"
+msgstr "další kostým"
+
+msgid "not %b"
+msgstr "není %b"
+
+msgid "Operators"
+msgstr "Operátory"
+
+msgid "Pen"
+msgstr "Pero"
+
+msgid "pen down"
+msgstr "pero dolů"
+
+msgid "pen up"
+msgstr "pero nahoru"
+
+# J.Vaníček
+msgid "pick random %n to %n"
+msgstr "náhodné číslo od %n do %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "bubnuj %d.drum příštích %n taktů"
+
+# 83%
+# 100%
+msgid "play note %d.note for %n beats"
+msgstr "hraj notu %d.note příštích %n taktů"
+
+msgid "play sound %m.sound"
+msgstr "přehraj zvuk %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "hraj zvuk %m.sound až do konce"
+
+msgid "point in direction %d.direction"
+msgstr "natoč se směrem %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "natoč se k %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "opakuj %n krát"
+
+msgid "repeat until %b"
+msgstr "opakuj dokud nenastane %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "nahraď prvek %d.listItem v %m.list s %s"
+
+msgid "reset timer"
+msgstr "vynuluj stopky"
+
+msgid "rest for %n beats"
+msgstr "pauza %n taktů"
+
+msgid "round %n"
+msgstr "zaokrouhli %n"
+
+msgid "say %s"
+msgstr "řekni %s"
+
+msgid "say %s for %n secs"
+msgstr "říkej %s příštích %n sekund"
+
+msgid "Sensing"
+msgstr "Vnímání"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "senzor %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "nastav efekt %m.effect na %n"
+
+msgid "set %m.var to %s"
+msgstr "nastav %m.var na %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "nastav nástroj %d.instrument"
+
+# 89%
+# 100%
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "nastav směr motoru %m.motor2 na %m.motorDirection"
+
+# 77%
+# 100%
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "nastav sílu %m.motor na %n"
+
+msgid "set pen color to %c"
+msgstr "nastav barvu pera na %c"
+
+msgid "set pen color to %n"
+msgstr "nastav barvu pera na %n"
+
+msgid "set pen shade to %n"
+msgstr "nastav odstín pera na %n"
+
+msgid "set pen size to %n"
+msgstr "nastav tloušťku pera na %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "nastav způsob otáčení na %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "nastav velikost na %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "nastav tempo na %n taktů/min"
+
+msgid "set video transparency to %n%"
+msgstr "nastav průhlednost videa na %n%"
+
+msgid "set volume to %n%"
+msgstr "nastav hlasitost na %n%"
+
+msgid "set x to %n"
+msgstr "nastav x na %n"
+
+msgid "set y to %n"
+msgstr "nastav y na %n"
+
+msgid "show"
+msgstr "ukaž se"
+
+msgid "show list %m.list"
+msgstr "ukaž seznam %m.list"
+
+msgid "show variable %m.var"
+msgstr "ukaž proměnnou %m.var"
+
+msgid "size"
+msgstr "velikost"
+
+msgid "Sound"
+msgstr "Zvuk"
+
+msgid "stamp"
+msgstr "otiskni se"
+
+msgid "stop %m.stop"
+msgstr "zastav %m.stop"
+
+msgid "stop all sounds"
+msgstr "utiš všechny zvuky"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "změň pozadí na %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "změň pozadí na %m.backdrop a čekej"
+
+msgid "switch costume to %m.costume"
+msgstr "změň kostým na %m.costume"
+
+msgid "tempo"
+msgstr "tempo"
+
+msgid "think %s"
+msgstr "mysli si %s"
+
+msgid "think %s for %n secs"
+msgstr "mysli si %s příštích %n sekund"
+
+msgid "tilt"
+msgstr "náklon"
+
+msgid "timer"
+msgstr "stopky"
+
+msgid "touching %m.touching?"
+msgstr "dotýká se %m.touching?"
+
+msgid "touching color %c?"
+msgstr "dotýká se barvy %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "otoč se o @turnLeft %n stupňů"
+
+msgid "turn @turnRight %n degrees"
+msgstr "otoč se o @turnRight %n stupňů"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "vypni %m.motor"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "zapni %m.motor"
+
+# 80%
+# 100%
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "zapni %m.motor na %n sekund"
+
+msgid "turn video %m.videoState"
+msgstr "přepni video do %m.videoState"
+
+# 88%
+msgid "username"
+msgstr "jméno uživatele"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "video %m.videoMotionType na %m.stageOrThis"
+
+msgid "volume"
+msgstr "hlasitost"
+
+msgid "wait %n secs"
+msgstr "čekej %n sekund"
+
+msgid "wait until %b"
+msgstr "čekej dokud nenastane %b"
+
+# 75%
+# 100%
+msgid "when %m.booleanSensor"
+msgstr "když %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "po stisku klávesy %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "když  %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "když %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "po kliknutí na @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "po změně pozadí na %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "když vzdálenost %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "po obdržení zprávy %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "když startuji jako klon"
+
+msgid "when this sprite clicked"
+msgstr "po kliknutí na mě"
+
+msgid "when tilt %m.eNe %n"
+msgstr "při sklonu %m.eNe %n"
+
+msgid "x position"
+msgstr "pozice x"
+
+msgid "y position"
+msgstr "pozice y"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list obsahuje %s?"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Informace o cloudových proměnných</b><br>&nbsp;<br>Prozatím jsou "
+"podporována pouze čísla<br>Chatovací místnosti nejsou povoleny a budou "
+"smazány<br>Pro více informací <a href= target=>viz cloud data FAQ!</a>"
+
+msgid "A connected"
+msgstr "A připojeno"
+
+msgid "a copy of the project file on your computer."
+msgstr "kopie projektového souboru na tvém počítači."
+
+msgid "A newer version of Scratch is available"
+msgstr "Je dostupná novější verze Scratch"
+
+msgid "About"
+msgstr "O aplikaci"
+
+msgid "abs"
+msgstr "abs"
+
+msgid "acos"
+msgstr "arccos"
+
+msgid "Add"
+msgstr "Přidej"
+
+msgid "Add an Extension"
+msgstr "Přidej rozšíření"
+
+# 90%
+msgid "Add boolean input:"
+msgstr "Přidat logický parametr:"
+
+msgid "add comment"
+msgstr "přidat komentář"
+
+msgid "Add label text:"
+msgstr "Přidat nápis:"
+
+# 89%
+msgid "Add number input:"
+msgstr "Přidat číselný parametr:"
+
+# 89%
+msgid "Add string input:"
+msgstr "Přidat textový parametr:"
+
+msgid "all"
+msgstr "všechno"
+
+msgid "All"
+msgstr "Všechno"
+
+msgid "all around"
+msgstr "dokola"
+
+msgid "Animal"
+msgstr "Zvíře"
+
+msgid "Animals"
+msgstr "Zvířata"
+
+msgid "asin"
+msgstr "arcsin"
+
+msgid "assets loaded"
+msgstr "nahrané prostředky"
+
+msgid "atan"
+msgstr "arctg"
+
+msgid "B connected"
+msgstr "B propojeno"
+
+msgid "Back a layer"
+msgstr "Zpět o vrstvu"
+
+# 88%
+msgid "backdrop"
+msgstr "pozadí"
+
+# 88%
+# 87%
+msgid "Backdrop"
+msgstr "Pozadí"
+
+msgid "Backdrop Library"
+msgstr "Knihovna s pozadími"
+
+msgid "backdrop1"
+msgstr "pozadí1"
+
+# 88%
+msgid "backdrops"
+msgstr "pozadí"
+
+# 88%
+msgid "Backdrops"
+msgstr "Pozadí"
+
+msgid "Backpack"
+msgstr "Batoh"
+
+msgid "Bass"
+msgstr "Kontrabas"
+
+msgid "Bass Drum"
+msgstr "Velký buben"
+
+msgid "Bassoon"
+msgstr "Fagot"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Protože máš účet Scratch nový, do cloudových dat zatím nebudou ukládány "
+"žádné změny. Podílej se nadále na práci na webu a brzy budeš moci využívat "
+"cloudová data."
+
+msgid "Bitmap"
+msgstr "Bitmapa"
+
+msgid "Bitmap Mode"
+msgstr "Režim bitmapy"
+
+msgid "Block help"
+msgstr "Blok pomoci"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "jas"
+
+msgid "Bring to front"
+msgstr "Přenést do popředí"
+
+msgid "Broadcast"
+msgstr "Rozeslat všem"
+
+msgid "Brush"
+msgstr "Štětec"
+
+msgid "button pressed"
+msgstr "tlačítko stisknuto"
+
+msgid "by"
+msgstr "od"
+
+msgid "bytes loaded"
+msgstr "bytů nahráno"
+
+msgid "C connected"
+msgstr "C propojeno"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "can drag in player:"
+msgstr "smí být přesouváno hráčem:"
+
+msgid "Cancel"
+msgstr "Storno"
+
+msgid "Cannot Delete"
+msgstr "Nelze smazat"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Nelze nalézt sítové spojení nebo kontaktovat server."
+
+msgid "Castle"
+msgstr "Hrad"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "ceiling"
+msgstr "zaokr. nahoru"
+
+msgid "Cello"
+msgstr "Violoncello"
+
+msgid "Check for updates"
+msgstr "Zkontroluj aktualizace"
+
+msgid "Choir"
+msgstr "Sbor"
+
+msgid "Choose backdrop from library"
+msgstr "Vybrat pozadí z knihovny"
+
+msgid "Choose costume from library"
+msgstr "Vybrat kostým z knihovny"
+
+msgid "Choose sound from library"
+msgstr "Vybrat zvuk z knihovny"
+
+msgid "Choose sprite from library"
+msgstr "Vybrat postavu z knihovny"
+
+msgid "Circle"
+msgstr "Kružnice"
+
+msgid "City"
+msgstr "Město"
+
+msgid "Clarinet"
+msgstr "Klarinet"
+
+msgid "Claves"
+msgstr "Claves"
+
+#, fuzzy
+msgid "clean up"
+msgstr "úklid"
+
+msgid "Clear"
+msgstr "Smaž"
+
+msgid "clear senders/receivers"
+msgstr "smaž odesílatele/příjemce"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "Klikni  pro další pokus nebo  pro uložení"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Closed Hi-Hat"
+msgstr "Zavřená Hi-hat"
+
+msgid "Cloud data"
+msgstr "Cloud data"
+
+msgid "color"
+msgstr "barva"
+
+msgid "Color a shape"
+msgstr "Vybarvit předlohu"
+
+msgid "Conga"
+msgstr "Konga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Spojování s Cloud data serverem..."
+
+msgid "Convert to bitmap"
+msgstr "Převést na bitmapu (dlouhé)"
+
+msgid "Convert to vector"
+msgstr "Převést na vektor"
+
+msgid "Converting mp3..."
+msgstr "Konvertuji mp3..."
+
+msgid "copy"
+msgstr "kopírovat"
+
+msgid "Copying..."
+msgstr "Kopíruji..."
+
+msgid "cos"
+msgstr "cos"
+
+# 75%
+msgid "Costume"
+msgstr "Kostým"
+
+msgid "Costume Library"
+msgstr "Knihovna kostýmů"
+
+msgid "costume name"
+msgstr "jméno kostýmu"
+
+msgid "costume1"
+msgstr "kostým1"
+
+# 87%
+msgid "costume2"
+msgstr "kostým 2"
+
+# 75%
+msgid "Costumes"
+msgstr "Kostýmy"
+
+msgid "Costumes > 1"
+msgstr "Kostýmů > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr "Nelze získat novou aplikaci ze serveru"
+
+msgid "Cowbell"
+msgstr "Kravský zvonec"
+
+msgid "Crash Cymbal"
+msgstr "Činel Crash"
+
+msgid "Creating..."
+msgstr "Vytváření..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Prozatím mohou být v cloudových proměnných uložena pouze čísla."
+
+msgid "cut"
+msgstr "vyjmout"
+
+msgid "D connected"
+msgstr "D propojeno"
+
+msgid "date"
+msgstr "datum"
+
+msgid "day of week"
+msgstr "den týdne"
+
+msgid "delete"
+msgstr "smazat"
+
+# 83%
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "delete variable"
+msgstr "smazat proměnnou"
+
+# 90%
+msgid "direction:"
+msgstr "směr:"
+
+msgid "don't rotate"
+msgstr "neotáčet"
+
+msgid "Don't save"
+msgstr "Neukládat"
+
+msgid "down"
+msgstr "dolů"
+
+msgid "down arrow"
+msgstr "šipka dolů"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Download to your computer"
+msgstr "Stáhnout do tvého počítače"
+
+msgid "duplicate"
+msgstr "kopírovat"
+
+msgid "Duplicate"
+msgstr "Kopírovat"
+
+msgid "e ^"
+msgstr "exp"
+
+msgid "edge"
+msgstr "okraj"
+
+msgid "Edit"
+msgstr "Upravit"
+
+msgid "edit"
+msgstr "upravit"
+
+msgid "Edit Block"
+msgstr "Upravit blok"
+
+msgid "Effects"
+msgstr "Efekty"
+
+msgid "Electric Guitar"
+msgstr "Elektrická kytara"
+
+msgid "Electric Piano"
+msgstr "Elektronické klávesy"
+
+msgid "Electronic"
+msgstr "Elektronika"
+
+msgid "Ellipse"
+msgstr "Elipsa"
+
+msgid "Erase"
+msgstr "Smazání"
+
+# 92%
+msgid "Eraser width"
+msgstr "Šířka gumy"
+
+msgid "Error!"
+msgstr "Chyba!"
+
+msgid "export"
+msgstr "export"
+
+msgid "fade in"
+msgstr "rozednívat"
+
+msgid "fade out"
+msgstr "stmívat"
+
+msgid "Fantasy"
+msgstr "Fantazie"
+
+msgid "Features"
+msgstr "Vlastnosti"
+
+msgid "File"
+msgstr "Soubor"
+
+msgid "Fill with color"
+msgstr "Vyplňování barvou"
+
+msgid "fisheye"
+msgstr "rybí oko"
+
+msgid "Flip left-right"
+msgstr "Překlopení vlevo-vpravo"
+
+msgid "Flip up-down"
+msgstr "Překlopení  nahoru-dolů"
+
+msgid "floor"
+msgstr "zaokr. dolů"
+
+msgid "Flute"
+msgstr "Flétna"
+
+msgid "Flying"
+msgstr "Létání"
+
+msgid "Font:"
+msgstr "Font:"
+
+msgid "For all sprites"
+msgstr "Pro všechny postavy"
+
+msgid "For this sprite only"
+msgstr "Jen pro tuto postavu"
+
+msgid "Forward a layer"
+msgstr "Navrch o vrstvu"
+
+msgid "ghost"
+msgstr "průhlednost"
+
+msgid "Group"
+msgstr "Skupina"
+
+msgid "Grow"
+msgstr "Zvětšení"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "Kytara"
+
+msgid "Hand Clap"
+msgstr "Tlesknutí"
+
+msgid "Hardware"
+msgstr "Hardware"
+
+msgid "help"
+msgstr "nápověda"
+
+msgid "High C"
+msgstr "Vysoké C"
+
+msgid "Holiday"
+msgstr "Svátek"
+
+msgid "hour"
+msgstr "hodin"
+
+msgid "Human"
+msgstr "Člověk"
+
+# 83%
+msgid "import"
+msgstr "import"
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Importing sound..."
+msgstr "Importuji zvuk..."
+
+msgid "Indoors"
+msgstr "Uvnitř"
+
+msgid "Installing..."
+msgstr "Instaluji..."
+
+msgid "Instruments"
+msgstr "Nástroje"
+
+msgid "large readout"
+msgstr "zvětšené zobrazení"
+
+msgid "last"
+msgstr "poslední"
+
+msgid "left"
+msgstr "vlevo"
+
+msgid "left arrow"
+msgstr "šipka vlevo"
+
+msgid "left-right"
+msgstr "jen vlevo-vpravo"
+
+msgid "length"
+msgstr "délka"
+
+msgid "Letters"
+msgstr "Písmena"
+
+msgid "Library"
+msgstr "Knihovna"
+
+msgid "light"
+msgstr "světlo"
+
+msgid "Line"
+msgstr "Úsečka"
+
+# 90%
+msgid "Line width"
+msgstr "Šířka čáry"
+
+# 75%
+msgid "list"
+msgstr "seznam"
+
+msgid "List name"
+msgstr "Název seznamu"
+
+msgid "ln"
+msgstr "ln"
+
+msgid "Loading project..."
+msgstr "Nahrávám projekt..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "hlasitěji"
+
+msgid "Low C"
+msgstr "Hluboké C"
+
+msgid "Make a Block"
+msgstr "Vytvořit blok"
+
+msgid "Make a List"
+msgstr "Vytvořit seznam"
+
+msgid "Make a Variable"
+msgstr "Vytvořit proměnnou"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "Maximum"
+
+msgid "meow"
+msgstr "mňau"
+
+msgid "Message Name"
+msgstr "Název zprávy"
+
+msgid "message1"
+msgstr "zpráva1"
+
+msgid "Microphone volume:"
+msgstr "Hlasitost mikrofonu:"
+
+msgid "Middle C"
+msgstr "Základní C"
+
+msgid "Min"
+msgstr "Minimum"
+
+msgid "minute"
+msgstr "minuta"
+
+msgid "month"
+msgstr "měsíc"
+
+msgid "mosaic"
+msgstr "mozaika"
+
+msgid "motion"
+msgstr "pohyb"
+
+msgid "mouse-pointer"
+msgstr "ukazatel myši"
+
+msgid "Multiple"
+msgstr "Mnoho"
+
+msgid "Music and Dance"
+msgstr "Hudba a tanec"
+
+msgid "Music Box"
+msgstr "Hrací skříňka"
+
+msgid "Music Loops"
+msgstr "Hudební smyčky"
+
+# parametr prikazu clone
+msgid "myself"
+msgstr "sebe"
+
+msgid "Nature"
+msgstr "Příroda"
+
+msgid "New"
+msgstr "Nový"
+
+msgid "New backdrop from camera"
+msgstr "Nové pozadí z kamery"
+
+# 92%
+msgid "New backdrop:"
+msgstr "Nové pozadí:"
+
+msgid "New Block"
+msgstr "Nový blok"
+
+msgid "New costume from camera"
+msgstr "Nový kostým z kamery"
+
+# 91%
+msgid "New costume:"
+msgstr "Nový kostým:"
+
+msgid "New List"
+msgstr "Nový seznam"
+
+msgid "New Message"
+msgstr "Nová zpráva"
+
+msgid "new message..."
+msgstr "nová zpráva..."
+
+msgid "New name"
+msgstr "Nový název"
+
+# 90%
+msgid "New sound:"
+msgstr "Nový zvuk:"
+
+msgid "New sprite from camera"
+msgstr "Nová postava z kamery"
+
+msgid "New sprite:"
+msgstr "Nová postava:"
+
+msgid "New Variable"
+msgstr "Nová proměnná"
+
+msgid "No motion blocks"
+msgstr "Žádné bloky pohybu"
+
+msgid "normal readout"
+msgstr "normální zobrazení"
+
+msgid "Not saved; network or server problem."
+msgstr "Neuloženo; problém se sítí nebo serverem."
+
+msgid "Not saved; project did not load."
+msgstr "Neuloženo; projekt nebyl stažen."
+
+msgid "of"
+msgstr "z"
+
+msgid "off"
+msgstr "vypnuto"
+
+msgid "Offline Editor"
+msgstr "Offline Editor"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "on"
+msgstr "zapnuto"
+
+msgid "on-flipped"
+msgstr "převrácený"
+
+msgid "Open"
+msgstr "Otevři"
+
+msgid "Open Cuica"
+msgstr "Netlumené cuica"
+
+msgid "Open Hi-Hat"
+msgstr "Otevřená hi-hat"
+
+msgid "Options"
+msgstr "Volby"
+
+msgid "Organ"
+msgstr "Varhany"
+
+msgid "Other"
+msgstr "Ostatní"
+
+# 82%
+msgid "other scripts in sprite"
+msgstr "jiné scénáře postavy"
+
+msgid "other scripts in stage"
+msgstr "další scénáře scény"
+
+msgid "Outdoors"
+msgstr "Vnější"
+
+msgid "Paint new backdrop"
+msgstr "Nakreslit nové pozadí"
+
+msgid "Paint new costume"
+msgstr "Nakreslit nový kostým"
+
+msgid "Paint new sprite"
+msgstr "Nakreslit novou postavu"
+
+msgid "Password"
+msgstr "Heslo"
+
+msgid "Password is required"
+msgstr "Je vyžadováno heslo"
+
+msgid "paste"
+msgstr "vložit"
+
+msgid "Pencil"
+msgstr "Tužka"
+
+msgid "People"
+msgstr "Lidé"
+
+msgid "Percussion"
+msgstr "Bicí"
+
+msgid "photo1"
+msgstr "foto1"
+
+msgid "Piano"
+msgstr "Klavír"
+
+# 92%
+msgid "Pick up color"
+msgstr "Výběr barvy"
+
+msgid "pixelate"
+msgstr "kostičkování"
+
+msgid "Pizzicato"
+msgstr "Drnkání prstem"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr "předchozí pozadí"
+
+msgid "Project did not load."
+msgstr "Projekt nebyl stažen."
+
+msgid "Project not saved!"
+msgstr "Projekt není uložen!"
+
+msgid "Project name"
+msgstr "Název projektu"
+
+msgid "Project name is required"
+msgstr "Je vyžadován název projektu"
+
+msgid "random"
+msgstr "náhodně"
+
+msgid "Record"
+msgstr "Nahrávat"
+
+msgid "Record new sound"
+msgstr "Nahrát nový zvuk"
+
+msgid "record..."
+msgstr "záznam ..."
+
+msgid "recording1"
+msgstr "záznam1"
+
+msgid "Rectangle"
+msgstr "Čtverec"
+
+# 75%
+msgid "Redo"
+msgstr "Znovu provést"
+
+msgid "redo"
+msgstr "znovu"
+
+msgid "Remix"
+msgstr "Odvozené"
+
+msgid "Remixing..."
+msgstr "Odvozuji..."
+
+msgid "Rename"
+msgstr "Přejmenovat"
+
+msgid "rename variable"
+msgstr "přejmenovat proměnnou"
+
+msgid "Reshape"
+msgstr "Změna tvaru"
+
+msgid "resistance-A"
+msgstr "odpor-A"
+
+msgid "resistance-B"
+msgstr "odpor-B"
+
+msgid "resistance-C"
+msgstr "odpor-C"
+
+msgid "resistance-D"
+msgstr "odpor-D"
+
+msgid "reverse"
+msgstr "pozpátku"
+
+msgid "Revert"
+msgstr "Vrátit"
+
+msgid "Reverting..."
+msgstr "Vracím..."
+
+msgid "right"
+msgstr "vpravo"
+
+msgid "right arrow"
+msgstr "šipka vpravo"
+
+msgid "rotation style:"
+msgstr "styl otáčení:"
+
+msgid "Run without screen refresh"
+msgstr "Spustit bez obnovy obrazovky"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Ulož kopii tohoto projektu a přidej své vlastní nápady."
+
+msgid "Save as"
+msgstr "Ulož jako"
+
+# J.Vaníček
+msgid "Save now"
+msgstr "Uložit aktuální stav"
+
+msgid "Save project?"
+msgstr "Uložit projekt?"
+
+msgid "save to local file"
+msgstr "uložit do lokálního souboru"
+
+msgid "Saved"
+msgstr "Uloženo"
+
+msgid "Saving changes..."
+msgstr "Ukládám změny..."
+
+msgid "Saving..."
+msgstr "Ukládám..."
+
+msgid "Saxophone"
+msgstr "Saxofon"
+
+msgid "Scratch Updater"
+msgstr "Aktualizační nástroj Scratch"
+
+# 85%
+msgid "Script"
+msgstr "Scénář"
+
+msgid "Scripts"
+msgstr "Scénáře"
+
+msgid "second"
+msgstr "sekunda"
+
+# J.Vaníček
+msgid "See project page"
+msgstr "Pohlédni na stránku projektu"
+
+msgid "Select"
+msgstr "Výběr"
+
+msgid "select all"
+msgstr "vyber vše"
+
+msgid "Select and duplicate"
+msgstr "Výběr a kopírování"
+
+msgid "Send to back"
+msgstr "Umísti do pozadí"
+
+msgid "Set Costume Center"
+msgstr "Nastavit střed kostýmu"
+
+# 88%
+msgid "Set costume center"
+msgstr "Nastav střed kostýmu"
+
+msgid "set slider min and max"
+msgstr "nastav u posuvníku min a max"
+
+msgid "Share"
+msgstr "Sdílej"
+
+msgid "Share to website"
+msgstr "Sdílej na webu"
+
+msgid "shared"
+msgstr "sdílené"
+
+msgid "Shift:"
+msgstr "Posun:"
+
+msgid "show receivers"
+msgstr "ukaž příjemce"
+
+msgid "show senders"
+msgstr "ukaž odesílatele"
+
+msgid "show:"
+msgstr "ukaž:"
+
+msgid "Shrink"
+msgstr "Zmenši"
+
+msgid "Side Stick"
+msgstr "Okraj bubínku"
+
+msgid "Sign in"
+msgstr "Přihlásit se"
+
+msgid "Sign in to save"
+msgstr "Přihlásit se pro uložení"
+
+msgid "silence"
+msgstr "ticho"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "posuvník"
+
+msgid "Slider Range"
+msgstr "Rozsah posuvníku"
+
+msgid "Small stage layout"
+msgstr "Formát malé scény"
+
+msgid "Smooth"
+msgstr "Vyhlazení"
+
+msgid "Snare Drum"
+msgstr "Malý bubínek virbl"
+
+msgid "softer"
+msgstr "měkčeji"
+
+msgid "sound"
+msgstr "zvuk"
+
+msgid "Sound Library"
+msgstr "Knihovna zvuků"
+
+msgid "Sounds"
+msgstr "Zvuky"
+
+# from library group names list
+msgid "Space"
+msgstr "Vesmír"
+
+msgid "space"
+msgstr "mezerník"
+
+msgid "Sports"
+msgstr "Sporty"
+
+# 85%
+msgid "Sprite"
+msgstr "Postava"
+
+msgid "Sprite Library"
+msgstr "Knihovna postav"
+
+# 85%
+msgid "Sprite1"
+msgstr "Postava1"
+
+msgid "Sprites"
+msgstr "Postavy"
+
+msgid "sqrt"
+msgstr "odmocnina"
+
+msgid "Square"
+msgstr "Čtverec"
+
+msgid "Stage"
+msgstr "Scéna"
+
+# 93%
+msgid "Stage selected:"
+msgstr "Vybraná scéna:"
+
+msgid "Steel Drum"
+msgstr "Kovový kotel"
+
+msgid "Synth Lead"
+msgstr "Syntezátor sólo"
+
+msgid "Synth Pad"
+msgstr "Syntezátor pozadí"
+
+msgid "Tambourine"
+msgstr "Tamburína"
+
+msgid "tan"
+msgstr "tg"
+
+msgid "text"
+msgstr "text"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "that way"
+msgstr "jinak"
+
+msgid "Theme"
+msgstr "Téma"
+
+msgid "Things"
+msgstr "Věci"
+
+msgid "This is the current version."
+msgstr "Toto je aktuální verze."
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Tento projekt může zjistit, kdo jej používá, pomocí bloku \"jméno uživatele"
+"\". Pro skrytí své identity se můžeš před použitím projektu odhlásit."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Tento projekt používá data v cloudu - vlastnost, která je dostupná jen "
+"přihlášeným uživatelům."
+
+msgid "this script"
+msgstr "tento scénář"
+
+msgid "this sprite"
+msgstr "tato postava"
+
+msgid "this way"
+msgstr "takto"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Zahodit všechny změny od otevření tohoto projektu?"
+
+msgid "Tips"
+msgstr "Tipy"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr "Před smazáním bloku jej nejprve odstraň ze všech scénářů."
+
+msgid "Transportation"
+msgstr "Doprava"
+
+msgid "Triangle"
+msgstr "Triangl"
+
+msgid "Trombone"
+msgstr "Trombón"
+
+# 90%
+msgid "Turbo mode"
+msgstr "Turbo režim"
+
+msgid "Turbo Mode"
+msgstr "Turbo režim"
+
+msgid "Type"
+msgstr "Typ"
+
+# 75%
+msgid "Undelete"
+msgstr "Obnovit"
+
+msgid "Underwater"
+msgstr "Podvodní"
+
+msgid "undo"
+msgstr "zpět"
+
+# 75%
+msgid "Undo"
+msgstr "Zpět"
+
+msgid "Undo Revert"
+msgstr "Zpět"
+
+msgid "Ungroup"
+msgstr "Rozložení skupiny"
+
+msgid "unshared"
+msgstr "nesdílené"
+
+msgid "up"
+msgstr "nahoru"
+
+msgid "up arrow"
+msgstr "šipka nahoru"
+
+msgid "Update failed"
+msgstr "Aktualizace selhala"
+
+msgid "Update not needed"
+msgstr "Aktualizace není potřebná."
+
+msgid "Update now"
+msgstr "Aktualizuj nyní."
+
+msgid "Upload backdrop from file"
+msgstr "Nahrát pozadí ze souboru"
+
+msgid "Upload costume from file"
+msgstr "Nahrát kostým ze souboru"
+
+msgid "Upload from your computer"
+msgstr "Nahrát z tvého počitače"
+
+msgid "Upload sound from file"
+msgstr "Nahrát zvuk ze souboru"
+
+msgid "Upload sprite from file"
+msgstr "Nahrát postavu ze souboru"
+
+msgid "Uploading image..."
+msgstr "Nahrávám obraz..."
+
+msgid "Uploading sound..."
+msgstr "Nahrávám zvuk..."
+
+msgid "Uploading sprite..."
+msgstr "Nahrávám postavu...."
+
+msgid "variable"
+msgstr "proměnná"
+
+msgid "Variable name"
+msgstr "Jméno proměnné"
+
+msgid "Vector"
+msgstr "Vektor"
+
+msgid "Vector Mode"
+msgstr "Vektorový režim"
+
+msgid "Vibraphone"
+msgstr "Vibrafon"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video direction"
+msgstr "směr videa"
+
+msgid "video motion"
+msgstr "pohyb videa"
+
+msgid "Video on:"
+msgstr "Video zapnuto:"
+
+msgid "Vocals"
+msgstr "Hlasy"
+
+msgid "Walking"
+msgstr "Chůze"
+
+msgid "Want to save? Click remix"
+msgstr "Chceš uložit? Klikni na odvození"
+
+msgid "Which column do you want to import"
+msgstr "Který sloupec chceš importovat"
+
+msgid "whirl"
+msgstr "víření"
+
+msgid "Wood Block"
+msgstr "Dřevěný blok"
+
+msgid "Wooden Flute"
+msgstr "Zobcová flétna"
+
+msgid "year"
+msgstr "rok"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Nemůžeš editovat cloudová data v projektu někoho jiného.<br>Každá změna, "
+"kterou uděláš v editoru, bude jen dočasná, ne trvalá."
+
+msgid "Your Scratch name"
+msgstr "Tvoje Scratch jméno"
+
+msgid "Your Scratch name is required"
+msgstr "Je vyžadováno Tvé Scratch jméno"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "Nelze získat novou aplikaci ze serveru"
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "Nelze získat novou aplikaci ze serveru"
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "Stahuji novou verzi"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Replace existing project?"
+msgstr "Nahraď existující projekt"
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "Uložit projekt?"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "Sdílej na webu Scratch"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+# The language name as it will appear in the language menu. "Č" v 1.4 je na konci abecedy!
+#~ msgid "Language-Name"
+#~ msgstr "Česky"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list obsahuje %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "po kliknutí na Scénu"
+
+# 89%
+# 100%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "nastav směr motoru %m.motorDirection"
+
+# 77%
+# 100%
+#~ msgid "set motor power %n"
+#~ msgstr "nastav sílu motoru %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "vypni motor"
+
+#~ msgid "turn motor on"
+#~ msgstr "zapni motor"
+
+# 80%
+# 100%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "zapni motor na %n s"
+
+#~ msgid "when distance < %n"
+#~ msgstr "když vzdálenost < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "když sklon = %n"
+
+# 89%
+# 100%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "nastav směr motoru %m.motorDirection"
+
+#~ msgid "user name"
+#~ msgstr "jméno uživatele"
+
+#~ msgid "user id"
+#~ msgstr "číslo uživatele"
+
+#~ msgid "clone startup"
+#~ msgstr "start klonu"
+
+#~ msgid "forever if %b"
+#~ msgstr "opakuj dokola když %b"
+
+#~ msgid "hide all sprites"
+#~ msgstr "skryj všechny postavy"
+
+#~ msgid "if %b"
+#~ msgstr "když %b"
+
+#~ msgid "Scratch days"
+#~ msgstr "Scratch dny"
+
+#~ msgid "hide monitor %m.varOrList"
+#~ msgstr "skryj kontrolu %m.varOrList"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "směr motoru %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "vypni motor"
+
+#~ msgid "motor on"
+#~ msgstr "zapni motor"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "zapni motor na %n s"
+
+#~ msgid "motor power %n"
+#~ msgstr "síla motoru %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "hraj notu %n příštích %n taktů"
+
+#~ msgid "show monitor %m.varOrList"
+#~ msgstr "ukaž kontrolu %m.varOrList"
+
+#~ msgid "when I am clicked"
+#~ msgstr "po kliknutí na mě"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "O rozšíření LEGO WeDo"
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "O rozšíření PicoBoard"
+
+#~ msgid "Account settings"
+#~ msgstr "Nastavení účtu"
+
+#~ msgid "add comment here..."
+#~ msgstr "přidej komentář ..."
+
+#~ msgid "all motors"
+#~ msgstr "všechny motory"
+
+#~ msgid "Cannot Add"
+#~ msgstr "Nelze přidat"
+
+#~ msgid "Cloud"
+#~ msgstr "Cloud"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "cloudová proměnná (uložená na serveru)"
+
+#~ msgid "Costumes:"
+#~ msgstr "Kostýmy:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "Stahuji novou verzi"
+
+#~ msgid "empty"
+#~ msgstr "prázdný"
+
+#~ msgid "Erase all"
+#~ msgstr "Smaž všechno"
+
+#~ msgid "everything"
+#~ msgstr "všechno"
+
+#~ msgid "Extension Library"
+#~ msgstr "Knihovna rozšíření"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Problém u rozšíření"
+
+#~ msgid "false"
+#~ msgstr "nepravdivý"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Přejít na moje věci"
+
+#~ msgid "Hello!"
+#~ msgstr "Ahoj"
+
+#~ msgid "Hmm..."
+#~ msgstr "Hmm ..."
+
+#~ msgid "hello"
+#~ msgstr "ahoj"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "světla"
+
+#~ msgid "limit reached"
+#~ msgstr "dosáhlo limitu"
+
+#~ msgid "motor"
+#~ msgstr "motor"
+
+#~ msgid "motor A"
+#~ msgstr "motor A"
+
+#~ msgid "motor B"
+#~ msgstr "motor B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Moje věci"
+
+#~ msgid "not ="
+#~ msgstr "nerovná se"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Odstraň bloky rozšíření"
+
+#~ msgid "Replace existing project"
+#~ msgstr "Nahraď existující projekt"
+
+#~ msgid "requires sign in"
+#~ msgstr "vyžaduje přihlášení"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Uložit jako kopii"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "Scratch 2.0 offline editor"
+
+# 87%
+#~ msgid "Scripts:"
+#~ msgstr "Scénáře:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Prohlédni okno Tipy (vpravo) k nainstalování plug-inu a rozšiř si "
+#~ "možnosti práce."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "Sdílej na webu Scratch"
+
+#~ msgid "Sign out"
+#~ msgstr "Odhlásit se"
+
+#~ msgid "stored on server"
+#~ msgstr "uloženo na serveru"
+
+#~ msgid "The name is already in use."
+#~ msgstr "Tento název se již používá."
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "Projekt se nepodařilo načíst a tým Scratch o tom byl informován. Stiskni "
+#~ "OK, abys opustil tuto stránku."
+
+#~ msgid "thing"
+#~ msgstr "prvek"
+
+#~ msgid "true"
+#~ msgstr "pravdivý"
+
+#~ msgid "What's your name?"
+#~ msgstr "Jak se jmenuješ?"
+
+#~ msgid "world"
+#~ msgstr "světe"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Informace o cloudových proměnných</b><br>&nbsp;<br>Prozatím jsou "
+#~ "podorována pouze čísla<br>Chat místnosti nejsou povoleny a budou "
+#~ "smazány<br>Pro více informací <a href= target=>viz cloud data FAQ!</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Klikni  pro další pokus nebo  pro uložení"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Šířka gumy:"
+
+#~ msgid "Line width:"
+#~ msgstr "Šířka úsečky: "
+
+#~ msgid "cleanup"
+#~ msgstr "úklid"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Hlasitost mikrofonu:"
+
+#~ msgid "Add a boolean input:"
+#~ msgstr "Přidat logický parametr:"
+
+#~ msgid "Add a number input:"
+#~ msgstr "Přidat číselný parametr:"
+
+#~ msgid "Add a string input:"
+#~ msgstr "Přidat textový parametr:"
+
+#~ msgid "Back a layer (Shift: Send to back)"
+#~ msgstr "Zpět o úroveň (Shift: Poslat na pozadí)"
+
+#~ msgid "Duplicate (Shift: Multiple)"
+#~ msgstr "Kopie  (Shift: opakovaná)"
+
+#~ msgid "Ellipse (Shift: Circle)"
+#~ msgstr "Elipsa (Shift: Kružnice)"
+
+# 75%
+#~ msgid "Fill"
+#~ msgstr "Vyplňování"
+
+#~ msgid "Forward a layer (Shift: Bring to front)"
+#~ msgstr "Vpřed o úroveň (Shift: Vynést do popředí)"
+
+#~ msgid "login"
+#~ msgstr "přihlaš se"
+
+#~ msgid "New backdrop"
+#~ msgstr "Nové pozadí"
+
+#~ msgid "New costume"
+#~ msgstr "Nový kostým"
+
+#~ msgid "New sound"
+#~ msgstr "Nový zvuk"
+
+# 90%
+#~ msgid "New sprite"
+#~ msgstr "Nová postava"
+
+#~ msgid "Paint"
+#~ msgstr "Malovat"
+
+#~ msgid "Pick up Color"
+#~ msgstr "Výběr barvy"
+
+#~ msgid "Rectangle (Shift: Square)"
+#~ msgstr "Obdélník (Shift: Čtverec)"
+
+#~ msgid "Scratch Cat"
+#~ msgstr "Scratch"
+
+#~ msgid "Stage selected"
+#~ msgstr "Vybraná scéna"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "bottom-left"
+#~ msgstr "vlevo dole"
+
+#~ msgid "bottom-right"
+#~ msgstr "vpravo dole"
+
+#~ msgid "middle"
+#~ msgstr "prostřední"
+
+#~ msgid "name"
+#~ msgstr "jméno"
+
+#~ msgid "say"
+#~ msgstr "řekni"
+
+#~ msgid "shout"
+#~ msgstr "křik"
+
+#~ msgid "think"
+#~ msgstr "pomysli si"
+
+#~ msgid "top-left"
+#~ msgstr "vlevo nahoře"
+
+#~ msgid "top-right"
+#~ msgstr "vpravo nahoře"
+
+#~ msgid "whisper"
+#~ msgstr "šeptej"
+
+#~ msgid "any"
+#~ msgstr "nějaký"
+
+#~ msgid "Floor Tom"
+#~ msgstr "hluboký tom"
+
+#~ msgid "High Bongo"
+#~ msgstr "Vysoké bongo"
+
+#~ msgid "High Tom"
+#~ msgstr "Vysoký tom"
+
+#~ msgid "High Wood Block"
+#~ msgstr "Vysoký dřevěný blok"
+
+#~ msgid "int"
+#~ msgstr "int"
+
+#~ msgid "Kick Drum"
+#~ msgstr "Velký buben"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Dlouhé guiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Nízké bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Nízké konga"
+
+#~ msgid "Low Tom"
+#~ msgstr "Nízký tom"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Nízký dřevěný blok"
+
+#~ msgid "Maracas"
+#~ msgstr "Maracas rumbakoule"
+
+#~ msgid "Mid Tom"
+#~ msgstr "Střední tom"
+
+#~ msgid "More"
+#~ msgstr "Další"
+
+#~ msgid "Mute High Conga"
+#~ msgstr "Tlumené vysoké conga"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Tlumený triangl"
+
+#~ msgid "Open High Conga"
+#~ msgstr "Netlumené vysoké conga"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Netlumený triangl"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Hi-hat zavřená pedálem"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Krátké guiro"

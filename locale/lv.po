@@ -1,0 +1,2112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 15:18+0000\n"
+"Last-Translator: Natalie <nrusk@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429111098.000000\n"
+
+msgid "%b and %b"
+msgstr "%b un %b"
+
+msgid "%b or %b"
+msgstr "%b vai %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute no %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp no %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor sensora vērtība"
+
+msgid "%n mod %n"
+msgstr "%n atlikums dalot ar %n"
+
+msgid "add %s to %m.list"
+msgstr "pievienot %s pie %m.list"
+
+msgid "answer"
+msgstr "atbilde"
+
+msgid "ask %s and wait"
+msgstr "pajautāt %s un gaidīt"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "fons #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "fona nosaukums"
+
+msgid "broadcast %m.broadcast"
+msgstr "pārraidīt %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "pārraidīt %m.broadcast un gaidīt"
+
+msgid "change %m.effect effect by %n"
+msgstr "mainīt %m.effect efektu par %n"
+
+msgid "change %m.var by %n"
+msgstr "mainīt %m.var par %n"
+
+msgid "change pen color by %n"
+msgstr "mainīt zīmuļa krāsu pa %n"
+
+msgid "change pen shade by %n"
+msgstr "mainīt zīmuļa tumšumu par %n"
+
+msgid "change pen size by %n"
+msgstr "mainīt zīmuļa izmēru par %n"
+
+msgid "change size by %n"
+msgstr "mainīt izmēru par %n"
+
+msgid "change tempo by %n"
+msgstr "mainīt tempu par %n"
+
+msgid "change volume by %n"
+msgstr "mainīt skaļumu par %n"
+
+msgid "change x by %n"
+msgstr "mainīt x par %n"
+
+msgid "change y by %n"
+msgstr "mainīt y par %n"
+
+msgid "clear"
+msgstr "notīrīt"
+
+msgid "clear graphic effects"
+msgstr "notīrīt grafiskos efektus"
+
+msgid "color %c is touching %c?"
+msgstr "krāsa %c pieskaras %c?"
+
+msgid "Control"
+msgstr "Vadība"
+
+msgid "costume #"
+msgstr "tērps #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "izveidot dublikātu %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "pašreizējā %m.timeAndDate"
+
+msgid "Data"
+msgstr "Dati"
+
+msgid "days since 2000"
+msgstr "dienas kopš 2000"
+
+msgid "define"
+msgstr "definēt"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "dzēst %d.listDeleteItem no %m.list"
+
+msgid "delete this clone"
+msgstr "dzēst šo dublikātu"
+
+msgid "direction"
+msgstr "virziens"
+
+msgid "distance"
+msgstr "attālums"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "attālums līdz %m.spriteOrMouse"
+
+msgid "else"
+msgstr "citādi"
+
+msgid "Events"
+msgstr "Notikumi"
+
+msgid "forever"
+msgstr "nepārtraukti"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "slīdēt %n sekundes uz x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "iet %n slāņus atpakaļ"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "iet uz %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "iet uz priekšpusi"
+
+msgid "go to x:%n y:%n"
+msgstr "iet uz x:%n y:%n"
+
+msgid "hide"
+msgstr "slēpt"
+
+msgid "hide list %m.list"
+msgstr "slēpt sarakstu %m.list"
+
+msgid "hide variable %m.var"
+msgstr "slēpt mainīgo %m.var"
+
+msgid "if %b then"
+msgstr "ja %b tad"
+
+msgid "if on edge, bounce"
+msgstr "ja uz malas, tad atlēkt"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "iespraust %s pie %d.listItem sarakstā %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "vienums %d.listItem no %m.list"
+
+msgid "join %s %s"
+msgstr "apvienot %s un %s"
+
+msgid "key %m.key pressed?"
+msgstr "nospiests taustiņš %m.key ?"
+
+msgid "length of %m.list"
+msgstr "%m.list garums"
+
+msgid "length of %s"
+msgstr "%s garums"
+
+msgid "letter %n of %s"
+msgstr "burts %n no %s"
+
+msgid "Looks"
+msgstr "Izskats"
+
+msgid "loudness"
+msgstr "skaļums"
+
+msgid "More Blocks"
+msgstr "Pārējie bloki"
+
+msgid "Motion"
+msgstr "Kustība"
+
+msgid "mouse down?"
+msgstr "peles taustiņš nospiests?"
+
+msgid "mouse x"
+msgstr "peles x"
+
+msgid "mouse y"
+msgstr "peles y"
+
+msgid "move %n steps"
+msgstr "pārvietot %n soļus"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "nākamais fons"
+
+msgid "next costume"
+msgstr "nākamais tērps"
+
+msgid "not %b"
+msgstr "nav %b"
+
+msgid "Operators"
+msgstr "Operatori"
+
+msgid "Pen"
+msgstr "Zīmulis"
+
+msgid "pen down"
+msgstr "zīmulis piespiests"
+
+msgid "pen up"
+msgstr "zīmulis pacelts"
+
+msgid "pick random %n to %n"
+msgstr "nejauši izvēlēties no %n līdz %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "spēlēt bungas %d.drum %n sitienus"
+
+msgid "play note %d.note for %n beats"
+msgstr "spēlēt noti %d.note %n sitienus"
+
+msgid "play sound %m.sound"
+msgstr "spēlēt skaņu %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "spēlēt skaņu %m.sound līdz galam"
+
+msgid "point in direction %d.direction"
+msgstr "pagriezt virzienā %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "pagriezt uz %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "atkārtot %n reizes"
+
+msgid "repeat until %b"
+msgstr "atkārtot līdz %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "aizvietot vienumu %d.listItem no %m.list ar %s"
+
+msgid "reset timer"
+msgstr "atiestatīt taimeri"
+
+msgid "rest for %n beats"
+msgstr "pauze %n sitienus"
+
+msgid "round %n"
+msgstr "noapaļot %n"
+
+msgid "say %s"
+msgstr "teikt %s"
+
+msgid "say %s for %n secs"
+msgstr "teikt %s %n sekundes"
+
+msgid "Sensing"
+msgstr "Novērošana"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "sensors %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "iestatīt %m.effect efektu uz %n"
+
+msgid "set %m.var to %s"
+msgstr "iestatīt %m.var uz %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "iestatīt instrumentu uz %d.instrument"
+
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "iestatīt %m.motor2 virzienu uz %m.motorDirection"
+
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "iestatīt motora %m.motor jaudu uz %n"
+
+msgid "set pen color to %c"
+msgstr "iestatīt zīmuļa krāsu uz %c"
+
+msgid "set pen color to %n"
+msgstr "uestatīt zīmuļa krāsu uz %n"
+
+msgid "set pen shade to %n"
+msgstr "iestatīt zīmuļa tumšumu uz %n"
+
+msgid "set pen size to %n"
+msgstr "iestatīt zīmuļa izmēru uz %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "iestatīt rotācijas stilu %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "iestatīt izmēru uz %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "iestatīt tempu uz %n sitieni minūtē"
+
+msgid "set video transparency to %n%"
+msgstr "iestatīt video caurspīdīgumu uz %n%"
+
+msgid "set volume to %n%"
+msgstr "iestatīt skaļumu uz %n%"
+
+msgid "set x to %n"
+msgstr "iestatīt x uz %n"
+
+msgid "set y to %n"
+msgstr "iestatīt y uz %n"
+
+msgid "show"
+msgstr "parādīt"
+
+msgid "show list %m.list"
+msgstr "parādīt sarakstu %m.list"
+
+msgid "show variable %m.var"
+msgstr "parādīt mainīgo %m.var"
+
+msgid "size"
+msgstr "izmērs"
+
+msgid "Sound"
+msgstr "Skaņa"
+
+msgid "stamp"
+msgstr "spiedogs"
+
+msgid "stop %m.stop"
+msgstr "apturēt %m.stop"
+
+msgid "stop all sounds"
+msgstr "apturēt visas skaņas"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "nomainīt fonu uz %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "nomainīt fonu uz %m.backdrop un gaidīt"
+
+msgid "switch costume to %m.costume"
+msgstr "nomainīt tērpu uz %m.costume"
+
+msgid "tempo"
+msgstr "temps"
+
+msgid "think %s"
+msgstr "domāt %s"
+
+msgid "think %s for %n secs"
+msgstr "domāt %s %n sekundes"
+
+msgid "tilt"
+msgstr "noliekt"
+
+msgid "timer"
+msgstr "taimeris"
+
+msgid "touching %m.touching?"
+msgstr "pieskaras %m.touching?"
+
+msgid "touching color %c?"
+msgstr "pieskaras krāsai %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "pagriezties @turnLeft par %n grādiem"
+
+msgid "turn @turnRight %n degrees"
+msgstr "pagriezties @turnRight par %n grādiem"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "izslēgt %m.motor"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "ieslēgt %m.motor"
+
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "ieslēgt %m.motor uz %n sekundēm"
+
+msgid "turn video %m.videoState"
+msgstr "pārslēgt video uz %m.videoState"
+
+msgid "username"
+msgstr "lietotāja vārds"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "video %m.videoMotionType uz %m.stageOrThis"
+
+msgid "volume"
+msgstr "skaļums"
+
+msgid "wait %n secs"
+msgstr "gaidīt %n sekundes"
+
+msgid "wait until %b"
+msgstr "gaidīt līdz %b"
+
+msgid "when %m.booleanSensor"
+msgstr "kad %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "kad piespiests taustiņš %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "kad %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "kad %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "kad nospiests @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "kad fons nomainās uz %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "kad attālums %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "kad es saņemu %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "Kad es parādos kā dublikāts"
+
+msgid "when this sprite clicked"
+msgstr "kad noklikšķināts uz šī gariņa"
+
+msgid "when tilt %m.eNe %n"
+msgstr "kad paceļ %m.eNe %n"
+
+msgid "x position"
+msgstr "x pozīcija"
+
+msgid "y position"
+msgstr "y pozīcija"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list satur %s?"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Informācija par mākoņu mainīgajiem</b><br>&nbsp;<br>Šobrīd atļāuti tikai "
+"skaitļi<br>Čata istabas nav atļautas, un tās tiks dzēstas.<br>Papildus "
+"informācija <a href=\"/help/faq/#clouddata\" target=\"_blank\">mākoņu "
+"mainīgo BUJ!</a>"
+
+msgid "A connected"
+msgstr "A pieslēgts"
+
+msgid "a copy of the project file on your computer."
+msgstr "projekta faila kopija Jūsu datorā."
+
+msgid "A newer version of Scratch is available"
+msgstr "Ir pieejama jauna Scratch versija"
+
+msgid "About"
+msgstr "Par"
+
+msgid "abs"
+msgstr "modulis (absolūtā vērtība)"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr "Pievienot"
+
+msgid "Add an Extension"
+msgstr "Pievienot paplašinājumu"
+
+# 90%
+msgid "Add boolean input:"
+msgstr "Pievienot loģisko (boolean) ievadi:"
+
+msgid "add comment"
+msgstr "pievienot komentāru"
+
+msgid "Add label text:"
+msgstr "Pievienot iezīmes tekstu:"
+
+# 89%
+msgid "Add number input:"
+msgstr "Pievienot skaitļa ievadi:"
+
+# 89%
+msgid "Add string input:"
+msgstr "Pievienot teksta ievadi:"
+
+msgid "all"
+msgstr "viss"
+
+msgid "All"
+msgstr "Viss"
+
+msgid "all around"
+msgstr "viss apkārtējais"
+
+msgid "Animal"
+msgstr "Dzīvnieks"
+
+msgid "Animals"
+msgstr "Dzīvnieki"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "vērtības ielādētas"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B pieslēgts"
+
+msgid "Back a layer"
+msgstr "Slāni atpakaļ"
+
+# 88%
+msgid "backdrop"
+msgstr "fons"
+
+# 88%
+# 87%
+msgid "Backdrop"
+msgstr "Fons"
+
+msgid "Backdrop Library"
+msgstr "Fonu bibliotēka"
+
+msgid "backdrop1"
+msgstr "fons1"
+
+# 88%
+msgid "backdrops"
+msgstr "foni"
+
+# 88%
+msgid "Backdrops"
+msgstr "Foni"
+
+msgid "Backpack"
+msgstr "Mugursoma"
+
+msgid "Bass"
+msgstr "Bass"
+
+msgid "Bass Drum"
+msgstr "Basa bungas"
+
+msgid "Bassoon"
+msgstr "Fagots"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Tā kā tev ir jauns Scratch profils, izmaiņas mākonī pagaidām netiek "
+"saglabātas. Turpini darboties lapā un drīz varēsi izmantot arī datu mākoni!"
+
+msgid "Bitmap"
+msgstr "Rastrs"
+
+msgid "Bitmap Mode"
+msgstr "Rastra režīms"
+
+msgid "Block help"
+msgstr "Bloka palīdzība"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "gaišums"
+
+msgid "Bring to front"
+msgstr "Pārvietot uz priekšu"
+
+msgid "Broadcast"
+msgstr "Apraide"
+
+msgid "Brush"
+msgstr "Ota"
+
+msgid "button pressed"
+msgstr "poga nospiesta"
+
+msgid "by"
+msgstr "no"
+
+msgid "bytes loaded"
+msgstr "baiti ielādēti"
+
+msgid "C connected"
+msgstr "C pieslēgts"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Foto aparāts"
+
+msgid "can drag in player:"
+msgstr "var pārvietot atskaņotājā:"
+
+msgid "Cancel"
+msgstr "Atcelt"
+
+msgid "Cannot Delete"
+msgstr "Nevar dzēst"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Nevar atrast tīkla savienojumu vai sasniegt serveri."
+
+msgid "Castle"
+msgstr "Pils"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "ceiling"
+msgstr "apaļot uz augšu"
+
+msgid "Cello"
+msgstr "Čells"
+
+msgid "Check for updates"
+msgstr "Pārbaudīt atjauninājumus"
+
+msgid "Choir"
+msgstr "Koris"
+
+msgid "Choose backdrop from library"
+msgstr "Izvēlēties fonu no bibliotēkas"
+
+msgid "Choose costume from library"
+msgstr "Izvēlēties tērpu no bibliotēkas"
+
+msgid "Choose sound from library"
+msgstr "Izvēlēties skaņu no bibliotēkas"
+
+msgid "Choose sprite from library"
+msgstr "Izvēlēties gariņu no bibliotēkas"
+
+msgid "Circle"
+msgstr "Aplis"
+
+msgid "City"
+msgstr "Pilsēta"
+
+msgid "Clarinet"
+msgstr "Klarnete"
+
+msgid "Claves"
+msgstr "Klave"
+
+msgid "Clear"
+msgstr "Notīrīt"
+
+msgid "clear senders/receivers"
+msgstr "notīrīt sūtītājus/saņēmējus"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr ""
+"Nospied \"Saglabāt tagad\", lai mēģinātu vēlreiz vai \"Lejuplādēt\", lai "
+"saglabātu"
+
+msgid "Close"
+msgstr "Aizvērt"
+
+msgid "Closed Hi-Hat"
+msgstr "Slēgtai Hi-Hat šķīvji"
+
+msgid "Cloud data"
+msgstr "Mākoņdati"
+
+msgid "color"
+msgstr "krāsa"
+
+msgid "Color a shape"
+msgstr "Iekrāsot figūru"
+
+msgid "Conga"
+msgstr "Konga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Savienojas ar mākoņu datu serveri..."
+
+msgid "Convert to bitmap"
+msgstr "Pārvērst rastra grafikā"
+
+msgid "Convert to vector"
+msgstr "Pārvērst vektorgrafikā"
+
+msgid "Converting mp3..."
+msgstr "Pārveido mp3 formātā..."
+
+msgid "copy"
+msgstr "kopēt"
+
+msgid "Copying..."
+msgstr "Kopē..."
+
+msgid "cos"
+msgstr "cos"
+
+# 75%
+msgid "Costume"
+msgstr "Tērps"
+
+msgid "Costume Library"
+msgstr "Tērpu bibliotēka"
+
+msgid "costume name"
+msgstr "tērpa nosaukums"
+
+msgid "costume1"
+msgstr "tērps1"
+
+msgid "costume2"
+msgstr "tērps2"
+
+# 75%
+msgid "Costumes"
+msgstr "Tērpi"
+
+msgid "Costumes > 1"
+msgstr "Tērpi > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr "Nevar saņemt jaunu lietotni no servera."
+
+msgid "Cowbell"
+msgstr "Zvans"
+
+msgid "Crash Cymbal"
+msgstr "Crash šķīvji"
+
+msgid "Creating..."
+msgstr "Izveido..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Pagaidām kā mākoņu mainīgos var saglabāt tikai skaitļus."
+
+msgid "cut"
+msgstr "izgriezt"
+
+msgid "D connected"
+msgstr "D pieslēgts"
+
+msgid "date"
+msgstr "datums"
+
+msgid "day of week"
+msgstr "nedēļas diena"
+
+msgid "delete"
+msgstr "dzēst"
+
+# 83%
+msgid "Delete"
+msgstr "Dzēst"
+
+msgid "delete variable"
+msgstr "dzēst mainīgo"
+
+# 90%
+msgid "direction:"
+msgstr "virziens:"
+
+msgid "don't rotate"
+msgstr "nerotēt"
+
+msgid "Don't save"
+msgstr "Nesaglabāt"
+
+msgid "down"
+msgstr "uz leju"
+
+msgid "down arrow"
+msgstr "bulta uz leju"
+
+msgid "Download"
+msgstr "Lejuplādēt"
+
+msgid "Download to your computer"
+msgstr "Lejuplādēt Jūsu datorā"
+
+msgid "duplicate"
+msgstr "dublēt"
+
+msgid "Duplicate"
+msgstr "Dublēt"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "mala"
+
+msgid "Edit"
+msgstr "Rediģēt"
+
+msgid "edit"
+msgstr "rediģēt"
+
+msgid "Edit Block"
+msgstr "Rediģēt bloku"
+
+msgid "Effects"
+msgstr "Efekti"
+
+msgid "Electric Guitar"
+msgstr "Elektriskā ģitāra"
+
+msgid "Electric Piano"
+msgstr "Elektriskās klavieres"
+
+msgid "Electronic"
+msgstr "Elektronika"
+
+msgid "Ellipse"
+msgstr "Elipse"
+
+msgid "Erase"
+msgstr "Dzēst"
+
+msgid "Eraser width"
+msgstr "Dzēšgumijas platums"
+
+msgid "Error!"
+msgstr "Kļūda!"
+
+msgid "export"
+msgstr "eksportēt"
+
+msgid "fade in"
+msgstr "pakāpeniski parādīties"
+
+msgid "fade out"
+msgstr "pakāpeniski izzust"
+
+msgid "Fantasy"
+msgstr "Fantāzija"
+
+msgid "Features"
+msgstr "Īpašības"
+
+msgid "File"
+msgstr "Datne"
+
+msgid "Fill with color"
+msgstr "Aizpildīt ar krāsu"
+
+msgid "fisheye"
+msgstr "fisheye"
+
+msgid "Flip left-right"
+msgstr "Apmest pa kreisi-pa labi"
+
+msgid "Flip up-down"
+msgstr "Apmest no augšas uz leju"
+
+msgid "floor"
+msgstr "apaļot uz leju"
+
+msgid "Flute"
+msgstr "Flauta"
+
+msgid "Flying"
+msgstr "Lidojoši"
+
+msgid "Font:"
+msgstr "fonts:"
+
+msgid "For all sprites"
+msgstr "Visiem gariņiem"
+
+msgid "For this sprite only"
+msgstr "Tikai šim gariņam"
+
+msgid "Forward a layer"
+msgstr "Par vienu slāni uz priekšu"
+
+msgid "ghost"
+msgstr "spoks"
+
+msgid "Group"
+msgstr "Grupa"
+
+msgid "Grow"
+msgstr "Palielināt"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "Ģitāra"
+
+msgid "Hand Clap"
+msgstr "Roku plaukšķis"
+
+msgid "Hardware"
+msgstr "Aparatūra"
+
+msgid "help"
+msgstr "palīdzība"
+
+msgid "High C"
+msgstr "Do augšā"
+
+msgid "Holiday"
+msgstr "Brīvdienas"
+
+msgid "hour"
+msgstr "stunda"
+
+msgid "Human"
+msgstr "Cilvēks"
+
+# 83%
+msgid "import"
+msgstr "importēt"
+
+msgid "Import"
+msgstr "Importēt"
+
+msgid "Importing sound..."
+msgstr "Importē skaņu..."
+
+msgid "Indoors"
+msgstr "Iekštelpas"
+
+msgid "Installing..."
+msgstr "Instalē..."
+
+msgid "Instruments"
+msgstr "Instrumenti"
+
+msgid "large readout"
+msgstr "liels lasījums"
+
+msgid "last"
+msgstr "pēdējais"
+
+msgid "left"
+msgstr "pa kreisi"
+
+msgid "left arrow"
+msgstr "bulta pa kreisi"
+
+msgid "left-right"
+msgstr "pa kreisi-pa labi"
+
+msgid "length"
+msgstr "garums"
+
+msgid "Letters"
+msgstr "Burti"
+
+msgid "Library"
+msgstr "Bibliotēka"
+
+msgid "light"
+msgstr "gaisma"
+
+msgid "Line"
+msgstr "Līnija"
+
+msgid "Line width"
+msgstr "Līnijas platums"
+
+# 75%
+msgid "list"
+msgstr "saraksts"
+
+msgid "List name"
+msgstr "Saraksta nosaukums"
+
+msgid "ln"
+msgstr "ln"
+
+msgid "Loading project..."
+msgstr "Ielādē projektu..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "skaļāk"
+
+msgid "Low C"
+msgstr "Do apakšā"
+
+msgid "Make a Block"
+msgstr "Izveidot bloku"
+
+msgid "Make a List"
+msgstr "Izveidot sarakstu"
+
+msgid "Make a Variable"
+msgstr "Izveidot mainīgo"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "Maks."
+
+msgid "meow"
+msgstr "ņau"
+
+msgid "Message Name"
+msgstr "Ziņas nosaukums"
+
+msgid "message1"
+msgstr "ziņojums1"
+
+msgid "Microphone volume:"
+msgstr "Mikrofona skaļums:"
+
+msgid "Middle C"
+msgstr "Do pa vidu"
+
+msgid "Min"
+msgstr "Min."
+
+msgid "minute"
+msgstr "minūte"
+
+msgid "month"
+msgstr "mēnesis"
+
+msgid "mosaic"
+msgstr "mozaīka"
+
+msgid "motion"
+msgstr "kustība"
+
+msgid "mouse-pointer"
+msgstr "peles kursors"
+
+msgid "Multiple"
+msgstr "Vairāki"
+
+msgid "Music and Dance"
+msgstr "Mūzika un dejas"
+
+msgid "Music Box"
+msgstr "Mūzikas lādīte"
+
+msgid "Music Loops"
+msgstr "Mūzikas cilpas"
+
+msgid "myself"
+msgstr "es pats"
+
+msgid "Nature"
+msgstr "Daba"
+
+msgid "New"
+msgstr "Jauns"
+
+msgid "New backdrop from camera"
+msgstr "Jauns fons no kameras"
+
+# 92%
+msgid "New backdrop:"
+msgstr "Jauns fons:"
+
+msgid "New Block"
+msgstr "Jauns bloks"
+
+msgid "New costume from camera"
+msgstr "Jauns tērps no kameras"
+
+# 91%
+msgid "New costume:"
+msgstr "Jauns tērps:"
+
+msgid "New List"
+msgstr "Jauns saraksts"
+
+msgid "New Message"
+msgstr "Jauna ziņa"
+
+msgid "new message..."
+msgstr "jauns ziņojums..."
+
+msgid "New name"
+msgstr "Jauns nosaukums"
+
+# 90%
+msgid "New sound:"
+msgstr "Jauna skaņa:"
+
+msgid "New sprite from camera"
+msgstr "Jauns gariņš no kameras"
+
+msgid "New sprite:"
+msgstr "Jauns gariņš:"
+
+msgid "New Variable"
+msgstr "Jauns mainīgais"
+
+msgid "No motion blocks"
+msgstr "Nav kustības bloku"
+
+msgid "normal readout"
+msgstr "normāls lasījums"
+
+msgid "Not saved; network or server problem."
+msgstr "Nav saglabāts; tīkla vai servera problēma."
+
+msgid "Not saved; project did not load."
+msgstr "Nav saglabāts; projekts netika ielādēts."
+
+msgid "of"
+msgstr "no"
+
+msgid "off"
+msgstr "izslēgts"
+
+msgid "Offline Editor"
+msgstr "Bezsaistes redaktors"
+
+msgid "OK"
+msgstr "Labi"
+
+msgid "on"
+msgstr "ieslēgts"
+
+msgid "on-flipped"
+msgstr "kad pagriezts"
+
+msgid "Open"
+msgstr "Atvērt"
+
+msgid "Open Cuica"
+msgstr "Atvērta cuica"
+
+msgid "Open Hi-Hat"
+msgstr "Atvērti Hi-Hat šķīvji"
+
+msgid "Options"
+msgstr "Iespējas"
+
+msgid "Organ"
+msgstr "Ērģeles"
+
+msgid "Other"
+msgstr "Citi"
+
+msgid "other scripts in sprite"
+msgstr "citi skripti gariņā"
+
+msgid "other scripts in stage"
+msgstr "citas programmas gariņā"
+
+msgid "Outdoors"
+msgstr "Brīvā daba"
+
+msgid "Paint new backdrop"
+msgstr "Zīmēt jaunu fonu"
+
+msgid "Paint new costume"
+msgstr "Zīmēt jaunu tērpu"
+
+msgid "Paint new sprite"
+msgstr "Zīmēt jaunu gariņu"
+
+msgid "Password"
+msgstr "Parole"
+
+msgid "Password is required"
+msgstr "Parole ir obligāta"
+
+msgid "paste"
+msgstr "ielīmēt"
+
+msgid "Pencil"
+msgstr "Zīmulis"
+
+msgid "People"
+msgstr "Cilvēki"
+
+msgid "Percussion"
+msgstr "Perkusijas"
+
+msgid "photo1"
+msgstr "foto1"
+
+msgid "Piano"
+msgstr "Klavieres"
+
+msgid "Pick up color"
+msgstr "Izvēlies krāsu"
+
+msgid "pixelate"
+msgstr "pikseļot"
+
+msgid "Pizzicato"
+msgstr "Pičikato"
+
+msgid "pop"
+msgstr "paukšķis"
+
+msgid "previous backdrop"
+msgstr "iepriekšējais fons"
+
+msgid "Project did not load."
+msgstr "Projekts neielādējās."
+
+msgid "Project not saved!"
+msgstr "Projekts nav saglabāts!"
+
+msgid "Project name"
+msgstr "Projekta nosaukums"
+
+msgid "Project name is required"
+msgstr "Projetka nosaukums ir obligāts"
+
+msgid "random"
+msgstr "nejauši"
+
+msgid "Record"
+msgstr "Ieraksts"
+
+msgid "Record new sound"
+msgstr "Ierakstīt jaunu skaņu"
+
+msgid "record..."
+msgstr "ierakstīt..."
+
+msgid "recording1"
+msgstr "ieraksts1"
+
+msgid "Rectangle"
+msgstr "Taisnstūris"
+
+# 75%
+msgid "Redo"
+msgstr "Atcelt atsaukšanu"
+
+msgid "redo"
+msgstr "atcelt atsaukšanu"
+
+msgid "Remix"
+msgstr "Remix"
+
+msgid "Remixing..."
+msgstr "Remiksē...."
+
+msgid "Rename"
+msgstr "Pārsaukt"
+
+msgid "rename variable"
+msgstr "pārsaukt mainīgo"
+
+msgid "Reshape"
+msgstr "Pārveidot"
+
+msgid "resistance-A"
+msgstr "pretestība-A"
+
+msgid "resistance-B"
+msgstr "pretestība-B"
+
+msgid "resistance-C"
+msgstr "pretestība-C"
+
+msgid "resistance-D"
+msgstr "pretestība-D"
+
+msgid "reverse"
+msgstr "apgriezt pretējā virzienā"
+
+msgid "Revert"
+msgstr "Atgriezt"
+
+msgid "Reverting..."
+msgstr "Atgriež..."
+
+msgid "right"
+msgstr "pa labi"
+
+msgid "right arrow"
+msgstr "bulta pa labi"
+
+msgid "rotation style:"
+msgstr "rotācijas stils:"
+
+msgid "Run without screen refresh"
+msgstr "Izpildīt bez ekrāna atjaunošanas"
+
+msgid "Save"
+msgstr "Saglabāt"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Saglabā šī projekta kopiju un pievieno savas idejas"
+
+msgid "Save as"
+msgstr "Saglabāt kā"
+
+msgid "Save now"
+msgstr "Saglabāt tagad"
+
+msgid "Save project?"
+msgstr "Saglabāt projektu?"
+
+msgid "save to local file"
+msgstr "saglabāt failā"
+
+msgid "Saved"
+msgstr "Saglabāts"
+
+msgid "Saving changes..."
+msgstr "Saglabā izmaiņas..."
+
+msgid "Saving..."
+msgstr "Saglabā..."
+
+msgid "Saxophone"
+msgstr "Saksofons"
+
+msgid "Scratch Updater"
+msgstr "Scratch atjauninātājs"
+
+msgid "Script"
+msgstr "Programma"
+
+msgid "Scripts"
+msgstr "Programmas"
+
+msgid "second"
+msgstr "sekunde"
+
+msgid "See project page"
+msgstr "Skatīt projekta lapu"
+
+msgid "Select"
+msgstr "Izvēlēties"
+
+msgid "select all"
+msgstr "iezīmēt visus"
+
+msgid "Select and duplicate"
+msgstr "Iezīmēt un dublēt"
+
+msgid "Send to back"
+msgstr "Nosūtīt uz aizmuguri"
+
+msgid "Set Costume Center"
+msgstr "Iestatīt tērpa centru"
+
+msgid "Set costume center"
+msgstr "Iestatīt tērpa centru"
+
+msgid "set slider min and max"
+msgstr "uzstādi slīdnim mazāko un lielāko"
+
+msgid "Share"
+msgstr "Kopīgot"
+
+msgid "Share to website"
+msgstr "Koplietot mājaslapā"
+
+msgid "shared"
+msgstr "koplietots"
+
+msgid "Shift:"
+msgstr "Shift:"
+
+msgid "show receivers"
+msgstr "parādīt saņēmējus"
+
+msgid "show senders"
+msgstr "parādīt sūtītājus"
+
+msgid "show:"
+msgstr "parādīt:"
+
+msgid "Shrink"
+msgstr "Samazināt"
+
+msgid "Side Stick"
+msgstr "Bungu malas piesitiens"
+
+msgid "Sign in"
+msgstr "Pieslēgties"
+
+msgid "Sign in to save"
+msgstr "Pieslēgties lai saglabātu"
+
+msgid "silence"
+msgstr "klusums"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "slīdnis"
+
+msgid "Slider Range"
+msgstr "Slīdņa diapazons"
+
+msgid "Small stage layout"
+msgstr "Mazs skatuves izkārtojums"
+
+msgid "Smooth"
+msgstr "Gludi"
+
+msgid "Snare Drum"
+msgstr "Snare bungas"
+
+msgid "softer"
+msgstr "mīkstāk"
+
+msgid "sound"
+msgstr "skaņa"
+
+msgid "Sound Library"
+msgstr "Skaņu bibliotēka"
+
+# 80%
+# 83%
+msgid "Sounds"
+msgstr "Skaņas"
+
+# 80%
+msgid "Space"
+msgstr "Kosmoss"
+
+msgid "space"
+msgstr "atstarpe"
+
+msgid "Sports"
+msgstr "Sports"
+
+# 85%
+msgid "Sprite"
+msgstr "Gariņš"
+
+msgid "Sprite Library"
+msgstr "Gariņu bibliotēka"
+
+# 85%
+msgid "Sprite1"
+msgstr "Gariņš1"
+
+msgid "Sprites"
+msgstr "Gariņi"
+
+msgid "sqrt"
+msgstr "sqrt"
+
+msgid "Square"
+msgstr "Kvadrāts"
+
+msgid "Stage"
+msgstr "Skatuve"
+
+msgid "Stage selected:"
+msgstr "Izvēlēta skatuve:"
+
+msgid "Steel Drum"
+msgstr "Metāla bungas"
+
+msgid "Synth Lead"
+msgstr "Vadošais sintezators"
+
+msgid "Synth Pad"
+msgstr "Pavadošais sintezators"
+
+msgid "Tambourine"
+msgstr "Tamburīns"
+
+msgid "tan"
+msgstr "tan"
+
+msgid "text"
+msgstr "teksts"
+
+msgid "Text"
+msgstr "Teksts"
+
+msgid "that way"
+msgstr "uz otru pusi"
+
+msgid "Theme"
+msgstr "Tēma"
+
+msgid "Things"
+msgstr "Lietas"
+
+msgid "This is the current version."
+msgstr "Šī ir jaunākā versija"
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Projekts var noteikt, kas to izmanto, lietojot bloku “lietotājvārds”. Lai "
+"slēptu savu identitāti, izraksties, pirms izmanto šo projektu."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Projektā ir izmantoti mākoņu dati - iespēja, kas pieejama tikai autorizētiem "
+"lietotājiem."
+
+msgid "this script"
+msgstr "šis skripts"
+
+msgid "this sprite"
+msgstr "šis gariņš"
+
+msgid "this way"
+msgstr "uz vienu pusi"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Pamest visas izmaiņas, kas izveidotas kopš projekta atvēršanas?"
+
+msgid "Tips"
+msgstr "Ieteikumi"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+"Lai dzēstu bloka definīciju, vispirms izdzēsiet visus šī bloka lietojumus."
+
+msgid "Transportation"
+msgstr "Transports"
+
+msgid "Triangle"
+msgstr "Trijstūris"
+
+msgid "Trombone"
+msgstr "Trombons"
+
+msgid "Turbo mode"
+msgstr "Turbo režīms"
+
+msgid "Turbo Mode"
+msgstr "Turbo režīms"
+
+msgid "Type"
+msgstr "Tips"
+
+# 75%
+msgid "Undelete"
+msgstr "Atjaunot"
+
+msgid "Underwater"
+msgstr "Zemūdens"
+
+msgid "undo"
+msgstr "atsaukt"
+
+# 75%
+msgid "Undo"
+msgstr "Atsaukt"
+
+msgid "Undo Revert"
+msgstr "Atcelt atsaukšanu"
+
+msgid "Ungroup"
+msgstr "Atgrupēt"
+
+msgid "unshared"
+msgstr "nav koplietots"
+
+msgid "up"
+msgstr "uz augšu"
+
+msgid "up arrow"
+msgstr "bulta uz augšu"
+
+msgid "Update failed"
+msgstr "Neizdevās atjaunināt"
+
+msgid "Update not needed"
+msgstr "Atjaunināšana nav nepieciešama"
+
+msgid "Update now"
+msgstr "Atjaunināt tagad"
+
+msgid "Upload backdrop from file"
+msgstr "Ielādēt fonu no faila"
+
+msgid "Upload costume from file"
+msgstr "Ielādēt tērpu no faila"
+
+msgid "Upload from your computer"
+msgstr "Ielādēt no Jūsu datora"
+
+msgid "Upload sound from file"
+msgstr "Ielādēt skaņu no faila"
+
+msgid "Upload sprite from file"
+msgstr "Ielādēt gariņu no faila"
+
+msgid "Uploading image..."
+msgstr "Ielādē attēlu..."
+
+msgid "Uploading sound..."
+msgstr "Ielādē skaņu..."
+
+msgid "Uploading sprite..."
+msgstr "Ielādē gariņu..."
+
+msgid "variable"
+msgstr "mainīgais"
+
+msgid "Variable name"
+msgstr "Mainīgā nosaukums"
+
+msgid "Vector"
+msgstr "Vektors"
+
+msgid "Vector Mode"
+msgstr "Vektoru režīms"
+
+msgid "Vibraphone"
+msgstr "Ksilofons"
+
+msgid "Vibraslap"
+msgstr "Vibra slaperis"
+
+msgid "video direction"
+msgstr "video virziens"
+
+msgid "video motion"
+msgstr "video kustība"
+
+msgid "Video on:"
+msgstr "Video uz:"
+
+msgid "Vocals"
+msgstr "Vokāli"
+
+msgid "Walking"
+msgstr "Iešana"
+
+msgid "Want to save? Click remix"
+msgstr "Vēlies saglabāt? Spied remix"
+
+msgid "Which column do you want to import"
+msgstr "Kuru kolonnu vēlies importēt"
+
+msgid "whirl"
+msgstr "virpuļi"
+
+msgid "Wood Block"
+msgstr "Vudbloks"
+
+msgid "Wooden Flute"
+msgstr "Koka flauta"
+
+msgid "year"
+msgstr "gads"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Nav iespējams labot datus mākonī kāda cita projektā.<br>Jebkuras veiktās "
+"izmaiņas būs pagaidu un netiks saglabātas."
+
+msgid "Your Scratch name"
+msgstr "Tavs Scratch vārds"
+
+msgid "Your Scratch name is required"
+msgstr "Tavs Scratch vārds ir obligāts"
+
+# Offline editor only
+msgid "All Tips"
+msgstr "Visi padomi"
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+"Scratch bezsaistes redaktoram ir pieejama jaunāka versija, meklē to Scratch "
+"mājaslapā."
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr "Nevar saņemt jauninājuma atrašanās vietu serverī."
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr "Nevar saņemt versijas informāciju no servera."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr "Nevar ierakstīt datni:"
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr "Lejuplādē jaunu versiju..."
+
+# Offline editor only
+msgid "Error saving project"
+msgstr "Kļūda saglabājot projektu"
+
+# Offline editor only
+msgid "Force help file update"
+msgstr "Atjaunot palīdzības datni"
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr "Importēt eksperimentālu HTTP paplašinājumu"
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr "Ielādē palīdzības datnes..."
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr "Pieejams manuāls atjauninājums"
+
+# Offline editor only
+msgid "Open Project"
+msgstr "Atvērt projektu"
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr "Lūdzu apmeklēt lejupielādes lapu, lai to uzstādītu."
+
+# Offline editor only
+msgid "Quit"
+msgstr "Iziet"
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr "Aizvietot esošu projektu?"
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr "Izpilda izstrādes versiju"
+
+# Offline editor only
+msgid "Save Project"
+msgstr "Saglabāt projektu"
+
+# Offline editor only
+msgid "Server error:"
+msgstr "Servera kļūda:"
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr "Koplietot Scratch mājaslapā"
+
+# Offline editor only
+msgid "Success"
+msgstr "Veiksmīgi"
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr "Šī versija ir jaunākā, nekā pašreizējā izlaistā versija."
+
+# Offline editor only
+msgid "Update check failed"
+msgstr "Atjauninājumu pārbaude neizdevās"
+
+# Offline editor only
+msgid "Upload failed"
+msgstr "Augšupielāde neizdevās"
+
+# Offline editor only
+msgid "Visit download page"
+msgstr "Apmeklēt lejupielāžu lapu"
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr "Tavs projekts ir augšuplādēts scratch.mit.edu"
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Latviešu"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list satur %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "kad noklikšķināta skatuve"
+
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "iestatīt motora virzienu uz %m.motorDirection"
+
+#~ msgid "set motor power %n"
+#~ msgstr "iestatīt motora jaudu %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "izslēgt motoru"
+
+#~ msgid "turn motor on"
+#~ msgstr "ieslēgt motoru"
+
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "iezlēgt motoru uz %n sekundēm"
+
+#~ msgid "when distance < %n"
+#~ msgstr "kad attālums < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "kad noliekts = %n"
+
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "iestatīt motora virzienu uz %m.motorDirection"
+
+#~ msgid "user id"
+#~ msgstr "lietotāja id"
+
+#~ msgid "clone startup"
+#~ msgstr "dublēt sākumu"
+
+#~ msgid "forever if %b"
+#~ msgstr "nepārtraukti ja %b"
+
+#~ msgid "hide all sprites"
+#~ msgstr "slēpt visus gariņus"
+
+#~ msgid "if %b"
+#~ msgstr "ja %b"
+
+#~ msgid "Scratch days"
+#~ msgstr "Scratch dienas"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "Par LEGO WeDo paplašinājumu..."
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "Par PicoBoard paplašinājumu..."
+
+#~ msgid "Account settings"
+#~ msgstr "Konta iestatījumi"
+
+#~ msgid "add comment here..."
+#~ msgstr "pievienot komentāru šeit..."
+
+#~ msgid "all motors"
+#~ msgstr "visi motori"
+
+#~ msgid "Cannot Add"
+#~ msgstr "Nevar pievienot"
+
+#~ msgid "clean up"
+#~ msgstr "satīrīt"
+
+#~ msgid "Cloud"
+#~ msgstr "Mākonis"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "Mākoņmainīgais (saglabāts serverī)"
+
+# 75%
+# 88%
+#~ msgid "Costumes:"
+#~ msgstr "Tērpi:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "Lejuplādē jaunu versiju"
+
+#~ msgid "empty"
+#~ msgstr "tukšs"
+
+#~ msgid "Erase all"
+#~ msgstr "Dzēst visu"
+
+#~ msgid "everything"
+#~ msgstr "viss"
+
+#~ msgid "Extension Library"
+#~ msgstr "Paplašinājumu bibliotēka"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Paplašinājuma kļuda"
+
+#~ msgid "false"
+#~ msgstr "nepatiess"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Doties uz Manas lietas"
+
+#~ msgid "Hello!"
+#~ msgstr "Sveiki!"
+
+#~ msgid "Hmm..."
+#~ msgstr "Hmm..."
+
+#~ msgid "hello"
+#~ msgstr "sveiki"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "gaismas"
+
+#~ msgid "limit reached"
+#~ msgstr "limits sasniegts"
+
+#~ msgid "motor"
+#~ msgstr "motors"
+
+#~ msgid "motor A"
+#~ msgstr "motors A"
+
+#~ msgid "motor B"
+#~ msgstr "motors B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Manas lietas"
+
+#~ msgid "not ="
+#~ msgstr "ne ="
+
+#~ msgid "Profile"
+#~ msgstr "Profils"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Aizvākt paplašinājuma blokus"
+
+#~ msgid "Replace existing project"
+#~ msgstr "Aizvietot esošu projektu"
+
+#~ msgid "requires sign in"
+#~ msgstr "nepieciešams pieslēgties"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Saglabāt kā kopiju"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "Scatch 2.0 Bezsaistes redaktors"
+
+#~ msgid "Scripts:"
+#~ msgstr "Programmas:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Skaties padomu logā (pa labi) lai uzstādītu spraudni un papildinājums "
+#~ "sāktu strādāt."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "Koplietot Scratch mājaslapā"
+
+#~ msgid "Sign out"
+#~ msgstr "Atteikties"
+
+#~ msgid "stored on server"
+#~ msgstr "saglabāts serverī"
+
+#~ msgid "The name is already in use."
+#~ msgstr "Šis nosaukums jau tiek lietots"
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "Projektu nebija iespējams ielādēt un Scratch komandai ir par to paziņots. "
+#~ "Spiediet Labi, lai pamestu šo lapu."
+
+#~ msgid "thing"
+#~ msgstr "lieta"
+
+#~ msgid "true"
+#~ msgstr "patiess"
+
+#~ msgid "What's your name?"
+#~ msgstr "Kāds ir tavs vārds?"
+
+#~ msgid "world"
+#~ msgstr "pasaule"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Informācija par mākoņu mainīgajiem</b><br>&nbsp;<br>Šobrīd atļauti "
+#~ "tikai skaitļi<br>Sarunu istabas nav atļautas, un tiks dzēstas.<br>Vairāk "
+#~ "informācijas <a href= target=>mākoņu datu BUJ!</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Klikšķini     lai mēģinātu vēlreiz vai     lai saglabātu"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Dzēšgumijas platums:"
+
+#~ msgid "Line width:"
+#~ msgstr "Līnijas platums:"
+
+#~ msgid "Add a boolean input:"
+#~ msgstr "Pievienot Būla (boolean) ievadi:"
+
+#~ msgid "Add a number input:"
+#~ msgstr "Pievienot skaitļa ievadi:"
+
+#~ msgid "Add a string input:"
+#~ msgstr "Pievienot teksta virknes ievadi:"
+
+# 75%
+#, fuzzy
+#~ msgid "Fill"
+#~ msgstr "Datne"
+
+#~ msgid "login"
+#~ msgstr "Ienākt"
+
+#~ msgid "New backdrop"
+#~ msgstr "Jauns fons"
+
+#~ msgid "New costume"
+#~ msgstr "Jauns tērps"
+
+#~ msgid "New sound"
+#~ msgstr "Jauna skaņa"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Jauns gariņš:"
+
+#~ msgid "Paint"
+#~ msgstr "Krāsa"
+
+#~ msgid "Scratch Cat"
+#~ msgstr "Scratch kaķis"
+
+#~ msgid "#"
+#~ msgstr "nr"
+
+#~ msgid "bottom-left"
+#~ msgstr "apakšā-pa kreisi"
+
+#~ msgid "bottom-right"
+#~ msgstr "apakšā-pa labi"
+
+#~ msgid "middle"
+#~ msgstr "vidus"
+
+#~ msgid "name"
+#~ msgstr "vārds"
+
+#~ msgid "say"
+#~ msgstr "teikt"
+
+#~ msgid "shout"
+#~ msgstr "bļaut"
+
+#~ msgid "think"
+#~ msgstr "domāt"
+
+#~ msgid "top-left"
+#~ msgstr "augša-pa kreisi"
+
+#~ msgid "top-right"
+#~ msgstr "augša-pa labi"
+
+#~ msgid "whisper"
+#~ msgstr "čukstēt"

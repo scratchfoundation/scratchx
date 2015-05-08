@@ -1,0 +1,2263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 04:03+0000\n"
+"Last-Translator: adlogi <adlogi@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429070628.000000\n"
+
+msgid "%b and %b"
+msgstr "%b و %b"
+
+msgid "%b or %b"
+msgstr "%b أو %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute للكائن %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp للقيمة %n"
+
+msgid "%m.sensor sensor value"
+msgstr "قيمة حساس %m.sensor"
+
+msgid "%n mod %n"
+msgstr "باقي قسمة %n على %n"
+
+msgid "add %s to %m.list"
+msgstr "أضف %s إلى %m.list"
+
+msgid "answer"
+msgstr "الإجابة"
+
+msgid "ask %s and wait"
+msgstr "اسأل %s وانتظر"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "رقم الخلفية"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "اسم الخلفية"
+
+msgid "broadcast %m.broadcast"
+msgstr "بث %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "بث %m.broadcast وانتظر"
+
+msgid "change %m.effect effect by %n"
+msgstr "غيِّر تأثير %m.effect بمقدار %n"
+
+msgid "change %m.var by %n"
+msgstr "غيِّر %m.var بمقدار %n"
+
+msgid "change pen color by %n"
+msgstr "غيِّر لون القلم بمقدار %n"
+
+msgid "change pen shade by %n"
+msgstr "غيِّر تظليل القلم بمقدار %n"
+
+msgid "change pen size by %n"
+msgstr "غيِّر حجم القلم بمقدار %n"
+
+msgid "change size by %n"
+msgstr "غيِّر الحجم بمقدار %n"
+
+msgid "change tempo by %n"
+msgstr "غيِّر سرعة الأداء بمقدار %n"
+
+msgid "change volume by %n"
+msgstr "غيِّر شدة الصوت بمقدار %n"
+
+msgid "change x by %n"
+msgstr "غيِّر الموضع س بمقدار %n"
+
+msgid "change y by %n"
+msgstr "غيِّر الموضع ص بمقدار %n"
+
+msgid "clear"
+msgstr "امسح"
+
+msgid "clear graphic effects"
+msgstr "أزل التأثيرات الرسومية"
+
+msgid "color %c is touching %c?"
+msgstr "اللون %c يلامس اللون %c ؟"
+
+msgid "Control"
+msgstr "التحكم"
+
+msgid "costume #"
+msgstr "رقم المظهر"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "أنشئ نسخة من %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "%m.timeAndDate في هذه اللحظة"
+
+msgid "Data"
+msgstr "البيانات"
+
+msgid "days since 2000"
+msgstr "الأيام منذ عام ٢٠٠٠"
+
+msgid "define"
+msgstr "تعريف"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "احذف %d.listDeleteItem من %m.list"
+
+msgid "delete this clone"
+msgstr "احذف هذه النسخة"
+
+msgid "direction"
+msgstr "الاتجاه"
+
+msgid "distance"
+msgstr "المسافة"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "المسافة إلى %m.spriteOrMouse"
+
+msgid "else"
+msgstr "وإلا"
+
+msgid "Events"
+msgstr "الأحداث"
+
+msgid "forever"
+msgstr "كرر باستمرار"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "انزلق خلال %n ثانية إلى الموضع س: %n ص: %n"
+
+msgid "go back %n layers"
+msgstr "انتقل %n طبقة إلى الخلف"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "اذهب إلى %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "انتقل إلى المقدمة"
+
+msgid "go to x:%n y:%n"
+msgstr "اذهب إلى الموضع س: %n ص: %n"
+
+msgid "hide"
+msgstr "اختف"
+
+msgid "hide list %m.list"
+msgstr "أخفِ اللائحة %m.list"
+
+msgid "hide variable %m.var"
+msgstr "أخفِ المتغير %m.var"
+
+msgid "if %b then"
+msgstr "إذا %b"
+
+msgid "if on edge, bounce"
+msgstr "ارتد إذا كنت عند الحافة"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "أدرج %s في الموقع %d.listItem من %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "العنصر %d.listItem من %m.list"
+
+msgid "join %s %s"
+msgstr "اربط %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "مفتاح %m.key مضغوط؟"
+
+msgid "length of %m.list"
+msgstr "طول %m.list"
+
+msgid "length of %s"
+msgstr "طول %s"
+
+msgid "letter %n of %s"
+msgstr "الحرف %n من %s"
+
+msgid "Looks"
+msgstr "المظاهر"
+
+msgid "loudness"
+msgstr "شدة الصوت"
+
+msgid "More Blocks"
+msgstr "لبنات إضافية"
+
+msgid "Motion"
+msgstr "الحركة"
+
+msgid "mouse down?"
+msgstr "زر الفأرة مضغوط؟"
+
+msgid "mouse x"
+msgstr "الموضع س للفأرة"
+
+msgid "mouse y"
+msgstr "الموضع ص للفأرة"
+
+msgid "move %n steps"
+msgstr "تحرك %n خطوة"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "الخلفية التالية"
+
+msgid "next costume"
+msgstr "المظهر التالي"
+
+msgid "not %b"
+msgstr "ليس %b"
+
+msgid "Operators"
+msgstr "العمليات"
+
+msgid "Pen"
+msgstr "القلم"
+
+msgid "pen down"
+msgstr "أنزل القلم"
+
+msgid "pen up"
+msgstr "ارفع القلم"
+
+msgid "pick random %n to %n"
+msgstr "اختر عدداً عشوائياً بين %n و %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "دقَّ الطبل %d.drum لمدة %n وحدة إيقاع"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "اعزف النوتة %d.note لمدة %n وحدة إيقاع"
+
+msgid "play sound %m.sound"
+msgstr "شغل الصوت %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "شغل الصوت %m.sound وانتظر انتهاءه"
+
+msgid "point in direction %d.direction"
+msgstr "اتجه نحو الاتجاه %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "اتجه نحو %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "كرِّر %n مرة"
+
+msgid "repeat until %b"
+msgstr "كرِّر حتى %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "استبدل بالعنصر %d.listItem من %m.list %s"
+
+msgid "reset timer"
+msgstr "صفِّر المؤقت"
+
+msgid "rest for %n beats"
+msgstr "استرح لمدة %n وحدة إيقاع"
+
+msgid "round %n"
+msgstr "قرِّب %n"
+
+msgid "say %s"
+msgstr "قل %s"
+
+msgid "say %s for %n secs"
+msgstr "قل %s لمدة %n ثانية"
+
+msgid "Sensing"
+msgstr "التحسس"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "حساس %m.booleanSensor ؟"
+
+msgid "set %m.effect effect to %n"
+msgstr "اجعل تأثير %m.effect مساوياً %n"
+
+msgid "set %m.var to %s"
+msgstr "اجعل %m.var مساوياً %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "اجعل الآلة هي %d.instrument"
+
+# 89%
+# 86%
+# 97%
+# 100%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "اجعل اتجاه %m.motor2 %m.motorDirection"
+
+# 77%
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "اجعل طاقة %m.motor مساويةً %n"
+
+msgid "set pen color to %c"
+msgstr "اجعل لون القلم مساوياً %c"
+
+msgid "set pen color to %n"
+msgstr "اجعل لون القلم مساوياً %n"
+
+msgid "set pen shade to %n"
+msgstr "اجعل تظليل القلم مساوياً %n"
+
+msgid "set pen size to %n"
+msgstr "اجعل حجم القلم مساوياً %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "اجعل نمط الدوران %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "اجعل الحجم مساوياً %n %"
+
+msgid "set tempo to %n bpm"
+msgstr "اجعل سرعة الأداء مساويةً %n وحدة إيقاع في الدقيقة"
+
+msgid "set video transparency to %n%"
+msgstr "اجعل شفافية الفيديو مساويةً %n %"
+
+msgid "set volume to %n%"
+msgstr "اجعل شدة الصوت مساويةً %n %"
+
+msgid "set x to %n"
+msgstr "اجعل الموضع س مساوياً %n"
+
+msgid "set y to %n"
+msgstr "اجعل الموضع ص مساوياً %n"
+
+msgid "show"
+msgstr "اظهر"
+
+msgid "show list %m.list"
+msgstr "أظهر اللائحة %m.list"
+
+msgid "show variable %m.var"
+msgstr "أظهر المتغير %m.var"
+
+msgid "size"
+msgstr "الحجم"
+
+msgid "Sound"
+msgstr "الصوت"
+
+msgid "stamp"
+msgstr "اطبع"
+
+msgid "stop %m.stop"
+msgstr "أوقف %m.stop"
+
+msgid "stop all sounds"
+msgstr "أوقف كل الأصوات"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+# 80%
+msgid "switch backdrop to %m.backdrop"
+msgstr "غيّر الخلفية إلى %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+# 84%
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "غيّر الخلفية إلى %m.backdrop وانتظر"
+
+# 78%
+msgid "switch costume to %m.costume"
+msgstr "غيّر المظهر إلى %m.costume"
+
+msgid "tempo"
+msgstr "سرعة الأداء"
+
+msgid "think %s"
+msgstr "فكِّر %s"
+
+msgid "think %s for %n secs"
+msgstr "فكِّر %s لمدة %n ثانية"
+
+msgid "tilt"
+msgstr "الميل"
+
+msgid "timer"
+msgstr "المؤقت"
+
+msgid "touching %m.touching?"
+msgstr "ملامس لـ %m.touching ؟"
+
+msgid "touching color %c?"
+msgstr "ملامس للون %c ؟"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "استدر @turnLeft %n درجة"
+
+msgid "turn @turnRight %n degrees"
+msgstr "استدر @turnRight %n درجة"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "أوقف %m.motor"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "شغِّل %m.motor"
+
+# 80%
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "شغِّل %m.motor لمدة %n ثانية"
+
+msgid "turn video %m.videoState"
+msgstr "اجعل الفيديو %m.videoState"
+
+# 88%
+msgid "username"
+msgstr "اسم المستخدم"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "%m.videoMotionType الفيديو على %m.stageOrThis"
+
+msgid "volume"
+msgstr "شدة الصوت"
+
+msgid "wait %n secs"
+msgstr "انتظر %n ثانية"
+
+msgid "wait until %b"
+msgstr "انتظر حتى %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "عندما %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "عند ضغط مفتاح %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "عندما %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "عندما %m.triggerSensor < %n"
+
+msgid "when @greenFlag clicked"
+msgstr "عند نقر @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "عندما تتغير الخلفية إلى %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "عندما المسافة %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "عندما تستقبل %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "عندما تبدأ نسخة مني"
+
+msgid "when this sprite clicked"
+msgstr "عند نقر هذا الكائن"
+
+msgid "when tilt %m.eNe %n"
+msgstr "عندما الميل %m.eNe %n"
+
+msgid "x position"
+msgstr "الموضع س"
+
+msgid "y position"
+msgstr "الموضع ص"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list تحتوي %s؟"
+
+msgid "10 ^"
+msgstr "^ 10"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>معلومات عن المتغيرات السحابية</b><br>&nbsp;<br>الأعداد فقط مدعومة حالياً."
+"<br>غرف المحادثة غير مسموحة وسوف تزال<br>لمزيد من المعلومات <a href= "
+"target=>زر الأسئلة متكررة الطرح عن المتغيرات السحابية</a>"
+
+msgid "A connected"
+msgstr "A موصول"
+
+msgid "a copy of the project file on your computer."
+msgstr "نسخة من ملف المشروع على جهاز الكمبيوتر الخاص بك."
+
+msgid "A newer version of Scratch is available"
+msgstr "هناك إصدار جديد من سكراتش"
+
+msgid "About"
+msgstr "عن سكراتش"
+
+msgid "abs"
+msgstr "القيمة المطلقة"
+
+msgid "acos"
+msgstr "جيب التمام العكسي"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Add an Extension"
+msgstr "مكتبة الإضافات"
+
+# 90%
+msgid "Add boolean input:"
+msgstr "إضافة حقل منطقي:"
+
+msgid "add comment"
+msgstr "إضافة تعليق"
+
+msgid "Add label text:"
+msgstr "إضافة نص:"
+
+# 89%
+msgid "Add number input:"
+msgstr "إضافة حقل رقمي:"
+
+# 89%
+msgid "Add string input:"
+msgstr "إضافة حقل نصي:"
+
+msgid "all"
+msgstr "الكل"
+
+msgid "All"
+msgstr "الكل"
+
+msgid "all around"
+msgstr "في جميع الاتجاهات"
+
+msgid "Animal"
+msgstr "حيوان"
+
+msgid "Animals"
+msgstr "حيوانات"
+
+msgid "asin"
+msgstr "الجيب العكسي"
+
+msgid "assets loaded"
+msgstr "المكونات التي تم تحميلها"
+
+msgid "atan"
+msgstr "الظل العكسي"
+
+# 90%
+msgid "B connected"
+msgstr "B موصول"
+
+msgid "Back a layer"
+msgstr "طبقة واحدة إلى الخلف"
+
+# 88%
+msgid "backdrop"
+msgstr "خلفية"
+
+# 88%
+msgid "Backdrop"
+msgstr "الخلفيات"
+
+msgid "Backdrop Library"
+msgstr "مكتبة الخلفيات"
+
+msgid "backdrop1"
+msgstr "الخلفية١"
+
+# 88%
+msgid "backdrops"
+msgstr "خلفيات"
+
+# 88%
+msgid "Backdrops"
+msgstr "الخلفيات"
+
+msgid "Backpack"
+msgstr "الحقيبة"
+
+msgid "Bass"
+msgstr "Bass"
+
+msgid "Bass Drum"
+msgstr "Bass Drum"
+
+msgid "Bassoon"
+msgstr "Bassoon"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"لأن حسابك على سكراتش جديد، فإن أي تغييرات على المتغيرات السحابية لن تُحفظ. "
+"استمر بالمشاركة على الموقع وستكون قادراً قريباً على استخدام المتغيرات السحابية!"
+
+msgid "Bitmap"
+msgstr "صورة نقطية"
+
+msgid "Bitmap Mode"
+msgstr "وضعية الصور النقطية"
+
+msgid "Block help"
+msgstr "مساعدة في اللبنات"
+
+msgid "Bongo"
+msgstr "بونغو"
+
+msgid "brightness"
+msgstr "شدة الإضاءة"
+
+msgid "Bring to front"
+msgstr "إرسال إلى الأمام"
+
+msgid "Broadcast"
+msgstr "بث"
+
+msgid "Brush"
+msgstr "فرشاة"
+
+msgid "button pressed"
+msgstr "الزر مضغوط"
+
+msgid "by"
+msgstr "بواسطة"
+
+msgid "bytes loaded"
+msgstr "بايت تم تحميلها"
+
+# 90%
+msgid "C connected"
+msgstr "C موصول"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "آلة التصوير"
+
+# 94%
+msgid "can drag in player:"
+msgstr ":السماح بالسحب أثناء العرض"
+
+msgid "Cancel"
+msgstr "إلغاء الأمر"
+
+msgid "Cannot Delete"
+msgstr "لا يمكن الحذف"
+
+msgid "Can’t find network connection or reach server."
+msgstr "ليس بالإمكان إيجاد اتصال بالشبكة أو الوصول إلى المخدّم"
+
+msgid "Castle"
+msgstr "القلعة"
+
+msgid "Category"
+msgstr "التصنيف"
+
+msgid "ceiling"
+msgstr "السقف"
+
+msgid "Cello"
+msgstr "تشيلو"
+
+msgid "Check for updates"
+msgstr "التمس التحديثات"
+
+msgid "Choir"
+msgstr "Choir"
+
+msgid "Choose backdrop from library"
+msgstr "اختيار خلفية من المكتبة"
+
+msgid "Choose costume from library"
+msgstr "اختيار مظهر من المكتبة"
+
+msgid "Choose sound from library"
+msgstr "اختيار صوت من المكتبة"
+
+msgid "Choose sprite from library"
+msgstr "اختيار كائن من المكتبة"
+
+msgid "Circle"
+msgstr "دائرة"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "Clarinet"
+msgstr "كلارينيت"
+
+msgid "Claves"
+msgstr "Claves"
+
+msgid "Clear"
+msgstr "مسح"
+
+msgid "clear senders/receivers"
+msgstr "امسح المرسلات/المستقبلات"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "انقر  للمحاولة ثانيةً أو  للحفظ"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Closed Hi-Hat"
+msgstr "Closed Hi-Hat"
+
+msgid "Cloud data"
+msgstr "البيانات السحابية"
+
+msgid "color"
+msgstr "اللون"
+
+msgid "Color a shape"
+msgstr "تلوين شكل"
+
+msgid "Conga"
+msgstr "Conga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "الاتصال بمخدّم البيانات السحابيّة..."
+
+msgid "Convert to bitmap"
+msgstr "تحويل إلى صورة نقطية"
+
+msgid "Convert to vector"
+msgstr "تحويل إلى صورة شعاعية"
+
+msgid "Converting mp3..."
+msgstr "تحويل ملفات mp3..."
+
+msgid "copy"
+msgstr "نسخ"
+
+msgid "Copying..."
+msgstr "النسخ جارٍ..."
+
+msgid "cos"
+msgstr "جيب التمام"
+
+# 75%
+# 87%
+msgid "Costume"
+msgstr "المظهر"
+
+msgid "Costume Library"
+msgstr "مكتبة المظاهر"
+
+msgid "costume name"
+msgstr "اسم المظهر"
+
+msgid "costume1"
+msgstr "المظهر ١"
+
+msgid "costume2"
+msgstr "المظهر ٢"
+
+# 75%
+msgid "Costumes"
+msgstr "المظاهر"
+
+msgid "Costumes > 1"
+msgstr "المظاهر > ١"
+
+msgid "Could not retrieve new application from server."
+msgstr "لم يكن بالإمكان الحصول على التطبيق الجديد من المخدّم."
+
+msgid "Cowbell"
+msgstr "Cowbell"
+
+msgid "Crash Cymbal"
+msgstr "Crash Cymbal"
+
+msgid "Creating..."
+msgstr "الإنشاء جارٍ..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "حالياً لا يمكن تخزين إلا الأعداد في المتغيرات السحابية."
+
+msgid "cut"
+msgstr "قص"
+
+# 90%
+msgid "D connected"
+msgstr "D موصول"
+
+msgid "date"
+msgstr "تاريخ اليوم"
+
+msgid "day of week"
+msgstr "يوم الأسبوع"
+
+msgid "delete"
+msgstr "حذف"
+
+# 83%
+msgid "Delete"
+msgstr "حذف"
+
+msgid "delete variable"
+msgstr "حذف متغير"
+
+# 90%
+msgid "direction:"
+msgstr "الاتجاه:"
+
+msgid "don't rotate"
+msgstr "لا دوران"
+
+msgid "Don't save"
+msgstr "عدم الحفظ"
+
+msgid "down"
+msgstr "الأسفل"
+
+msgid "down arrow"
+msgstr "السهم السفلي"
+
+msgid "Download"
+msgstr "تنزيل"
+
+msgid "Download to your computer"
+msgstr "تنزيل إلى حاسبك"
+
+msgid "duplicate"
+msgstr "مضاعفة"
+
+msgid "Duplicate"
+msgstr "مضاعفة"
+
+msgid "e ^"
+msgstr "^ e"
+
+msgid "edge"
+msgstr "الحافة"
+
+msgid "Edit"
+msgstr "تحرير"
+
+msgid "edit"
+msgstr "تعديل"
+
+msgid "Edit Block"
+msgstr "تعديل اللبنة"
+
+msgid "Effects"
+msgstr "المؤثرات"
+
+msgid "Electric Guitar"
+msgstr "غيتار كهربائي"
+
+msgid "Electric Piano"
+msgstr "بيانو كهربائي"
+
+msgid "Electronic"
+msgstr "إلكتروني"
+
+msgid "Ellipse"
+msgstr "إهليلج"
+
+msgid "Erase"
+msgstr "مسح"
+
+# 92%
+msgid "Eraser width"
+msgstr "عرض الممحاة"
+
+msgid "Error!"
+msgstr "خطأ!"
+
+msgid "export"
+msgstr "تصدير"
+
+msgid "fade in"
+msgstr "تلاشي في البداية"
+
+msgid "fade out"
+msgstr "تلاشي في النهاية"
+
+msgid "Fantasy"
+msgstr "خيال"
+
+msgid "Features"
+msgstr "الخصائص"
+
+msgid "File"
+msgstr "ملف"
+
+msgid "Fill with color"
+msgstr "الملء بلون"
+
+msgid "fisheye"
+msgstr "عين السمكة"
+
+msgid "Flip left-right"
+msgstr "قلب يمين - يسار"
+
+msgid "Flip up-down"
+msgstr "قلب رأساً على عقب"
+
+msgid "floor"
+msgstr "الجزء الصحيح"
+
+msgid "Flute"
+msgstr "فلوت"
+
+msgid "Flying"
+msgstr "الطيران"
+
+msgid "Font:"
+msgstr "الخط:"
+
+msgid "For all sprites"
+msgstr "لجميع الكائنات"
+
+msgid "For this sprite only"
+msgstr "لهذا الكائن فقط"
+
+msgid "Forward a layer"
+msgstr "طبقة واحدة إلى الأمام"
+
+msgid "ghost"
+msgstr "الشبح"
+
+msgid "Group"
+msgstr "تجميع"
+
+msgid "Grow"
+msgstr "تكبير"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "غيتار"
+
+msgid "Hand Clap"
+msgstr "صفقة"
+
+msgid "Hardware"
+msgstr "عتاد"
+
+msgid "help"
+msgstr "مساعدة"
+
+msgid "High C"
+msgstr "High C"
+
+msgid "Holiday"
+msgstr "الأعياد"
+
+msgid "hour"
+msgstr "الساعة"
+
+msgid "Human"
+msgstr "إنسان"
+
+# 83%
+msgid "import"
+msgstr "استيراد"
+
+msgid "Import"
+msgstr "استيراد"
+
+msgid "Importing sound..."
+msgstr "استيراد الصوت جارٍ..."
+
+msgid "Indoors"
+msgstr "داخلي"
+
+msgid "Installing..."
+msgstr "التثبيت جارٍ..."
+
+msgid "Instruments"
+msgstr "آلات موسيقية"
+
+msgid "large readout"
+msgstr "عرض كبير"
+
+msgid "last"
+msgstr "الأخير"
+
+msgid "left"
+msgstr "اليسار"
+
+msgid "left arrow"
+msgstr "السهم الأيسر"
+
+msgid "left-right"
+msgstr "يمين - يسار"
+
+msgid "length"
+msgstr "الطول"
+
+msgid "Letters"
+msgstr "الحروف"
+
+msgid "Library"
+msgstr "المكتبة"
+
+msgid "light"
+msgstr "الضوء"
+
+msgid "Line"
+msgstr "خط مستقيم"
+
+# 90%
+msgid "Line width"
+msgstr "عرض الخط"
+
+# 75%
+msgid "list"
+msgstr "لائحة"
+
+msgid "List name"
+msgstr "اسم اللائحة"
+
+msgid "ln"
+msgstr "اللوغارتم الطبيعي"
+
+msgid "Loading project..."
+msgstr "تحميل المشروع ..."
+
+msgid "log"
+msgstr "اللوغارتم العشري"
+
+msgid "louder"
+msgstr "أعلى"
+
+msgid "Low C"
+msgstr "Low C"
+
+msgid "Make a Block"
+msgstr "إنشاء لبنة"
+
+msgid "Make a List"
+msgstr "إنشاء لائحة"
+
+msgid "Make a Variable"
+msgstr "إنشاء متغير"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "الأعلى"
+
+msgid "meow"
+msgstr "مياو"
+
+msgid "Message Name"
+msgstr "اسم الرسالة"
+
+msgid "message1"
+msgstr "الرسالة ١"
+
+msgid "Microphone volume:"
+msgstr "شدة صوت الميكروفون:"
+
+msgid "Middle C"
+msgstr "Middle C"
+
+msgid "Min"
+msgstr "الأدنى"
+
+msgid "minute"
+msgstr "الدقيقة"
+
+msgid "month"
+msgstr "الشهر"
+
+msgid "mosaic"
+msgstr "الموزاييك"
+
+msgid "motion"
+msgstr "حركة"
+
+msgid "mouse-pointer"
+msgstr "مؤشر الفأرة"
+
+msgid "Multiple"
+msgstr "متعدد"
+
+msgid "Music and Dance"
+msgstr "الموسيقى والرقص"
+
+msgid "Music Box"
+msgstr "صندوق الموسيقى"
+
+msgid "Music Loops"
+msgstr "حلقات موسيقية"
+
+msgid "myself"
+msgstr "نفسي"
+
+msgid "Nature"
+msgstr "طبيعة"
+
+msgid "New"
+msgstr "جديد"
+
+msgid "New backdrop from camera"
+msgstr "خلفية جديدة من آلة التصوير"
+
+# 92%
+msgid "New backdrop:"
+msgstr "خلفية جديدة:"
+
+msgid "New Block"
+msgstr "لبنة جديدة"
+
+msgid "New costume from camera"
+msgstr "مظهر جديد من آلة التصوير"
+
+# 91%
+msgid "New costume:"
+msgstr "مظهر جديد:"
+
+msgid "New List"
+msgstr "لائحة جديدة"
+
+msgid "New Message"
+msgstr "رسالة جديدة"
+
+msgid "new message..."
+msgstr "رسالة جديدة..."
+
+msgid "New name"
+msgstr "الاسم الجديد"
+
+# 90%
+msgid "New sound:"
+msgstr "صوت جديد:"
+
+msgid "New sprite from camera"
+msgstr "كائن جديد من آلة التصوير"
+
+msgid "New sprite:"
+msgstr "كائن جديد:"
+
+msgid "New Variable"
+msgstr "متغير جديد"
+
+msgid "No motion blocks"
+msgstr "لا توجد لبنات للحركة"
+
+msgid "normal readout"
+msgstr "عرض عادي"
+
+msgid "Not saved; network or server problem."
+msgstr "لم يُحفظ المشروع. هناك مشكلة في الشبكة أو المخدّم."
+
+msgid "Not saved; project did not load."
+msgstr "لم يتم الحفظ، ولم يتم تحميل المشروع."
+
+msgid "of"
+msgstr "من"
+
+msgid "off"
+msgstr "يتوقف"
+
+msgid "Offline Editor"
+msgstr "المحرر المستقل"
+
+msgid "OK"
+msgstr "موافق"
+
+msgid "on"
+msgstr "يعمل"
+
+msgid "on-flipped"
+msgstr "يعمل مقلوباً"
+
+msgid "Open"
+msgstr "فتح"
+
+msgid "Open Cuica"
+msgstr "Open Cuica"
+
+msgid "Open Hi-Hat"
+msgstr "Open Hi-Hat"
+
+msgid "Options"
+msgstr "الخيارات"
+
+msgid "Organ"
+msgstr "أورغن"
+
+msgid "Other"
+msgstr "غير ذلك"
+
+msgid "other scripts in sprite"
+msgstr "المقاطع الأخرى في الكائن"
+
+msgid "other scripts in stage"
+msgstr "المقاطع الأخرى في المنصة"
+
+msgid "Outdoors"
+msgstr "خارجي"
+
+msgid "Paint new backdrop"
+msgstr "رسم خلفية جديدة"
+
+msgid "Paint new costume"
+msgstr "رسم مظهر جديد"
+
+msgid "Paint new sprite"
+msgstr "رسم كائن جديد"
+
+msgid "Password"
+msgstr "كلمة المرور"
+
+msgid "Password is required"
+msgstr "كلمة المرور مطلوبة"
+
+msgid "paste"
+msgstr "لصق"
+
+msgid "Pencil"
+msgstr "قلم"
+
+msgid "People"
+msgstr "ناس"
+
+msgid "Percussion"
+msgstr "إيقاع"
+
+msgid "photo1"
+msgstr "الصورة ١"
+
+msgid "Piano"
+msgstr "بيانو"
+
+# 92%
+msgid "Pick up color"
+msgstr "اختيار لون"
+
+msgid "pixelate"
+msgstr "البكسلة"
+
+msgid "Pizzicato"
+msgstr "Pizzicato"
+
+msgid "pop"
+msgstr "بُب"
+
+msgid "previous backdrop"
+msgstr "الخلفية السابقة"
+
+msgid "Project did not load."
+msgstr "لم يتم تحميل المشروع."
+
+msgid "Project not saved!"
+msgstr "لم يُحفظ المشروع!"
+
+msgid "Project name"
+msgstr "اسم المشروع"
+
+msgid "Project name is required"
+msgstr "اسم المشروع مطلوب"
+
+msgid "random"
+msgstr "عشوائي"
+
+msgid "Record"
+msgstr "تسجيل"
+
+msgid "Record new sound"
+msgstr "تسجيل صوت جديد"
+
+msgid "record..."
+msgstr "تسجيل..."
+
+msgid "recording1"
+msgstr "التسجيل ١"
+
+msgid "Rectangle"
+msgstr "مستطيل"
+
+# 75%
+msgid "Redo"
+msgstr "إعادة"
+
+msgid "redo"
+msgstr "إعادة"
+
+msgid "Remix"
+msgstr "مزج"
+
+msgid "Remixing..."
+msgstr "المزج جارٍ..."
+
+msgid "Rename"
+msgstr "إعادة تسمية"
+
+msgid "rename variable"
+msgstr "إعادة تسمية المتغير"
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "Reshape"
+msgstr "إعادة تشكيل"
+
+msgid "resistance-A"
+msgstr "المقاومة - A"
+
+msgid "resistance-B"
+msgstr "المقاومة - B"
+
+msgid "resistance-C"
+msgstr "المقاومة - C"
+
+msgid "resistance-D"
+msgstr "المقاومة - D"
+
+msgid "reverse"
+msgstr "المعاكس"
+
+msgid "Revert"
+msgstr "التراجع إلى الحالة الأصلية"
+
+msgid "Reverting..."
+msgstr "العودة إلى الأصل جارية..."
+
+msgid "right"
+msgstr "اليمين"
+
+msgid "right arrow"
+msgstr "السهم الأيمن"
+
+# 93%
+msgid "rotation style:"
+msgstr "نمط الدوران:"
+
+msgid "Run without screen refresh"
+msgstr "تشغيل دون تحديث الشاشة"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "احفظ نسخةً من هذا المشروع وأضف أفكارك الخاصة."
+
+msgid "Save as"
+msgstr "حفظ باسم"
+
+msgid "Save now"
+msgstr "الحفظ الآن"
+
+msgid "Save project?"
+msgstr "حفظ المشروع؟"
+
+msgid "save to local file"
+msgstr "حفظ إلى ملف على الحاسب"
+
+# 80%
+msgid "Saved"
+msgstr "تم الحفظ"
+
+msgid "Saving changes..."
+msgstr "حفظ التغييرات جارٍ..."
+
+msgid "Saving..."
+msgstr "الحفظ جارٍ..."
+
+msgid "Saxophone"
+msgstr "ساكسفون"
+
+msgid "Scratch Updater"
+msgstr "محدِّث سكراتش"
+
+# 85%
+msgid "Script"
+msgstr "المقاطع البرمجية"
+
+msgid "Scripts"
+msgstr "المقاطع البرمجية"
+
+msgid "second"
+msgstr "الثانية"
+
+msgid "See project page"
+msgstr "عرض صفحة المشروع"
+
+msgid "Select"
+msgstr "تحديد"
+
+msgid "select all"
+msgstr "تحديد الكل"
+
+msgid "Select and duplicate"
+msgstr "تحديد ومضاعفة"
+
+msgid "Send to back"
+msgstr "إرسال إلى الخلف"
+
+msgid "Set Costume Center"
+msgstr "تحديد مركز المظهر"
+
+# 88%
+msgid "Set costume center"
+msgstr "تحديد مركز المظهر"
+
+msgid "set slider min and max"
+msgstr "تحديد القيمتين الدنيا والعظمى للمنزلقة"
+
+msgid "Share"
+msgstr "مشاركة"
+
+msgid "Share to website"
+msgstr "المشاركة على موقع سكراتش"
+
+msgid "shared"
+msgstr "تمت المشاركة"
+
+# 83%
+msgid "Shift:"
+msgstr "مع مفتاح Shift:"
+
+msgid "show receivers"
+msgstr "أظهر المستقبلات"
+
+msgid "show senders"
+msgstr "أظهر المرسلات"
+
+# 80%
+msgid "show:"
+msgstr "اظهار:"
+
+msgid "Shrink"
+msgstr "تصغير"
+
+msgid "Side Stick"
+msgstr "Side Stick"
+
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+msgid "Sign in to save"
+msgstr "سجّل الدخول للحفظ"
+
+msgid "silence"
+msgstr "صمت"
+
+msgid "sin"
+msgstr "الجيب"
+
+msgid "slider"
+msgstr "المنزلقة"
+
+msgid "Slider Range"
+msgstr "نطاق المنزلقة"
+
+msgid "Small stage layout"
+msgstr "نمط المنصة الصغيرة"
+
+msgid "Smooth"
+msgstr "صقل"
+
+msgid "Snare Drum"
+msgstr "Snare Drum"
+
+msgid "softer"
+msgstr "أخفض"
+
+msgid "sound"
+msgstr "الصوت"
+
+msgid "Sound Library"
+msgstr "مكتبة الأصوات"
+
+msgid "Sounds"
+msgstr "الأصوات"
+
+# 80%
+msgid "Space"
+msgstr "الفضاء"
+
+msgid "space"
+msgstr "المسافة"
+
+msgid "Sports"
+msgstr "الرياضة"
+
+# 85%
+msgid "Sprite"
+msgstr "كائن"
+
+msgid "Sprite Library"
+msgstr "مكتبة الكائنات"
+
+# 85%
+msgid "Sprite1"
+msgstr "الكائن١"
+
+msgid "Sprites"
+msgstr "الكائنات"
+
+msgid "sqrt"
+msgstr "الجذر التربيعي"
+
+msgid "Square"
+msgstr "مربع"
+
+msgid "Stage"
+msgstr "المنصة"
+
+# 93%
+msgid "Stage selected:"
+msgstr "المنصة محددة:"
+
+msgid "Steel Drum"
+msgstr "Steel Drum"
+
+msgid "Synth Lead"
+msgstr "Synth Lead"
+
+msgid "Synth Pad"
+msgstr "Synth Pad"
+
+msgid "Tambourine"
+msgstr "Tambourine"
+
+msgid "tan"
+msgstr "الظل"
+
+msgid "text"
+msgstr "نص"
+
+msgid "Text"
+msgstr "نص"
+
+msgid "that way"
+msgstr "ذاك الاتجاه"
+
+msgid "Theme"
+msgstr "الموضوع"
+
+msgid "Things"
+msgstr "الأشياء"
+
+msgid "This is the current version."
+msgstr "هذا هو الإصدار الأخير."
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"يمكن لهذا المشروع معرفة من يستخدمه من خلال لبنة ”اسم المستخدم“. لإخفاء هويتك "
+"قم بتسجيل الخروج قبل استخدام المشروع."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"يستخدم هذا المشروع بيانات سحابية - وهي ميزة متوفرة فقط بعد تسجيل الدخول."
+
+msgid "this script"
+msgstr "المقطع البرمجي الحالي"
+
+msgid "this sprite"
+msgstr "الكائن الحالي"
+
+msgid "this way"
+msgstr "هذا الاتجاه"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "أتريد التخلص من كافة التغييرات منذ فتح هذا المشروع؟"
+
+msgid "Tips"
+msgstr "تلميحات"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr "لحذف تعريف لبنة، عليك إزالتها من جميع الأماكن المستخدمة فيها."
+
+msgid "Transportation"
+msgstr "النقل"
+
+msgid "Triangle"
+msgstr "مثلث"
+
+msgid "Trombone"
+msgstr "Trombone"
+
+# 90%
+msgid "Turbo mode"
+msgstr "الوضع السريع"
+
+msgid "Turbo Mode"
+msgstr "الوضع السريع"
+
+msgid "Type"
+msgstr "النوع"
+
+# 75%
+msgid "Undelete"
+msgstr "التراجع عن الحذف"
+
+msgid "Underwater"
+msgstr "تحت الماء"
+
+msgid "undo"
+msgstr "تراجع"
+
+# 75%
+msgid "Undo"
+msgstr "تراجع"
+
+msgid "Undo Revert"
+msgstr "التراجع عن مسح كافة التغييرات"
+
+msgid "Ungroup"
+msgstr "فك تجميع"
+
+msgid "unshared"
+msgstr "لم تتم المشاركة"
+
+msgid "up"
+msgstr "الأعلى"
+
+msgid "up arrow"
+msgstr "السهم العلوي"
+
+msgid "Update failed"
+msgstr "لم ينجح التحديث"
+
+msgid "Update not needed"
+msgstr "لا حاجة للتحديث"
+
+msgid "Update now"
+msgstr "التحديث الآن"
+
+msgid "Upload backdrop from file"
+msgstr "رفع خلفية من ملف"
+
+msgid "Upload costume from file"
+msgstr "رفع مظهر من ملف"
+
+msgid "Upload from your computer"
+msgstr "رفع مشروع من حاسبك"
+
+msgid "Upload sound from file"
+msgstr "رفع صوت من ملف"
+
+msgid "Upload sprite from file"
+msgstr "رفع كائن من ملف"
+
+msgid "Uploading image..."
+msgstr "رفع الصورة جارٍ..."
+
+msgid "Uploading sound..."
+msgstr "رفع الصوت جارٍ..."
+
+msgid "Uploading sprite..."
+msgstr "رفع الكائن جارٍ..."
+
+msgid "variable"
+msgstr "متغير"
+
+msgid "Variable name"
+msgstr "اسم المتغير"
+
+msgid "Vector"
+msgstr "صورة شعاعية"
+
+msgid "Vector Mode"
+msgstr "وضعية الصور الشعاعية"
+
+msgid "Vibraphone"
+msgstr "Vibraphone"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video direction"
+msgstr "اتجاه الفيديو"
+
+msgid "video motion"
+msgstr "حركة الفيديو"
+
+# 88%
+msgid "Video on:"
+msgstr "تشغيل الفيديو:"
+
+msgid "Vocals"
+msgstr "صوتيات"
+
+msgid "Walking"
+msgstr "المشي"
+
+msgid "Want to save? Click remix"
+msgstr "أتريد حفظ هذا المشروع؟ انقر مزج"
+
+msgid "Which column do you want to import"
+msgstr "أي الأعمدة تريد استيراده"
+
+msgid "whirl"
+msgstr "الدوامة"
+
+msgid "Wood Block"
+msgstr "Wood Block"
+
+msgid "Wooden Flute"
+msgstr "Wooden Flute"
+
+msgid "year"
+msgstr "السنة"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"لا يمكنك تعديل البيانات السحابية في مشروع شخص آخر.<br>أي تعديلات تقوم بها في "
+"محرر المشاريع ستكون مؤقتة ولن تدوم."
+
+msgid "Your Scratch name"
+msgstr "اسمك على موقع سكراتش"
+
+msgid "Your Scratch name is required"
+msgstr "اسمك على موقع سكراتش مطلوب"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "لم يكن بالإمكان الحصول على التطبيق الجديد من المخدّم."
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "لم يكن بالإمكان الحصول على التطبيق الجديد من المخدّم."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "جارٍ تنزيل الإصدار الجديد"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "حفظ المشروع؟"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "المشاركة على موقع سكراتش"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "العربية"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list تحتوي %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "عند نقر المنصة"
+
+# 89%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "اجعل اتجاه المحرك %m.motorDirection"
+
+# 77%
+#~ msgid "set motor power %n"
+#~ msgstr "اجعل طاقة المحرك مساويةً %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "أوقف المحرك"
+
+#~ msgid "turn motor on"
+#~ msgstr "شغّل المحرك"
+
+# 80%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "شغِّل المحرك لمدة %n ثانية"
+
+#~ msgid "when distance < %n"
+#~ msgstr "عندما المسافة > %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "عندما الميل = %n"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "اجعل اتجاه %m.motor %m.motorDirection"
+
+#~ msgid "user name"
+#~ msgstr "اسم المستخدم"
+
+#~ msgid "user id"
+#~ msgstr "رقم المستخدم"
+
+#~ msgid "clone startup"
+#~ msgstr "عند بدء نسخة"
+
+#~ msgid "forever if %b"
+#~ msgstr "اختبر باستمرار إذا %b"
+
+#~ msgid "hide all sprites"
+#~ msgstr "أخفِ جميع الكائنات"
+
+#~ msgid "if %b"
+#~ msgstr "إذا %b"
+
+#~ msgid "Scratch days"
+#~ msgstr "أيام سكراتش"
+
+#~ msgid "hide monitor %m.varOrList"
+#~ msgstr "أخفِ %m.varOrList"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "اجعل اتجاه المحرك %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "أوقف المحرك"
+
+#~ msgid "motor on"
+#~ msgstr "شغِّل المحرك"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "شغِّل المحرك لمدة %n ثانية"
+
+#~ msgid "motor power %n"
+#~ msgstr "اجعل طاقة المحرك مساويةً %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "اعزف النوتة %n1 لمدة %n2 وحدة إيقاع"
+
+#~ msgid "show monitor %m.varOrList"
+#~ msgstr "أظهر %m.varOrList"
+
+#~ msgid "switch to backdrop %m.backdrop"
+#~ msgstr "انتقل إلى الخلفية %m.costume"
+
+#~ msgid "switch to backdrop %m.backdrop and wait"
+#~ msgstr "انتقل إلى الخلفية %m.backdrop وانتظر"
+
+#~ msgid "switch to costume %m.costume"
+#~ msgstr "انتقل إلى المظهر %m.costume"
+
+#~ msgid "when I am clicked"
+#~ msgstr "عندما أنقرك"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "عن إضافة LEGO WeDo..."
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "عن إضافة PicoBoard..."
+
+#~ msgid "Account settings"
+#~ msgstr "إعدادات الحساب"
+
+#~ msgid "add comment here..."
+#~ msgstr "أضف التعليق هنا..."
+
+#~ msgid "all motors"
+#~ msgstr "كل المحركات"
+
+#~ msgid "Cannot Add"
+#~ msgstr "الإضافة غير ممكنة"
+
+#~ msgid "clean up"
+#~ msgstr "ترتيب"
+
+#~ msgid "Cloud"
+#~ msgstr "السحابة"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "متغير سحابي (مخزّن على المخدّم)"
+
+# 75%
+# 88%
+#~ msgid "Costumes:"
+#~ msgstr "المظاهر:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "جارٍ تنزيل الإصدار الجديد"
+
+#~ msgid "empty"
+#~ msgstr "فارغة"
+
+#~ msgid "Erase all"
+#~ msgstr "مسح الكل"
+
+#~ msgid "everything"
+#~ msgstr "كل شيء"
+
+#~ msgid "Extension Library"
+#~ msgstr "مكتبة الإضافات"
+
+#~ msgid "Extension Problem"
+#~ msgstr "مشكلة في الإضافة"
+
+#~ msgid "false"
+#~ msgstr "صحيح"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "الذهاب إلى أغراضي"
+
+#~ msgid "Hello!"
+#~ msgstr "السلام عليكم!"
+
+#~ msgid "Hmm..."
+#~ msgstr "هممم..."
+
+#~ msgid "hello"
+#~ msgstr "مرحبًا"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "الضوء"
+
+#~ msgid "limit reached"
+#~ msgstr "وصلت الحد الأقصى"
+
+#~ msgid "motor"
+#~ msgstr "المحرك"
+
+#~ msgid "motor A"
+#~ msgstr "المحرك ١"
+
+#~ msgid "motor B"
+#~ msgstr "المحرك ٢"
+
+#~ msgid "My Stuff"
+#~ msgstr "أغراضي"
+
+#~ msgid "not ="
+#~ msgstr "لا يساوي"
+
+#~ msgid "Profile"
+#~ msgstr "الملف الشخصي"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "إزالة لبنات الإضافة"
+
+# 75%
+#~ msgid "requires sign in"
+#~ msgstr "يتطلب تسجيل الدخول"
+
+#~ msgid "Save as a copy"
+#~ msgstr "حفظ كنسخة"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "سكراتش ٢,٠"
+
+# 87%
+#~ msgid "Scripts:"
+#~ msgstr "المقاطع البرمجية:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "انظر نافذة المساعدة (إلى اليمين) لتثبيت إضافة المتصفح المطلوبة لجعل "
+#~ "اللبنات الإضافية تعمل."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "المشاركة على موقع سكراتش"
+
+#~ msgid "Sign out"
+#~ msgstr "تسجيل الخروج"
+
+#~ msgid "stored on server"
+#~ msgstr "مخزَّن على المخدِّم"
+
+#~ msgid "The name is already in use."
+#~ msgstr "الاسم مستخدم حاليًا"
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "لم يكن بالإمكان تحميل المشروع وتم إخبار فريق سكراتش بذلك. انقر موافق "
+#~ "لمغادرة هذه الصفحة."
+
+#~ msgid "thing"
+#~ msgstr "شيء"
+
+#~ msgid "true"
+#~ msgstr "صحيح"
+
+#~ msgid "What's your name?"
+#~ msgstr "ما اسمك؟"
+
+#~ msgid "world"
+#~ msgstr "بالعالم"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>معلومات عن المتغيرات السحابية</b><br>&nbsp;<br>الأعداد فقط مدعومة "
+#~ "حالياً.<br>غرف المحادثة غير مسموحة وسوف تزال<br>لمزيد من المعلومات <a "
+#~ "href= target=>زر الأسئلة متكررة الطرح عن المتغيرات السحابية</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "انقر  للمحاولة ثانيةً أو  للحفظ"
+
+#~ msgid "Eraser width:"
+#~ msgstr "عرض الممحاة:"
+
+#~ msgid "Line width:"
+#~ msgstr "عرض الخط:"
+
+#~ msgid "The name is already is use."
+#~ msgstr "الاسم مستخدم حاليًا"
+
+#~ msgid "Update not nedded"
+#~ msgstr "لا حاجة للتحديث"
+
+#~ msgid "cleanup"
+#~ msgstr "ترتيب"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "LEGO WeDo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "ارتفاع صوت الميكروفون:"
+
+#~ msgid "Add a boolean input:"
+#~ msgstr "إضافة حقل منطقي:"
+
+#~ msgid "Add a number input:"
+#~ msgstr "إضافة حقل رقمي:"
+
+#~ msgid "Add a string input:"
+#~ msgstr "إضافة حقل نصي:"
+
+#~ msgid "can drag in player"
+#~ msgstr "السماح بالسحب أثناء العرض"
+
+#~ msgid "Filled Ellipse"
+#~ msgstr "إهليلج ممتلئ"
+
+#~ msgid "Filled Rectangle"
+#~ msgstr "مستطيل ممتلئ"
+
+#~ msgid "Hollow Ellipse"
+#~ msgstr "إهليلج مفرَّغ"
+
+#~ msgid "Hollow Rectangle"
+#~ msgstr "مستطيل مفرَّغ"
+
+#~ msgid "LEGO WeDo blocks"
+#~ msgstr "لبنات LEGO WeDo"
+
+#~ msgid "login"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "New backdrop"
+#~ msgstr "خلفية جديدة"
+
+#~ msgid "New costume"
+#~ msgstr "مظهر جديد"
+
+#~ msgid "New sound"
+#~ msgstr "صوت جديد"
+
+# 90%
+#~ msgid "New sprite"
+#~ msgstr "كائن جديد"
+
+#~ msgid "Paint a Shape"
+#~ msgstr "تلوين شكل"
+
+#~ msgid "Paint bucket"
+#~ msgstr "أداة التلوين"
+
+#~ msgid "requires login"
+#~ msgstr "يتطلب تسجيل الدخول"
+
+#~ msgid "rotation style"
+#~ msgstr "نمط الدوران"
+
+#~ msgid "Sensor board blocks"
+#~ msgstr "لبنات لوح الحساسات"
+
+#~ msgid "Shift"
+#~ msgstr "مع مفتاح Shift"
+
+#~ msgid "Stage selected"
+#~ msgstr "المنصة محددة"
+
+#~ msgid "Video on"
+#~ msgstr "تشغيل الفيديو"
+
+#~ msgid "Back a layer (Shift: Send to back)"
+#~ msgstr "طبقة واحدة إلى الخلف (مع مفتاح Shift: إرسال إلى الخلف)"
+
+#~ msgid "Duplicate (Shift: Multiple)"
+#~ msgstr "مضاعفة (مع مفتاح Shift: عدة نسخ)"
+
+#~ msgid "Ellipse (Shift: Circle)"
+#~ msgstr "إهليلج (مع مفتاح Shift: دائرة)"
+
+# 75%
+#~ msgid "Fill"
+#~ msgstr "ملء"
+
+#~ msgid "Forward a layer (Shift: Bring to front)"
+#~ msgstr "طبقة واحدة إلى الأمام (مع مفتاح Shift: إرسال إلى الأمام)"
+
+#~ msgid "Paint"
+#~ msgstr "رسم"
+
+#~ msgid "Pick up Color"
+#~ msgstr "اختر اللون"
+
+#~ msgid "Rectangle (Shift: Square)"
+#~ msgstr "مستطيل (مع مفتاح Shift: مربع)"
+
+#~ msgid "Scratch Cat"
+#~ msgstr "هرة سكراتش"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "name"
+#~ msgstr "الاسم"
+
+#~ msgid "any"
+#~ msgstr "(موقع ما)"
+
+#~ msgid "High Tom"
+#~ msgstr "High Tom"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Long Guiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Low Bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Low Conga"
+
+#~ msgid "Low Tom"
+#~ msgstr "Low Tom"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Low Wood Block"
+
+#~ msgid "Maracas"
+#~ msgstr "Maracas"
+
+#~ msgid "More"
+#~ msgstr "المزيد"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Mute Triangle"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Open Triangle"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Pedal Hi-Hat"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Short Guiro"

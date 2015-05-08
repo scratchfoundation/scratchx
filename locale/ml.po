@@ -1,0 +1,2032 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-04-23 07:26+0000\n"
+"Last-Translator: Midhila <midhila.p.2011@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1398237976.000000\n"
+
+msgid "%b and %b"
+msgstr "%b കൂടാതെ %b"
+
+msgid "%b or %b"
+msgstr "%b അഥവാ %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.സ്പ്രയ്റ്റിനെ അഥവാ രംഗത്ത സംബന്ധിക്കുന്ന.%m"
+
+msgid "%m.mathOp of %n"
+msgstr "%m ന്റെ %n.mathOp"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor സംവേദനിയുടെ വില"
+
+msgid "%n mod %n"
+msgstr "%n ശിഷ്ടം %n"
+
+msgid "add %s to %m.list"
+msgstr "ലിസ്റ്റ് %s നോട്‌ കൂടി %m കൂട്ടുക"
+
+msgid "answer"
+msgstr "ഉത്തരം"
+
+msgid "ask %s and wait"
+msgstr "ചോദിക്കു %s ശേഷം കാത്തിരിക്കുക"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "രംഗം #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "രംഗത്തിന്‍റെ പേര്"
+
+msgid "broadcast %m.broadcast"
+msgstr "വിളംബരം ചെയ്യുക %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "വിളംബരം ചെയ്യുക %m.broadcast ശേഷം കാത്തിരിക്കുക"
+
+msgid "change %m.effect effect by %n"
+msgstr "എഫ്ഫക്റ്റ്‌ %m effect %n കൊണ്ട് മാറ്റുക"
+
+msgid "change %m.var by %n"
+msgstr "ചരം %m var %n കൊണ്ട് മാറ്റുക"
+
+msgid "change pen color by %n"
+msgstr "പേനയുടെ നിറം %n കൊണ്ട് മാറ്റുക"
+
+msgid "change pen shade by %n"
+msgstr "പേനയുടെ ഷേഡ് %n കൊണ്ട് മാറ്റുക"
+
+msgid "change pen size by %n"
+msgstr "പേനയുടെ വലിപ്പം %n കൊണ്ട് മാറ്റുക"
+
+msgid "change size by %n"
+msgstr "വലിപ്പം %n കൊണ്ട് മാറ്റുക"
+
+msgid "change tempo by %n"
+msgstr "ടെംപോ %n കൊണ്ട് മാറ്റുക"
+
+msgid "change volume by %n"
+msgstr "ശബ്ദത്തെ %nകൊണ്ട് മാറ്റുക"
+
+msgid "change x by %n"
+msgstr "xനെ %n കൊണ്ട് മാറ്റുക"
+
+msgid "change y by %n"
+msgstr "yനെ %n കൊണ്ട് മാറ്റുക"
+
+msgid "clear"
+msgstr "മായ്ക്കുക"
+
+msgid "clear graphic effects"
+msgstr "ഗ്രാഫിക്‌ എഫ്ഫെക്ട്സ് മാറ്റുക"
+
+msgid "color %c is touching %c?"
+msgstr "കളര്‍ %c %cനെ തൊടുന്നുണ്ടോ?"
+
+msgid "Control"
+msgstr "നിയന്ത്രണം"
+
+msgid "costume #"
+msgstr "രൂപം #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "സ്പ്രയ്റ്റ് %m ന്‍റെ ക്ലോണ്‍ ഉണ്ടാക്കുക"
+
+msgid "current %m.timeAndDate"
+msgstr "ഇപ്പോഴുള്ള %m സമയവും തിയ്യതിയും"
+
+msgid "Data"
+msgstr "വിവരങ്ങള്‍"
+
+msgid "days since 2000"
+msgstr "2000 മുതല്‍ ഉള്ള ദിവസങ്ങള്‍"
+
+msgid "define"
+msgstr "നിര്‍വചിക്കുക"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "ലിസ്റ്റ് %m.list ന്റെ %d.listDeleteItem കളയുക"
+
+msgid "delete this clone"
+msgstr "ഈ ക്ലോണിനെ ഡിലീറ്റ് ചെയ്യുക"
+
+msgid "direction"
+msgstr "ദിശ"
+
+msgid "distance"
+msgstr "ദൂരം"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "ദൂരം %m.spriteOrMouseലേക്കുള്ള"
+
+msgid "else"
+msgstr "അല്ലെങ്കില്‍"
+
+msgid "Events"
+msgstr "കാര്യങ്ങള്‍"
+
+msgid "forever"
+msgstr "എല്ലായ്പ്പോഴും"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "നീങ്ങുക %n നിമിഷം x:%n y:%n ലേക്ക്"
+
+msgid "go back %n layers"
+msgstr "അകത്തേക്ക് പോവുക %n പാളി"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "%m സ്പ്രയ്റ്റിലേക്ക് അഥവാ മൗസിലേക്ക് പോവുക"
+
+msgid "go to front"
+msgstr "ഉപരിതലത്തിലോട്ടു വരിക"
+
+msgid "go to x:%n y:%n"
+msgstr "x:%n,y:%nലേക്കും പോവുക"
+
+msgid "hide"
+msgstr "ഒളിക്കുക"
+
+msgid "hide list %m.list"
+msgstr "ലിസ്റ്റ് %m.നെ ഒളിപ്പിക്കുക"
+
+msgid "hide variable %m.var"
+msgstr "ചരം %m.നെ ഒളിപ്പിക്കുക"
+
+msgid "if %b then"
+msgstr "%b യെങ്കില്‍ പിന്നെ"
+
+msgid "if on edge, bounce"
+msgstr "അറ്റത്താണെങ്കില്‍ തിരിച്ചുവരിക"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "ലിസ്റ്റ് %m.list ലെ %d.listItem ത്തില്‍ %s നെ ഉള്‍പെടുത്തുക"
+
+msgid "item %d.listItem of %m.list"
+msgstr "%m.listന്റെ %d.listItemമത്തെ ഐറ്റം"
+
+msgid "join %s %s"
+msgstr "%s നോട്കൂടി %s യോജിപ്പിക്കുക"
+
+msgid "key %m.key pressed?"
+msgstr "കീ %m.key അമര്‍ത്തിയോ?"
+
+msgid "length of %m.list"
+msgstr "ലിസ്റ്റ് %mlist ന്‍റെ നീളം"
+
+msgid "length of %s"
+msgstr "%s ന്റെ നീളം"
+
+msgid "letter %n of %s"
+msgstr "%n ന്‍റെ %s മത്തെ അക്ഷരം"
+
+msgid "Looks"
+msgstr "കാഴ്ച"
+
+msgid "loudness"
+msgstr "ഉച്ചത"
+
+msgid "More Blocks"
+msgstr "കൂടുതല്‍ ബ്ലോക്കുകള്‍"
+
+msgid "Motion"
+msgstr "ചലനം"
+
+msgid "mouse down?"
+msgstr "മൗസ് അമര്‍ത്തിയോ?"
+
+msgid "mouse x"
+msgstr "മൗസ് x"
+
+msgid "mouse y"
+msgstr "മൗസ് y"
+
+msgid "move %n steps"
+msgstr "നീങ്ങുക %n അടി"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "അടുത്ത രംഗം"
+
+msgid "next costume"
+msgstr "അടുത്ത രൂപം"
+
+msgid "not %b"
+msgstr "അല്ല %b യെങ്കില്‍"
+
+msgid "Operators"
+msgstr "ക്രിയകള്‍"
+
+msgid "Pen"
+msgstr "പേന"
+
+msgid "pen down"
+msgstr "വരയ്ക്കാന്‍ തുടങ്ങുക"
+
+msgid "pen up"
+msgstr "വരയ്ക്കുന്നത് നിര്‍ത്തുക"
+
+msgid "pick random %n to %n"
+msgstr "%n മുതല്‍ %n വരെയുള്ള ഏതെങ്കിലും സംഖ്യ എടുക്കുക"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "%d ഡ്രം കൊണ്ടു %n ബീറ്റ്സ് അവതരിപ്പിക്കുക"
+
+msgid "play note %d.note for %n beats"
+msgstr "%d മത്തെ സ്വരം %n ബീറ്റ്സ് അവതരിപ്പിക്കുക"
+
+msgid "play sound %m.sound"
+msgstr "%m ശബ്ദമുണ്ടാക്കുക"
+
+msgid "play sound %m.sound until done"
+msgstr "തീരുന്നതുവരെ %m ശബ്ദമുണ്ടാക്കുക"
+
+msgid "point in direction %d.direction"
+msgstr "ദിശ %d ലേക്ക് തിരിയുക"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "സ്ഥാനം %m ലേക്ക് തിരിയുക"
+
+msgid "repeat %n"
+msgstr "ആവര്‍ത്തിക്കുക %n തവണ"
+
+msgid "repeat until %b"
+msgstr "ആവര്‍ത്തിക്കുക %b വരെ"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "ലിസ്റ്റ് %d ന്‍റെ %m മത്തെ ഐറ്റം %s കൊണ്ട് മാറ്റുക"
+
+msgid "reset timer"
+msgstr "ടൈമര്‍ വീണ്ടും തുടങ്ങുക"
+
+msgid "rest for %n beats"
+msgstr "കാത്തിരിക്കുക %n ബീറ്റ് സമയം"
+
+msgid "round %n"
+msgstr "റൌണ്ട് ചെയ്യുക %n"
+
+msgid "say %s"
+msgstr "പറയുക %s"
+
+msgid "say %s for %n secs"
+msgstr "പറയുക %s എന്ന്‍ %n നിമിഷം"
+
+msgid "Sensing"
+msgstr "സംവേധിനി"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "മാപിനി %m.booleansensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "സ്പെഷ്യല്‍ എഫ്ഫക്റ്റ്‌ %m നെ %n ആക്കുക"
+
+msgid "set %m.var to %s"
+msgstr "ചരം %m നെ %s ആക്കി മാറ്റുക"
+
+msgid "set instrument to %d.instrument"
+msgstr "സംഗീതോപകരണത്തെ %d ആക്കി മാറ്റുക"
+
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "മോട്ടോറിന്‍റെ ദിശ %m ഇല്‍ നിന്നും %m ആക്കി മാറ്റുക"
+
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "മോട്ടോറിന്‍റെ പവര്‍ %m ഇല്‍ നിന്നും %n ആക്കുക"
+
+msgid "set pen color to %c"
+msgstr "പേനയുടെ നിറം %c ആക്കി മാറ്റുക"
+
+msgid "set pen color to %n"
+msgstr "പേനയുടെ നിറം %n ആക്കുക"
+
+msgid "set pen shade to %n"
+msgstr "പേനയുടെ ഷേഡ് %n ആക്കുക"
+
+msgid "set pen size to %n"
+msgstr "പേനയുടെ വലുപ്പം %n ആക്കുക"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "ഭ്രമണം %m ആക്കുക"
+
+msgid "set size to %n%"
+msgstr "വലുപ്പം %n ആക്കുക"
+
+msgid "set tempo to %n bpm"
+msgstr "ഗതിവേഗത %n bpm ആക്കുക"
+
+msgid "set video transparency to %n%"
+msgstr "വീഡിയോ തെളിച്ചം %n ആക്കുക"
+
+msgid "set volume to %n%"
+msgstr "ഒച്ച %n ആക്കുക"
+
+msgid "set x to %n"
+msgstr "x നെ %n ആക്കുക"
+
+msgid "set y to %n"
+msgstr "y നെ %n ആക്കുക"
+
+msgid "show"
+msgstr "കാണിക്കുക"
+
+msgid "show list %m.list"
+msgstr "ലിസ്റ്റ് %m നെ കാണിക്കുക"
+
+msgid "show variable %m.var"
+msgstr "ചരം %m.var കാണിക്കുക"
+
+msgid "size"
+msgstr "വലുപ്പം"
+
+msgid "Sound"
+msgstr "ശബ്ദം"
+
+msgid "stamp"
+msgstr "ഒട്ടിക്കുക"
+
+msgid "stop %m.stop"
+msgstr "നിര്‍ത്തുക %m"
+
+msgid "stop all sounds"
+msgstr "എല്ലാ ശബ്ദവും നിര്‍ത്തുക"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "ഇപ്പോഴത്തെ രംഗത്തില്‍ നിന്നും %m എന്ന രംഗത്തിലേക്ക് മാറുക"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "ഇപ്പോഴത്തെ രംഗത്തില്‍ നിന്നും %m എന്ന രംഗത്തിലേക്ക് മാറിയ ശേഷം കാത്തിരിക്കുക"
+
+msgid "switch costume to %m.costume"
+msgstr "ഇപ്പോഴത്തെ രൂപത്തില്‍ നിന്നും %m എന്ന രൂപത്തിലേക്ക് മാറുക"
+
+msgid "tempo"
+msgstr "ഗതിവേഗം"
+
+msgid "think %s"
+msgstr "ആലോചിക്കുക %s"
+
+msgid "think %s for %n secs"
+msgstr "ആലോചിക്കുക %s നിമിഷം %n"
+
+msgid "tilt"
+msgstr "ചരിക്കുക"
+
+msgid "timer"
+msgstr "ടൈമര്‍"
+
+msgid "touching %m.touching?"
+msgstr "തൊടുന്നുണ്ടോ %m?"
+
+msgid "touching color %c?"
+msgstr "നിറം %c തോടുന്നുണ്ടോ?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "ഇടത്തോട്ടു %n തിരിയുക"
+
+msgid "turn @turnRight %n degrees"
+msgstr "വലത്തോട്ടു %n തിരിയുക"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "മോട്ടോര്‍ %m ഓഫ്‌ ആക്കുക"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "മോട്ടോര്‍ %m ഓണ്‍ ആക്കുക"
+
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "മോട്ടോര്‍ %m %n നിമിഷം ഓണാക്കുക"
+
+msgid "turn video %m.videoState"
+msgstr "വീഡിയോ %m.videoState ആക്കുക"
+
+msgid "username"
+msgstr "ഉപയോക്താവിന്‍റെ പേര്"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "വീഡിയോ %m.videoMotionType ലെ %m.stageOrThis"
+
+msgid "volume"
+msgstr "ഒച്ച"
+
+msgid "wait %n secs"
+msgstr "കാത്തിരിക്കുക %n നിമിഷം"
+
+msgid "wait until %b"
+msgstr "കാത്തുനില്‍ക്കുക %b ആവുന്നതുവരെ"
+
+msgid "when %m.booleanSensor"
+msgstr "booleanSensor.%m ആവുമ്പോള്‍"
+
+msgid "when %m.key key pressed"
+msgstr "key.%m കീ അമര്‍ത്തുമ്പോള്‍"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
+msgid "when %m.triggerSensor > %n"
+msgstr "triggerSensor%m > %n ആവുമ്പോള്‍"
+
+msgid "when @greenFlag clicked"
+msgstr "ഗ്രീന്‍ ഫ്ലാഗ് ക്ലിക്ക് ചെയ്യുമ്പോള്‍"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "രംഗം %m ലേക്ക് മാറുമ്പോള്‍"
+
+msgid "when distance %m.lessMore %n"
+msgstr "ദൂരം %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "ഞാന്‍ %m.broadcast സ്വീകരിക്കുമ്പോള്‍"
+
+msgid "when I start as a clone"
+msgstr "ക്ലോണായി തുടങ്ങുമ്പോള്‍"
+
+msgid "when Stage clicked"
+msgstr ""
+
+msgid "when this sprite clicked"
+msgstr "ഈ സ്പ്രയ്റ്റിനെ ക്ലിക്ക് ചെയ്യുമ്പോള്‍"
+
+msgid "when tilt %m.eNe %n"
+msgstr "ചരിവ് %m.എനെ %n"
+
+msgid "x position"
+msgstr "xസ്ഥാനം"
+
+msgid "y position"
+msgstr "yസ്ഥാനം"
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.listല്‍ %s ഉണ്ടോ"
+
+msgid "10 ^"
+msgstr "10 ^മലയാളം"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>ക്ലൌഡിലെ ചരങ്ങളെ കുറിച്ചുള്ള വിവരങ്ങള്‍</b><br>&nbsp;<br>നിലവില്‍ സംഖ്യകളെ മാത്രമെ "
+"പിന്തുണയ്ക്കുകയുള്ളു<br>ചാറ്റ് റൂം സംവിധാനം അനുവദിനീയമല്ല അത് ഒഴിവാക്കും<br>കൂടുതല്‍ വിവരങ്ങള്‍ക്കായ്‌ "
+"<a href= target=>ക്ലൌഡിലെ വിവരങ്ങള്‍ നോക്കുക FAQ!</a>"
+
+msgid "A connected"
+msgstr "യോജിച്ച"
+
+msgid "a copy of the project file on your computer."
+msgstr "നിങ്ങളുടെ കംമ്പ്യൂട്ടറില്‍ ഉള്ള പ്രൊജക്റ്റിന്‍റെ ഒരു പകര്‍പ്പ്."
+
+msgid "A newer version of Scratch is available"
+msgstr ""
+
+msgid "About"
+msgstr "കുറിച്ച്‌"
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
+msgid "abs"
+msgstr "കേവല വില"
+
+msgid "acos"
+msgstr "ആകസ്"
+
+msgid "Add"
+msgstr ""
+
+msgid "Add an Extension"
+msgstr "വിസ്‌തരണം നല്‍കുക"
+
+msgid "Add boolean input:"
+msgstr "ബൂളിയന്‍ ഇന്‍പുട്ട് നല്‍കുക:"
+
+msgid "add comment"
+msgstr "അഭിപ്രായം രേഖപ്പെടുത്തുക"
+
+msgid "add comment here..."
+msgstr ""
+
+msgid "Add label text:"
+msgstr "മേല്‍വിലാസക്കുറി പതിക്കുക:"
+
+msgid "Add number input:"
+msgstr "സംഖ്യ ഇന്‍പുട്ട് നല്‍കുക:"
+
+msgid "Add string input:"
+msgstr "ഒരുവരി ഇന്‍പുട്ടായി നല്‍കുക:"
+
+msgid "all"
+msgstr "എല്ലാം"
+
+msgid "All"
+msgstr "എല്ലാം"
+
+msgid "all around"
+msgstr "എല്ലായിടത്തും"
+
+msgid "Animal"
+msgstr "മൃഗം"
+
+msgid "Animals"
+msgstr "ജന്തുക്കള്‍"
+
+msgid "asin"
+msgstr "ബുദ്ധിശൂന്യമായ"
+
+msgid "assets loaded"
+msgstr "വസ്‌തുക്കള്‍ കൊണ്ടുവന്നു"
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr "B ഘടിപ്പിക്കുക"
+
+msgid "Back a layer"
+msgstr "ഒരു പടലം പുറകില്‍"
+
+msgid "backdrop"
+msgstr "രംഗം"
+
+msgid "Backdrop"
+msgstr "രംഗം"
+
+msgid "Backdrop Library"
+msgstr "രംഗത്തിന്‍റെ കൂട്ടം"
+
+msgid "backdrop1"
+msgstr "രംഗം1"
+
+msgid "backdrops"
+msgstr "രംഗങ്ങള്‍"
+
+msgid "Backdrops"
+msgstr "രംഗങ്ങള്‍"
+
+msgid "Backpack"
+msgstr "ബാക്പാക്"
+
+msgid "Bass"
+msgstr "ബാസ്"
+
+msgid "Bass Drum"
+msgstr "ബാസ് സ്വരമുള്ള മദ്ധളം"
+
+msgid "Bassoon"
+msgstr "ബാസ്സണ്‍"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"നിങ്ങളുടെ സ്ക്രാച് അക്കൗണ്ട്‌ പുതിയതായതിനാല്‍, ഇതുവരെയുള്ള ക്ലൌഡ് വിവരങ്ങളിലെ മാറ്റങ്ങളൊന്നും സേവ് "
+"ചെയ്തിട്ടില്ല. ക്ലൌഡ് വിവരങ്ങളിലെ ഉപയോഗിക്കാന്‍ തുടര്‍ന്നും സൈറ്റില്‍ പങ്കുകൊള്ളുക!"
+
+msgid "Bitmap"
+msgstr "ബിറ്റ്മാപ്"
+
+msgid "Bitmap Mode"
+msgstr "ബിറ്റമാപ് സമ്പ്രദായം"
+
+msgid "Block help"
+msgstr "സഹായി"
+
+msgid "Bongo"
+msgstr "ബോന്‍ഗോ"
+
+msgid "brightness"
+msgstr "തെളിച്ചം"
+
+msgid "Bring to front"
+msgstr "മുന്നോട്ടു കൊണ്ടുവരിക"
+
+msgid "Broadcast"
+msgstr "വിളംബരം ചെയ്യുക"
+
+msgid "Brush"
+msgstr "ബ്രഷ്‌"
+
+msgid "button pressed"
+msgstr "ബട്ടണ്‍ അമര്‍ന്നു"
+
+msgid "by"
+msgstr "ഇല്‍"
+
+msgid "bytes loaded"
+msgstr "ബൈറ്റ്സ് കൊണ്ടുവന്നിരിക്കുന്നു"
+
+msgid "C connected"
+msgstr "C ഘടിപ്പിക്കുക"
+
+msgid "Cabasa"
+msgstr "cabasa"
+
+msgid "Camera"
+msgstr "ക്യാമറ"
+
+msgid "can drag in player:"
+msgstr "പ്ലയെറെ കൊണ്ടുവരിക:"
+
+msgid "Cancel"
+msgstr "വേണ്ടെന്നു വയ്ക്കുക"
+
+msgid "Cannot Add"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr "ഡിലീറ്റ് ചെയ്യാന്‍ പറ്റാത്ത"
+
+msgid "Can’t find network connection or reach server."
+msgstr "നെറ്റ്‌വര്‍ക്ക് കണക്ഷനിലേക്കോ സേവകരിലേക്കോ എത്താന്‍ സാധിക്കുന്നില്ല."
+
+msgid "Castle"
+msgstr "കോട്ട"
+
+msgid "Category"
+msgstr "വിഭാഗം"
+
+msgid "ceiling"
+msgstr "പരിധി"
+
+msgid "Cello"
+msgstr "ചെലോ"
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Choir"
+msgstr "ഗായകസംഘം"
+
+msgid "Choose backdrop from library"
+msgstr "രംഗത്തെ കൂട്ടത്തില്‍ നിന്നും തിരെഞ്ഞെടുക്കുക"
+
+msgid "Choose costume from library"
+msgstr "വേഷം കൂട്ടത്തില്‍ നിന്ന്‍ തെരഞ്ഞെടുക്കുക"
+
+msgid "Choose sound from library"
+msgstr "ശബ്ദം കൂട്ടത്തില്‍ നിന്നും തെരഞ്ഞെടുക്കുക"
+
+msgid "Choose sprite from library"
+msgstr "സ്പ്രിറ്റിനെ കൂട്ടത്തില്‍ നിന്നും തെരഞ്ഞെടുക്കുക"
+
+msgid "Circle"
+msgstr "വൃത്തം"
+
+msgid "City"
+msgstr "നഗരം"
+
+msgid "Clarinet"
+msgstr "ഒരു സംഗീതോപകരണം"
+
+msgid "Claves"
+msgstr "സംഗീതോപകരണം"
+
+#, fuzzy
+msgid "clean up"
+msgstr "വൃത്തിയാക്കുക"
+
+msgid "Clear"
+msgstr "വൃത്തിയാക്കുക"
+
+msgid "clear senders/receivers"
+msgstr "അയക്കുന്നവരെയും/സ്വീകരിക്കുന്നവരെയും നിയന്ത്രിക്കുക"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "ഒന്നുകൂടി ചെയ്യാനോ അല്ലെങ്കില്‍ സേവ് ചെയ്യാനോ ക്ലിക്ക് ചെയ്യുക"
+
+msgid "Close"
+msgstr "അടയ്ക്കുക"
+
+msgid "Closed Hi-Hat"
+msgstr ""
+
+msgid "Cloud data"
+msgstr "ക്ലൌഡ് ഡേറ്റ"
+
+msgid "Cloud variable (stored on server)"
+msgstr ""
+
+msgid "color"
+msgstr "നിറം"
+
+msgid "Color a shape"
+msgstr "ഒരാകൃതിയ്ക്കു നിറം നല്‍കുക"
+
+msgid "Conga"
+msgstr ""
+
+msgid "Connecting to Cloud data server..."
+msgstr "ക്ലൌഡ് വിവര സേവകരുമായി ബന്ധിപ്പിച്ചുകൊണ്ടിരിക്കുന്നു..."
+
+msgid "Convert to bitmap"
+msgstr "ബിറ്റ്മാപിലേക്കു പരിവര്‍ത്തനം ചെയ്യുക"
+
+msgid "Convert to vector"
+msgstr "വെക്ടറിലേക്ക് പരിവര്‍ത്തനം ചെയ്യുക"
+
+msgid "Converting mp3..."
+msgstr "mp3യിലേക്ക്‌ പരിവര്‍ത്തനം ചെയ്യുക..."
+
+msgid "copy"
+msgstr "കോപ്പി ചെയ്യുക"
+
+msgid "Copying..."
+msgstr "കോപ്പി ചെയ്തുകൊണ്ടിരിക്കുന്ന..."
+
+msgid "cos"
+msgstr "cos"
+
+msgid "Costume"
+msgstr "രൂപം"
+
+msgid "Costume Library"
+msgstr "രൂപങ്ങളുടെ കൂട്ടം"
+
+msgid "costume name"
+msgstr "രൂപത്തിന്‍റെ പേര്"
+
+msgid "costume1"
+msgstr "രൂപം 1"
+
+msgid "costume2"
+msgstr "രൂപം 2"
+
+msgid "Costumes"
+msgstr "രൂപങ്ങള്‍"
+
+msgid "Costumes > 1"
+msgstr "രൂപങ്ങള്‍ > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr ""
+
+msgid "Cowbell"
+msgstr "കവ്ബെല്‍"
+
+msgid "Crash Cymbal"
+msgstr "ഇലത്താളം വീഴുന്ന ശബ്ദം"
+
+msgid "Creating..."
+msgstr "ഉണ്ടാക്കിക്കൊണ്ടിരിക്കുന്നു..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "ഇപ്പോള്‍, അക്കങ്ങള്‍ മാത്രമേ ക്ലൌഡ് ചരത്തില്‍ വെയ്ക്കാന്‍ സാധിക്കു."
+
+msgid "cut"
+msgstr "മുറിച്ചു മാറ്റുക"
+
+msgid "D connected"
+msgstr "D ഘടിപ്പിച്ച"
+
+msgid "date"
+msgstr "തീയതി"
+
+msgid "day of week"
+msgstr "ആഴ്ചയിലെ ദിവസം"
+
+msgid "delete"
+msgstr "ഡിലീറ്റ് ചെയ്യുക"
+
+# 83%
+msgid "Delete"
+msgstr "ഡിലീറ്റ് ചെയ്യുക"
+
+msgid "delete variable"
+msgstr "ചരത്തെ ഡിലീറ്റ് ചെയ്യുക"
+
+msgid "direction:"
+msgstr "ദിശ:"
+
+msgid "don't rotate"
+msgstr "ഭ്രമണം ചെയ്യരുത്"
+
+msgid "Don't save"
+msgstr ""
+
+msgid "down"
+msgstr "താഴേക്ക്"
+
+msgid "down arrow"
+msgstr "താഴേക്കുള്ള ആരോമാര്‍ക്ക്"
+
+msgid "Download"
+msgstr "ഡൗൻലോഡ്"
+
+msgid "Download to your computer"
+msgstr "കംപ്യൂട്ടറിലേക്ക് ഡൗൻലോഡ് ചെയ്യുക"
+
+msgid "Downloading new version"
+msgstr ""
+
+msgid "duplicate"
+msgstr "ഡ്യൂപ്ലിക്കേറ്റ്‌"
+
+msgid "Duplicate"
+msgstr "ഡ്യൂപ്ലിക്കേറ്റ്‌"
+
+msgid "e ^"
+msgstr "e^"
+
+msgid "edge"
+msgstr "അരിക്"
+
+msgid "Edit"
+msgstr "എഡിറ്റ്‌"
+
+msgid "edit"
+msgstr "എഡിറ്റ്‌"
+
+msgid "Edit Block"
+msgstr "ബ്ലോക്കിനെ എഡിറ്റ്‌ ചെയ്യുക"
+
+msgid "Effects"
+msgstr "ഇഫെക്റ്റ്"
+
+msgid "Electric Guitar"
+msgstr "ഇലെക്ട്രിക് ഗിത്താര്‍"
+
+msgid "Electric Piano"
+msgstr "ഇലെക്ട്രിക് പിയാനോ"
+
+msgid "Electronic"
+msgstr "ഇലക്‌ട്രോണിക്‌"
+
+msgid "Ellipse"
+msgstr "എലിപ്സ്"
+
+msgid "empty"
+msgstr ""
+
+msgid "Erase"
+msgstr "മായ്ച്ചുകളയുക"
+
+msgid "Erase all"
+msgstr ""
+
+msgid "Eraser width"
+msgstr "റബ്ബറിന്‍റെ വിസ്തീര്‍ണ്ണം"
+
+msgid "Error!"
+msgstr "തെറ്റ്!"
+
+msgid "everything"
+msgstr ""
+
+msgid "export"
+msgstr "കയറ്റുമതി"
+
+msgid "Extension Problem"
+msgstr ""
+
+msgid "fade in"
+msgstr "തെളിഞ്ഞുവരല്‍"
+
+msgid "fade out"
+msgstr "മങ്ങിപ്പോകല്‍"
+
+msgid "false"
+msgstr ""
+
+msgid "Fantasy"
+msgstr "ഫാൻറ്റസി"
+
+msgid "Features"
+msgstr "ലക്ഷണങ്ങള്‍"
+
+msgid "File"
+msgstr "ഫയല്‍"
+
+msgid "Fill with color"
+msgstr "നിറം കൊടുക്കുക"
+
+msgid "fisheye"
+msgstr "ഉരുണ്ട പ്രതിബിംബം"
+
+msgid "Flip left-right"
+msgstr "ഇടത്തോട്ടും വലത്തോട്ടും തിരിയുക"
+
+msgid "Flip up-down"
+msgstr "മുകളിലേക്കും താഴേക്കും എറിയുക"
+
+msgid "floor"
+msgstr "നിലം"
+
+msgid "Flute"
+msgstr "പുല്ലാങ്കുഴല്‍"
+
+msgid "Flying"
+msgstr "പറക്കുന്ന"
+
+msgid "Font:"
+msgstr "ലിപി:"
+
+msgid "For all sprites"
+msgstr "എല്ലാ സ്പ്രയ്റ്റിനും"
+
+msgid "For this sprite only"
+msgstr "ഈ സ്പ്രയ്റ്റിനു മാത്രം"
+
+msgid "Forward a layer"
+msgstr "ഒരു പാളി മുന്നോട്ട്‌"
+
+msgid "ghost"
+msgstr "ഭൂതം"
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr "കൂട്ടം"
+
+msgid "Grow"
+msgstr "വളരുക"
+
+msgid "Guiro"
+msgstr "ഗുഇരോ"
+
+msgid "Guitar"
+msgstr "ഗിറ്റാര്‍"
+
+msgid "Hand Clap"
+msgstr "കയ്യടി"
+
+msgid "Hardware"
+msgstr "ഹാര്‍ഡ്‌വെയര്‍"
+
+msgid "help"
+msgstr ""
+
+msgid "Hello!"
+msgstr ""
+
+msgid "Hmm..."
+msgstr ""
+
+#, fuzzy
+msgid "hello"
+msgstr "ചെലോ"
+
+msgid "High C"
+msgstr "C കൂട്ടുക"
+
+msgid "Holiday"
+msgstr ""
+
+msgid "hour"
+msgstr "മണിക്കൂര്‍"
+
+msgid "Human"
+msgstr "മനുഷ്യന്‍"
+
+# 83%
+msgid "import"
+msgstr "കൊണ്ടുവരിക"
+
+msgid "Import"
+msgstr "കൊണ്ടുവരിക"
+
+msgid "Importing sound..."
+msgstr "ശബ്ദം കൊണ്ടുവന്നുകൊണ്ടിരിക്കുന്നു..."
+
+msgid "Indoors"
+msgstr "അകത്തുള്ള"
+
+msgid "Installing..."
+msgstr "സ്ഥാപിച്ചുകൊണ്ടിരിക്കുന്നു..."
+
+msgid "Instruments"
+msgstr "ഉപകരണങ്ങള്‍"
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr "അവസാനത്തെ"
+
+msgid "left"
+msgstr "ഇടത്"
+
+msgid "left arrow"
+msgstr "ഇടത്തോട്ടുള്ള ആരോമാര്‍ക്ക്‌"
+
+msgid "left-right"
+msgstr "ഇടം-വലം"
+
+msgid "length"
+msgstr "നീളം"
+
+msgid "Letters"
+msgstr ""
+
+msgid "Library"
+msgstr "ലൈബ്രറി"
+
+msgid "light"
+msgstr "പ്രകാശം"
+
+# 83%
+#, fuzzy
+msgid "lights"
+msgstr "പ്രകാശം"
+
+msgid "Line"
+msgstr "വര"
+
+msgid "Line width"
+msgstr "വരയുടെ വീതി"
+
+# 75%
+msgid "list"
+msgstr "ലിസ്റ്റ്"
+
+msgid "List name"
+msgstr "ലിസ്റ്റിന്‍റെ പേര്"
+
+msgid "ln"
+msgstr "ഇല്‍"
+
+msgid "Loading project..."
+msgstr "പ്രൊജെക്റ്റ് കൊണ്ടുവന്നുകൊണ്ടിരിക്കുന്നു..."
+
+msgid "log"
+msgstr "ലോഗ്"
+
+msgid "louder"
+msgstr "ഒച്ചയേറിയ"
+
+msgid "Low C"
+msgstr "c കുറയ്ക്കുക"
+
+msgid "Make a Block"
+msgstr "ഒരു ബ്ലോക്ക്‌ ഉണ്ടാക്കുക"
+
+msgid "Make a List"
+msgstr "ഒരു ലിസ്റ്റ് ഉണ്ടാക്കുക"
+
+msgid "Make a Variable"
+msgstr "ചരത്തെ ഉണ്ടാക്കുക"
+
+msgid "Marimba"
+msgstr "മാരിമ്പ"
+
+msgid "Max"
+msgstr "കൂടുതല്‍"
+
+msgid "meow"
+msgstr "മ്യാവു"
+
+msgid "Message Name"
+msgstr "മെസ്സേജിന്‍റെ പേര്"
+
+msgid "message1"
+msgstr "മെസ്സേജ്1"
+
+#, fuzzy
+msgid "Microphone volume:"
+msgstr "മൈക്കിന്‍റെ ഒച്ച:"
+
+msgid "Middle C"
+msgstr "c മധ്യസ്ഥാനത്തിലാക്കുക"
+
+msgid "Min"
+msgstr "ഏറ്റവും ചെറിയ"
+
+msgid "minute"
+msgstr "മിനിട്ട്‌"
+
+msgid "month"
+msgstr "മാസം"
+
+msgid "mosaic"
+msgstr "ചിത്രവേല ചെയ്യുക"
+
+msgid "motion"
+msgstr "ചലനം"
+
+msgid "mouse-pointer"
+msgstr "മൗസ്- പോയിന്റെര്‍"
+
+msgid "Multiple"
+msgstr "അനേകo"
+
+msgid "Music and Dance"
+msgstr "പാട്ടും നൃത്തവും"
+
+msgid "Music Box"
+msgstr "പാട്ടുപെട്ടി"
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "myself"
+msgstr "എന്നെത്തന്നെ"
+
+msgid "Nature"
+msgstr "പ്രകൃതി"
+
+msgid "New"
+msgstr "പുതിയ"
+
+msgid "New backdrop from camera"
+msgstr "ക്യാമെറയില്‍ നിന്നും പുതിയ രംഗം"
+
+msgid "New backdrop:"
+msgstr "പുതിയ രംഗം:"
+
+msgid "New Block"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr "ക്യാമറയില്‍ നിന്നും പുതിയ രൂപം"
+
+msgid "New costume:"
+msgstr "പുതിയ രൂപം:"
+
+msgid "New List"
+msgstr "പുതിയ ലിസ്റ്റ്"
+
+msgid "New Message"
+msgstr ""
+
+msgid "new message..."
+msgstr "പുതിയ മെസ്സേജ്..."
+
+msgid "New name"
+msgstr "പുതിയ പേര്‌"
+
+msgid "New sound:"
+msgstr "പുതിയ ശബ്ദം:"
+
+msgid "New sprite from camera"
+msgstr "ക്യാമെറയില്‍ നിന്നും പുതിയ സ്പ്രയ്റ്റ്"
+
+msgid "New sprite:"
+msgstr "പുതിയ സ്പ്രയ്റ്റ്:"
+
+msgid "New Variable"
+msgstr "പുതിയ ചരം"
+
+msgid "No motion blocks"
+msgstr "ചലനം ബ്ലോക്കുകളില്ല"
+
+msgid "normal readout"
+msgstr "സാധാരണ വായന രീതി"
+
+msgid "not ="
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr "നെറ്റ്‌വര്‍ക്കിന്‍റെയോ സേവകരുടെയോ തകരാര്‍; സേവ് സാധ്യമല്ല."
+
+msgid "Not saved; project did not load."
+msgstr "സേവ് ചെയ്യാന്‍ സാധിച്ചില്ല; പ്രൊജെക്റ്റ് കൊണ്ടുവരാന്‍ ആയില്ല."
+
+msgid "of"
+msgstr "ന്‍റെ"
+
+msgid "off"
+msgstr "ഓഫ്‌"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr "ഓകേ"
+
+msgid "on"
+msgstr "ഓണ്‍"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr ""
+
+msgid "Open Hi-Hat"
+msgstr ""
+
+msgid "Options"
+msgstr "വേറൊന്നു"
+
+msgid "Organ"
+msgstr "അവയവം"
+
+msgid "Other"
+msgstr "വേറെ"
+
+msgid "other scripts in sprite"
+msgstr "സ്പ്രയ്റ്റിലുള്ള മറ്റു പ്രോഗ്രാമുകള്‍"
+
+#, fuzzy
+msgid "other scripts in stage"
+msgstr "സ്പ്രയ്റ്റിലുള്ള മറ്റു പ്രോഗ്രാമുകള്‍"
+
+msgid "Outdoors"
+msgstr "വെളിയില്‍"
+
+msgid "Paint new backdrop"
+msgstr "പുതിയ രംഗം ചിത്രീകരിക്കുക"
+
+msgid "Paint new costume"
+msgstr "പുതിയ രൂപം ചിത്രീകരിക്കുക"
+
+msgid "Paint new sprite"
+msgstr "പുതിയ സ്പ്രയ്റ്റിനെ ചിത്രീകരിക്കുക"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is required"
+msgstr ""
+
+msgid "paste"
+msgstr "ഒട്ടിക്കുക"
+
+msgid "Pencil"
+msgstr "പെന്‍സില്‍"
+
+msgid "People"
+msgstr "ആളുകള്‍"
+
+msgid "Percussion"
+msgstr "കൊട്ടുവാദ്യം"
+
+msgid "photo1"
+msgstr "ചിത്രം 1"
+
+msgid "Piano"
+msgstr "പിയാനോ"
+
+msgid "Pick up color"
+msgstr "നിറം തിരെഞ്ഞെടുക്കുക"
+
+msgid "pixelate"
+msgstr "പിക്സല്‍ ആക്കുക"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "എടുക്കുക"
+
+msgid "previous backdrop"
+msgstr ""
+
+msgid "Project did not load."
+msgstr "പ്രൊജെക്റ്റ് കൊണ്ടുവരാന്‍ സാധിച്ചില്ല."
+
+msgid "Project not saved!"
+msgstr "പ്രൊജെക്റ്റ് സേവ് ചെയ്തിട്ടില്ല!"
+
+msgid "Project name"
+msgstr ""
+
+msgid "Project name is required"
+msgstr ""
+
+msgid "random"
+msgstr "ക്രമമില്ലാത്ത"
+
+msgid "Record"
+msgstr "റെക്കോര്‍ഡ്‌ ചെയ്യുക"
+
+msgid "Record new sound"
+msgstr "പുതിയ ശബ്ദം റെക്കോര്‍ഡ്‌ ചെയ്യുക"
+
+msgid "record..."
+msgstr ""
+
+msgid "recording1"
+msgstr "റെക്കോര്‍ഡിംഗ് 1"
+
+msgid "Rectangle"
+msgstr "ദീര്‍ഘചതുരം"
+
+# 75%
+msgid "Redo"
+msgstr "വീണ്ടും ചെയ്യുക"
+
+msgid "redo"
+msgstr "വീണ്ടും ചെയ്യുക"
+
+msgid "Remix"
+msgstr "റീമിക്സ്‌"
+
+msgid "Remixing..."
+msgstr "റീമിക്സ്സിംഗ്..."
+
+msgid "Remove extension blocks"
+msgstr ""
+
+msgid "Rename"
+msgstr "പുതിയ പേരിടുക"
+
+msgid "rename variable"
+msgstr "ചരത്തിനു പുതിയ പേര് കൊടുക്കുക"
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "Reshape"
+msgstr "വീണ്ടും രൂപപ്പെടുത്തുക"
+
+msgid "resistance-A"
+msgstr "പ്രതിരോധം-A"
+
+msgid "resistance-B"
+msgstr "പ്രതിരോധം-B"
+
+msgid "resistance-C"
+msgstr "പ്രതിരോധം-C"
+
+msgid "resistance-D"
+msgstr "പ്രതിരോധം-D"
+
+msgid "reverse"
+msgstr "തിരികെ"
+
+msgid "Revert"
+msgstr "തിരിച്ചയക്കുക"
+
+msgid "Reverting..."
+msgstr "തിരിച്ചയച്ചുകൊണ്ടിരിക്കുന്നു..."
+
+msgid "right"
+msgstr "വലത്"
+
+msgid "right arrow"
+msgstr "വലത്തോട്ടുള്ള ആരോമാര്‍ക്ക്"
+
+msgid "rotation style:"
+msgstr "ഭ്രമണ ശൈലി:"
+
+msgid "Run without screen refresh"
+msgstr "സ്ക്രീന്‍ പുതുക്കാതെ പ്രവര്‍ത്തിക്കുക"
+
+msgid "Save"
+msgstr "സേവ് ചെയ്യുക"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr ""
+
+msgid "Save as"
+msgstr ""
+
+msgid "Save now"
+msgstr "ഇപ്പോള്‍ സേവ് ചെയ്യുക"
+
+msgid "Save project?"
+msgstr ""
+
+msgid "save to local file"
+msgstr "ലോക്കല്‍ ഫയലായി സേവ് ചെയ്യുക"
+
+msgid "Saved"
+msgstr "സേവ് ചെയ്യപ്പെട്ടു"
+
+msgid "Saving changes..."
+msgstr "മാറ്റങ്ങള്‍ സേവ് ചെയ്യപ്പെടുന്നു..."
+
+msgid "Saving..."
+msgstr "സേവ് ചെയ്യപ്പെടുന്നു..."
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "Scratch Updater"
+msgstr ""
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr ""
+
+msgid "Script"
+msgstr "പ്രോഗ്രാം"
+
+msgid "Scripts"
+msgstr "പ്രോഗ്രാമുകള്‍"
+
+msgid "second"
+msgstr "സെക്കന്റ്‌"
+
+msgid "See project page"
+msgstr "പ്രൊജെക്റ്റ് പേജ് നോക്കുക"
+
+msgid ""
+"See the Tips window (on the right) to install the plug-in and get the "
+"extension working."
+msgstr ""
+
+msgid "Select"
+msgstr "സെലെക്റ്റ് ചെയ്യുക"
+
+msgid "select all"
+msgstr "എല്ലാം സെലെക്റ്റ് ചെയ്യുക"
+
+msgid "Select and duplicate"
+msgstr "സെലെക്റ്റ് ചെയ്ത് ഡ്യൂപ്ലിക്കേറ്റ്‌ ചെയ്യുക"
+
+msgid "Send to back"
+msgstr "പുറകിലേക്ക് അയക്കുക"
+
+msgid "Set Costume Center"
+msgstr ""
+
+msgid "Set costume center"
+msgstr ""
+
+msgid "set slider min and max"
+msgstr "സ്ലിടെര്‍ന്‍റെ മിനിമവും മാക്സിമവും നിശ്ചയിക്കുക"
+
+msgid "Share"
+msgstr "പങ്കുവെയ്ക്കുക"
+
+msgid "Share to website"
+msgstr ""
+
+msgid "Share to Scratch website"
+msgstr ""
+
+msgid "shared"
+msgstr "പങ്കുവെയ്ച്ചു"
+
+msgid "Shift:"
+msgstr "സ്ഥാനം മാറ്റുക:"
+
+msgid "show receivers"
+msgstr "വാങ്ങുന്നവരേ പ്രത്യക്ഷമാക്കുക"
+
+msgid "show senders"
+msgstr "കൊടുക്കുന്നവരെ പ്രത്യക്ഷമാക്കുക"
+
+msgid "show:"
+msgstr "പ്രത്യക്ഷമാവുക:"
+
+msgid "Shrink"
+msgstr "ചെറുതാക്കുക"
+
+msgid "Side Stick"
+msgstr ""
+
+msgid "Sign in"
+msgstr "അകത്തേക്ക് പ്രവേശിക്കുക"
+
+msgid "Sign in to save"
+msgstr "സേവ് ചെയ്യാന്‍ അകത്തേക്കു പ്രവേശിക്കുക"
+
+msgid "silence"
+msgstr "നിശ്ശബ്ദത"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "സ്ലൈഡര്‍"
+
+msgid "Slider Range"
+msgstr "സ്ലൈഡര്‍ വ്യാപ്‌തി"
+
+msgid "Small stage layout"
+msgstr "സ്റ്റേജിന്‍റെ ചെറിയ രേഖാചിത്രം"
+
+msgid "Smooth"
+msgstr "ലോലമായ"
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr "മൃദുവായ"
+
+msgid "sound"
+msgstr "ശബ്‌ദം"
+
+msgid "Sound Library"
+msgstr "ശബ്ദങ്ങളുടെ കൂട്ടം"
+
+msgid "Sounds"
+msgstr "ശബ്‌ദങ്ങള്‍"
+
+# 80%
+msgid "Space"
+msgstr "സ്പേസ്"
+
+msgid "space"
+msgstr "സ്പേസ്"
+
+msgid "Sports"
+msgstr "കായികം"
+
+# 85%
+msgid "Sprite"
+msgstr "സ്പ്രയ്റ്റുകള്‍"
+
+msgid "Sprite Library"
+msgstr "സ്പ്രയ്റ്റുകളുടെ കൂട്ടം"
+
+# 85%
+msgid "Sprite1"
+msgstr "സ്പ്രയ്റ്റ് 1"
+
+msgid "Sprites"
+msgstr "സ്പ്രയ്റ്റുകള്‍"
+
+msgid "sqrt"
+msgstr "വര്‍ഗ്ഗമൂലം"
+
+msgid "Square"
+msgstr "സമചതുരം"
+
+msgid "Stage"
+msgstr "വേദി"
+
+msgid "Stage selected:"
+msgstr "തിരഞ്ഞെടുക്കപ്പെട്ട വേദി:"
+
+msgid "Steel Drum"
+msgstr "സ്റ്റീല്‍ ഡ്രം"
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "മദ്ദളം"
+
+msgid "tan"
+msgstr ""
+
+#, fuzzy
+msgid "text"
+msgstr "വാക്യം"
+
+msgid "Text"
+msgstr "വാക്യം"
+
+msgid "that way"
+msgstr "ആ വഴി"
+
+msgid "The name is already in use."
+msgstr ""
+
+msgid ""
+"The project failed to load and Scratch Team has been notified. Press OK to "
+"leave this page."
+msgstr ""
+
+msgid "Theme"
+msgstr "പ്രമേയം"
+
+msgid "Things"
+msgstr "സാധനങ്ങള്‍"
+
+msgid "thing"
+msgstr ""
+
+msgid "This is the current version."
+msgstr ""
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"ആരാണ് ഈ പ്രൊജക്റ്റ്‌ ഉപയോഗിക്കുന്നതെന്നു \"യൂസര്‍നെയിം\" ഉപയോഗിച്ച് മനസ്സിലാക്കാം. ഇതൊഴിവാക്കാന്‍ "
+"പ്രൊജക്റ്റ്‌ ഉപയോഗിക്കുന്നതിനുമുന്‍പ് പുറത്തേക്ക് കടക്കുക."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"ഈ പ്രൊജക്റ്റ്‌ അകത്തു പ്രവേശിച്ചിട്ടുള്ള ഉപയോക്താക്കള്‍ക്കു മാത്രമുള്ള ക്ലൌഡ് വിവരശേഖരം "
+"ഉപയോഗിച്ചിരിക്കുന്നു."
+
+msgid "this script"
+msgstr "ഈ പ്രോഗ്രം"
+
+msgid "this sprite"
+msgstr "ഈ സ്പ്രയ്റ്റ്"
+
+msgid "this way"
+msgstr "ഈ വഴി"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "ഈ പ്രോജക്റ്റ് ഓപ്പണ്‍ ചെയ്തതുമുതലുള്ള എല്ലാ മാറ്റങ്ങളും ഒഴിവാക്കുക?"
+
+msgid "Tips"
+msgstr "എളുപ്പവഴി"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+"ഒരു ബ്ലോക്കിന്‍റെ നിര്‍വചനം ഡിലീറ്റ് ചെയ്യണമെങ്കില്‍ ആദ്യo ആ ബ്ലോക്കിന്‍റെ എല്ലാ ഉപയോഗങ്ങളും "
+"ഒഴിവാക്കുക."
+
+msgid "Transportation"
+msgstr "ഗതാഗതം"
+
+msgid "Triangle"
+msgstr "ത്രികോണം"
+
+msgid "Trombone"
+msgstr "കാഹളവാദ്യം"
+
+msgid "true"
+msgstr ""
+
+msgid "Turbo mode"
+msgstr "ടര്‍ബോ രീതി"
+
+msgid "Turbo Mode"
+msgstr "ടര്‍ബോ രീതി"
+
+msgid "Type"
+msgstr "ടൈപ്പുചെയ്യുക"
+
+# 75%
+msgid "Undelete"
+msgstr "ഡിലീറ്റ് ചെയ്തത് കൊണ്ടുവരിക"
+
+msgid "Underwater"
+msgstr "അന്തര്‍ജലീയമായ"
+
+msgid "undo"
+msgstr "പൂര്‍വസ്ഥിതിയെ പ്രാപിക്കുക"
+
+msgid "Undo"
+msgstr "തിരിച്ചു കൊണ്ടുവരിക"
+
+msgid "Undo Revert"
+msgstr "പൂര്‍വസ്ഥിതിയെ പ്രാപിക്കുന്നതൊഴിവാക്കുക"
+
+msgid "Ungroup"
+msgstr "ഗ്രൂപ്പില്‍ നിന്നും പിന്മാറുക"
+
+msgid "unshared"
+msgstr "പങ്കുവെച്ചതു പിന്‍വലിക്കുക"
+
+msgid "up"
+msgstr "മുകളിലേക്ക്"
+
+msgid "up arrow"
+msgstr "മുകളിലേക്കുള്ള ആരോമാര്‍ക്ക്‌"
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update not needed"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Upload backdrop from file"
+msgstr "ഫയലില്‍ നിന്നും രംഗം ലോഡുചെയ്യുക"
+
+msgid "Upload costume from file"
+msgstr "ഫയലില്‍ നിന്നും രൂപം ലോഡുചെയ്യുക"
+
+msgid "Upload from your computer"
+msgstr "നിങ്ങളുടെ കമ്പ്യൂട്ടറില്‍ നിന്നും ലോഡ് ചെയ്യുക"
+
+msgid "Upload sound from file"
+msgstr "ഫയലില്‍ നിന്നും ശബ്ദം ലോഡുചെയ്യുക"
+
+msgid "Upload sprite from file"
+msgstr "ഫയലില്‍ നിന്നും സ്പ്രയ്റ്റിനെ ലോഡുചെയ്യുക"
+
+msgid "Uploading image..."
+msgstr "ചിത്രം ലോഡുചെയ്യുക..."
+
+msgid "Uploading sound..."
+msgstr "ശബ്ദം ലോഡുചെയ്യുക..."
+
+msgid "Uploading sprite..."
+msgstr "സ്പ്രയ്റ്റിനെ ലോഡുചെയ്യുക..."
+
+msgid "variable"
+msgstr "ചരം"
+
+msgid "Variable name"
+msgstr "ചരത്തിന്‍റെ പേര്"
+
+msgid "Vector"
+msgstr "വെക്ടര്‍"
+
+msgid "Vector Mode"
+msgstr "വെക്ടര്‍ രീതി"
+
+msgid "Vibraphone"
+msgstr ""
+
+msgid "Vibraslap"
+msgstr ""
+
+msgid "video direction"
+msgstr ""
+
+msgid "video motion"
+msgstr "വീഡിയോ ചലനം"
+
+msgid "Video on:"
+msgstr "വീഡിയോ ഓണ്‍:"
+
+msgid "Vocals"
+msgstr "ധ്വനിയുളള"
+
+msgid "Walking"
+msgstr "നടത്തം"
+
+msgid "Want to save? Click remix"
+msgstr "സേവ് ചെയ്യണോ? റിമിക്സ് ക്ലിക്ക് ചെയ്യുക"
+
+msgid "Which column do you want to import"
+msgstr "ഏതു കോളമാണ് നിങ്ങള്‍ക്ക് കൊണ്ടു വരേണ്ടത്"
+
+msgid "What's your name?"
+msgstr ""
+
+msgid "whirl"
+msgstr "കറക്കുക"
+
+msgid "Wood Block"
+msgstr "തടിക്കട്ട"
+
+msgid "Wooden Flute"
+msgstr "ഓടക്കുഴല്‍"
+
+msgid "world"
+msgstr ""
+
+msgid "year"
+msgstr "വര്‍ഷം"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"ക്ലൌഡ് വിവരങ്ങളിലെ മറ്റൊരാളുടെ പ്രോജക്റ്റില്‍ നിങ്ങള്‍ക്ക് തിരുത്തല്‍ സാധ്യമല്ല.<br>എഡിറ്ററില്‍ "
+"നിങ്ങള്‍ വരുത്തിയ മാറ്റങ്ങള്‍ ശാശ്വതമല്ല താത്‌കാലികമാണ്."
+
+msgid "Your Scratch name"
+msgstr ""
+
+msgid "Your Scratch name is required"
+msgstr ""
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr ""
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+msgid "Save Project"
+msgstr ""
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr ""
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "മലയാളം"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.listല്‍ %s ഉണ്ടോ"
+
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "മോട്ടോറിന്‍റെ ദിശ %m ആക്കുക"
+
+#~ msgid "set motor power %n"
+#~ msgstr "മോട്ടോറിന്‍റെ പവര്‍ %n ആക്കുക"
+
+#~ msgid "turn motor off"
+#~ msgstr "മോട്ടോര്‍ ഓഫ്‌ ആക്കുക"
+
+#~ msgid "turn motor on"
+#~ msgstr "മോട്ടോര്‍ ഓണ്‍ ആക്കുക"
+
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "മോട്ടോര്‍ %n നിമിഷം ഓണാക്കുക"
+
+#~ msgid "when distance < %n"
+#~ msgstr "ദൂരം < %n ആവുമ്പോള്‍"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "ചെരിവ് = %n ആവുമ്പോള്‍"
+
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "മോട്ടോറിന്‍റെ ദിശ %m ഇല്‍ നിന്നും %m ആക്കി മാറ്റുക"
+
+#~ msgid "forever if %b"
+#~ msgstr "%b ആണെങ്കില്‍ എല്ലായ്പ്പോഴും"
+
+#~ msgid "if %b"
+#~ msgstr "%b ആണെങ്കില്‍"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "LEGOയുടെ വിപുലീകരണത്തെ കുറിച്ച്..."
+
+#~ msgid "Account settings"
+#~ msgstr "അക്കൗണ്ട്‌ സംവിധാനം"
+
+#~ msgid "all motors"
+#~ msgstr "എല്ലാ മോട്ടോറുകളും"
+
+#~ msgid "Cloud"
+#~ msgstr "ക്ലൌഡ്"
+
+#~ msgid "Costumes:"
+#~ msgstr "രൂപങ്ങള്‍:"
+
+#~ msgid "Extension Library"
+#~ msgstr "വിപുലീകരിച്ച ലൈബ്രറി"
+
+#~ msgid "limit reached"
+#~ msgstr "പരിധി എത്തിച്ചേര്‍ന്നു"
+
+#~ msgid "motor"
+#~ msgstr "മോട്ടോര്‍"
+
+#~ msgid "motor A"
+#~ msgstr "മോട്ടോര്‍ A"
+
+#~ msgid "motor B"
+#~ msgstr "മോട്ടോര്‍ "
+
+#~ msgid "My Stuff"
+#~ msgstr "എന്‍റെ സാമഗ്രികള്‍"
+
+#~ msgid "Profile"
+#~ msgstr "രൂപരേഖ"
+
+#~ msgid "requires sign in"
+#~ msgstr "അകത്തു പ്രവേശിക്കണം"
+
+#~ msgid "Save as a copy"
+#~ msgstr "പകര്‍പ്പായി സേവ് ചെയ്യുക"
+
+#~ msgid "Scripts:"
+#~ msgstr "പ്രോഗ്രാമുകള്‍:"
+
+#~ msgid "Sign out"
+#~ msgstr "പുറത്തേക്ക്‌ കടക്കുക"
+
+#~ msgid "stored on server"
+#~ msgstr "സേവകരില്‍ സുക്ഷിക്കുക"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>ക്ലൌഡിലെ ചരങ്ങളെ കുറിച്ചുള്ള വിവരങ്ങള്‍</b><br>&nbsp;<br>നിലവില്‍ സംഖ്യകളെ മാത്രമെ "
+#~ "പിന്തുണയ്ക്കുകയുള്ളു<br>ചാറ്റ് റൂം സംവിധാനം അനുവദിനീയമല്ല അത് ഒഴിവാക്കും<br>കൂടുതല്‍ "
+#~ "വിവരങ്ങള്‍ക്കായ്‌ <a href= target=>ക്ലൌഡിലെ വിവരങ്ങള്‍ നോക്കുക FAQ!</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "ഒന്നുകൂടി ചെയ്യാനോ അല്ലെങ്കില്‍ സേവ് ചെയ്യാനോ ക്ലിക്ക് ചെയ്യുക"
+
+#~ msgid "Eraser width:"
+#~ msgstr "റബ്ബറിന്‍റെ വീതി:"
+
+#~ msgid "Line width:"
+#~ msgstr "വരയുടെ വീതി:"
+
+#~ msgid "cleanup"
+#~ msgstr "വൃത്തിയാക്കുക"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "LEGO WeDo "
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "മൈക്കിന്‍റെ ഒച്ച:"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "പുതിയ സ്പ്രയ്റ്റ്:"
+
+#~ msgid "Paint"
+#~ msgstr "പെയിന്റ്"
+
+#~ msgid "any"
+#~ msgstr "ഏതെങ്കിലും"
+
+#~ msgid "More"
+#~ msgstr "കൂടുതല്‍"

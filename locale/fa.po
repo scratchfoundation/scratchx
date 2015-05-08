@@ -1,0 +1,2146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-02-08 17:52+0000\n"
+"Last-Translator: Afshid <Afshidf@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1423417966.000000\n"
+
+msgid "%b and %b"
+msgstr "%b و %b"
+
+msgid "%b or %b"
+msgstr "%b یا %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute از %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp از %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor مقدار سنسور"
+
+msgid "%n mod %n"
+msgstr "باقیمانده تقسیم %n به %n"
+
+msgid "add %s to %m.list"
+msgstr "%s را به %m.list اضافه کن"
+
+msgid "answer"
+msgstr "پاسخ"
+
+msgid "ask %s and wait"
+msgstr "%s را بپرس و صبر کن"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "پس‌زمینه #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "نام پس زمینه"
+
+msgid "broadcast %m.broadcast"
+msgstr "%m.broadcast را انتشار بده"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "%m.broadcast را انتشار بده و صبر ‌کن"
+
+msgid "change %m.effect effect by %n"
+msgstr "اثر %m.effect را به مقدار %n تغییر بده"
+
+msgid "change %m.var by %n"
+msgstr "%m.var را %n تغییر بده"
+
+msgid "change pen color by %n"
+msgstr "رنگ قلم را %n تغییر بده"
+
+msgid "change pen shade by %n"
+msgstr "سایه ی رنگ قلم را %n تغییر بده"
+
+msgid "change pen size by %n"
+msgstr "اندازه ی قلم را %n تغییر بده"
+
+msgid "change size by %n"
+msgstr "اندازه  را %n تغییر بده"
+
+msgid "change tempo by %n"
+msgstr "سرعت  را %n تغییر بده"
+
+msgid "change volume by %n"
+msgstr "بلندى صدا را %n تغییر بده"
+
+msgid "change x by %n"
+msgstr "x را با %n تغییر بده"
+
+msgid "change y by %n"
+msgstr "y را %n تغییر بده"
+
+msgid "clear"
+msgstr "پاک کن"
+
+msgid "clear graphic effects"
+msgstr "افکت های گرافیکی را پاک کن"
+
+msgid "color %c is touching %c?"
+msgstr "زنگ %c با رنگ %c تماس دارد؟"
+
+msgid "Control"
+msgstr "کنترل"
+
+msgid "costume #"
+msgstr "شماره لباس #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "از %m.spriteOnly تکرار کن"
+
+msgid "current %m.timeAndDate"
+msgstr "هم اکنون %m.timeAndDate شود"
+
+msgid "Data"
+msgstr "داده"
+
+msgid "days since 2000"
+msgstr "تعداد روزها از سال 2000"
+
+msgid "define"
+msgstr "تعریف"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr " %d.listDeleteItem را از  %m.list حذف کن"
+
+msgid "delete this clone"
+msgstr "این تکراری را حذف کن"
+
+msgid "direction"
+msgstr "جهت"
+
+msgid "distance"
+msgstr "فاصله"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "%m.spriteOrMouse فاصله تا"
+
+msgid "else"
+msgstr "واگر نه"
+
+msgid "Events"
+msgstr "رویدادها"
+
+msgid "forever"
+msgstr "برای همیشه تکرار کن"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "n% ثانیه آهسته برو به ایکس:%n وای:%n"
+
+msgid "go back %n layers"
+msgstr "لایه به عقب %n برو"
+
+msgid "go to %m.spriteOrMouse"
+msgstr " برو به %m.spriteOrMouse برو به"
+
+msgid "go to front"
+msgstr "برو به جلو"
+
+msgid "go to x:%n y:%n"
+msgstr "%n2 :وای %n1 :برو به مکان ایکس"
+
+msgid "hide"
+msgstr "پنهان کن"
+
+msgid "hide list %m.list"
+msgstr "فهرست %m.list را پنهان کن"
+
+msgid "hide variable %m.var"
+msgstr "متغیر %m.var را پنهان کن"
+
+msgid "if %b then"
+msgstr "اگر %b آنگاه"
+
+msgid "if on edge, bounce"
+msgstr "اگر روی خط هستی، بپر"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr " %s را در  %d.listItem از  %m.list درج کن"
+
+msgid "item %d.listItem of %m.list"
+msgstr "مشخص کن %d.listItem را از %m.list"
+
+msgid "join %s %s"
+msgstr "%s و %s را مجتمع کن"
+
+msgid "key %m.key pressed?"
+msgstr "آیا کلید %m.key فشرده شده؟ "
+
+msgid "length of %m.list"
+msgstr "طول  %m.list"
+
+msgid "length of %s"
+msgstr "طول %s"
+
+msgid "letter %n of %s"
+msgstr "حرف %s از %n"
+
+msgid "Looks"
+msgstr "ظاهر"
+
+msgid "loudness"
+msgstr "بلندی صدا"
+
+msgid "More Blocks"
+msgstr "بلاک های بیشتر"
+
+msgid "Motion"
+msgstr "حرکت"
+
+msgid "mouse down?"
+msgstr "فشار دادن دکمه ماوس؟"
+
+msgid "mouse x"
+msgstr "مکان x ماوس"
+
+msgid "mouse y"
+msgstr "مکان وای ماوس"
+
+msgid "move %n steps"
+msgstr "گام حرکت کن %n"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "پس زمینه بعدی"
+
+msgid "next costume"
+msgstr "لباس بعدی"
+
+msgid "not %b"
+msgstr "%b نقیض"
+
+msgid "Operators"
+msgstr "عملگرها"
+
+msgid "Pen"
+msgstr "قلم"
+
+msgid "pen down"
+msgstr "قلم پایین"
+
+msgid "pen up"
+msgstr "قلم بالا"
+
+msgid "pick random %n to %n"
+msgstr "یک عدد تصادفی بين %n و %n انتخاب کن"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "طبل  %d.drum را %n ضربه بنواز"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "نت %d.note را %n ضربه بنواز"
+
+msgid "play sound %m.sound"
+msgstr "صدای %m.sound را بنواز"
+
+msgid "play sound %m.sound until done"
+msgstr "صدای %m.sound را تا وقتی تمام شود بنواز"
+
+msgid "point in direction %d.direction"
+msgstr "برو به جهت%d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "بچرخ به سمت %m.spriteOrMouse "
+
+msgid "repeat %n"
+msgstr "%n بار تکرار کن"
+
+msgid "repeat until %b"
+msgstr "تکرار کن تا وقتی که %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "%s را با %d.listItem از لیست %m.list جایگزین کن"
+
+msgid "reset timer"
+msgstr "تایمر از اول"
+
+msgid "rest for %n beats"
+msgstr "استراحت کن برای %n ضرب"
+
+msgid "round %n"
+msgstr "%n را گرد کن"
+
+msgid "say %s"
+msgstr "بگو %s"
+
+msgid "say %s for %n secs"
+msgstr "برای %n ثانیه بگو %s"
+
+msgid "Sensing"
+msgstr "حس کردن"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "نتیجه حسگر %m.booleanSensor"
+
+msgid "set %m.effect effect to %n"
+msgstr "اثر %m.effect را %n قرار بده"
+
+msgid "set %m.var to %s"
+msgstr "متغیر %m.var را %s قرار بده"
+
+msgid "set instrument to %d.instrument"
+msgstr "ساز را %d.instrument قرار بده"
+
+# 89%
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "جهت %m.motor2 را به %m.motorDirection تغییر بده"
+
+# 77%
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "قدرت %m.motor را %n کن"
+
+msgid "set pen color to %c"
+msgstr "رنگ مداد را %c قرار بده"
+
+msgid "set pen color to %n"
+msgstr "رنگ مداد را %n کن"
+
+msgid "set pen shade to %n"
+msgstr "تیرگی قلم را %n قرار بده"
+
+msgid "set pen size to %n"
+msgstr "اندازه قلم را %n قرار بده"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "نوع چرخش را %m.rotationStyle قرار بده"
+
+msgid "set size to %n%"
+msgstr "اندازه را %n% قرار بده"
+
+msgid "set tempo to %n bpm"
+msgstr "سرعت نواختن را %n ضربه در دقیقه کن"
+
+msgid "set video transparency to %n%"
+msgstr "شفافیت ویدئو را  %n% قرار بده"
+
+msgid "set volume to %n%"
+msgstr "بلندی صدا را  %n% قرار بده"
+
+msgid "set x to %n"
+msgstr "مکانx را %n قرار بده"
+
+msgid "set y to %n"
+msgstr "مکان y را %n قرار بده"
+
+msgid "show"
+msgstr "نمایش بده"
+
+msgid "show list %m.list"
+msgstr "فهرست %m.list را نمایش بده"
+
+msgid "show variable %m.var"
+msgstr "متغیر %m.var را نمایش بده"
+
+msgid "size"
+msgstr "اندازه"
+
+msgid "Sound"
+msgstr "صدا"
+
+msgid "stamp"
+msgstr "مهر"
+
+msgid "stop %m.stop"
+msgstr " %m.stop را قطع کن"
+
+msgid "stop all sounds"
+msgstr "همه صدا ها را متوقف کن"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "پس زمینه را به %m.backdrop تغییر بده"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "پس زمینه را به %m.backdrop تغییر بده و صبر کن"
+
+msgid "switch costume to %m.costume"
+msgstr "لباس را به %m.costume تغییر بده"
+
+msgid "tempo"
+msgstr "سرعت نواختن"
+
+msgid "think %s"
+msgstr "فکر کن %s"
+
+msgid "think %s for %n secs"
+msgstr "برای %n ثانیه فکر کن  %s"
+
+msgid "tilt"
+msgstr "کج شو"
+
+msgid "timer"
+msgstr "زمان سنج"
+
+msgid "touching %m.touching?"
+msgstr "آیا %m.touching لمس می کند؟"
+
+msgid "touching color %c?"
+msgstr "آیا رنگ %c تماس دارد؟"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "به اندازه %n درجه به چپ بچرخ"
+
+msgid "turn @turnRight %n degrees"
+msgstr "به اندازه %n درجه به راست بچرخ"
+
+msgid "turn %m.motor off"
+msgstr "%m.motor را خاموش کن"
+
+msgid "turn %m.motor on"
+msgstr "%m.motor را روشن کن"
+
+# 80%
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "موتور %m.motor را برای %n روشن کن"
+
+msgid "turn video %m.videoState"
+msgstr "ویدئو را %m.videoState کن"
+
+msgid "username"
+msgstr "نام کاربری"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "ویدئو %m.videoMotionType در %m.stageOrThis"
+
+msgid "volume"
+msgstr "بلندی صدا"
+
+msgid "wait %n secs"
+msgstr "%n ثانيه صبر کن "
+
+msgid "wait until %b"
+msgstr "تا %b صبر کن"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "تا زمانی که %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "تا زمانی که کلید %m.key فشرده شود"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "تا زمانی که %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "تا زمانی که %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "تا زمانی که @greenFlag کلیک شد"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "تا زمانی که پس زمینه به %m.backdrop تغییر کند"
+
+msgid "when distance %m.lessMore %n"
+msgstr "تا زمانی که فاصله %m.lessMore %n شود"
+
+msgid "when I receive %m.broadcast"
+msgstr "تا زمانی که %m.broadcast را دریافت کنم"
+
+msgid "when I start as a clone"
+msgstr "تا زمانی که به عنوان یک تکراری شروع کنم"
+
+msgid "when this sprite clicked"
+msgstr "تا زمانی که این شکلک کلیک شود"
+
+msgid "when tilt %m.eNe %n"
+msgstr "وقتی %m.eNe %n کج شد"
+
+msgid "x position"
+msgstr "موقعیت x"
+
+msgid "y position"
+msgstr "موقعیت y"
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.لیست حاوی %s"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>اطلاعات درباره متغیر های ابری</b><br>&nbsp;<br>در حال حاضر، فقط اعداد "
+"پشتیبانی می شوند<br>پیام رسان ها اجازه فعالیت ندارند و پاک می شوند<br>برای "
+"اطلاعات بیشتر،<a href=\"/help/faq/#clouddata\" target=\"_blank\">پرسش و پاسخ "
+"دیتای ابری را ببینید</a>"
+
+msgid "A connected"
+msgstr "A وصل شد"
+
+msgid "a copy of the project file on your computer."
+msgstr "یک کپی از فایل پروژه روی کامپیوتر"
+
+msgid "A newer version of Scratch is available"
+msgstr "ورژن جدید از Scratch در دسترس است"
+
+msgid "About"
+msgstr "درباره"
+
+msgid "abs"
+msgstr "قدرمطلق"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr "افزودن"
+
+msgid "Add an Extension"
+msgstr "افزودن یک افزونه"
+
+# 90%
+msgid "Add boolean input:"
+msgstr "یک ورودی بولین اضافه کنید:"
+
+msgid "add comment"
+msgstr "نظر دهید"
+
+msgid "Add label text:"
+msgstr "یک برچسب نوشتاری بگذارید:"
+
+# 89%
+msgid "Add number input:"
+msgstr "یک ورودی عددی اضافه کنید:"
+
+# 89%
+msgid "Add string input:"
+msgstr "اضافه کردن ورودی عددی:"
+
+msgid "all"
+msgstr "همه"
+
+msgid "All"
+msgstr "همه"
+
+msgid "all around"
+msgstr "همه اطراف"
+
+msgid "Animal"
+msgstr "حیوان"
+
+msgid "Animals"
+msgstr "حیوانات"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "دارایی لود شد"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B وصل است"
+
+msgid "Back a layer"
+msgstr "پشت یک لایه"
+
+msgid "backdrop"
+msgstr "پشت صحنه ها"
+
+msgid "Backdrop"
+msgstr "پشت صحنه"
+
+msgid "Backdrop Library"
+msgstr "کتابخانه پشت صحنه ها"
+
+msgid "backdrop1"
+msgstr "پشت صحنه 1"
+
+msgid "backdrops"
+msgstr "پشت صحنه ها"
+
+msgid "Backdrops"
+msgstr "پشت صحنه ها"
+
+msgid "Backpack"
+msgstr "کوله پشتی"
+
+msgid "Bass"
+msgstr "بیس"
+
+msgid "Bass Drum"
+msgstr "درام بیس"
+
+msgid "Bassoon"
+msgstr "قره نی"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"به علت اینکه شما اکانت جدید Scratch دارید، هر تغییری روی داده های ابری ذخیره "
+"نمی شود. مشارکت در سایت را ادامه بدهید، به زودی می توانید از داده های ابری "
+"استفاده کنید."
+
+msgid "Bitmap"
+msgstr "داده بیتی"
+
+msgid "Bitmap Mode"
+msgstr "مد بیتی"
+
+msgid "Block help"
+msgstr "راهنمای بلاک"
+
+msgid "Bongo"
+msgstr "بانگو"
+
+msgid "brightness"
+msgstr "روشنایی"
+
+msgid "Bring to front"
+msgstr "به رو بیاور"
+
+msgid "Broadcast"
+msgstr "انتشار"
+
+msgid "Brush"
+msgstr "قلم مو"
+
+msgid "button pressed"
+msgstr "دکمه فشرده شده"
+
+msgid "by"
+msgstr "توسط"
+
+msgid "bytes loaded"
+msgstr "تعداد بایت های بارگذاری شده"
+
+msgid "C connected"
+msgstr "C وصل است"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "دوربین"
+
+msgid "can drag in player:"
+msgstr "می تواند در پلیر کشیده شود:"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Cannot Delete"
+msgstr "غیرقابل حذف"
+
+msgid "Can’t find network connection or reach server."
+msgstr "اتصال به شبکه یا سرور پیدا نشد."
+
+msgid "Castle"
+msgstr "قلعه"
+
+msgid "Category"
+msgstr "دسته"
+
+msgid "ceiling"
+msgstr "سقف"
+
+msgid "Cello"
+msgstr "ویلون سل"
+
+msgid "Check for updates"
+msgstr "بررسی به روز رسانی ها"
+
+msgid "Choir"
+msgstr "گروه کر"
+
+msgid "Choose backdrop from library"
+msgstr "انتخاب پشت صحنه از کتابخانه"
+
+msgid "Choose costume from library"
+msgstr "انتخاب لباس از کتابخانه"
+
+msgid "Choose sound from library"
+msgstr "انتخاب صدا از کتابخانه"
+
+msgid "Choose sprite from library"
+msgstr "انتخاب آدمک از کتابخانه"
+
+msgid "Circle"
+msgstr "دایره"
+
+msgid "City"
+msgstr "شهر"
+
+msgid "Clarinet"
+msgstr "کلارینت"
+
+msgid "Claves"
+msgstr "Claves"
+
+msgid "Clear"
+msgstr "پاک کردن"
+
+msgid "clear senders/receivers"
+msgstr "پاک کردن فرستندگان و گیرندگان"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr ""
+"روی \"الان ذخیره کن\" برای سعی مجدد کلیک کن یا روی \"دانلود\" کلیک کن برای "
+"ذخیره سازی"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Closed Hi-Hat"
+msgstr "Closed Hi-Hat"
+
+msgid "Cloud data"
+msgstr "داده ابری"
+
+msgid "color"
+msgstr "رنگ"
+
+msgid "Color a shape"
+msgstr "رنگ کردن یک شکل"
+
+msgid "Conga"
+msgstr "رقص کونگا"
+
+msgid "Connecting to Cloud data server..."
+msgstr "در حال اتصال به سرور داده ی ابری"
+
+msgid "Convert to bitmap"
+msgstr "تبدیل به داده بیتی"
+
+msgid "Convert to vector"
+msgstr "تبدیل به بردار"
+
+msgid "Converting mp3..."
+msgstr "در حال تبدیل mp3 .."
+
+msgid "copy"
+msgstr "کپی"
+
+msgid "Copying..."
+msgstr "در حال کپی کردن .."
+
+msgid "cos"
+msgstr "cos"
+
+# 75%
+msgid "Costume"
+msgstr "لباس"
+
+msgid "Costume Library"
+msgstr "کتابخانه لباس"
+
+msgid "costume name"
+msgstr "نام لباس"
+
+msgid "costume1"
+msgstr "لباس1"
+
+msgid "costume2"
+msgstr "لباس2"
+
+# 75%
+msgid "Costumes"
+msgstr "لباس ها"
+
+msgid "Costumes > 1"
+msgstr "لباس ها > ۱"
+
+msgid "Could not retrieve new application from server."
+msgstr "نتوانستم از سرور برنامه جدید را بگیرم."
+
+msgid "Cowbell"
+msgstr "زنگوله"
+
+msgid "Crash Cymbal"
+msgstr "ضربه سنج"
+
+msgid "Creating..."
+msgstr "درحال ساختن .."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "در حال حاضر، فقط اعداد می توانند در متغیر های ابری ذخیره شوند."
+
+msgid "cut"
+msgstr "بریدن"
+
+msgid "D connected"
+msgstr "D وصل است"
+
+msgid "date"
+msgstr "تاریخ"
+
+msgid "day of week"
+msgstr "روز هفته"
+
+msgid "delete"
+msgstr "حذف"
+
+# 83%
+msgid "Delete"
+msgstr "حذف"
+
+msgid "delete variable"
+msgstr "حذف متغیر"
+
+# 90%
+msgid "direction:"
+msgstr "جهت"
+
+msgid "don't rotate"
+msgstr "نچرخان"
+
+msgid "Don't save"
+msgstr "ذخیره نکن"
+
+msgid "down"
+msgstr "پایین"
+
+msgid "down arrow"
+msgstr "فلش پایین"
+
+msgid "Download"
+msgstr "دانلود"
+
+msgid "Download to your computer"
+msgstr "روی کامپیوتر خودت دانلود کن"
+
+msgid "duplicate"
+msgstr "تکثیر"
+
+msgid "Duplicate"
+msgstr "تکثیرکردن"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "لبه"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "edit"
+msgstr "ویرایش"
+
+msgid "Edit Block"
+msgstr "ویرایش بلاک"
+
+msgid "Effects"
+msgstr "جلوه ها"
+
+msgid "Electric Guitar"
+msgstr "گیتار الکتریک"
+
+msgid "Electric Piano"
+msgstr "پیانو الکتریک"
+
+msgid "Electronic"
+msgstr "الکترونیک"
+
+msgid "Ellipse"
+msgstr "بیضی"
+
+msgid "Erase"
+msgstr "پاک کردن"
+
+msgid "Eraser width"
+msgstr "عرض پاک کن"
+
+msgid "Error!"
+msgstr "خطا !"
+
+msgid "export"
+msgstr "خروجی گرفتن"
+
+msgid "fade in"
+msgstr "محو شدن در ابتدا"
+
+msgid "fade out"
+msgstr "محو شدن در انتها"
+
+msgid "Fantasy"
+msgstr "فانتزی"
+
+msgid "Features"
+msgstr "امکانات"
+
+msgid "File"
+msgstr "فایل"
+
+msgid "Fill with color"
+msgstr "با رنگ پر اش کن"
+
+msgid "fisheye"
+msgstr "نمای عریض"
+
+msgid "Flip left-right"
+msgstr "برگردان به چپ-راست"
+
+msgid "Flip up-down"
+msgstr "برگردان به بالا-پایین"
+
+msgid "floor"
+msgstr "طبقه"
+
+msgid "Flute"
+msgstr "فلوت"
+
+msgid "Flying"
+msgstr "در حال پرواز"
+
+msgid "Font:"
+msgstr "قلم:"
+
+msgid "For all sprites"
+msgstr "برای همه شبح ها"
+
+msgid "For this sprite only"
+msgstr "فقط برای این شبح"
+
+msgid "Forward a layer"
+msgstr "ارسال یک لایه"
+
+msgid "ghost"
+msgstr "روح"
+
+msgid "Group"
+msgstr "گروه"
+
+msgid "Grow"
+msgstr "رشد کردن"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "گیتار"
+
+msgid "Hand Clap"
+msgstr "کف زدن"
+
+msgid "Hardware"
+msgstr "سخت افزار"
+
+msgid "help"
+msgstr "راهنما"
+
+msgid "High C"
+msgstr "C زیاد"
+
+msgid "Holiday"
+msgstr "تعطیلات"
+
+msgid "hour"
+msgstr "ساعت"
+
+msgid "Human"
+msgstr "انسان"
+
+# 83%
+msgid "import"
+msgstr "وارد کردن"
+
+msgid "Import"
+msgstr "وارد کردن"
+
+msgid "Importing sound..."
+msgstr "وارد کردن صدا"
+
+msgid "Indoors"
+msgstr "داخل خانه"
+
+msgid "Installing..."
+msgstr "در حال نصب .."
+
+msgid "Instruments"
+msgstr "ساز ها"
+
+msgid "large readout"
+msgstr "بازخوانش حجیم"
+
+msgid "last"
+msgstr "آخرین"
+
+msgid "left"
+msgstr "چپ"
+
+msgid "left arrow"
+msgstr "فلش چپ"
+
+msgid "left-right"
+msgstr "از چپ به راست"
+
+msgid "length"
+msgstr "طول"
+
+msgid "Letters"
+msgstr "حروف"
+
+msgid "Library"
+msgstr "کتابخانه"
+
+msgid "light"
+msgstr "نور"
+
+msgid "Line"
+msgstr "خط"
+
+msgid "Line width"
+msgstr "عرض خط"
+
+# 75%
+msgid "list"
+msgstr "لیست"
+
+msgid "List name"
+msgstr "نام لیست"
+
+msgid "ln"
+msgstr "داخل"
+
+msgid "Loading project..."
+msgstr "بارگذاری پروژه"
+
+msgid "log"
+msgstr "گزارش"
+
+msgid "louder"
+msgstr "بلندتر"
+
+msgid "Low C"
+msgstr "C کم"
+
+msgid "Make a Block"
+msgstr "ایجاد یک بلاک"
+
+msgid "Make a List"
+msgstr "ایجاد لیست"
+
+msgid "Make a Variable"
+msgstr "ایجاد متغیر"
+
+msgid "Marimba"
+msgstr "سنتور آفریقایی"
+
+msgid "Max"
+msgstr "ماکزیمم"
+
+msgid "meow"
+msgstr "میووو"
+
+msgid "Message Name"
+msgstr "نام پیام"
+
+msgid "message1"
+msgstr "پیام 1"
+
+msgid "Microphone volume:"
+msgstr "درجه صدای میکروفون:"
+
+msgid "Middle C"
+msgstr "C میانی"
+
+msgid "Min"
+msgstr "مینیموم"
+
+msgid "minute"
+msgstr "دقیقه"
+
+msgid "month"
+msgstr "ماه"
+
+msgid "mosaic"
+msgstr "عکس برداری موزاييکی"
+
+msgid "motion"
+msgstr "حرکت"
+
+msgid "mouse-pointer"
+msgstr "نوک ماوس"
+
+msgid "Multiple"
+msgstr "چندتایی"
+
+msgid "Music and Dance"
+msgstr "موسیقی و رقص"
+
+msgid "Music Box"
+msgstr "جعبه موسیقی"
+
+msgid "Music Loops"
+msgstr "حلقه های موسیقی"
+
+msgid "myself"
+msgstr "خودم"
+
+msgid "Nature"
+msgstr "طبیعت"
+
+msgid "New"
+msgstr "جدید"
+
+msgid "New backdrop from camera"
+msgstr "پشت صحنه جدید از دوربین"
+
+msgid "New backdrop:"
+msgstr "پشت صحنه جدید:"
+
+msgid "New Block"
+msgstr "بلوک جدید"
+
+msgid "New costume from camera"
+msgstr "لباس جدید از دوربین"
+
+# 91%
+msgid "New costume:"
+msgstr "لباس جدید:"
+
+msgid "New List"
+msgstr "لیست جدید"
+
+msgid "New Message"
+msgstr "پیام جدید"
+
+msgid "new message..."
+msgstr "پیام جدید .."
+
+msgid "New name"
+msgstr "نام جدید"
+
+# 90%
+msgid "New sound:"
+msgstr "صدای جدید:"
+
+msgid "New sprite from camera"
+msgstr "شبح جدید از دوربین"
+
+msgid "New sprite:"
+msgstr "شبح جدید:"
+
+msgid "New Variable"
+msgstr "متغیر جدید"
+
+msgid "No motion blocks"
+msgstr "هیچ بلاک متحرکی نیست"
+
+msgid "normal readout"
+msgstr "بازخوانش معمولی"
+
+msgid "Not saved; network or server problem."
+msgstr "ذخیره نشد، مشکل در برقراری ارتباط با شبکه یا سرور."
+
+msgid "Not saved; project did not load."
+msgstr "ذخیره نشد، پروژه بارگذاری نشد."
+
+msgid "of"
+msgstr "از"
+
+msgid "off"
+msgstr "خاموش"
+
+msgid "Offline Editor"
+msgstr "ویرایشگر آفلاین"
+
+msgid "OK"
+msgstr "تایید"
+
+msgid "on"
+msgstr "روشن"
+
+msgid "on-flipped"
+msgstr "برگرداندن-روشن"
+
+msgid "Open"
+msgstr "باز کن"
+
+msgid "Open Cuica"
+msgstr "اوپن کویکا"
+
+msgid "Open Hi-Hat"
+msgstr "Open Hi-Hat"
+
+msgid "Options"
+msgstr "تنظیمات"
+
+msgid "Organ"
+msgstr "وسیله"
+
+msgid "Other"
+msgstr "سایر"
+
+msgid "other scripts in sprite"
+msgstr "سایر اسکریپت های شبح"
+
+msgid "other scripts in stage"
+msgstr "سایر اسکریپت های صحنه"
+
+msgid "Outdoors"
+msgstr "خارج از خانه"
+
+msgid "Paint new backdrop"
+msgstr "نقاشی کردن پشت صحنه جدید"
+
+msgid "Paint new costume"
+msgstr "نقاشی لباس جدید"
+
+msgid "Paint new sprite"
+msgstr "نقاشی شبح جدید"
+
+msgid "Password"
+msgstr "رمز"
+
+msgid "Password is required"
+msgstr "رمز لازم است"
+
+msgid "paste"
+msgstr "پیست کن"
+
+msgid "Pencil"
+msgstr "مداد"
+
+msgid "People"
+msgstr "مردم"
+
+msgid "Percussion"
+msgstr "موسیقی ضربی"
+
+msgid "photo1"
+msgstr "تصویر1"
+
+msgid "Piano"
+msgstr "پیانو"
+
+msgid "Pick up color"
+msgstr "انتخاب رنگ"
+
+msgid "pixelate"
+msgstr "پیکسل بندی کردن"
+
+msgid "Pizzicato"
+msgstr "ساز زهی"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr "پشت صحنه قبلی"
+
+msgid "Project did not load."
+msgstr "پروژه بارگذاری نشد."
+
+msgid "Project not saved!"
+msgstr "پروژه ذخیره نشد!"
+
+msgid "Project name"
+msgstr "نام پروژه"
+
+msgid "Project name is required"
+msgstr "نام پروژه لازم است"
+
+msgid "random"
+msgstr "تصادفی"
+
+msgid "Record"
+msgstr "ضبط"
+
+msgid "Record new sound"
+msgstr "ضبط صدای جدید"
+
+msgid "record..."
+msgstr "ضبط .."
+
+msgid "recording1"
+msgstr "رکورد1"
+
+msgid "Rectangle"
+msgstr "مستطیل"
+
+# 75%
+msgid "Redo"
+msgstr "دوباره انجام بده"
+
+msgid "redo"
+msgstr "دوباره انجام بده"
+
+msgid "Remix"
+msgstr "ترکیب مجدد"
+
+msgid "Remixing..."
+msgstr "ترکیب مجدد .."
+
+msgid "Rename"
+msgstr "تغییرنام"
+
+msgid "rename variable"
+msgstr "تغییر نام متغیر"
+
+msgid "Reshape"
+msgstr "تغییر شکل"
+
+msgid "resistance-A"
+msgstr "مقاومت-A"
+
+msgid "resistance-B"
+msgstr "مقاومت-B"
+
+msgid "resistance-C"
+msgstr "مقاومت-C"
+
+msgid "resistance-D"
+msgstr "مقاومت-D"
+
+msgid "reverse"
+msgstr "برعکس"
+
+msgid "Revert"
+msgstr "برگرداندن"
+
+msgid "Reverting..."
+msgstr "در حال برگرداندن .."
+
+msgid "right"
+msgstr "راست"
+
+msgid "right arrow"
+msgstr "فلش راست"
+
+msgid "rotation style:"
+msgstr "نحوه چرخش:"
+
+msgid "Run without screen refresh"
+msgstr "بدون ریفرش کردن صفحه اجرا کن"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "یک نسخه از این پروژه را ذخیره کن و به ایده های خود اضافه کن."
+
+msgid "Save as"
+msgstr "ذخیره با نام دیگر"
+
+msgid "Save now"
+msgstr "الان ذخیره کن"
+
+msgid "Save project?"
+msgstr "ذخیره پروژه"
+
+msgid "save to local file"
+msgstr "ذخیره در پرونده محلی"
+
+msgid "Saved"
+msgstr "ذخیره شد"
+
+msgid "Saving changes..."
+msgstr "درحال ذخیره تغییرات .."
+
+msgid "Saving..."
+msgstr "در حال ذخیره"
+
+msgid "Saxophone"
+msgstr "ساکسیفون"
+
+msgid "Scratch Updater"
+msgstr "به روزرسان Scratch"
+
+msgid "Script"
+msgstr "اسکریپت"
+
+msgid "Scripts"
+msgstr "اسکریپت ها"
+
+msgid "second"
+msgstr "دومی"
+
+msgid "See project page"
+msgstr "دیدن صفحه پروژه"
+
+msgid "Select"
+msgstr "انتخاب"
+
+msgid "select all"
+msgstr "انتخاب همه موارد"
+
+msgid "Select and duplicate"
+msgstr "انتخاب کن و تکثیر کن"
+
+msgid "Send to back"
+msgstr "بفرست به عقب"
+
+msgid "Set Costume Center"
+msgstr "انتخاب مرکز لباس"
+
+msgid "Set costume center"
+msgstr "انتخاب مرکز لباس"
+
+msgid "set slider min and max"
+msgstr "انتخاب مینیموم و ماکسیمم اسلایدر"
+
+msgid "Share"
+msgstr "به اشتراک گذاری"
+
+msgid "Share to website"
+msgstr "اشتراک گذاری روی وبسایت"
+
+msgid "shared"
+msgstr "اشتراک گذاری شده"
+
+msgid "Shift:"
+msgstr "انتقال:"
+
+msgid "show receivers"
+msgstr "نمایش دریافت کنندگان"
+
+msgid "show senders"
+msgstr "نمایش فرستندگان"
+
+msgid "show:"
+msgstr "نمایش:"
+
+msgid "Shrink"
+msgstr "کاهش اندازه"
+
+msgid "Side Stick"
+msgstr "Side Stick"
+
+msgid "Sign in"
+msgstr "ورود"
+
+msgid "Sign in to save"
+msgstr "وارد شوید برای ذخیره سازی"
+
+msgid "silence"
+msgstr "سکوت"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "لغزنده"
+
+msgid "Slider Range"
+msgstr "محدوده اسلایدر"
+
+msgid "Small stage layout"
+msgstr "طرح بندی کوچک صحنه نمایش"
+
+msgid "Smooth"
+msgstr "هموار"
+
+msgid "Snare Drum"
+msgstr "طبل اسنیر"
+
+msgid "softer"
+msgstr "نرم تر"
+
+msgid "sound"
+msgstr "صدا"
+
+msgid "Sound Library"
+msgstr "کتابخانه صدا"
+
+# 80%
+# 83%
+msgid "Sounds"
+msgstr "صداها"
+
+# 80%
+msgid "Space"
+msgstr "فاصله"
+
+msgid "space"
+msgstr "فاصله"
+
+msgid "Sports"
+msgstr "ورزش ها"
+
+msgid "Sprite"
+msgstr "شبح"
+
+msgid "Sprite Library"
+msgstr "کتابخانه شبح"
+
+msgid "Sprite1"
+msgstr "شبح شماره ۱"
+
+msgid "Sprites"
+msgstr "شبح ها"
+
+msgid "sqrt"
+msgstr "جذر"
+
+msgid "Square"
+msgstr "مربع کامل"
+
+msgid "Stage"
+msgstr "طبقه"
+
+msgid "Stage selected:"
+msgstr "صحنه نمایش انتخاب شده:"
+
+msgid "Steel Drum"
+msgstr "Steel Drum"
+
+msgid "Synth Lead"
+msgstr "Synth Lead"
+
+msgid "Synth Pad"
+msgstr "Synth Pad"
+
+msgid "Tambourine"
+msgstr "Tambourine"
+
+msgid "tan"
+msgstr "tan"
+
+msgid "text"
+msgstr "متن"
+
+msgid "Text"
+msgstr "متن"
+
+msgid "that way"
+msgstr "اون طرف"
+
+msgid "Theme"
+msgstr "تم"
+
+msgid "Things"
+msgstr "اشیاء"
+
+msgid "This is the current version."
+msgstr "این ورژن کنونی است."
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"این پروژه می تواند از طریق بلاک شدن \"username\" تشخیص دهد چه کس از آن "
+"استفاده می کند، برای پنهان کردن مشخصات خود از سیستم خارج شوید قبل از استفاده "
+"از پروژه."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"این پروژه از داده های ابری استفاده می کند - این امکان فقط برای کاربران وارد "
+"شده به سیستم فعال است."
+
+msgid "this script"
+msgstr "این اسکریپت"
+
+msgid "this sprite"
+msgstr "این شبح"
+
+msgid "this way"
+msgstr "این طرف"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "همه تغییرات را از لحظه باز شدن این پروژه دور بریزم؟"
+
+msgid "Tips"
+msgstr "نکات"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr "برای خذف توضیحات یک بلاک، ابتدا تمامی کاربران آن را حذف کنید."
+
+msgid "Transportation"
+msgstr "حمل و نقل"
+
+msgid "Triangle"
+msgstr "مثلث"
+
+msgid "Trombone"
+msgstr "Trombone"
+
+msgid "Turbo mode"
+msgstr "حالت سریع"
+
+msgid "Turbo Mode"
+msgstr "حالت توربو"
+
+msgid "Type"
+msgstr "نوع"
+
+# 75%
+msgid "Undelete"
+msgstr "حذف نکن"
+
+msgid "Underwater"
+msgstr "زیر آب"
+
+msgid "undo"
+msgstr "برگرد"
+
+msgid "Undo"
+msgstr "برگرد"
+
+msgid "Undo Revert"
+msgstr "رجوع را برگردان"
+
+msgid "Ungroup"
+msgstr "انحلال گروه"
+
+msgid "unshared"
+msgstr "به اشتراک نگذار"
+
+msgid "up"
+msgstr "بالا"
+
+msgid "up arrow"
+msgstr "دکمه بالا"
+
+msgid "Update failed"
+msgstr "به روزرسانی با مشکل مواجه شد"
+
+msgid "Update not needed"
+msgstr "نیازی به روزرسانی نیست"
+
+msgid "Update now"
+msgstr "الان به روزرسانی کن"
+
+msgid "Upload backdrop from file"
+msgstr "بارگذاری پشت صحنه از فایل"
+
+msgid "Upload costume from file"
+msgstr "بارگذاری لباس از فایل"
+
+msgid "Upload from your computer"
+msgstr "بارگذاری از کامپیوتر شما"
+
+msgid "Upload sound from file"
+msgstr "بارگذاری صدا از فایل"
+
+msgid "Upload sprite from file"
+msgstr "بارگذاری شبح از فایل"
+
+msgid "Uploading image..."
+msgstr "بارگذاری تصویر .."
+
+msgid "Uploading sound..."
+msgstr "بارگذاری صدا .."
+
+msgid "Uploading sprite..."
+msgstr "بارگذاری شبح"
+
+msgid "variable"
+msgstr "متغیر"
+
+msgid "Variable name"
+msgstr "نام متغیر"
+
+msgid "Vector"
+msgstr "بردار"
+
+msgid "Vector Mode"
+msgstr "حالت برداری"
+
+msgid "Vibraphone"
+msgstr "Vibraphone"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video direction"
+msgstr "جهت ویدیو"
+
+msgid "video motion"
+msgstr "ویدیو حرکت"
+
+msgid "Video on:"
+msgstr "ویدیو روی:"
+
+msgid "Vocals"
+msgstr "آواز"
+
+msgid "Walking"
+msgstr "راه رفتن"
+
+msgid "Want to save? Click remix"
+msgstr "می خواهید ذخیره کنید؟ دوباره آمیختن را کلیک کنید"
+
+msgid "Which column do you want to import"
+msgstr "کدام ستون را می خواهید وارد کنید"
+
+msgid "whirl"
+msgstr "دور خود چرخیدن"
+
+msgid "Wood Block"
+msgstr "بلاک چوبی"
+
+msgid "Wooden Flute"
+msgstr "Wooden Flute"
+
+msgid "year"
+msgstr "سال"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"شما نمی توانید داده های ابری پروژه کس دیگری را تغییر بدهید.<br>هر تغییری در "
+"ویرایشگر بدهید به صورت موقت خواهد بود و نمایش داده نمی شود."
+
+msgid "Your Scratch name"
+msgstr "نام Scratch شما"
+
+msgid "Your Scratch name is required"
+msgstr "نام Scratch لازم است"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "نتوانستم از سرور برنامه جدید را بگیرم."
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "نتوانستم از سرور برنامه جدید را بگیرم."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "بارگیری ورژن جدید"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Replace existing project?"
+msgstr "جایگزینی روی پروژه ای که هست"
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "ذخیره پروژه"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "اشتراک گذاری روی وبسایت Scratch"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "فارسی"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.لیست حاوی %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "وقتی صحنه کلیک شد"
+
+# 89%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "راستای حرکت موتور را %m.motorDirection قرار بده"
+
+# 77%
+#~ msgid "set motor power %n"
+#~ msgstr "قدرت موتور را %n قرار بده"
+
+#~ msgid "turn motor off"
+#~ msgstr "موتور را خاموش کن"
+
+#~ msgid "turn motor on"
+#~ msgstr "موتور را روشن کن"
+
+# 80%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "موتور را برای %n ثانیه روشن کن"
+
+#~ msgid "when distance < %n"
+#~ msgstr "تا زمانی که فاصله < %n شود"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "تا زمانی که مقدار کج شوندگی = %n شود"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "%m.motorDirection راستای حرکت موتور به"
+
+#~ msgid "forever if %b"
+#~ msgstr "%b برای همیشه اگر"
+
+#~ msgid "if %b"
+#~ msgstr "%b اگر"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "%m.motorDirection راستای حرکت موتور به"
+
+#~ msgid "motor off"
+#~ msgstr "موتور خاموش"
+
+#~ msgid "motor on"
+#~ msgstr "موتور روشن"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "ثانیه روشن کن %n موتور را برای"
+
+#~ msgid "motor power %n"
+#~ msgstr "%n :قدرت موتور"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "ضربه بزن %n را برای %d.note نوت"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "درباره افزونه LEGO WeDo"
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "درباره افزونه PicoBoard "
+
+#~ msgid "Account settings"
+#~ msgstr "تنظیمات کاربری"
+
+#~ msgid "add comment here..."
+#~ msgstr "افزودن نظر به اینجا"
+
+#~ msgid "all motors"
+#~ msgstr "همه موتورها"
+
+#~ msgid "Cannot Add"
+#~ msgstr "نمی توان اضافه کرد"
+
+#~ msgid "clean up"
+#~ msgstr "پاک سازی"
+
+#~ msgid "Cloud"
+#~ msgstr "ابر"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "متغیر ابری (ذخیره شده در سرور)"
+
+# 75%
+# 88%
+#~ msgid "Costumes:"
+#~ msgstr "لباس ها:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "بارگیری ورژن جدید"
+
+#~ msgid "empty"
+#~ msgstr "خالی"
+
+#~ msgid "Erase all"
+#~ msgstr "پاک کردن همه"
+
+#~ msgid "everything"
+#~ msgstr "همه چیز"
+
+#~ msgid "Extension Library"
+#~ msgstr "کتابخانه افزونه"
+
+#~ msgid "Extension Problem"
+#~ msgstr "مشکلات افزونه"
+
+#~ msgid "false"
+#~ msgstr "غلط"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "برو به کارهای من"
+
+#~ msgid "Hello!"
+#~ msgstr "سلام!"
+
+#~ msgid "Hmm..."
+#~ msgstr "هممممم .."
+
+#~ msgid "hello"
+#~ msgstr "سلام"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "نورها"
+
+#~ msgid "limit reached"
+#~ msgstr "به حدش رسید"
+
+#~ msgid "motor"
+#~ msgstr "موتور"
+
+#~ msgid "motor A"
+#~ msgstr "موتور A"
+
+#~ msgid "motor B"
+#~ msgstr "موتور B"
+
+#~ msgid "My Stuff"
+#~ msgstr "کارهای من"
+
+#~ msgid "not ="
+#~ msgstr "منفی ="
+
+#~ msgid "Profile"
+#~ msgstr "پروفایل"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "حذف بلاک های افزونه "
+
+#~ msgid "Replace existing project"
+#~ msgstr "جایگزینی روی پروژه ای که هست"
+
+#~ msgid "requires sign in"
+#~ msgstr "باید وارد شوید"
+
+#~ msgid "Save as a copy"
+#~ msgstr "ذخیره به عنوان یک کپی"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "ویرایشگر آفلاین Scratch 2.0"
+
+#~ msgid "Scripts:"
+#~ msgstr "اسکریپت ها:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "پنجره راهنما (سمت راست) را ببین برای نصب پلاگین ها و راه اندازی افزونه ها."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "اشتراک گذاری روی وبسایت Scratch"
+
+#~ msgid "Sign out"
+#~ msgstr "خروج"
+
+#~ msgid "stored on server"
+#~ msgstr "ذخیره شده بر روی سرور"
+
+#~ msgid "The name is already in use."
+#~ msgstr "این نام قبلا استفاده شده است."
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "این پروژه نتوانست بارگذاری شود و تیم Scratch مطلع شد. تایید را بزنید برای "
+#~ "خروج از این صفحه."
+
+#~ msgid "thing"
+#~ msgstr "شیئ"
+
+#~ msgid "true"
+#~ msgstr "درست"
+
+#~ msgid "What's your name?"
+#~ msgstr "نام شما چیست؟"
+
+#~ msgid "world"
+#~ msgstr "جهان"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>اطلاعات درباره متغیر های ابری</b><br>&nbsp;<br>در حال حاضر، فقط اعداد "
+#~ "پشتیبانی می شوند<br>پیام رسان ها اجازه فعالیت ندارند، و پاک می "
+#~ "شوند<br>برای اطلاعات بیشتر<a href= target=>پرسش و پاسخ داده های ابری را "
+#~ "ببینید</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "   را کلیک کنید برای سعی مجدد یا  برای ذخیره سازی"
+
+#~ msgid "Eraser width:"
+#~ msgstr "عرض پاک کن:"
+
+#~ msgid "Line width:"
+#~ msgstr "عرض خط:"
+
+#~ msgid "Add a boolean input:"
+#~ msgstr "یک ورودی بولین (صفر یا یک) اضافه کنید:"
+
+#~ msgid "Add a number input:"
+#~ msgstr "یک ورودی عددی اضافه کنید:"
+
+#~ msgid "Add a string input:"
+#~ msgstr "یک ورودی رشته ای اضافه کنید:"
+
+# 75%
+#, fuzzy
+#~ msgid "Fill"
+#~ msgstr "فایل"
+
+#~ msgid "login"
+#~ msgstr "ورود"
+
+#~ msgid "New costume"
+#~ msgstr "لباس جدید"
+
+#~ msgid "New sound"
+#~ msgstr "صدای جدید"
+
+#~ msgid "Paint"
+#~ msgstr "رنگ کردن"
+
+#~ msgid "Scratch Cat"
+#~ msgstr "گربه اسکرچ"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "bottom-left"
+#~ msgstr "پایین - چپ"
+
+#~ msgid "bottom-right"
+#~ msgstr "پایین - راست"
+
+#~ msgid "middle"
+#~ msgstr "وسط"
+
+#~ msgid "name"
+#~ msgstr "نام"
+
+#~ msgid "say"
+#~ msgstr "بگو"
+
+#~ msgid "shout"
+#~ msgstr "فریاد"
+
+#~ msgid "think"
+#~ msgstr "فکر"
+
+#~ msgid "top-left"
+#~ msgstr "بالا - چپ"
+
+#~ msgid "top-right"
+#~ msgstr "بالا - راست"
+
+#~ msgid "High Tom"
+#~ msgstr "High Tom"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Long Guiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Low Bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Low Conga"
+
+#~ msgid "Low Tom"
+#~ msgstr "Low Tom"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Low Wood Block"
+
+#~ msgid "Maracas"
+#~ msgstr "Maracas"
+
+#~ msgid "More"
+#~ msgstr "بیشتر"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Mute Triangle"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Open Triangle"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Pedal Hi-Hat"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Short Guiro"

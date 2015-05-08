@@ -1,0 +1,2099 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-02-06 02:02+0000\n"
+"Last-Translator: timsk3 <translate_scratch@timsk.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1391652125.000000\n"
+
+msgid "%b and %b"
+msgstr "%b kaj %b"
+
+msgid "%b or %b"
+msgstr "%b aŭ %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute de %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp de %n"
+
+msgid "%m.sensor sensor value"
+msgstr "valoro de sentilo %m.sensor"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "aldoni %s al %m.list"
+
+msgid "answer"
+msgstr "respondo"
+
+msgid "ask %s and wait"
+msgstr "demandi %s kaj atendi"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "numero de la fono"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "nomo de la fono"
+
+msgid "broadcast %m.broadcast"
+msgstr "elsendi %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "elsendi %m.broadcast kaj atendi"
+
+msgid "change %m.effect effect by %n"
+msgstr "ŝanĝi efekton %m.effect je %n"
+
+msgid "change %m.var by %n"
+msgstr "ŝanĝi %m.var je %n"
+
+msgid "change pen color by %n"
+msgstr "ŝanĝi skribilkoloron je %n"
+
+msgid "change pen shade by %n"
+msgstr "ŝanĝi kolorforton je %n"
+
+msgid "change pen size by %n"
+msgstr "ŝanĝi skribildikecon je %n"
+
+msgid "change size by %n"
+msgstr "ŝanĝi grandon je %n"
+
+msgid "change tempo by %n"
+msgstr "ŝanĝi rapidon je %n"
+
+msgid "change volume by %n"
+msgstr "ŝanĝi laŭton je %n"
+
+msgid "change x by %n"
+msgstr "ŝanĝi x je %n"
+
+msgid "change y by %n"
+msgstr "ŝanĝi y je %n"
+
+msgid "clear"
+msgstr "forigi ĉion"
+
+msgid "clear graphic effects"
+msgstr "forigi grafikajn efektojn"
+
+msgid "color %c is touching %c?"
+msgstr "ĉu koloro %c tuŝas %c?"
+
+msgid "Control"
+msgstr "Stirado"
+
+msgid "costume #"
+msgstr "kostum-nombro"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "krei klonon de %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "aktuala %m.timeAndDate"
+
+msgid "Data"
+msgstr "Datumoj"
+
+msgid "days since 2000"
+msgstr "tagoj depost 2000"
+
+msgid "define"
+msgstr "difini"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "forigi %d.listDeleteItem el %m.list"
+
+msgid "delete this clone"
+msgstr "forigi tiun ĉi klonon"
+
+msgid "direction"
+msgstr "orientiĝo"
+
+msgid "distance"
+msgstr "distanco"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "distanco al %m.spriteOrMouse"
+
+msgid "else"
+msgstr "alie"
+
+msgid "Events"
+msgstr "Eventoj"
+
+msgid "forever"
+msgstr "ripeti senfine"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "gliti en %n sek. al x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "iri malantaŭen je %n tavoloj"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "iri al %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "iri al la malfono"
+
+msgid "go to x:%n y:%n"
+msgstr "iri al x:%n y:%n"
+
+msgid "hide"
+msgstr "kaŝiĝi"
+
+msgid "hide list %m.list"
+msgstr "kaŝi la liston %m.list"
+
+msgid "hide variable %m.var"
+msgstr "kaŝi la variablon %m.var"
+
+msgid "if %b then"
+msgstr "se %b tiam"
+
+msgid "if on edge, bounce"
+msgstr "se mi tuŝas randon, resalti"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "enŝovi %s ĉe %d.listItem de %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "%d.listItem-a ero de %m.list"
+
+msgid "join %s %s"
+msgstr "kunligi %s kaj %s"
+
+msgid "key %m.key pressed?"
+msgstr "ĉu klavo %m.key estas premita?"
+
+msgid "length of %m.list"
+msgstr "longo de %m.list"
+
+msgid "length of %s"
+msgstr "longo de %s"
+
+msgid "letter %n of %s"
+msgstr "%n-a litero el %s"
+
+msgid "Looks"
+msgstr "Aspekto"
+
+msgid "loudness"
+msgstr "laŭteco"
+
+msgid "More Blocks"
+msgstr "Pli da blokoj"
+
+msgid "Motion"
+msgstr "Movado"
+
+msgid "mouse down?"
+msgstr "ĉu musbutono estas premita?"
+
+msgid "mouse x"
+msgstr "musa x-pozicio"
+
+msgid "mouse y"
+msgstr "musa y-pozicio"
+
+msgid "move %n steps"
+msgstr "iri %n paŝojn"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "sekva fono"
+
+msgid "next costume"
+msgstr "sekva kostumo"
+
+msgid "not %b"
+msgstr "ne %b"
+
+msgid "Operators"
+msgstr "Operatoroj"
+
+msgid "Pen"
+msgstr "Skribilo"
+
+msgid "pen down"
+msgstr "ekskribi"
+
+msgid "pen up"
+msgstr "ĉesi skribi"
+
+msgid "pick random %n to %n"
+msgstr "hazarda numero inter %n kaj %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "aŭdigi tamburon %d.drum dum %n taktoj"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "aŭdigi noton %d.note dum %n taktoj"
+
+msgid "play sound %m.sound"
+msgstr "aŭdigi sonon %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "aŭdigi sonon %m.sound ĝisfine"
+
+msgid "point in direction %d.direction"
+msgstr "orientiĝi al %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "orientiĝi al %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "ripeti %n-foje"
+
+msgid "repeat until %b"
+msgstr "ripeti ĝis %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "anstataŭigi %d.listItem-an eron de %m.list per %s"
+
+msgid "reset timer"
+msgstr "restartigi klikhorloĝon"
+
+msgid "rest for %n beats"
+msgstr "paŭzi dum %n taktoj"
+
+msgid "round %n"
+msgstr "rondigi %n"
+
+msgid "say %s"
+msgstr "diri %s"
+
+msgid "say %s for %n secs"
+msgstr "diri %s dum %n sekundoj"
+
+msgid "Sensing"
+msgstr "Sentiloj"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "ĉu sentilo %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "valorigi efekton %m.effect al %n"
+
+msgid "set %m.var to %s"
+msgstr "valorigi %m.var al %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "valorigi instrumenton al %d.instrument"
+
+# 89%
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "valorigi motordirekton al %m.motorDirection"
+
+# 77%
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
+msgstr "valorigi motorforton al %n"
+
+msgid "set pen color to %c"
+msgstr "elekti skribilkoloron %c"
+
+msgid "set pen color to %n"
+msgstr "elekti skribilkoloron %n"
+
+msgid "set pen shade to %n"
+msgstr "valorigi kolorforton al %n"
+
+msgid "set pen size to %n"
+msgstr "valorigi skribildikecon al %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "elekti turnstilon %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "valorigi grandon al %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "valorigi rapidon al po %n taktoj minute"
+
+msgid "set video transparency to %n%"
+msgstr "valorigi video-travideblecon al %n%"
+
+msgid "set volume to %n%"
+msgstr "valorigi laŭton al %n%"
+
+msgid "set x to %n"
+msgstr "valorigi x al %n"
+
+msgid "set y to %n"
+msgstr "valorigi y al %n"
+
+msgid "show"
+msgstr "montriĝi"
+
+msgid "show list %m.list"
+msgstr "montri la liston %m.list"
+
+msgid "show variable %m.var"
+msgstr "montri variablon %m.var"
+
+msgid "size"
+msgstr "grando"
+
+msgid "Sound"
+msgstr "Sonoj"
+
+msgid "stamp"
+msgstr "stampi"
+
+msgid "stop %m.stop"
+msgstr "haltigi %m.stop"
+
+msgid "stop all sounds"
+msgstr "ĉesigi ĉiujn sonojn"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "ŝanĝi fonon al %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "ŝanĝi fonon al %m.backdrop kaj atendi"
+
+msgid "switch costume to %m.costume"
+msgstr "ŝanĝi kostumon al %m.costume"
+
+msgid "tempo"
+msgstr "rapido"
+
+msgid "think %s"
+msgstr "pensi %s"
+
+msgid "think %s for %n secs"
+msgstr "pensi %s dum %n sekundoj"
+
+msgid "tilt"
+msgstr "klini"
+
+msgid "timer"
+msgstr "klikhorloĝo"
+
+msgid "touching %m.touching?"
+msgstr "ĉu mi tuŝas %m.touching?"
+
+msgid "touching color %c?"
+msgstr "ĉu mi tuŝas koloron %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "turni @turnLeft je %n gradoj"
+
+msgid "turn @turnRight %n degrees"
+msgstr "turni @turnRight je %n gradoj"
+
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
+msgstr "malŝalti motoron"
+
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
+msgstr "ŝalti motoron"
+
+# 80%
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
+msgstr "ŝalti motoron dum %n sekundoj"
+
+msgid "turn video %m.videoState"
+msgstr "video iĝu %m.videoState"
+
+msgid "username"
+msgstr "salutnomo"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "video %m.videoMotionType sur %m.stageOrThis"
+
+msgid "volume"
+msgstr "laŭteco"
+
+msgid "wait %n secs"
+msgstr "atendi dum %n sekundoj"
+
+msgid "wait until %b"
+msgstr "atendi ĝis %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "kiam %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "kiam klavo %m.key estas premita"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
+msgid "when %m.triggerSensor > %n"
+msgstr "kiam %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "kiam @greenFlag estas alklakita"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "kiam fono ŝanĝiĝas al %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr "kiam mi ricevas %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "kiam mi komenciĝas kiel klono"
+
+msgid "when Stage clicked"
+msgstr ""
+
+msgid "when this sprite clicked"
+msgstr "kiam tiu ĉi rolulo estas alklakita"
+
+msgid "when tilt %m.eNe %n"
+msgstr ""
+
+msgid "x position"
+msgstr "x-pozicio"
+
+msgid "y position"
+msgstr "y-pozicio"
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.list enhavas %s"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Informoj pri Ennubaj Variabloj</b><br>&nbsp;<br>Aktuale, nur numberoj "
+"estas akceptitaj<br>Tujmesaĝejoj ne estas akceptitaj, kaj estos forigitaj."
+"<br>Por pli da informoj, <a href= target=>vidu la demandaro pri Ennubaj "
+"Datumoj.</a>"
+
+msgid "A connected"
+msgstr "A estas konektita"
+
+msgid "a copy of the project file on your computer."
+msgstr "kopio de la projekto-dosiero ĉe via komputilo."
+
+msgid "A newer version of Scratch is available"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
+msgid "abs"
+msgstr "abs"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr ""
+
+msgid "Add an Extension"
+msgstr ""
+
+msgid "Add boolean input:"
+msgstr "Aldoni bulean enigon:"
+
+msgid "add comment"
+msgstr "aldoni komenton"
+
+msgid "add comment here..."
+msgstr ""
+
+msgid "Add label text:"
+msgstr "Aldoni tekston al etikedo:"
+
+msgid "Add number input:"
+msgstr "Aldoni numeran enigon:"
+
+msgid "Add string input:"
+msgstr "Aldoni ĉenan enigon:"
+
+msgid "all"
+msgstr "ĉiuj"
+
+msgid "All"
+msgstr "Ĉion"
+
+msgid "all around"
+msgstr "turniĝi libere"
+
+msgid "all motors"
+msgstr ""
+
+msgid "Animal"
+msgstr "Besto"
+
+msgid "Animals"
+msgstr "Bestoj"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "elementoj ŝargitaj"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B estas konektita"
+
+msgid "Back a layer"
+msgstr "Iri malantaŭen je unu tavolo"
+
+msgid "backdrop"
+msgstr "fono"
+
+msgid "Backdrop"
+msgstr "Fono"
+
+msgid "Backdrop Library"
+msgstr "Biblioteko de fonoj"
+
+msgid "backdrop1"
+msgstr "fono1"
+
+msgid "backdrops"
+msgstr "fonoj"
+
+msgid "Backdrops"
+msgstr "Fonoj"
+
+msgid "Backpack"
+msgstr "Dorsosako"
+
+msgid "Bass"
+msgstr "Baso"
+
+msgid "Bass Drum"
+msgstr "Bastamburo"
+
+msgid "Bassoon"
+msgstr "Fagoto"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Pro tio, ke vi havas novan Scratch-konton, viaj eventualaj ŝanĝoj al ennubaj "
+"datumoj ankoraŭ ne konserviĝos. Daŭrigu vian partoprenon ĉe Scratch, kaj vi "
+"baldaŭ gajnos la rajton uzi ennubajn datumojn!"
+
+msgid "Bitmap"
+msgstr "Rastrumo"
+
+msgid "Bitmap Mode"
+msgstr "Rastruma reĝimo"
+
+msgid "Block help"
+msgstr "Helpo pri blokoj"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "heleca"
+
+msgid "Bring to front"
+msgstr "Iri al la malfono"
+
+msgid "Broadcast"
+msgstr "Elsendi"
+
+msgid "Brush"
+msgstr "Peniko"
+
+msgid "button pressed"
+msgstr "butono premita"
+
+msgid "by"
+msgstr "de"
+
+msgid "bytes loaded"
+msgstr "bajtoj ŝargitaj"
+
+msgid "C connected"
+msgstr "C estas konektita"
+
+msgid "Cabasa"
+msgstr "Cabazo"
+
+msgid "Camera"
+msgstr "Filmilo"
+
+msgid "can drag in player:"
+msgstr "ĉu eblas treni?"
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Cannot Add"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr "Ne eblas forigi"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Ne troviĝis retaliron, aŭ ne sukcesis atingi servilon."
+
+msgid "Castle"
+msgstr "Kastelo"
+
+msgid "Category"
+msgstr "Kategorio"
+
+msgid "ceiling"
+msgstr "plafono"
+
+msgid "Cello"
+msgstr "Violonĉelo"
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Choir"
+msgstr "Ĥoro"
+
+msgid "Choose backdrop from library"
+msgstr "Elekti fonon el biblioteko"
+
+msgid "Choose costume from library"
+msgstr "Elekti kostumon el biblioteko"
+
+msgid "Choose sound from library"
+msgstr "Elekti sonon el biblioteko"
+
+msgid "Choose sprite from library"
+msgstr "Elekti rolulon el biblioteko"
+
+msgid "Circle"
+msgstr "Cirklo"
+
+msgid "City"
+msgstr "Urbo"
+
+msgid "Clarinet"
+msgstr "Klarneto"
+
+msgid "Claves"
+msgstr "Klaveoj"
+
+#, fuzzy
+msgid "clean up"
+msgstr "purigo"
+
+msgid "Clear"
+msgstr "Forigi"
+
+msgid "clear senders/receivers"
+msgstr "forigi sendantojn/ricevantojn"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "Musklaku  por provi denove, aŭ  por konservi"
+
+msgid "Close"
+msgstr "Fermi"
+
+msgid "Closed Hi-Hat"
+msgstr "Ĉarlestono kunigata"
+
+msgid "Cloud data"
+msgstr "Ennubaj datumoj"
+
+msgid "Cloud variable (stored on server)"
+msgstr ""
+
+msgid "color"
+msgstr "kolora"
+
+msgid "Color a shape"
+msgstr "Kolorigi formon"
+
+msgid "Conga"
+msgstr "Kongao"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Konektado al Nuba Servilo..."
+
+msgid "Convert to bitmap"
+msgstr "Konverti al rastrumo"
+
+msgid "Convert to vector"
+msgstr "Konverti al vektoro"
+
+msgid "Converting mp3..."
+msgstr "Konvertado al mp3..."
+
+msgid "copy"
+msgstr "kopii"
+
+msgid "Copying..."
+msgstr "Kopiado..."
+
+msgid "cos"
+msgstr "cos"
+
+msgid "Costume"
+msgstr "Kostumo"
+
+msgid "Costume Library"
+msgstr "Biblioteko de kostumoj"
+
+msgid "costume name"
+msgstr "nomo de kostumo"
+
+msgid "costume1"
+msgstr "kostumo1"
+
+msgid "costume2"
+msgstr "kostumo2"
+
+msgid "Costumes"
+msgstr "Kostumoj"
+
+msgid "Costumes > 1"
+msgstr "Kostumoj > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr ""
+
+msgid "Cowbell"
+msgstr "Bovsonorilo"
+
+msgid "Crash Cymbal"
+msgstr "Cimbalo"
+
+msgid "Creating..."
+msgstr "Kreado..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Aktuale, eblas konservi nur numerojn en Ennubaj Variabloj."
+
+msgid "cut"
+msgstr "tondi"
+
+msgid "D connected"
+msgstr "D estas konektita"
+
+msgid "date"
+msgstr "dato"
+
+msgid "day of week"
+msgstr "tago de la semajno"
+
+msgid "delete"
+msgstr "forigi"
+
+# 83%
+msgid "Delete"
+msgstr "Forigi"
+
+msgid "delete variable"
+msgstr "forigi variablon"
+
+msgid "direction:"
+msgstr "orientiĝo:"
+
+msgid "don't rotate"
+msgstr "ne turniĝi"
+
+msgid "Don't save"
+msgstr ""
+
+msgid "down"
+msgstr "malsupre"
+
+msgid "down arrow"
+msgstr "sago malsupra"
+
+msgid "Download"
+msgstr "Elŝuti"
+
+msgid "Download to your computer"
+msgstr "Elŝuti al via komputilo"
+
+msgid "Downloading new version"
+msgstr ""
+
+msgid "duplicate"
+msgstr "duplikati"
+
+msgid "Duplicate"
+msgstr "Duplikati"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "rando"
+
+msgid "Edit"
+msgstr "Redakti"
+
+msgid "edit"
+msgstr "redakti"
+
+msgid "Edit Block"
+msgstr "Redakti blokon"
+
+msgid "Effects"
+msgstr "Efektoj"
+
+msgid "Electric Guitar"
+msgstr "Elektra gitaro"
+
+msgid "Electric Piano"
+msgstr "Elektra piano"
+
+msgid "Electronic"
+msgstr "Elektronika"
+
+msgid "Ellipse"
+msgstr "Elipso"
+
+msgid "empty"
+msgstr ""
+
+msgid "Erase"
+msgstr "Forigi"
+
+msgid "Erase all"
+msgstr ""
+
+# 92%
+msgid "Eraser width"
+msgstr "Larĝo de forviŝilo"
+
+msgid "Error!"
+msgstr "Eraro!"
+
+msgid "everything"
+msgstr ""
+
+msgid "export"
+msgstr "eksporti"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
+msgstr ""
+
+msgid "fade in"
+msgstr "maldissolvi"
+
+msgid "fade out"
+msgstr "fordissolvi"
+
+msgid "false"
+msgstr ""
+
+msgid "Fantasy"
+msgstr "Fantazio"
+
+msgid "Features"
+msgstr "Funkcioj"
+
+msgid "File"
+msgstr "Dosiero"
+
+msgid "Fill with color"
+msgstr "Plenigi per koloro"
+
+msgid "fisheye"
+msgstr "fiŝokula"
+
+msgid "Flip left-right"
+msgstr "Renversi dekstre-maldesktren"
+
+msgid "Flip up-down"
+msgstr "Renversi supre-malsupren"
+
+msgid "floor"
+msgstr "planko"
+
+msgid "Flute"
+msgstr "Fluto"
+
+msgid "Flying"
+msgstr "Flugado"
+
+msgid "Font:"
+msgstr "Tiparo:"
+
+msgid "For all sprites"
+msgstr "Por ĉiuj roluloj"
+
+msgid "For this sprite only"
+msgstr "Nur por tiu ĉi rolulo"
+
+msgid "Forward a layer"
+msgstr "Iri antaŭen je unu tavolo"
+
+msgid "ghost"
+msgstr "diafaneca"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Grow"
+msgstr "Kreski"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "Gitaro"
+
+msgid "Hand Clap"
+msgstr "Manklakado"
+
+msgid "Hardware"
+msgstr ""
+
+msgid "help"
+msgstr ""
+
+msgid "Hello!"
+msgstr ""
+
+msgid "Hmm..."
+msgstr ""
+
+#, fuzzy
+msgid "hello"
+msgstr "Violonĉelo"
+
+msgid "High C"
+msgstr "Alta C"
+
+msgid "Holiday"
+msgstr ""
+
+msgid "hour"
+msgstr "horo"
+
+msgid "Human"
+msgstr "Homa"
+
+# 83%
+msgid "import"
+msgstr "importi"
+
+msgid "Import"
+msgstr "Importi"
+
+msgid "Importing sound..."
+msgstr "Importado de sono..."
+
+msgid "Indoors"
+msgstr "En konstruaĵo"
+
+msgid "Installing..."
+msgstr "Instalado..."
+
+msgid "Instruments"
+msgstr "Instrumentoj"
+
+msgid "large readout"
+msgstr "granda indikilo"
+
+msgid "last"
+msgstr "lasta"
+
+msgid "left"
+msgstr "maldekstra"
+
+msgid "left arrow"
+msgstr "sago maldekstra"
+
+msgid "left-right"
+msgstr "dekstra-maldekstra"
+
+msgid "length"
+msgstr "longo"
+
+msgid "Letters"
+msgstr ""
+
+msgid "Library"
+msgstr "Biblioteko"
+
+msgid "light"
+msgstr "lumo"
+
+# 83%
+#, fuzzy
+msgid "lights"
+msgstr "lumo"
+
+msgid "Line"
+msgstr "Linio"
+
+# 90%
+msgid "Line width"
+msgstr "Larĝo de linio"
+
+# 75%
+msgid "list"
+msgstr "listo"
+
+msgid "List name"
+msgstr "Listnomo"
+
+msgid "ln"
+msgstr "ln"
+
+msgid "Loading project..."
+msgstr "Ŝargado de projekto..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "pli forte"
+
+msgid "Low C"
+msgstr "Malalta C"
+
+msgid "Make a Block"
+msgstr "Konstrui blokon"
+
+msgid "Make a List"
+msgstr "Krei liston"
+
+msgid "Make a Variable"
+msgstr "Krei variablon"
+
+msgid "Marimba"
+msgstr "Marimbo"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "meow"
+msgstr "miaŭ"
+
+msgid "Message Name"
+msgstr "Mesaĝnomo"
+
+msgid "message1"
+msgstr "mesaĝo1"
+
+#, fuzzy
+msgid "Microphone volume:"
+msgstr "Mikrofona laŭteco:"
+
+msgid "Middle C"
+msgstr "Meza C"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "minute"
+msgstr "minuto"
+
+msgid "month"
+msgstr "monato"
+
+msgid "mosaic"
+msgstr "mozaika"
+
+msgid "motion"
+msgstr "movado"
+
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "musa montrilo"
+
+msgid "Multiple"
+msgstr "Pluraj"
+
+msgid "Music and Dance"
+msgstr "Muziko kaj Danco"
+
+msgid "Music Box"
+msgstr "Gramofonaŭtomato"
+
+msgid "Music Loops"
+msgstr "Muzika buklo"
+
+msgid "myself"
+msgstr "mi mem"
+
+msgid "Nature"
+msgstr "Naturo"
+
+msgid "New"
+msgstr "Nova"
+
+msgid "New backdrop from camera"
+msgstr "Nova fono el kamerao"
+
+msgid "New backdrop:"
+msgstr "Nova fono:"
+
+msgid "New Block"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr "Nova kostumo el kamerao"
+
+msgid "New costume:"
+msgstr "Nova kostumo:"
+
+msgid "New List"
+msgstr "Nova listo"
+
+msgid "New Message"
+msgstr ""
+
+msgid "new message..."
+msgstr "nova mesaĝo..."
+
+msgid "New name"
+msgstr "Nova nomo"
+
+msgid "New sound:"
+msgstr "Nova sono:"
+
+msgid "New sprite from camera"
+msgstr "Nova rolulo el kamerao"
+
+msgid "New sprite:"
+msgstr "Nova rolulo:"
+
+msgid "New Variable"
+msgstr "Nova variablo"
+
+msgid "No motion blocks"
+msgstr "Ne estas movaj blokoj"
+
+msgid "normal readout"
+msgstr "kutima montrilo"
+
+msgid "not ="
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr "Ne konservita; estis problemo pri la konekto aŭ servilo."
+
+msgid "Not saved; project did not load."
+msgstr "Ne konserverita; projekto ne ŝargiĝis."
+
+msgid "of"
+msgstr "de"
+
+msgid "off"
+msgstr "malŝaltita"
+
+msgid "Offline Editor"
+msgstr "Eksterreta redaktilo"
+
+msgid "OK"
+msgstr "Bone"
+
+msgid "on"
+msgstr "ŝaltita"
+
+msgid "on-flipped"
+msgstr "ŝaltita-spegulita"
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "Malferma kuiko"
+
+msgid "Open Hi-Hat"
+msgstr "Ĉarlestono disigata"
+
+msgid "Options"
+msgstr "Agordoj"
+
+msgid "Organ"
+msgstr "Orgeno"
+
+msgid "Other"
+msgstr "Alia"
+
+msgid "other scripts in sprite"
+msgstr "aliaj skriptoj en rolulo"
+
+#, fuzzy
+msgid "other scripts in stage"
+msgstr "aliaj skriptoj en rolulo"
+
+msgid "Outdoors"
+msgstr "Ekstere"
+
+msgid "Paint new backdrop"
+msgstr "Pentri novan fonon"
+
+msgid "Paint new costume"
+msgstr "Pentri novan kostumon"
+
+msgid "Paint new sprite"
+msgstr "Pentri novan rolulon"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is required"
+msgstr ""
+
+msgid "paste"
+msgstr "englui"
+
+msgid "Pencil"
+msgstr "Krajono"
+
+msgid "People"
+msgstr "Homoj"
+
+msgid "Percussion"
+msgstr "Frapinstrumentoj"
+
+msgid "photo1"
+msgstr "foto1"
+
+msgid "Piano"
+msgstr "Piano"
+
+msgid "Pick up color"
+msgstr "Elekti koloron"
+
+msgid "pixelate"
+msgstr "rastrumigi"
+
+msgid "Pizzicato"
+msgstr "Plukita"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr ""
+
+msgid "Project did not load."
+msgstr "Projekto ne ŝangiĝis."
+
+msgid "Project not saved!"
+msgstr "Projekto ne konservita!"
+
+msgid "Project name"
+msgstr ""
+
+msgid "Project name is required"
+msgstr ""
+
+msgid "random"
+msgstr "hazarda"
+
+msgid "Record"
+msgstr "Registri"
+
+msgid "Record new sound"
+msgstr "Registri novan sonon"
+
+msgid "record..."
+msgstr ""
+
+msgid "recording1"
+msgstr "registrado1"
+
+msgid "Rectangle"
+msgstr "Rektangulo"
+
+# 75%
+msgid "Redo"
+msgstr "Refari"
+
+msgid "redo"
+msgstr "refari"
+
+msgid "Remix"
+msgstr "Remiksi"
+
+msgid "Remixing..."
+msgstr "Daŭras remiksado..."
+
+msgid "Remove extension blocks"
+msgstr ""
+
+msgid "Rename"
+msgstr "Ŝanĝi la nomon"
+
+msgid "rename variable"
+msgstr "ŝanĝi la variablonomon"
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "Reshape"
+msgstr "Ŝanĝi formon"
+
+msgid "resistance-A"
+msgstr "rezistanco-A"
+
+msgid "resistance-B"
+msgstr "rezistanco-B"
+
+msgid "resistance-C"
+msgstr "rezistanco-C"
+
+msgid "resistance-D"
+msgstr "rezistanco-D"
+
+msgid "reverse"
+msgstr "renversi"
+
+msgid "Revert"
+msgstr "Malfari ŝanĝojn"
+
+msgid "Reverting..."
+msgstr "Malfarado de ŝanĝoj..."
+
+msgid "right"
+msgstr "dekstre"
+
+msgid "right arrow"
+msgstr "sago dekstra"
+
+msgid "rotation style:"
+msgstr "rotaci-stilo:"
+
+msgid "Run without screen refresh"
+msgstr "Rulumi sen redesegni la ekranon"
+
+msgid "Save"
+msgstr "Konservi"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr ""
+
+msgid "Save as"
+msgstr ""
+
+msgid "Save now"
+msgstr "Konservi nun"
+
+msgid "Save project?"
+msgstr ""
+
+msgid "save to local file"
+msgstr "konservi al loka dosiero"
+
+msgid "Saved"
+msgstr "Konservita"
+
+msgid "Saving changes..."
+msgstr "Konservado de ŝanĝoj..."
+
+msgid "Saving..."
+msgstr "Konservado..."
+
+msgid "Saxophone"
+msgstr "Saksofono"
+
+msgid "Scratch Updater"
+msgstr ""
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr ""
+
+msgid "Script"
+msgstr "Skripto"
+
+msgid "Scripts"
+msgstr "Skriptoj"
+
+msgid "second"
+msgstr "sekundo"
+
+msgid "See project page"
+msgstr "Vidigi projektan paĝon"
+
+msgid ""
+"See the Tips window (on the right) to install the plug-in and get the "
+"extension working."
+msgstr ""
+
+msgid "Select"
+msgstr "Elekti"
+
+msgid "select all"
+msgstr "elekti ĉion"
+
+msgid "Select and duplicate"
+msgstr "Elekti kaj kopii"
+
+msgid "Send to back"
+msgstr "Sendi fonon"
+
+msgid "Set Costume Center"
+msgstr "Difini Centron de Kostumo"
+
+msgid "Set costume center"
+msgstr "Difini centron de kostumo"
+
+msgid "set slider min and max"
+msgstr "agordi maksimumon kaj minimumon de la ŝovilo"
+
+msgid "Share"
+msgstr "Kunhavigi"
+
+msgid "Share to website"
+msgstr ""
+
+msgid "Share to Scratch website"
+msgstr ""
+
+msgid "shared"
+msgstr "publika"
+
+msgid "Shift:"
+msgstr "Majuskliga:"
+
+msgid "show receivers"
+msgstr "montri ricevilojn"
+
+msgid "show senders"
+msgstr "montri sendilojn"
+
+msgid "show:"
+msgstr "montri:"
+
+msgid "Shrink"
+msgstr "Malgrandigi"
+
+msgid "Side Stick"
+msgstr "Randbato"
+
+msgid "Sign in"
+msgstr "Ensaluti"
+
+msgid "Sign in to save"
+msgstr "Ensaluti por konservi"
+
+msgid "silence"
+msgstr "silento"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "ŝovilo"
+
+msgid "Slider Range"
+msgstr "Amplekso de la ŝovilo"
+
+msgid "Small stage layout"
+msgstr "Aranĝo kun malgranda scenejo"
+
+msgid "Smooth"
+msgstr "Glata"
+
+msgid "Snare Drum"
+msgstr "Sibla Tamburo"
+
+msgid "softer"
+msgstr "malpli laŭta"
+
+msgid "sound"
+msgstr "sono"
+
+msgid "Sound Library"
+msgstr "Biblioteko de sonoj"
+
+msgid "Sounds"
+msgstr "Sonoj"
+
+# 80%
+msgid "Space"
+msgstr "La Kosmo"
+
+msgid "space"
+msgstr "spacetklavo"
+
+msgid "Sports"
+msgstr "Sportoj"
+
+# 85%
+msgid "Sprite"
+msgstr "Rolulo"
+
+msgid "Sprite Library"
+msgstr "Bibliteko de roluloj"
+
+# 85%
+msgid "Sprite1"
+msgstr "Rolulo1"
+
+msgid "Sprites"
+msgstr "Roluloj"
+
+msgid "sqrt"
+msgstr "radiko"
+
+msgid "Square"
+msgstr "Kvadrato"
+
+msgid "Stage"
+msgstr "Scenejo"
+
+msgid "Stage selected:"
+msgstr "Scenejo elektita:"
+
+msgid "Steel Drum"
+msgstr "Ŝtala Tamburo"
+
+msgid "Synth Lead"
+msgstr "Ĉefa Sintezilo"
+
+msgid "Synth Pad"
+msgstr "Sintezilo"
+
+msgid "Tambourine"
+msgstr "Tamburino"
+
+msgid "tan"
+msgstr "tan"
+
+#, fuzzy
+msgid "text"
+msgstr "Teksto"
+
+msgid "Text"
+msgstr "Teksto"
+
+msgid "that way"
+msgstr "tien"
+
+msgid "The name is already in use."
+msgstr ""
+
+msgid ""
+"The project failed to load and Scratch Team has been notified. Press OK to "
+"leave this page."
+msgstr ""
+
+msgid "Theme"
+msgstr "Temo"
+
+msgid "Things"
+msgstr "Aferoj"
+
+msgid "thing"
+msgstr ""
+
+msgid "This is the current version."
+msgstr ""
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Tiu ĉi projekto kapablas detekti tion, kiu uzas ĝin, per la bloko "
+"“uzantonomo”. Por kaŝi vian identecon, elsalutu antaŭ ol uzi la projekton."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Tiu ĉi projekto uzas datumojn el la Nubo, do funkcios nur por ensalutitaj "
+"uzantoj."
+
+msgid "this script"
+msgstr "tiu ĉi skripto"
+
+msgid "this sprite"
+msgstr "tiu ĉi rolulo"
+
+msgid "this way"
+msgstr "ĉi tien"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Vere forĵeti ĉiujn ŝanĝojn ekde kiam vi malfermis tiun ĉi projekton?"
+
+msgid "Tips"
+msgstr "Helpetoj"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr "Por forigi difinon de bloko, unue forigu ĉiun uzon de la bloko."
+
+msgid "Transportation"
+msgstr "Veturiloj"
+
+msgid "Triangle"
+msgstr "Triangulo"
+
+msgid "Trombone"
+msgstr "Trombono"
+
+msgid "true"
+msgstr ""
+
+msgid "Turbo mode"
+msgstr "Rapidega reĝimo"
+
+msgid "Turbo Mode"
+msgstr "Rapidega Reĝimo"
+
+msgid "Type"
+msgstr "Tipo"
+
+# 75%
+msgid "Undelete"
+msgstr "Malforigi"
+
+msgid "Underwater"
+msgstr "Subakve"
+
+msgid "undo"
+msgstr "malfari"
+
+# 75%
+msgid "Undo"
+msgstr "Malfari"
+
+msgid "Undo Revert"
+msgstr "Malfari la malfaron"
+
+msgid "Ungroup"
+msgstr "Malgrupigi"
+
+msgid "unshared"
+msgstr "nepublika"
+
+msgid "up"
+msgstr "supre"
+
+msgid "up arrow"
+msgstr "sago supra"
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update not needed"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Upload backdrop from file"
+msgstr "Alŝuti fonbildon el dosiero"
+
+msgid "Upload costume from file"
+msgstr "Alŝuti kostumon el dosiero"
+
+msgid "Upload from your computer"
+msgstr "Alŝuti el via komputilo"
+
+msgid "Upload sound from file"
+msgstr "Alŝuti sonon el dosiero"
+
+msgid "Upload sprite from file"
+msgstr "Alŝuti rolulon el dosiero"
+
+msgid "Uploading image..."
+msgstr "Alŝutado de bildo..."
+
+msgid "Uploading sound..."
+msgstr "Alŝutado de sono..."
+
+msgid "Uploading sprite..."
+msgstr "Alŝutado de rolulo..."
+
+msgid "variable"
+msgstr "variablo"
+
+msgid "Variable name"
+msgstr "Nomo de variablo"
+
+msgid "Vector"
+msgstr "Vektoro"
+
+msgid "Vector Mode"
+msgstr "Vektoro-reĝimo"
+
+msgid "Vibraphone"
+msgstr "Vibrafono"
+
+msgid "Vibraslap"
+msgstr "Vibrafrapo"
+
+msgid "video direction"
+msgstr ""
+
+msgid "video motion"
+msgstr "videa movo"
+
+msgid "Video on:"
+msgstr "Video ŝaltita:"
+
+msgid "Vocals"
+msgstr "Voĉoj"
+
+msgid "Walking"
+msgstr "Paŝado"
+
+msgid "Want to save? Click remix"
+msgstr "Ĉu vi volas konservi? Klaku remikson"
+
+msgid "Which column do you want to import"
+msgstr "Kiun kolumnon vi volas importi"
+
+msgid "What's your name?"
+msgstr ""
+
+msgid "whirl"
+msgstr "kirla"
+
+msgid "Wood Block"
+msgstr "Lignobloko"
+
+msgid "Wooden Flute"
+msgstr "Ligna Fluto"
+
+msgid "world"
+msgstr ""
+
+msgid "year"
+msgstr "jaro"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Vi ne povas redakti la ennubajn datumojn de projekto de iu alia uzanto."
+"<br>Ŝanĝoj, kiujn vi faras en la  redaktilo estos dumtempaj, kaj ne estos "
+"konservitaj."
+
+msgid "Your Scratch name"
+msgstr ""
+
+msgid "Your Scratch name is required"
+msgstr ""
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr ""
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+msgid "Save Project"
+msgstr ""
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr ""
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Esperanto"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list enhavas %s"
+
+# 89%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "valorigi motordirekton al %m.motorDirection"
+
+# 77%
+#~ msgid "set motor power %n"
+#~ msgstr "valorigi motorforton al %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "malŝalti motoron"
+
+#~ msgid "turn motor on"
+#~ msgstr "ŝalti motoron"
+
+# 80%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "ŝalti motoron dum %n sekundoj"
+
+#~ msgid "when distance < %n"
+#~ msgstr "kiam distanco < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "kiam klino = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "valorigi motordirekton al %m.motorDirection"
+
+#~ msgid "forever if %b"
+#~ msgstr "ripetu, se %b"
+
+#~ msgid "if %b"
+#~ msgstr "se %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "motordirekto %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "elŝaltu motoron"
+
+#~ msgid "motor on"
+#~ msgstr "enŝaltu motoron"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "enŝaltu motoron dum %n sekundoj"
+
+#~ msgid "motor power %n"
+#~ msgstr "motorforto %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "aŭdigu noton %d.note dum %n taktoj"
+
+#~ msgid "Account settings"
+#~ msgstr "Agordaĵoj de via konto"
+
+#~ msgid "Cloud"
+#~ msgstr "Nubo"
+
+#~ msgid "Costumes:"
+#~ msgstr "Kostumoj:"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Iri al Miaj Aferoj"
+
+#~ msgid "limit reached"
+#~ msgstr "limo atingita"
+
+#~ msgid "My Stuff"
+#~ msgstr "Miaj Aferoj"
+
+#~ msgid "Profile"
+#~ msgstr "Profilo"
+
+#~ msgid "requires sign in"
+#~ msgstr "ensaluto bezonata"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Konservi kiel kopion"
+
+#~ msgid "Scripts:"
+#~ msgstr "Skriptoj:"
+
+#~ msgid "Sign out"
+#~ msgstr "Elsaluti"
+
+#~ msgid "stored on server"
+#~ msgstr "konservita ĉe servilo"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Informoj pri Ennubaj Variabloj</b><br>&nbsp;<br>Aktuale, nur numberoj "
+#~ "estas akceptitaj<br>Tujmesaĝejoj ne estas akceptitaj, kaj estos forigitaj."
+#~ "<br>Por pli da informoj, <a href= target=>vidu la demandaro pri Ennubaj "
+#~ "Datumoj.</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Musklaku  por provi denove, aŭ  por konservi"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Larĝo de forviŝilo:"
+
+#~ msgid "Line width:"
+#~ msgstr "Larĝo de linio:"
+
+#~ msgid "cleanup"
+#~ msgstr "purigo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Mikrofona laŭteco:"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Nova objekto:"
+
+#~ msgid "Paint"
+#~ msgstr "Pentri"
+
+#~ msgid "any"
+#~ msgstr "iu"
+
+#~ msgid "High Tom"
+#~ msgstr "Alta tamo"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Longa guiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Malalta bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Malalta kongao"
+
+#~ msgid "Low Tom"
+#~ msgstr "Malalta tamo"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Malalta lignobloko"
+
+#~ msgid "Maracas"
+#~ msgstr "Marakoj"
+
+#~ msgid "More"
+#~ msgstr "pli"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Triangulo dampa"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Malferma triangulo"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Pedalĉarlestono"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Mallonga guiro"

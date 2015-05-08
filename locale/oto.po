@@ -1,0 +1,2072 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-14 18:22+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: oto\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429035724.000000\n"
+
+msgid "%b and %b"
+msgstr "%b ne %b"
+
+msgid "%b or %b"
+msgstr "%b o %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute de %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp de %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor valor del sensor"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "%s toke %m.list"
+
+msgid "answer"
+msgstr "thadi"
+
+msgid "ask %s and wait"
+msgstr "adi %s - temi"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "backdrop #"
+msgstr "kat`u mbo #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr ""
+
+msgid "broadcast %m.broadcast"
+msgstr "pempi ngatho %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "pempi ngatho %m.broadcast ne t`omi "
+
+msgid "change %m.effect effect by %n"
+msgstr "cambiar %m.effect efecto por %n"
+
+msgid "change %m.var by %n"
+msgstr "poti %m.var kongena %n"
+
+msgid "change pen color by %n"
+msgstr "potu ra njäti ratheñant`ot`i %n"
+
+msgid "change pen shade by %n"
+msgstr "potu ra tsedi ra thehñant`ot`i %n"
+
+msgid "change pen size by %n"
+msgstr "potu ra nt`ot`i kon ge man`a %n"
+
+msgid "change size by %n"
+msgstr "potu ra noho digena %n"
+
+msgid "change tempo by %n"
+msgstr "cambiar tempo por %n"
+
+msgid "change volume by %n"
+msgstr "potu ra nt`otse digena %n"
+
+msgid "change x by %n"
+msgstr "poti kongena %n"
+
+msgid "change y by %n"
+msgstr "poti ne kon %n"
+
+msgid "clear"
+msgstr "thuki"
+
+msgid "clear graphic effects"
+msgstr "quitar efectos gráficos"
+
+msgid "color %c is touching %c?"
+msgstr "¿kätsubi %c ra kuhu? %c?"
+
+msgid "Control"
+msgstr "pent`i"
+
+msgid "costume #"
+msgstr "mede mpote #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr ""
+
+msgid "current %m.timeAndDate"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "days since 2000"
+msgstr ""
+
+msgid "define"
+msgstr ""
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "thuki %d.listDeleteItem dige %m.list"
+
+msgid "delete this clone"
+msgstr ""
+
+msgid "direction"
+msgstr "da maduua"
+
+msgid "distance"
+msgstr ""
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "tsogi dige %m.spriteOrMouse"
+
+msgid "else"
+msgstr "te mana, honse"
+
+msgid "Events"
+msgstr ""
+
+msgid "forever"
+msgstr "xoge da njapu"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "%n kämi %n"
+
+msgid "go back %n layers"
+msgstr "pehni kar %n xutha"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "ri maua %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "pehnu kar hmi"
+
+msgid "go to x:%n y:%n"
+msgstr "ma %n un %n"
+
+msgid "hide"
+msgstr "ñagi"
+
+msgid "hide list %m.list"
+msgstr ""
+
+msgid "hide variable %m.var"
+msgstr ""
+
+msgid "if %b then"
+msgstr ""
+
+msgid "if on edge, bounce"
+msgstr "rebotar si está tocando un borde"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "kät %s `i %d.listItem teti %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "item %d.listItem de %m.list"
+
+msgid "join %s %s"
+msgstr "munts´i %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "¿tecla %m.key presionada?"
+
+msgid "length of %m.list"
+msgstr "longitud de %m.list"
+
+msgid "length of %s"
+msgstr "longitud de %s"
+
+msgid "letter %n of %s"
+msgstr ""
+
+msgid "Looks"
+msgstr "hzuni ntsedi"
+
+msgid "loudness"
+msgstr "nhuäni"
+
+msgid "More Blocks"
+msgstr ""
+
+msgid "Motion"
+msgstr "ntomi nt`ot´i"
+
+msgid "mouse down?"
+msgstr "ntomi ta saha"
+
+msgid "mouse x"
+msgstr "ntomi chulo saha"
+
+msgid "mouse y"
+msgstr "y del ratón"
+
+msgid "move %n steps"
+msgstr "mover %n pasos"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "next backdrop"
+msgstr "fondo siguiente"
+
+msgid "next costume"
+msgstr "siguiente disfraz"
+
+msgid "not %b"
+msgstr "hina %b"
+
+msgid "Operators"
+msgstr "´yoni"
+
+msgid "Pen"
+msgstr "nt`ot`i thehña"
+
+msgid "pen down"
+msgstr "k`ami nt`ot`i"
+
+msgid "pen up"
+msgstr "potse nt`ot`i"
+
+msgid "pick random %n to %n"
+msgstr "mpede %n %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "tocar tambor %d.drum durante %n pulsos"
+
+# 83%
+#, fuzzy
+msgid "play note %d.note for %n beats"
+msgstr "tocar nota %d.note durante %n pulsos"
+
+msgid "play sound %m.sound"
+msgstr "n zunt`i %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "zunt`i %m.sound ne t`omi "
+
+msgid "point in direction %d.direction"
+msgstr "m`oti ha da matho %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "uti hampu %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "yopi %n"
+
+msgid "repeat until %b"
+msgstr "yopi ta ge… %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "poote %d.listItem di %m.list ge %s"
+
+msgid "reset timer"
+msgstr "reiniciar cronómetro"
+
+msgid "rest for %n beats"
+msgstr "silencio por %n pulsos"
+
+msgid "round %n"
+msgstr "xint`i mot`i %n"
+
+msgid "say %s"
+msgstr "ma %s"
+
+msgid "say %s for %n secs"
+msgstr "ma %s ramch`u %n"
+
+msgid "Sensing"
+msgstr "sensores"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "¿sensor activado %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "%m.effect kuati %n"
+
+msgid "set %m.var to %s"
+msgstr "%m.var kuati %n"
+
+msgid "set instrument to %d.instrument"
+msgstr "hapa ra %d.instrument"
+
+# 89%
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "et´i  boja %m.motorDirection"
+
+# 77%
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
+msgstr "tsa ra bunt´i %n"
+
+msgid "set pen color to %c"
+msgstr "cots´i ra za %c"
+
+msgid "set pen color to %n"
+msgstr "cots´i ra za %c"
+
+msgid "set pen shade to %n"
+msgstr "tomi ra za %n"
+
+msgid "set pen size to %n"
+msgstr "hiandi nda goña %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr ""
+
+msgid "set size to %n%"
+msgstr "hiandi da %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "tema ora %n"
+
+msgid "set video transparency to %n%"
+msgstr ""
+
+msgid "set volume to %n%"
+msgstr "hoki ra nzuni %n%"
+
+msgid "set x to %n"
+msgstr "cots´i %n"
+
+msgid "set y to %n"
+msgstr "cots´i %n"
+
+msgid "show"
+msgstr "udi"
+
+msgid "show list %m.list"
+msgstr ""
+
+msgid "show variable %m.var"
+msgstr ""
+
+msgid "size"
+msgstr "nt`eni"
+
+msgid "Sound"
+msgstr "nzuni"
+
+msgid "stamp"
+msgstr "nzuni"
+
+msgid "stop %m.stop"
+msgstr ""
+
+msgid "stop all sounds"
+msgstr "momi ngatho"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr ""
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr ""
+
+msgid "switch costume to %m.costume"
+msgstr ""
+
+msgid "tempo"
+msgstr "mpa"
+
+msgid "think %s"
+msgstr "mbeni %s"
+
+msgid "think %s for %n secs"
+msgstr "ramch'u %s ri %n mbeni"
+
+msgid "tilt"
+msgstr ""
+
+msgid "timer"
+msgstr "nt´eni ya´ä"
+
+msgid "touching %m.touching?"
+msgstr "¿pent`i %m.touching?"
+
+msgid "touching color %c?"
+msgstr "¿pent`i ra kuhu %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr ""
+
+msgid "turn @turnRight %n degrees"
+msgstr ""
+
+msgid "turn %m.motor off"
+msgstr ""
+
+msgid "turn %m.motor on"
+msgstr ""
+
+# 80%
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
+msgstr "bunt´i tsoge %n nts´edi"
+
+msgid "turn video %m.videoState"
+msgstr ""
+
+msgid "username"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr ""
+
+msgid "volume"
+msgstr "nzuni"
+
+msgid "wait %n secs"
+msgstr "t`omi %n n`axt`ui"
+
+msgid "wait until %b"
+msgstr "t`omi tada… %b"
+
+# 75%
+#, fuzzy
+msgid "when %m.booleanSensor"
+msgstr "¿sensor activado %m.booleanSensor?"
+
+msgid "when %m.key key pressed"
+msgstr "mugi %m.key tomi ra nxidi nt`ot`i"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
+msgid "when %m.triggerSensor > %n"
+msgstr ""
+
+msgid "when @greenFlag clicked"
+msgstr "mugi @greenFlag tomi"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr ""
+
+msgid "when distance %m.lessMore %n"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr ""
+
+msgid "when I start as a clone"
+msgstr ""
+
+msgid "when Stage clicked"
+msgstr ""
+
+msgid "when this sprite clicked"
+msgstr ""
+
+msgid "when tilt %m.eNe %n"
+msgstr ""
+
+msgid "x position"
+msgstr "nt´omi ta saha"
+
+msgid "y position"
+msgstr "nt`omi ch´ulo saha"
+
+# 89%
+#, fuzzy
+msgid "set motor direction %m.motorDirection"
+msgstr "et´i  boja %m.motorDirection"
+
+# 77%
+#, fuzzy
+msgid "set motor power %n"
+msgstr "tsa ra bunt´i %n"
+
+msgid "turn motor off"
+msgstr ""
+
+msgid "turn motor on"
+msgstr ""
+
+# 80%
+#, fuzzy
+msgid "turn motor on for %n secs"
+msgstr "bunt´i tsoge %n nts´edi"
+
+msgid "when distance < %n"
+msgstr ""
+
+msgid "when tilt = %n"
+msgstr ""
+
+#: commands-online.txt:7 commands-offline.txt:7
+#, fuzzy
+msgid "%m.list contains %s?"
+msgstr "%m.list pe´tsi %s"
+
+msgid "10 ^"
+msgstr ""
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+
+msgid "A connected"
+msgstr ""
+
+msgid "a copy of the project file on your computer."
+msgstr ""
+
+msgid "A newer version of Scratch is available"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
+msgid "abs"
+msgstr "abs"
+
+msgid "Account settings"
+msgstr ""
+
+msgid "acos"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add an Extension"
+msgstr ""
+
+msgid "Add boolean input:"
+msgstr ""
+
+msgid "add comment"
+msgstr ""
+
+msgid "add comment here..."
+msgstr ""
+
+msgid "Add label text:"
+msgstr ""
+
+msgid "Add number input:"
+msgstr ""
+
+msgid "Add string input:"
+msgstr ""
+
+msgid "all"
+msgstr "ngatho, nxoge"
+
+msgid "All"
+msgstr ""
+
+msgid "all around"
+msgstr ""
+
+msgid "all motors"
+msgstr ""
+
+msgid "Animal"
+msgstr ""
+
+msgid "Animals"
+msgstr ""
+
+msgid "asin"
+msgstr ""
+
+msgid "assets loaded"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr ""
+
+msgid "Back a layer"
+msgstr ""
+
+msgid "backdrop"
+msgstr ""
+
+msgid "Backdrop"
+msgstr ""
+
+msgid "Backdrop Library"
+msgstr ""
+
+msgid "backdrop1"
+msgstr ""
+
+msgid "backdrops"
+msgstr ""
+
+msgid "Backdrops"
+msgstr ""
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Bass"
+msgstr ""
+
+msgid "Bass Drum"
+msgstr ""
+
+msgid "Bassoon"
+msgstr "Fagot"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+
+msgid "Bitmap"
+msgstr ""
+
+msgid "Bitmap Mode"
+msgstr ""
+
+msgid "Block help"
+msgstr ""
+
+msgid "Bongo"
+msgstr ""
+
+msgid "brightness"
+msgstr "huets`i"
+
+msgid "Bring to front"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Brush"
+msgstr ""
+
+msgid "button pressed"
+msgstr "boto ntomi"
+
+msgid "by"
+msgstr ""
+
+msgid "bytes loaded"
+msgstr ""
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "njukunk´oi"
+
+msgid "can drag in player:"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot Add"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "Can’t find network connection or reach server."
+msgstr ""
+
+msgid "Castle"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr "ta mida"
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Choir"
+msgstr ""
+
+msgid "Choose backdrop from library"
+msgstr ""
+
+msgid "Choose costume from library"
+msgstr ""
+
+msgid "Choose sound from library"
+msgstr ""
+
+msgid "Choose sprite from library"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Clarinet"
+msgstr "thuxi"
+
+msgid "Claves"
+msgstr "mbunza"
+
+msgid "clean up"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr "Charles cerrado"
+
+msgid "Cloud"
+msgstr ""
+
+msgid "Cloud data"
+msgstr ""
+
+msgid "Cloud variable (stored on server)"
+msgstr ""
+
+msgid "color"
+msgstr "theni"
+
+msgid "Color a shape"
+msgstr ""
+
+msgid "Conga"
+msgstr ""
+
+msgid "Connecting to Cloud data server..."
+msgstr ""
+
+msgid "Convert to bitmap"
+msgstr ""
+
+msgid "Convert to vector"
+msgstr ""
+
+msgid "Converting mp3..."
+msgstr ""
+
+msgid "copy"
+msgstr "hñaki"
+
+msgid "Copying..."
+msgstr ""
+
+msgid "cos"
+msgstr ""
+
+msgid "Costume"
+msgstr ""
+
+msgid "Costume Library"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "costume2"
+msgstr ""
+
+msgid "Costumes"
+msgstr ""
+
+msgid "Costumes > 1"
+msgstr ""
+
+msgid "Costumes:"
+msgstr ""
+
+msgid "Could not retrieve new application from server."
+msgstr ""
+
+msgid "Cowbell"
+msgstr "Cencerro"
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "Creating..."
+msgstr ""
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+msgid "delete"
+msgstr "thuki"
+
+# 83%
+#, fuzzy
+msgid "Delete"
+msgstr "thuki"
+
+msgid "delete variable"
+msgstr ""
+
+msgid "direction:"
+msgstr ""
+
+msgid "don't rotate"
+msgstr ""
+
+msgid "Don't save"
+msgstr ""
+
+msgid "down"
+msgstr "ñat'u hoy"
+
+msgid "down arrow"
+msgstr "tsitsi kar xokum'ef'i"
+
+msgid "Download"
+msgstr ""
+
+msgid "Download to your computer"
+msgstr ""
+
+msgid "Downloading new version"
+msgstr ""
+
+msgid "duplicate"
+msgstr "thuki"
+
+msgid "Duplicate"
+msgstr "thuki"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "juki"
+
+msgid "Edit"
+msgstr "ya m'efi nxit'i ñani"
+
+msgid "edit"
+msgstr "ya m'efi nxit'i ñani"
+
+msgid "Edit Block"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "Electronic"
+msgstr ""
+
+msgid "Ellipse"
+msgstr ""
+
+msgid "empty"
+msgstr ""
+
+msgid "Erase"
+msgstr ""
+
+msgid "Erase all"
+msgstr ""
+
+msgid "Eraser width"
+msgstr ""
+
+msgid "Error!"
+msgstr ""
+
+msgid "everything"
+msgstr ""
+
+msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "false"
+msgstr ""
+
+msgid "Fantasy"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Fill with color"
+msgstr ""
+
+msgid "fisheye"
+msgstr "nixt´i nkät´i"
+
+msgid "Flip left-right"
+msgstr ""
+
+msgid "Flip up-down"
+msgstr ""
+
+msgid "floor"
+msgstr ""
+
+msgid "Flute"
+msgstr "thuxi"
+
+msgid "Flying"
+msgstr ""
+
+msgid "Font:"
+msgstr ""
+
+msgid "For all sprites"
+msgstr ""
+
+msgid "For this sprite only"
+msgstr ""
+
+msgid "Forward a layer"
+msgstr ""
+
+msgid "ghost"
+msgstr ""
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Grow"
+msgstr ""
+
+msgid "Guiro"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr "mfemuy'e"
+
+msgid "Hardware"
+msgstr ""
+
+msgid "help"
+msgstr ""
+
+msgid "Hello!"
+msgstr ""
+
+msgid "Hmm..."
+msgstr ""
+
+#, fuzzy
+msgid "hello"
+msgstr "ta mida"
+
+msgid "High C"
+msgstr ""
+
+msgid "Holiday"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Human"
+msgstr ""
+
+# 83%
+#, fuzzy
+msgid "import"
+msgstr "batsihi"
+
+msgid "Import"
+msgstr "batsihi"
+
+msgid "Importing sound..."
+msgstr ""
+
+msgid "Indoors"
+msgstr ""
+
+msgid "Installing..."
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr "nsuru"
+
+msgid "left"
+msgstr "ñat'u nsuru"
+
+msgid "left arrow"
+msgstr "ma"
+
+msgid "left-right"
+msgstr ""
+
+msgid "length"
+msgstr ""
+
+msgid "Letters"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr "ma hioni pa geña"
+
+# 83%
+#, fuzzy
+msgid "lights"
+msgstr "ma hioni pa geña"
+
+msgid "limit reached"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Line width"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "list"
+msgstr "nsuru"
+
+msgid "List name"
+msgstr ""
+
+msgid "ln"
+msgstr ""
+
+msgid "Loading project..."
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "Low C"
+msgstr ""
+
+msgid "Make a Block"
+msgstr ""
+
+msgid "Make a List"
+msgstr ""
+
+msgid "Make a Variable"
+msgstr ""
+
+msgid "Marimba"
+msgstr "tats´i mdaza"
+
+msgid "Max"
+msgstr ""
+
+msgid "meow"
+msgstr ""
+
+msgid "Message Name"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Microphone volume:"
+msgstr ""
+
+msgid "Middle C"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "mosaic"
+msgstr "ntomi ta saha"
+
+msgid "motion"
+msgstr ""
+
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "ñ'ani"
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Music and Dance"
+msgstr ""
+
+msgid "Music Box"
+msgstr "huada mida"
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "My Stuff"
+msgstr ""
+
+msgid "myself"
+msgstr ""
+
+msgid "Nature"
+msgstr ""
+
+#, fuzzy
+msgid "New"
+msgstr "Nouveau"
+
+msgid "New backdrop from camera"
+msgstr ""
+
+msgid "New backdrop:"
+msgstr ""
+
+msgid "New Block"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr ""
+
+msgid "New costume:"
+msgstr ""
+
+msgid "New List"
+msgstr ""
+
+msgid "New Message"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New name"
+msgstr ""
+
+msgid "New sound:"
+msgstr ""
+
+msgid "New sprite from camera"
+msgstr ""
+
+msgid "New sprite:"
+msgstr ""
+
+msgid "New Variable"
+msgstr ""
+
+msgid "No motion blocks"
+msgstr ""
+
+msgid "normal readout"
+msgstr ""
+
+msgid "not ="
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr ""
+
+msgid "Not saved; project did not load."
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "off"
+msgstr "xifi hä"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "on"
+msgstr "hanse hiandi nsuru -hogy'e"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "Cuica suelta"
+
+msgid "Open Hi-Hat"
+msgstr "Charles abierto"
+
+msgid "Options"
+msgstr ""
+
+msgid "Organ"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "other scripts in sprite"
+msgstr ""
+
+msgid "other scripts in stage"
+msgstr ""
+
+msgid "Outdoors"
+msgstr ""
+
+msgid "Paint new backdrop"
+msgstr ""
+
+msgid "Paint new costume"
+msgstr ""
+
+msgid "Paint new sprite"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is required"
+msgstr ""
+
+msgid "paste"
+msgstr ""
+
+msgid "Pencil"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "Percussion"
+msgstr ""
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "Pick up color"
+msgstr ""
+
+msgid "pixelate"
+msgstr "pent'i"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "hoki ha da ndui"
+
+msgid "previous backdrop"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Project did not load."
+msgstr ""
+
+msgid "Project not saved!"
+msgstr ""
+
+msgid "Project name"
+msgstr ""
+
+msgid "Project name is required"
+msgstr ""
+
+msgid "random"
+msgstr ""
+
+msgid "Record"
+msgstr "grabar"
+
+msgid "Record new sound"
+msgstr ""
+
+msgid "record..."
+msgstr ""
+
+msgid "recording1"
+msgstr ""
+
+msgid "Rectangle"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Redo"
+msgstr "hñaki ra da"
+
+msgid "redo"
+msgstr "hñaki ra da"
+
+msgid "Remix"
+msgstr ""
+
+msgid "Remixing..."
+msgstr ""
+
+msgid "Remove extension blocks"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "rename variable"
+msgstr ""
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "requires sign in"
+msgstr ""
+
+msgid "Reshape"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr ""
+
+msgid "Revert"
+msgstr ""
+
+msgid "Reverting..."
+msgstr ""
+
+msgid "right"
+msgstr "nt'udi hoguy'e"
+
+msgid "right arrow"
+msgstr "xint´i kar hoguy´e"
+
+msgid "rotation style:"
+msgstr ""
+
+msgid "Run without screen refresh"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr ""
+
+msgid "Save as"
+msgstr ""
+
+msgid "Save as a copy"
+msgstr ""
+
+msgid "Save now"
+msgstr ""
+
+msgid "Save project?"
+msgstr ""
+
+msgid "save to local file"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Saving changes..."
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "Scratch Updater"
+msgstr ""
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Scripts:"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid ""
+"See the Tips window (on the right) to install the plug-in and get the "
+"extension working."
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Select and duplicate"
+msgstr ""
+
+msgid "Send to back"
+msgstr ""
+
+msgid "Set Costume Center"
+msgstr ""
+
+msgid "Set costume center"
+msgstr ""
+
+msgid "set slider min and max"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Share to website"
+msgstr ""
+
+msgid "Share to Scratch website"
+msgstr ""
+
+msgid "shared"
+msgstr ""
+
+msgid "Shift:"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "show:"
+msgstr ""
+
+msgid "Shrink"
+msgstr ""
+
+msgid "Side Stick"
+msgstr "Golpe lateral"
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign in to save"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "silence"
+msgstr ""
+
+msgid "sin"
+msgstr ""
+
+msgid "slider"
+msgstr "deslizador"
+
+msgid "Slider Range"
+msgstr ""
+
+msgid "Small stage layout"
+msgstr ""
+
+msgid "Smooth"
+msgstr ""
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "Sound Library"
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+# 80%
+#, fuzzy
+msgid "Space"
+msgstr "te mara"
+
+msgid "space"
+msgstr "te mara"
+
+msgid "Sports"
+msgstr ""
+
+msgid "Sprite"
+msgstr ""
+
+msgid "Sprite Library"
+msgstr ""
+
+msgid "Sprite1"
+msgstr ""
+
+msgid "Sprites"
+msgstr ""
+
+msgid "sqrt"
+msgstr "hmi"
+
+msgid "Square"
+msgstr ""
+
+msgid "Stage"
+msgstr "Escenario"
+
+msgid "Stage selected:"
+msgstr ""
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "stored on server"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "Pandereta"
+
+msgid "tan"
+msgstr ""
+
+msgid "text"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "that way"
+msgstr ""
+
+msgid "The name is already in use."
+msgstr ""
+
+msgid ""
+"The project failed to load and Scratch Team has been notified. Press OK to "
+"leave this page."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Things"
+msgstr ""
+
+msgid "thing"
+msgstr ""
+
+msgid "This is the current version."
+msgstr ""
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this sprite"
+msgstr ""
+
+msgid "this way"
+msgstr ""
+
+msgid "Throw away all changes since opening this project?"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "Transportation"
+msgstr ""
+
+msgid "Triangle"
+msgstr ""
+
+msgid "Trombone"
+msgstr "Trombón"
+
+msgid "true"
+msgstr ""
+
+msgid "Turbo mode"
+msgstr ""
+
+msgid "Turbo Mode"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Undelete"
+msgstr "thuki"
+
+msgid "Underwater"
+msgstr ""
+
+msgid "undo"
+msgstr "mañä"
+
+# 75%
+#, fuzzy
+msgid "Undo"
+msgstr "mañä"
+
+msgid "Undo Revert"
+msgstr ""
+
+msgid "Ungroup"
+msgstr ""
+
+msgid "unshared"
+msgstr ""
+
+msgid "up"
+msgstr "nt'udi mañä"
+
+msgid "up arrow"
+msgstr "flecha arriba"
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update not needed"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Upload backdrop from file"
+msgstr ""
+
+msgid "Upload costume from file"
+msgstr ""
+
+msgid "Upload from your computer"
+msgstr ""
+
+msgid "Upload sound from file"
+msgstr ""
+
+msgid "Upload sprite from file"
+msgstr ""
+
+msgid "Uploading image..."
+msgstr ""
+
+msgid "Uploading sound..."
+msgstr ""
+
+msgid "Uploading sprite..."
+msgstr ""
+
+msgid "variable"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Vector"
+msgstr ""
+
+msgid "Vector Mode"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr "mbuxuni"
+
+msgid "Vibraslap"
+msgstr "Trafaplás"
+
+msgid "video direction"
+msgstr ""
+
+msgid "video motion"
+msgstr ""
+
+msgid "Video on:"
+msgstr ""
+
+msgid "Vocals"
+msgstr ""
+
+msgid "Walking"
+msgstr ""
+
+msgid "Want to save? Click remix"
+msgstr ""
+
+msgid "Which column do you want to import"
+msgstr ""
+
+msgid "What's your name?"
+msgstr ""
+
+msgid "whirl"
+msgstr "xedi"
+
+msgid "Wood Block"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "world"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+
+msgid "Your Scratch name"
+msgstr ""
+
+msgid "Your Scratch name is required"
+msgstr ""
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+msgstr ""
+
+msgid "Click  to try again or  to save"
+msgstr ""
+
+msgid "Eraser width:"
+msgstr ""
+
+msgid "Line width:"
+msgstr ""
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr ""
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+msgid "Save Project"
+msgstr ""
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr ""
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Otomi"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list pe´tsi %s"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "et´i  boja %m.motorDirection"
+
+#~ msgid "forever if %b"
+#~ msgstr "da njampu hiaxmu %b"
+
+#~ msgid "if %b"
+#~ msgstr "hä %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "et´i  boja %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "bunt´i  moi"
+
+#~ msgid "motor on"
+#~ msgstr "bunt´i  tsoge"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "bunt´i tsoge %n nts´edi"
+
+#~ msgid "motor power %n"
+#~ msgstr "tsa ra bunt´i %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "tocar nota %d.note durante %n pulsos"
+
+#~ msgid "Paint"
+#~ msgstr "hokunkots'i"
+
+#~ msgid "any"
+#~ msgstr "mun`a"
+
+#~ msgid "High Tom"
+#~ msgstr "Tom agudo"
+
+#~ msgid "Long Guiro"
+#~ msgstr "minti mida ma"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Bongó grave"
+
+#~ msgid "Low Conga"
+#~ msgstr "Conga grave"
+
+#~ msgid "Low Tom"
+#~ msgstr "Tom grave"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Cajita china grave"
+
+#~ msgid "Maracas"
+#~ msgstr "nxinxi"
+
+#~ msgid "More"
+#~ msgstr "mara ya mpet´i"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "hñumida gogu"
+
+#~ msgid "Open Triangle"
+#~ msgstr "hñu mida nhegi"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "carlo bojä"
+
+#~ msgid "Short Guiro"
+#~ msgstr "ximo minfi"

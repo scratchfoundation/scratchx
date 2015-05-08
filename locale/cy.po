@@ -1,0 +1,2097 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 15:23+0000\n"
+"Last-Translator: Natalie <nrusk@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==2) ? 1 : 0;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429111431.000000\n"
+
+msgid "%b and %b"
+msgstr "%b a %b"
+
+msgid "%b or %b"
+msgstr "%b neu %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute o %m.spriteOrStage"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp o %n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor gwerth synhwyrydd"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "ychwanegu %s i %m.list"
+
+msgid "answer"
+msgstr "ateb"
+
+msgid "ask %s and wait"
+msgstr "gofyn %s ac aros"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "cefndir #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "enw cefndir"
+
+msgid "broadcast %m.broadcast"
+msgstr "darlledu %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "darlledu %m.broadcast ac aros"
+
+msgid "change %m.effect effect by %n"
+msgstr "newid effaith %m.effect gan %n"
+
+msgid "change %m.var by %n"
+msgstr "newid %m.var gan %n"
+
+msgid "change pen color by %n"
+msgstr "newid lliw pin gan %n"
+
+msgid "change pen shade by %n"
+msgstr "newid arlliw pin gan %n"
+
+msgid "change pen size by %n"
+msgstr "newid maint pin gan %n"
+
+msgid "change size by %n"
+msgstr "newid maint gan %n"
+
+msgid "change tempo by %n"
+msgstr "newid amseriad gan %n"
+
+msgid "change volume by %n"
+msgstr "newid uchder sain gan %n"
+
+msgid "change x by %n"
+msgstr "newid x gan %n"
+
+msgid "change y by %n"
+msgstr "newid y gan %n"
+
+msgid "clear"
+msgstr "clirio"
+
+msgid "clear graphic effects"
+msgstr "clirio effeithiau graffeg"
+
+msgid "color %c is touching %c?"
+msgstr "lliw %c yn cyffwrdd %c?"
+
+msgid "Control"
+msgstr "Rheoli"
+
+msgid "costume #"
+msgstr "gwisg #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "creu clôn o %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "%m.timeAndDate ar hyn o bryd"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "days since 2000"
+msgstr "dyddiau ers 2000"
+
+msgid "define"
+msgstr "diffinio"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "dileu %d.listDeleteItem o %m.list"
+
+msgid "delete this clone"
+msgstr "dileu y clôn hwn"
+
+msgid "direction"
+msgstr "cyfeiriad"
+
+msgid "distance"
+msgstr "pellter"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "pellter at %m.spriteOrMouse"
+
+msgid "else"
+msgstr "fel arall"
+
+msgid "Events"
+msgstr "Digwyddiadau"
+
+msgid "forever"
+msgstr "am byth"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "llithro %n eiliad i x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "mynd nôl %n haenen"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "mynd i %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "mynd i'r blaen"
+
+msgid "go to x:%n y:%n"
+msgstr "mynd i x:%n y:%n"
+
+msgid "hide"
+msgstr "cuddio"
+
+msgid "hide list %m.list"
+msgstr "cuddio rhestr %m.rhestr"
+
+msgid "hide variable %m.var"
+msgstr "cuddio newidyn %m.var"
+
+msgid "if %b then"
+msgstr "os %b wedyn"
+
+msgid "if on edge, bounce"
+msgstr "os ar ymyl, bowndio"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "mewnosod %s yn %d.listItem o %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "eitem %d.listItem o %m.list"
+
+msgid "join %s %s"
+msgstr "uno %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "bysell %m.key wedi ei wasgu?"
+
+msgid "length of %m.list"
+msgstr "hyd %m.list"
+
+msgid "length of %s"
+msgstr "hyd %s"
+
+msgid "letter %n of %s"
+msgstr "llythyren %n o %s"
+
+msgid "Looks"
+msgstr "Edrychiad"
+
+msgid "loudness"
+msgstr "cryfder sain"
+
+msgid "More Blocks"
+msgstr "Mwy o flociau"
+
+msgid "Motion"
+msgstr "Symudiad"
+
+msgid "mouse down?"
+msgstr "llygoden i lawr?"
+
+msgid "mouse x"
+msgstr "llygoden x"
+
+msgid "mouse y"
+msgstr "llygoden y"
+
+msgid "move %n steps"
+msgstr "symud %n cam"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "cefndir nesaf"
+
+msgid "next costume"
+msgstr "gwisg nesaf"
+
+msgid "not %b"
+msgstr "dim %b"
+
+msgid "Operators"
+msgstr "Gweithredwyr"
+
+msgid "Pen"
+msgstr "Pin"
+
+msgid "pen down"
+msgstr "pin i lawr"
+
+msgid "pen up"
+msgstr "pin i fyny"
+
+msgid "pick random %n to %n"
+msgstr "dewis ar hap %n i %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "chwarae drwm %d.drum am %n curiad"
+
+# 83%
+# 100%
+msgid "play note %d.note for %n beats"
+msgstr "chwarae nodyn %d.note am %n curiad"
+
+msgid "play sound %m.sound"
+msgstr "chwarae sain %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "chwarae sain %m.sound tan y diwedd"
+
+msgid "point in direction %d.direction"
+msgstr "pwyntio i gyfeiriad %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "pwyntio tuag at %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "ailwna %n"
+
+msgid "repeat until %b"
+msgstr "ailwna hyd at %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "cyfnewid eitem %d.listItem o %m.list gyda %s"
+
+msgid "reset timer"
+msgstr "ailosod amserydd"
+
+msgid "rest for %n beats"
+msgstr "saib am %n curiad"
+
+msgid "round %n"
+msgstr "talgrynnu %n"
+
+msgid "say %s"
+msgstr "dweud %s"
+
+msgid "say %s for %n secs"
+msgstr "dweud %s am %n eiliad"
+
+msgid "Sensing"
+msgstr "Synhwyro"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "synhwyrydd %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "gosod effaith %m.effect i %n"
+
+msgid "set %m.var to %s"
+msgstr "gosod %m.var i %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "gosod offeryn i %d.instrument"
+
+# 89%
+# 100%
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "gosod cyfeiriad modur %m.motor2 i %m.motorDirection"
+
+# 77%
+# 100%
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "gosod pŵer modur %m.motor i %n"
+
+msgid "set pen color to %c"
+msgstr "gosod lliw pin i %c"
+
+msgid "set pen color to %n"
+msgstr "gosod lliw pin i %n"
+
+msgid "set pen shade to %n"
+msgstr "gosod arlliw pin i %n"
+
+msgid "set pen size to %n"
+msgstr "gosod maint pin i %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "gosod steil cylchdroi %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "gosod maint i %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "gosod amseriad i %n cyf"
+
+msgid "set video transparency to %n%"
+msgstr "gosod tryloywder fideo i %n%"
+
+msgid "set volume to %n%"
+msgstr "gosod lefel sain i %n%"
+
+msgid "set x to %n"
+msgstr "gosod x i %n"
+
+msgid "set y to %n"
+msgstr "gosod y i %n"
+
+msgid "show"
+msgstr "dangos"
+
+msgid "show list %m.list"
+msgstr "dangos rhestr %m.list"
+
+msgid "show variable %m.var"
+msgstr "dangos newidyn %m.var"
+
+msgid "size"
+msgstr "maint"
+
+msgid "Sound"
+msgstr "Sain"
+
+msgid "stamp"
+msgstr "stampio"
+
+msgid "stop %m.stop"
+msgstr "stopiwch %m.stop"
+
+msgid "stop all sounds"
+msgstr "atal pob sain"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "newid cefndir i %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "newid cefndir i %m.backdrop ac aros"
+
+msgid "switch costume to %m.costume"
+msgstr "newid i wisg %m.costume"
+
+msgid "tempo"
+msgstr "amseriad"
+
+msgid "think %s"
+msgstr "meddwl %s"
+
+msgid "think %s for %n secs"
+msgstr "meddwl %s am %n eiliad"
+
+msgid "tilt"
+msgstr "gogwyddo"
+
+msgid "timer"
+msgstr "amserydd"
+
+msgid "touching %m.touching?"
+msgstr "cyffwrdd %m.touching?"
+
+msgid "touching color %c?"
+msgstr "cyffwrdd lliw %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "troi @turnLeft %n gradd"
+
+msgid "turn @turnRight %n degrees"
+msgstr "troi @turnRight %n gradd"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "troi modur %m.motor i ffwrdd"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "troi %m.motor ymlaen"
+
+# 80%
+# 100%
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "troi %m.motor ymlaen am %n eiliad"
+
+msgid "turn video %m.videoState"
+msgstr "troi fideo %m.videoState"
+
+msgid "username"
+msgstr "enw defnyddiwr"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "fideo %m.videoMotionType ar %m.stageOrThis"
+
+msgid "volume"
+msgstr "lefel sain"
+
+msgid "wait %n secs"
+msgstr "aros %n eiliad"
+
+msgid "wait until %b"
+msgstr "aros hyd at %b"
+
+# 75%
+# 100%
+msgid "when %m.booleanSensor"
+msgstr "pan fo %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "pan fo bysell %m.key wedi ei wasgu"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "pan fo %m.sensor %m.lessMore na %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "pan fo %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "pan fo @greenFlag wedi ei glicio"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "pan mae cefndir yn newid i %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "pan fo pellter %m.lessMore na %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "pan dderbyniaf %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "pan dechreuaf fel clôn"
+
+msgid "when this sprite clicked"
+msgstr "pan caiff y cymeriad ei glicio"
+
+msgid "when tilt %m.eNe %n"
+msgstr "pan fo gwyriad %m.eNe %n"
+
+msgid "x position"
+msgstr "safle x"
+
+msgid "y position"
+msgstr "safle y"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list yn cynnwys %s?"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Gwybodaeth am newidiynnau Cwmwl</b><br>&nbsp;<br>Ar hyn o bryd dim ond "
+"rhifau sy'n dderbyniol<br>Ni chaniateir ystafelloedd sgwrsio, a cânt eu "
+"dileu<br>Am fwy o wybodaeth, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">gwelwch yr FAQ ar gyfer data cwmwl</a>"
+
+msgid "A connected"
+msgstr "A wedi cysylltu"
+
+msgid "a copy of the project file on your computer."
+msgstr "copi o'r prosiect ar eich cyfrifiadur."
+
+msgid "A newer version of Scratch is available"
+msgstr "Mae fersiwn newydd o Scratch ar gael"
+
+msgid "About"
+msgstr "Gwybodaeth"
+
+msgid "abs"
+msgstr "abs"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr "Ychwanegu"
+
+msgid "Add an Extension"
+msgstr "Ychwanegu Estyniad"
+
+msgid "Add boolean input:"
+msgstr "Ychwanegu mewnbwn booleaidd:"
+
+msgid "add comment"
+msgstr "ychwanegu sylwad"
+
+msgid "Add label text:"
+msgstr "Ychwanegu testun labl:"
+
+msgid "Add number input:"
+msgstr "Ychwanegu mewnbwn rhifol:"
+
+msgid "Add string input:"
+msgstr "Ychwanegu mewnbwn testun:"
+
+msgid "all"
+msgstr "y cyfan"
+
+msgid "All"
+msgstr "Popeth"
+
+msgid "all around"
+msgstr "o amgylch"
+
+msgid "Animal"
+msgstr "Anifail"
+
+msgid "Animals"
+msgstr "Anifeiliaid"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "asedau wedi llwytho"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B wedi cysylltu"
+
+msgid "Back a layer"
+msgstr "Yn ôl haen"
+
+msgid "backdrop"
+msgstr "cefndir"
+
+msgid "Backdrop"
+msgstr "Cefndir"
+
+msgid "Backdrop Library"
+msgstr "Rhestr Gefndiroedd"
+
+msgid "backdrop1"
+msgstr "cefndir1"
+
+msgid "backdrops"
+msgstr "cefndiroedd"
+
+msgid "Backdrops"
+msgstr "Cefndiroedd"
+
+msgid "Backpack"
+msgstr "Backpack"
+
+msgid "Bass"
+msgstr "Bâs"
+
+msgid "Bass Drum"
+msgstr "Drwm Bâs"
+
+msgid "Bassoon"
+msgstr "Basŵn"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Ni fydd newidiadau i'r data cwmwl yn cael ei gadw eto, gan fod eich cyfrif "
+"Scratch yn newydd. Daliwch ati i ymwneud a'r safle a cewch ddefnyddio data "
+"cwmwl yn fuan!"
+
+msgid "Bitmap"
+msgstr "Didfap"
+
+msgid "Bitmap Mode"
+msgstr "Modd Didfap"
+
+msgid "Block help"
+msgstr "Cymorth blociau"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "disgleirdeb"
+
+msgid "Bring to front"
+msgstr "Anfon i'r blaen"
+
+msgid "Broadcast"
+msgstr "Darlledu"
+
+msgid "Brush"
+msgstr "Brwsh"
+
+msgid "button pressed"
+msgstr "botwm wedi ei wasgu"
+
+msgid "by"
+msgstr "gan"
+
+msgid "bytes loaded"
+msgstr "beit wedi llwytho"
+
+msgid "C connected"
+msgstr "C wedi cysylltu"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Camera"
+
+msgid "can drag in player:"
+msgstr "gellir llusgo:"
+
+msgid "Cancel"
+msgstr "Diddymu"
+
+msgid "Cannot Delete"
+msgstr "Methu Dileu"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Methu dod o hyd i gyswllt rhwydwaith na chyrraedd y gweinydd."
+
+msgid "Castle"
+msgstr "Castell"
+
+msgid "Category"
+msgstr "Categori"
+
+msgid "ceiling"
+msgstr "nenfwd"
+
+msgid "Cello"
+msgstr "Soddgrwth"
+
+msgid "Check for updates"
+msgstr "Edrych am diweddiadarau"
+
+msgid "Choir"
+msgstr "Côr"
+
+msgid "Choose backdrop from library"
+msgstr "Dewis cefndir o'r rhestr"
+
+msgid "Choose costume from library"
+msgstr "Dewis gwisg o'r rhestr"
+
+msgid "Choose sound from library"
+msgstr "Dewis sain o'r rhestr"
+
+msgid "Choose sprite from library"
+msgstr "Dewis ciplun o'r rhestr"
+
+msgid "Circle"
+msgstr "Cylch"
+
+msgid "City"
+msgstr "Dinas"
+
+msgid "Clarinet"
+msgstr "Clarinét"
+
+msgid "Claves"
+msgstr "Clafiau"
+
+msgid "Clear"
+msgstr "Clirio"
+
+msgid "clear senders/receivers"
+msgstr "clirio anfonwyr/derbynwyr"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "Cliciwch \"Cadw nawr\" i drio eto neu \"Lawrlwytho\" i gadw"
+
+msgid "Close"
+msgstr "Cau"
+
+msgid "Closed Hi-Hat"
+msgstr "Hi-Hat Caeedig"
+
+msgid "Cloud data"
+msgstr "Data cwmwl"
+
+msgid "color"
+msgstr "lliw"
+
+msgid "Color a shape"
+msgstr "Liwiwch siap"
+
+msgid "Conga"
+msgstr "Conga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Cysylltu â'r gweinydd Data Cwmwl..."
+
+msgid "Convert to bitmap"
+msgstr "Trosi i ddidfap"
+
+msgid "Convert to vector"
+msgstr "Trosi i fector"
+
+msgid "Converting mp3..."
+msgstr "Trosi i mp3..."
+
+msgid "copy"
+msgstr "copïo"
+
+msgid "Copying..."
+msgstr "Copïo..."
+
+msgid "cos"
+msgstr "cos"
+
+msgid "Costume"
+msgstr "Gwisg"
+
+msgid "Costume Library"
+msgstr "Rhestr Wisgoedd"
+
+msgid "costume name"
+msgstr "enw'r wisg"
+
+msgid "costume1"
+msgstr "gwisg1"
+
+msgid "costume2"
+msgstr "gwisg2"
+
+msgid "Costumes"
+msgstr "Gwisgoedd"
+
+msgid "Costumes > 1"
+msgstr "Gwisgoedd > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr "Methu â nôl rhaglen o'r gweinydd."
+
+msgid "Cowbell"
+msgstr "Clychau Gwartheg"
+
+msgid "Crash Cymbal"
+msgstr "Symbal Swnllyd"
+
+msgid "Creating..."
+msgstr "Creu..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Dim ond rhifau gallwch eu cadw mew newidyn Cwmwl."
+
+msgid "cut"
+msgstr "torri"
+
+msgid "D connected"
+msgstr "D wedi cysylltu"
+
+msgid "date"
+msgstr "dyddiad"
+
+msgid "day of week"
+msgstr "diwrnod o'r wythos"
+
+msgid "delete"
+msgstr "dileu"
+
+# 83%
+msgid "Delete"
+msgstr "Dileu"
+
+msgid "delete variable"
+msgstr "dileu newidyn"
+
+msgid "direction:"
+msgstr "cyfeiriad:"
+
+msgid "don't rotate"
+msgstr "paid a throi"
+
+msgid "Don't save"
+msgstr "Paid a chadw"
+
+msgid "down"
+msgstr "lawr"
+
+msgid "down arrow"
+msgstr "saeth i lawr"
+
+msgid "Download"
+msgstr "Lawrlwytho"
+
+msgid "Download to your computer"
+msgstr "Lawrlwytho i'r cyfrifiadur"
+
+msgid "duplicate"
+msgstr "dyblygu"
+
+msgid "Duplicate"
+msgstr "Dyblygu"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "ymyl"
+
+msgid "Edit"
+msgstr "Golygu"
+
+msgid "edit"
+msgstr "golygu"
+
+msgid "Edit Block"
+msgstr "Golygu Bloc"
+
+msgid "Effects"
+msgstr "Effeithiau"
+
+msgid "Electric Guitar"
+msgstr "Gitâr Drydan"
+
+msgid "Electric Piano"
+msgstr "Piano Trydan"
+
+msgid "Electronic"
+msgstr "Electronig"
+
+msgid "Ellipse"
+msgstr "Elips"
+
+msgid "Erase"
+msgstr "Dileu"
+
+msgid "Eraser width"
+msgstr "Lled rwber"
+
+msgid "Error!"
+msgstr "Gwall!"
+
+msgid "export"
+msgstr "allforio"
+
+msgid "fade in"
+msgstr "pylu mewn"
+
+msgid "fade out"
+msgstr "pylu allan"
+
+msgid "Fantasy"
+msgstr "Ffantasi"
+
+msgid "Features"
+msgstr "Nodweddion"
+
+msgid "File"
+msgstr "Ffeil"
+
+msgid "Fill with color"
+msgstr "Llenwi â lliw"
+
+msgid "fisheye"
+msgstr "llygaid pysgodyn"
+
+msgid "Flip left-right"
+msgstr "Fflipio chwith-dde"
+
+msgid "Flip up-down"
+msgstr "Fflipio fyny-lawr"
+
+msgid "floor"
+msgstr "llawr"
+
+msgid "Flute"
+msgstr "Ffliwt"
+
+msgid "Flying"
+msgstr "Hedfan"
+
+msgid "Font:"
+msgstr "Ffont:"
+
+msgid "For all sprites"
+msgstr "Ar gyfer pob ciplun"
+
+msgid "For this sprite only"
+msgstr "Ar gyfer y ciplun yma'n unig"
+
+msgid "Forward a layer"
+msgstr "Ymlaen haen"
+
+msgid "ghost"
+msgstr "ysbryd"
+
+msgid "Group"
+msgstr "Grŵp"
+
+msgid "Grow"
+msgstr "Tyfu"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "Gitâr"
+
+msgid "Hand Clap"
+msgstr "Clap Dwylo"
+
+msgid "Hardware"
+msgstr "Caledwedd"
+
+msgid "help"
+msgstr "cymorth"
+
+msgid "High C"
+msgstr "C Uchel"
+
+msgid "Holiday"
+msgstr "Gwyliau"
+
+msgid "hour"
+msgstr "awr"
+
+msgid "Human"
+msgstr "Person"
+
+# 83%
+msgid "import"
+msgstr "mewnforio"
+
+msgid "Import"
+msgstr "Mewnforio"
+
+msgid "Importing sound..."
+msgstr "Mewnforio sain..."
+
+msgid "Indoors"
+msgstr "Dan do"
+
+msgid "Installing..."
+msgstr "Yn gosod..."
+
+msgid "Instruments"
+msgstr "Offerynnau"
+
+msgid "large readout"
+msgstr "sgrîn fawr"
+
+msgid "last"
+msgstr "olaf"
+
+msgid "left"
+msgstr "chwith"
+
+msgid "left arrow"
+msgstr "saeth chwith"
+
+msgid "left-right"
+msgstr "chwith-dde"
+
+msgid "length"
+msgstr "hyd"
+
+msgid "Letters"
+msgstr "Llythyrau"
+
+msgid "Library"
+msgstr "Rhestr"
+
+msgid "light"
+msgstr "golau"
+
+msgid "Line"
+msgstr "Llinell"
+
+msgid "Line width"
+msgstr "Lled llinell"
+
+# 75%
+msgid "list"
+msgstr "rhestr"
+
+msgid "List name"
+msgstr "Enw'r rhestr"
+
+msgid "ln"
+msgstr "Yn"
+
+msgid "Loading project..."
+msgstr "Wrthi'n llwytho prosiect..."
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "yn uwch"
+
+msgid "Low C"
+msgstr "C Isel"
+
+msgid "Make a Block"
+msgstr "Creu Bloc"
+
+msgid "Make a List"
+msgstr "Creu Rhestr"
+
+msgid "Make a Variable"
+msgstr "Creu Newidyn"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "Uchafswm"
+
+msgid "meow"
+msgstr "miaw"
+
+msgid "Message Name"
+msgstr "Enw'r Neges"
+
+msgid "message1"
+msgstr "neges1"
+
+msgid "Microphone volume:"
+msgstr "Uchder sain meicroffon:"
+
+msgid "Middle C"
+msgstr "C Canol"
+
+msgid "Min"
+msgstr "Lleiafswm"
+
+msgid "minute"
+msgstr "munud"
+
+msgid "month"
+msgstr "mis"
+
+msgid "mosaic"
+msgstr "brithwaith"
+
+msgid "motion"
+msgstr "symudiad"
+
+msgid "mouse-pointer"
+msgstr "pwyntydd llygoden"
+
+msgid "Multiple"
+msgstr "Lluosrif"
+
+msgid "Music and Dance"
+msgstr "Cerddoriaeth a Dawns"
+
+msgid "Music Box"
+msgstr "Blwch Cerddoriaeth"
+
+msgid "Music Loops"
+msgstr "Cylchoedd Sain"
+
+msgid "myself"
+msgstr "fi fy hun"
+
+msgid "Nature"
+msgstr "Natur"
+
+msgid "New"
+msgstr "Newydd"
+
+msgid "New backdrop from camera"
+msgstr "Cefndir newydd o'r camera"
+
+msgid "New backdrop:"
+msgstr "Cefndir newydd:"
+
+msgid "New Block"
+msgstr "Bloc Newydd"
+
+msgid "New costume from camera"
+msgstr "Gwisg newydd ô'r camera"
+
+msgid "New costume:"
+msgstr "Gwisg newydd:"
+
+msgid "New List"
+msgstr "Rhestr Newydd"
+
+msgid "New Message"
+msgstr "Neges Newydd"
+
+msgid "new message..."
+msgstr "neges newydd..."
+
+msgid "New name"
+msgstr "Enw newydd"
+
+msgid "New sound:"
+msgstr "Sain newydd:"
+
+msgid "New sprite from camera"
+msgstr "Ciplun newydd o'r camera"
+
+msgid "New sprite:"
+msgstr "Ciplun newydd:"
+
+msgid "New Variable"
+msgstr "Newidyn Newydd"
+
+msgid "No motion blocks"
+msgstr "Dim blociau symud"
+
+msgid "normal readout"
+msgstr "darlleniad arferol"
+
+msgid "Not saved; network or server problem."
+msgstr "Heb gadw; problem gyda'r rhwydwaith neu'r gweinydd."
+
+msgid "Not saved; project did not load."
+msgstr "Heb gadw; ni lwythwyd y prosiect."
+
+msgid "of"
+msgstr "o"
+
+msgid "off"
+msgstr "i ffwrdd"
+
+msgid "Offline Editor"
+msgstr "Golygydd Oddi-ar-lein"
+
+msgid "OK"
+msgstr "Iawn"
+
+msgid "on"
+msgstr "ymlaen"
+
+msgid "on-flipped"
+msgstr "pan-fflipwyd"
+
+msgid "Open"
+msgstr "Agor"
+
+msgid "Open Cuica"
+msgstr "Cuica Agored"
+
+msgid "Open Hi-Hat"
+msgstr "Hi-Hat Agored"
+
+msgid "Options"
+msgstr "Opsiynau"
+
+msgid "Organ"
+msgstr "Organ"
+
+msgid "Other"
+msgstr "Arall"
+
+msgid "other scripts in sprite"
+msgstr "sgriptiau eraill yn y ciplun"
+
+msgid "other scripts in stage"
+msgstr "sgriptiau eraill yn y llwyfan"
+
+msgid "Outdoors"
+msgstr "Tu allan"
+
+msgid "Paint new backdrop"
+msgstr "Paentio cefndir newydd"
+
+msgid "Paint new costume"
+msgstr "Paentio gwisg newydd"
+
+msgid "Paint new sprite"
+msgstr "Paentio ciplun newydd"
+
+msgid "Password"
+msgstr "Cyfrinair"
+
+msgid "Password is required"
+msgstr "Mae angen cyfrinair"
+
+msgid "paste"
+msgstr "gludo"
+
+msgid "Pencil"
+msgstr "Pensil"
+
+msgid "People"
+msgstr "Pobl"
+
+msgid "Percussion"
+msgstr "Offerynnau taro"
+
+msgid "photo1"
+msgstr "llun1"
+
+msgid "Piano"
+msgstr "Piano"
+
+msgid "Pick up color"
+msgstr "Dewiswch liw"
+
+msgid "pixelate"
+msgstr "picseleiddio"
+
+msgid "Pizzicato"
+msgstr "Pizzicato"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr "cefndir blaenorol"
+
+msgid "Project did not load."
+msgstr "Ni lwythwyd y prosiect."
+
+msgid "Project not saved!"
+msgstr "Ni chafodd y prosiect ei gadw!"
+
+msgid "Project name"
+msgstr "Enw prosiect"
+
+msgid "Project name is required"
+msgstr "Mae angen enw i'r prosiect"
+
+msgid "random"
+msgstr "ar hap"
+
+msgid "Record"
+msgstr "Recordio"
+
+msgid "Record new sound"
+msgstr "Recordio sain newydd"
+
+msgid "record..."
+msgstr "recordio..."
+
+msgid "recording1"
+msgstr "recordiad1"
+
+msgid "Rectangle"
+msgstr "Hirsgwar"
+
+# 75%
+msgid "Redo"
+msgstr "Ailwneud"
+
+msgid "redo"
+msgstr "ailwneud"
+
+msgid "Remix"
+msgstr "Ailgymysgu"
+
+msgid "Remixing..."
+msgstr "Wrthi'n ailgymysgu..."
+
+msgid "Rename"
+msgstr "Ailenwi"
+
+msgid "rename variable"
+msgstr "ailenwi newidyn"
+
+msgid "Reshape"
+msgstr "Ail siapio"
+
+msgid "resistance-A"
+msgstr "gwrthiant-A"
+
+msgid "resistance-B"
+msgstr "gwrthiant-B"
+
+msgid "resistance-C"
+msgstr "gwrthiant-C"
+
+msgid "resistance-D"
+msgstr "gwrthiant-D"
+
+msgid "reverse"
+msgstr "gwrthdroi"
+
+msgid "Revert"
+msgstr "Dadwneud"
+
+msgid "Reverting..."
+msgstr "Wrthi'n dadwneud..."
+
+msgid "right"
+msgstr "de"
+
+msgid "right arrow"
+msgstr "saeth de"
+
+msgid "rotation style:"
+msgstr "steil troi:"
+
+msgid "Run without screen refresh"
+msgstr "Rhedeg heb ffresio'r sgrîn"
+
+msgid "Save"
+msgstr "Cadw"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Cadw copi o'r prosiect ac ychwanegu eich syniadau eich hunan."
+
+msgid "Save as"
+msgstr "Cadw fel"
+
+msgid "Save now"
+msgstr "Cadw rwan"
+
+msgid "Save project?"
+msgstr "Cadw'r prosiect?"
+
+msgid "save to local file"
+msgstr "cadw i ffeil leol"
+
+msgid "Saved"
+msgstr "Cadwyd"
+
+msgid "Saving changes..."
+msgstr "Cadw'r newidiadau..."
+
+msgid "Saving..."
+msgstr "Wrthi'n cadw..."
+
+msgid "Saxophone"
+msgstr "Sacsoffon"
+
+msgid "Scratch Updater"
+msgstr "Rhaglen Ddiweddaru Scratch"
+
+msgid "Script"
+msgstr "Sgript"
+
+msgid "Scripts"
+msgstr "Sgriptiau"
+
+msgid "second"
+msgstr "eiliad"
+
+msgid "See project page"
+msgstr "Gweler y dudalen prosiect"
+
+msgid "Select"
+msgstr "Dewis"
+
+msgid "select all"
+msgstr "dewis popeth"
+
+msgid "Select and duplicate"
+msgstr "Dewis a dyblygu"
+
+msgid "Send to back"
+msgstr "Anfon i'r cefn"
+
+msgid "Set Costume Center"
+msgstr "Gosod Canolbwynt Y Wisg"
+
+msgid "Set costume center"
+msgstr "Gosod canolbwynt y wisg"
+
+msgid "set slider min and max"
+msgstr "gosod uchafswm ac isafswm y llithrydd"
+
+msgid "Share"
+msgstr "Rhannu"
+
+msgid "Share to website"
+msgstr "Rhannu i'r wefan"
+
+msgid "shared"
+msgstr "rhannwyd"
+
+msgid "Shift:"
+msgstr "Shift:"
+
+msgid "show receivers"
+msgstr "dangos derbynwyr"
+
+msgid "show senders"
+msgstr "dangos anfonwyr"
+
+msgid "show:"
+msgstr "dangos:"
+
+msgid "Shrink"
+msgstr "Lleihau"
+
+msgid "Side Stick"
+msgstr "Ffon Ochr"
+
+msgid "Sign in"
+msgstr "Mewngofnodi"
+
+msgid "Sign in to save"
+msgstr "Mewngofnodwch cyn cadw"
+
+msgid "silence"
+msgstr "distawrwydd"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "llithrydd"
+
+msgid "Slider Range"
+msgstr "Aml-rediad y Llithrydd"
+
+msgid "Small stage layout"
+msgstr "Cynllun llwyfan bach"
+
+msgid "Smooth"
+msgstr "Llyfn"
+
+msgid "Snare Drum"
+msgstr "Drwm Tannau"
+
+msgid "softer"
+msgstr "meddalu"
+
+msgid "sound"
+msgstr "sain"
+
+msgid "Sound Library"
+msgstr "Rhestr Seiniau"
+
+msgid "Sounds"
+msgstr "Seiniau"
+
+# 80%
+msgid "Space"
+msgstr "Gofod"
+
+msgid "space"
+msgstr "bylchwr"
+
+msgid "Sports"
+msgstr "Chwaraeon"
+
+# 85%
+msgid "Sprite"
+msgstr "Ciplun"
+
+msgid "Sprite Library"
+msgstr "Rhestr Gipluniau"
+
+# 85%
+msgid "Sprite1"
+msgstr "Ciplun1"
+
+msgid "Sprites"
+msgstr "Cipluniau"
+
+msgid "sqrt"
+msgstr "ail isradd"
+
+msgid "Square"
+msgstr "Sgwâr"
+
+msgid "Stage"
+msgstr "Llwyfan"
+
+msgid "Stage selected:"
+msgstr "Llwyfan a ddewiswyd:"
+
+msgid "Steel Drum"
+msgstr "Drwm Dûr"
+
+msgid "Synth Lead"
+msgstr "Synth Blaen"
+
+msgid "Synth Pad"
+msgstr "Pad Synth"
+
+msgid "Tambourine"
+msgstr "Tambwrîn"
+
+msgid "tan"
+msgstr "tan"
+
+msgid "text"
+msgstr "testun"
+
+msgid "Text"
+msgstr "Testun"
+
+msgid "that way"
+msgstr "ffordd acw"
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Things"
+msgstr "Pethau"
+
+msgid "This is the current version."
+msgstr "Hon yw'r fersiwn gyfredol."
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Gall y prosiect yma synhwyro pwy sŷ'n ei ddefnyddio, drwy'r bloc "
+"“defnyddiwr” . I guddio eich enw, allgofnodwch cyn defnyddio'r prosiect."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Mae'r prosiect yma yn defnyddio data Cwmwl - nodwedd sydd dim ond ar gael os "
+"ydych wedi mewngofnodi."
+
+msgid "this script"
+msgstr "y sgript hon"
+
+msgid "this sprite"
+msgstr "y ciplun yma"
+
+msgid "this way"
+msgstr "ffordd yma"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Bwrw o'r neilltu yr holl newidiadau ers agor y prosiect?"
+
+msgid "Tips"
+msgstr "Awgrymiadau"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr "Rhaid diddymu pob defnydd o floc cyn y gellir ei ddileu."
+
+msgid "Transportation"
+msgstr "Trafnidiaeth"
+
+msgid "Triangle"
+msgstr "Triongl"
+
+msgid "Trombone"
+msgstr "Trombôn"
+
+msgid "Turbo mode"
+msgstr "Modd tyrbo"
+
+msgid "Turbo Mode"
+msgstr "Modd Tyrbo"
+
+msgid "Type"
+msgstr "Math"
+
+# 75%
+msgid "Undelete"
+msgstr "Dad-ddileu"
+
+msgid "Underwater"
+msgstr "O dan y dŵr"
+
+msgid "undo"
+msgstr "dadwneud"
+
+# 75%
+msgid "Undo"
+msgstr "Dadwneud"
+
+msgid "Undo Revert"
+msgstr "Dadwneud y dadwneud"
+
+msgid "Ungroup"
+msgstr "Dad-grwpio"
+
+msgid "unshared"
+msgstr "heb ei rannu"
+
+msgid "up"
+msgstr "i fyny"
+
+msgid "up arrow"
+msgstr "saeth i fyny"
+
+msgid "Update failed"
+msgstr "Methodd y diweddariad"
+
+msgid "Update not needed"
+msgstr "Nid oes angen diweddaru"
+
+msgid "Update now"
+msgstr "Diweddaru nawr"
+
+msgid "Upload backdrop from file"
+msgstr "Llwytho cefndir i fyny o ffeil"
+
+msgid "Upload costume from file"
+msgstr "Llwytho gwisg i fyny o ffeil"
+
+msgid "Upload from your computer"
+msgstr "Llwytho i fyny o'r cyfrifiadur"
+
+msgid "Upload sound from file"
+msgstr "Llwytho sain o ffeil i fyny"
+
+msgid "Upload sprite from file"
+msgstr "Llwytho ciplun o ffeil i fyny"
+
+msgid "Uploading image..."
+msgstr "Llwytho llun i fyny..."
+
+msgid "Uploading sound..."
+msgstr "Llwytho sain i fyny..."
+
+msgid "Uploading sprite..."
+msgstr "Yn llwytho'r ciplun i fyny..."
+
+msgid "variable"
+msgstr "newidyn"
+
+msgid "Variable name"
+msgstr "Enw newidyn"
+
+msgid "Vector"
+msgstr "Fector"
+
+msgid "Vector Mode"
+msgstr "Modd Fector"
+
+msgid "Vibraphone"
+msgstr "Fibraffon"
+
+msgid "Vibraslap"
+msgstr "Fibraslap"
+
+msgid "video direction"
+msgstr "cyfeiriad fideo"
+
+msgid "video motion"
+msgstr "symudiad fideo"
+
+msgid "Video on:"
+msgstr "Fideo ymlaen:"
+
+msgid "Vocals"
+msgstr "Lleisiau"
+
+msgid "Walking"
+msgstr "Cerdded"
+
+msgid "Want to save? Click remix"
+msgstr "Eisiau cadw? Cliciwch ailgymysgu"
+
+msgid "Which column do you want to import"
+msgstr "Pa golofn hoffech fewnforio"
+
+msgid "whirl"
+msgstr "chwyrliad"
+
+msgid "Wood Block"
+msgstr "Bloc Pren"
+
+msgid "Wooden Flute"
+msgstr "Ffliwt Bren"
+
+msgid "year"
+msgstr "blwyddyn"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Ni allwch olygu data cwmwl ym mhrosiect rhywun arall.<br>Bydd unrhyw "
+"newidiadau yn rhai dros-dro a ni chânt eu cadw."
+
+msgid "Your Scratch name"
+msgstr "Eich enw Scratch"
+
+msgid "Your Scratch name is required"
+msgstr "Mae eich enw Scratch yn ofynnol"
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve update location from server."
+msgstr "Methu â nôl rhaglen o'r gweinydd."
+
+# Offline editor only
+#, fuzzy
+msgid "Could not retrieve version information from server."
+msgstr "Methu â nôl rhaglen o'r gweinydd."
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Downloading new version..."
+msgstr "Lawrlwytho fersiwn newydd"
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Replace existing project?"
+msgstr "Disodli'r prosiect presennol"
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Save Project"
+msgstr "Cadw'r prosiect?"
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+#, fuzzy
+msgid "Share to Scratch Website"
+msgstr "Rhannu i wefan Scratch"
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Cymraeg"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list yn cynnwys %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "pan cliciwch ar Llwyfan"
+
+# 89%
+# 100%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "gosod cyfeiriad modur %m.motorDirection"
+
+# 77%
+# 100%
+#~ msgid "set motor power %n"
+#~ msgstr "gosod pŵer modur %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "troi modur i ffwrdd"
+
+#~ msgid "turn motor on"
+#~ msgstr "troi modur ymlaen"
+
+# 80%
+# 100%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "troi modur ymlaen am %n eiliad"
+
+#~ msgid "when distance < %n"
+#~ msgstr "pan mae pellter yn < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "pan mae gwyriad = %n"
+
+# 89%
+# 100%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "cyfeiriad modur %m.modurCyfeiriad"
+
+#~ msgid "forever if %b"
+#~ msgstr "am byth os %b"
+
+#~ msgid "if %b"
+#~ msgstr "os %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "cyfeiriad modur %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "modur i ffwrdd"
+
+#~ msgid "motor on"
+#~ msgstr "modur ymlaen"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "modur ymlaen am %n eiliad"
+
+#~ msgid "motor power %n"
+#~ msgstr "pŵer modur %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "chwarae nodyn %d.note am %n curiad"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "Gwybodaeth ynghylch ag estyniad LEGO WeDo..."
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "Gwybodaeth ynghylch ag estyniad PicoBoard..."
+
+#~ msgid "Account settings"
+#~ msgstr "Gosodiadau cyfrif"
+
+#~ msgid "add comment here..."
+#~ msgstr "ychwanegu sylwad yma..."
+
+#~ msgid "all motors"
+#~ msgstr "holl foduron"
+
+#~ msgid "Cannot Add"
+#~ msgstr "Methu Ychwanegu"
+
+#~ msgid "clean up"
+#~ msgstr "glanhau"
+
+#~ msgid "Cloud"
+#~ msgstr "Cwmwl"
+
+#~ msgid "Cloud variable (stored on server)"
+#~ msgstr "Newidyn cwmwl (cedwir ar y gweinydd)"
+
+#~ msgid "Costumes:"
+#~ msgstr "Gwisgoedd:"
+
+#~ msgid "Downloading new version"
+#~ msgstr "Lawrlwytho fersiwn newydd"
+
+#~ msgid "empty"
+#~ msgstr "gwag"
+
+#~ msgid "Erase all"
+#~ msgstr "Dileu i gyd"
+
+#~ msgid "everything"
+#~ msgstr "popeth"
+
+#~ msgid "Extension Library"
+#~ msgstr "Rhestr Estyniadau"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Problem â'r Estyniad"
+
+#~ msgid "false"
+#~ msgstr "anwir"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Mynd i Fy Stwff"
+
+#~ msgid "Hello!"
+#~ msgstr "Helo!"
+
+#~ msgid "Hmm..."
+#~ msgstr "Hmm..."
+
+#~ msgid "hello"
+#~ msgstr "helo"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "goleuadau"
+
+#~ msgid "limit reached"
+#~ msgstr "terfyn eithaf wedi ei gyrraedd"
+
+#~ msgid "motor"
+#~ msgstr "modur"
+
+#~ msgid "motor A"
+#~ msgstr "modur A"
+
+#~ msgid "motor B"
+#~ msgstr "modur B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Fy Stwff"
+
+#~ msgid "not ="
+#~ msgstr "dim ="
+
+#~ msgid "Profile"
+#~ msgstr "Proffil"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Diddymu blociau estyniad"
+
+#~ msgid "Replace existing project"
+#~ msgstr "Disodli'r prosiect presennol"
+
+#~ msgid "requires sign in"
+#~ msgstr "angen mewngofnodi"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Cadw fel copi"
+
+#~ msgid "Scratch 2.0 Offline Editor"
+#~ msgstr "Golygydd Scratch 2.0 Oddi-ar-lein"
+
+#~ msgid "Scripts:"
+#~ msgstr "Sgriptiau:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Gweler y ffenest Awgrymiadau (ar y dde) i osod yr ategyn ac i alluogi'r "
+#~ "estyniad."
+
+#~ msgid "Share to Scratch website"
+#~ msgstr "Rhannu i wefan Scratch"
+
+#~ msgid "Sign out"
+#~ msgstr "Allgofnodi"
+
+#~ msgid "stored on server"
+#~ msgstr "cedwir ar y gweinydd"
+
+#~ msgid "The name is already in use."
+#~ msgstr "Mae'r enw'n cael ei ddefnyddio eisoes."
+
+#~ msgid ""
+#~ "The project failed to load and Scratch Team has been notified. Press OK "
+#~ "to leave this page."
+#~ msgstr ""
+#~ "Methwyd â llwytho'r prosiect ac mae'r Tîm Scratch wedi cael ei hysbysu. "
+#~ "Pwyswch Iawn i adael y dudalen yma."
+
+#~ msgid "thing"
+#~ msgstr "peth"
+
+#~ msgid "true"
+#~ msgstr "gwir"
+
+#~ msgid "What's your name?"
+#~ msgstr "Beth yw eich enw?"
+
+#~ msgid "world"
+#~ msgstr "y byd"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Gwybodaeth am newidiynnau Cwmwl</b><br>&nbsp;<br>Dim ond rhifau sy'n "
+#~ "gweithio ar hyn o bryd<br>Ni chaniateir ystafelloedd sgwrsio, a byddent "
+#~ "yn cael ei dileu<br>Am fwy o wybodaeth, <a href= target=>gweler y FAQ "
+#~ "data cwmwl!</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Cliciwch  i drio eto neu  i gadw"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Lled rwber:"
+
+#~ msgid "Line width:"
+#~ msgstr "Lled llinell:"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Ciplun newydd:"
+
+#~ msgid "Paint"
+#~ msgstr "Peintio"
+
+#~ msgid "any"
+#~ msgstr "unrhyw"
+
+#~ msgid "High Tom"
+#~ msgstr "High Tom"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Guiro Hir"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Bongo Isel"
+
+#~ msgid "Low Conga"
+#~ msgstr "Conga Isel"
+
+#~ msgid "Low Tom"
+#~ msgstr "Tom Isel"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Bloc Pren Isel"
+
+#~ msgid "Maracas"
+#~ msgstr "Maracas"
+
+#~ msgid "More"
+#~ msgstr "rhagor"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Triongl Tawel"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Triongl Agored"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Pedal Hi-Hat"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Guiro Byr"

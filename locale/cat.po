@@ -1,0 +1,453 @@
+# The language name as it will appear in the language menu
+msgid "Language-Name"
+msgstr ""
+
+msgid "%b and %b"
+msgstr "%b meow %b"
+
+msgid "%b or %b"
+msgstr "%b meow %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr ""
+
+msgid "%m.list contains %s"
+msgstr "%m.list meows %s"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp meow %n"
+
+msgid "%m.sensor sensor value"
+msgstr ""
+
+msgid "%n mod %n"
+msgstr ""
+
+msgid "add %s to %m.list"
+msgstr "meow %s to %m.list"
+
+msgid "answer"
+msgstr "meow"
+
+msgid "ask %s and wait"
+msgstr "meow %s and meow"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "meow #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "backdrop meow"
+
+msgid "broadcast %m.broadcast"
+msgstr "meow %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "meow %m.broadcast and wait"
+
+msgid "change %m.effect effect by %n"
+msgstr "meow %m.effect effect by %n"
+
+msgid "change %m.var by %n"
+msgstr "meow %m.var by %n"
+
+msgid "change pen color by %n"
+msgstr "change meow color by %n"
+
+msgid "change pen shade by %n"
+msgstr "change meow shade by %n"
+
+msgid "change pen size by %n"
+msgstr "change meow size by %n"
+
+msgid "change size by %n"
+msgstr "change meow by %n"
+
+msgid "change tempo by %n"
+msgstr "change meow by %n"
+
+msgid "change volume by %n"
+msgstr "change meow by %n"
+
+msgid "change x by %n"
+msgstr "meow x by %n"
+
+msgid "change y by %n"
+msgstr "meow y by %n"
+
+msgid "clear"
+msgstr "meow"
+
+msgid "clear graphic effects"
+msgstr "clear meow effects"
+
+msgid "color %c is touching %c?"
+msgstr "meow %c is touching %c?"
+
+msgid "Control"
+msgstr "Meow"
+
+msgid "costume #"
+msgstr "meow #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "create meow of %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "meow %m.timeAndDate"
+
+msgid "Data"
+msgstr "Meow"
+
+msgid "days since 2000"
+msgstr "Meows since 200"
+
+msgid "define"
+msgstr "meow"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "meow %d.listDeleteItem of %m.list"
+
+msgid "delete this clone"
+msgstr "delete this meow"
+
+msgid "direction"
+msgstr "meow"
+
+msgid "distance"
+msgstr "meow"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "meow to %m.spriteOrMouse"
+
+msgid "else"
+msgstr "meow"
+
+msgid "Events"
+msgstr "Meow"
+
+msgid "forever"
+msgstr "meow"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "meow %n secs to x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "go meow %n layers"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "meow to %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "meow to front"
+
+msgid "go to x:%n y:%n"
+msgstr "meow to x:%n y:%n"
+
+msgid "hide"
+msgstr "meow"
+
+msgid "hide list %m.list"
+msgstr "hide meow %m.list"
+
+msgid "hide variable %m.var"
+msgstr "hide meow %m.var"
+
+msgid "if %b then"
+msgstr "meow %b then"
+
+msgid "if on edge, bounce"
+msgstr "f on edge, meow"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "meow %s at %d.listItem of %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "meow %d.listItem of %m.list"
+
+msgid "join %s %s"
+msgstr "meow %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "meow %m.key pressed?"
+
+msgid "length of %m.list"
+msgstr "meow of %m.list"
+
+msgid "length of %s"
+msgstr "meow of %s"
+
+msgid "letter %n of %s"
+msgstr "meow %n of %s"
+
+msgid "Looks"
+msgstr "Meow"
+
+msgid "loudness"
+msgstr "meow"
+
+msgid "More Blocks"
+msgstr "Meow Meow"
+
+msgid "Motion"
+msgstr "Meow"
+
+msgid "mouse down?"
+msgstr ""
+
+msgid "mouse x"
+msgstr ""
+
+msgid "mouse y"
+msgstr ""
+
+msgid "move %n steps"
+msgstr "meow %n steps"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "meow backdrop"
+
+msgid "next costume"
+msgstr "meow costume"
+
+msgid "not %b"
+msgstr "meow %b"
+
+msgid "Operators"
+msgstr "Meow"
+
+msgid "Pen"
+msgstr "Meow"
+
+msgid "pen down"
+msgstr "meow down"
+
+msgid "pen up"
+msgstr "meow up"
+
+msgid "pick random %n to %n"
+msgstr "pick meow %n to %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "play meow %d.drum for %n beats"
+
+msgid "play note %d.note for %n beats"
+msgstr "play meow %d.note for %n beats"
+
+msgid "play sound %m.sound"
+msgstr "play meow %d.note for %n beats"
+
+msgid "play sound %m.sound until done"
+msgstr "play meow %m.sound until meow"
+
+msgid "point in direction %d.direction"
+msgstr "meow in direction %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "meow towards %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "meow %n"
+
+msgid "repeat until %b"
+msgstr "repeat meow %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "replace meow %d.listItem of %m.list with %s"
+
+msgid "reset timer"
+msgstr "reset meow"
+
+msgid "rest for %n beats"
+msgstr "meow for %n beats"
+
+msgid "round %n"
+msgstr "meow %n"
+
+msgid "say %s"
+msgstr "meow %s"
+
+msgid "say %s for %n secs"
+msgstr "meow %s for %n secs"
+
+msgid "Sensing"
+msgstr "Meow"
+
+msgid "sensor %m.booleanSensor?"
+msgstr ""
+
+msgid "set %m.effect effect to %n"
+msgstr ""
+
+msgid "set %m.var to %s"
+msgstr ""
+
+msgid "set instrument to %d.instrument"
+msgstr ""
+
+msgid "set motor direction %m.motorDirection"
+msgstr ""
+
+msgid "set motor power %n"
+msgstr ""
+
+msgid "set pen color to %c"
+msgstr "set meow meow to %c"
+
+msgid "set pen color to %n"
+msgstr "set meow meow to %n"
+
+msgid "set pen shade to %n"
+msgstr "set meow meow to %n"
+
+msgid "set pen size to %n"
+msgstr "set meow meow to %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "set meow style %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "set meow to %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "set tempo to %n meowpm"
+
+msgid "set video transparency to %n%"
+msgstr "set meow transparency to %n%"
+
+msgid "set volume to %n%"
+msgstr "meow volume to %n%"
+
+msgid "set x to %n"
+msgstr "meow x to %n"
+
+msgid "set y to %n"
+msgstr "meow y to %n"
+
+msgid "show"
+msgstr "meow"
+
+msgid "show list %m.list"
+msgstr "meow list %m.list"
+
+msgid "show variable %m.var"
+msgstr "meow variable %m.var"
+
+msgid "size"
+msgstr "meow"
+
+msgid "Sound"
+msgstr "Meow"
+
+msgid "stamp"
+msgstr "meow"
+
+msgid "stop %m.stop"
+msgstr "meow %m.stop"
+
+msgid "stop all sounds"
+msgstr "stop all meows"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "switch meow to %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "switch meow to %m.backdrop and meow"
+
+msgid "switch costume to %m.costume"
+msgstr "switch meow to %m.costume"
+
+msgid "tempo"
+msgstr "moew"
+
+msgid "think %s"
+msgstr "meow %s"
+
+msgid "think %s for %n secs"
+msgstr "meow %s for %n secs"
+
+msgid "tilt"
+msgstr "meow"
+
+msgid "timer"
+msgstr "meow"
+
+msgid "touching %m.touching?"
+msgstr "moew %m.touching?"
+
+msgid "touching color %c?"
+msgstr "meow color %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "meow @turnLeft %n degrees"
+
+msgid "turn @turnRight %n degrees"
+msgstr "meow @turnRight %n degrees"
+
+msgid "turn motor off"
+msgstr ""
+
+msgid "turn motor on"
+msgstr ""
+
+msgid "turn motor on for %n secs"
+msgstr ""
+
+msgid "turn video %m.videoState"
+msgstr ""
+
+msgid "username"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "meow %m.videoMotionType on %m.stageOrThis"
+
+msgid "volume"
+msgstr "meow"
+
+msgid "wait %n secs"
+msgstr "meow %n secs"
+
+msgid "wait until %b"
+msgstr "meow until %b"
+
+msgid "when %m.booleanSensor"
+msgstr ""
+
+msgid "when %m.key key pressed"
+msgstr "when %m.key key meowed"
+
+msgid "when %m.triggerSensor > %n"
+msgstr ""
+
+msgid "when @greenFlag clicked"
+msgstr "when @greenFlag meowed"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "when meow meows to %m.backdrop"
+
+msgid "when distance < %n"
+msgstr "when meow < %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "when I meow %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "when I meow as a meow"
+
+msgid "when this sprite clicked"
+msgstr "when this sprite meowed"
+
+msgid "when tilt = %n"
+msgstr "when meow = %n"
+
+msgid "x position"
+msgstr "x meow"
+
+msgid "y position"
+msgstr "y moew"

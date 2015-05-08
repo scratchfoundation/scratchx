@@ -1,0 +1,2209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2015-04-15 15:05+0000\n"
+"Last-Translator: Natalie <nrusk@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1429110313.000000\n"
+
+msgid "%b and %b"
+msgstr "%b ja %b"
+
+msgid "%b or %b"
+msgstr "%b tai %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "kohteen %m.spriteOrStage %m.attribute"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp arvosta %n"
+
+msgid "%m.sensor sensor value"
+msgstr "sensorin %m.sensor arvo"
+
+msgid "%n mod %n"
+msgstr "lukujen %n ja %n jakojäännös"
+
+msgid "add %s to %m.list"
+msgstr "lisää %s listaan %m.list"
+
+msgid "answer"
+msgstr "vastaus"
+
+msgid "ask %s and wait"
+msgstr "kysy %s ja odota"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "tausta #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "taustan nimi"
+
+msgid "broadcast %m.broadcast"
+msgstr "lähetä %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "lähetä %m.broadcast ja odota"
+
+msgid "change %m.effect effect by %n"
+msgstr "muuta %m.effect tehostetta määrällä %n"
+
+msgid "change %m.var by %n"
+msgstr "muuta muuttujan %m.var arvoa %n"
+
+msgid "change pen color by %n"
+msgstr "muuta kynän väriä määrällä %n"
+
+msgid "change pen shade by %n"
+msgstr "muuta kynän tummuutta määrällä %n"
+
+msgid "change pen size by %n"
+msgstr "muuta kynän kokoa määrällä %n"
+
+msgid "change size by %n"
+msgstr "muuta kokoa määrällä %n"
+
+msgid "change tempo by %n"
+msgstr "muuta tempoa %n"
+
+msgid "change volume by %n"
+msgstr "muuta äänenvoimakkuutta %n"
+
+msgid "change x by %n"
+msgstr "muuta x:n arvoa %n"
+
+msgid "change y by %n"
+msgstr "muuta y:n arvoa %n"
+
+msgid "clear"
+msgstr "pyyhi"
+
+msgid "clear graphic effects"
+msgstr "poista graafiset tehosteet"
+
+msgid "color %c is touching %c?"
+msgstr "koskeeko väri %c väriä %c?"
+
+msgid "Control"
+msgstr "Ohjaus"
+
+msgid "costume #"
+msgstr "asusteen #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "luo klooni kohteesta %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "%m.timeAndDate nyt"
+
+msgid "Data"
+msgstr "Tieto"
+
+msgid "days since 2000"
+msgstr "päiviä vuoden 2000 jälkeen"
+
+msgid "define"
+msgstr "määrittele"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "poista %d.listDeleteItem listasta %m.list"
+
+msgid "delete this clone"
+msgstr "poista tämä klooni"
+
+msgid "direction"
+msgstr "suunta"
+
+msgid "distance"
+msgstr "etäisyys"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "etäisyys kohteeseen %m.spriteOrMouse"
+
+msgid "else"
+msgstr "muuten"
+
+msgid "Events"
+msgstr "Tapahtumat"
+
+msgid "forever"
+msgstr "ikuisesti"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "liu'u %n sekuntia kohtaan x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "mene %n tasoa taaksepäin"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "mene %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "mene etualalle"
+
+msgid "go to x:%n y:%n"
+msgstr "mene kohtaan x:%n y:%n"
+
+msgid "hide"
+msgstr "piilota"
+
+msgid "hide list %m.list"
+msgstr "piilota lista %m.list"
+
+msgid "hide variable %m.var"
+msgstr "piilota muuttuja %m.var"
+
+msgid "if %b then"
+msgstr "jos %b , niin"
+
+msgid "if on edge, bounce"
+msgstr "pomppaa reunasta"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "lisää %s kohtaan %d.listItem listaassa %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "listan %d.listItem alkio %m.list"
+
+msgid "join %s %s"
+msgstr "yhdistä %s ja %s"
+
+msgid "key %m.key pressed?"
+msgstr "onko näppäin %m.key painettu?"
+
+msgid "length of %m.list"
+msgstr "listan %m.list pituus"
+
+msgid "length of %s"
+msgstr "muuttujan %s pituus"
+
+msgid "letter %n of %s"
+msgstr "%n kirjain sanasta %s"
+
+msgid "Looks"
+msgstr "Ulkonäkö"
+
+msgid "loudness"
+msgstr "äänentaso"
+
+msgid "More Blocks"
+msgstr "Lisää lohkoja"
+
+msgid "Motion"
+msgstr "Liike"
+
+msgid "mouse down?"
+msgstr "onko hiiren nappi painettu?"
+
+msgid "mouse x"
+msgstr "hiiren x-sijainti"
+
+msgid "mouse y"
+msgstr "hiiren y-sijainti"
+
+msgid "move %n steps"
+msgstr "liiku %n askelta"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "seuraava tausta"
+
+msgid "next costume"
+msgstr "seuraava asuste"
+
+msgid "not %b"
+msgstr "ei %b"
+
+msgid "Operators"
+msgstr "Toiminnot"
+
+msgid "Pen"
+msgstr "Kynä"
+
+msgid "pen down"
+msgstr "kynä alas"
+
+msgid "pen up"
+msgstr "kynä ylös"
+
+msgid "pick random %n to %n"
+msgstr "valitse satunnaisluku väliltä %n - %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "soita rumpua %d.drum %n iskun ajan"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "soita nuottia %d.note %n iskun ajan"
+
+msgid "play sound %m.sound"
+msgstr "soita ääni %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "soita ääni %m.sound loppuun"
+
+msgid "point in direction %d.direction"
+msgstr "osoita suuntaan %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "osoita kohti %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "toista %n kertaa"
+
+msgid "repeat until %b"
+msgstr "toista kunnes %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "vaihda listan %m.list alkion %d.listItem arvoksi %s"
+
+msgid "reset timer"
+msgstr "nollaa ajastin"
+
+msgid "rest for %n beats"
+msgstr "tauko %n iskun ajan"
+
+msgid "round %n"
+msgstr "pyöristä %n"
+
+msgid "say %s"
+msgstr "sano %s"
+
+msgid "say %s for %n secs"
+msgstr "sano %s %n sekunnin ajan"
+
+msgid "Sensing"
+msgstr "Tuntoaisti"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "sensori %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "aseta tehoste %m.effect kohteeseen %n"
+
+msgid "set %m.var to %s"
+msgstr "aseta %m.var arvoon %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "aseta soittimeksi %d.instrument"
+
+# 89%
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "aseta %m.motor2 suunnaksi %m.motorDirection"
+
+# 77%
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "aseta moottorin voimaksi %n"
+
+msgid "set pen color to %c"
+msgstr "aseta kynälle väri %c"
+
+msgid "set pen color to %n"
+msgstr "aseta kynälle väri %n"
+
+msgid "set pen shade to %n"
+msgstr "aseta kynän tummuudeksi %n"
+
+msgid "set pen size to %n"
+msgstr "aseta kynälle koko %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "aseta pyörimistapa %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "aseta koko arvoon %n"
+
+msgid "set tempo to %n bpm"
+msgstr "aseta tempo %n bpm"
+
+msgid "set video transparency to %n%"
+msgstr "videon läpinäkyvyys arvoon %n%"
+
+msgid "set volume to %n%"
+msgstr "aseta äänenvoimakkuus %n%"
+
+msgid "set x to %n"
+msgstr "aseta x:lle arvo %n"
+
+msgid "set y to %n"
+msgstr "aseta y:lle arvo %n"
+
+msgid "show"
+msgstr "näytä"
+
+msgid "show list %m.list"
+msgstr "näytä lista %m.list"
+
+msgid "show variable %m.var"
+msgstr "näytä muuttuja %m.var"
+
+msgid "size"
+msgstr "koko"
+
+msgid "Sound"
+msgstr "Ääni"
+
+msgid "stamp"
+msgstr "leimaa"
+
+msgid "stop %m.stop"
+msgstr "pysäytä %m.stop"
+
+msgid "stop all sounds"
+msgstr "pysäytä kaikki äänet"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "vaihda taustaksi %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "vaihda taustaksi %m.backdrop ja odota"
+
+msgid "switch costume to %m.costume"
+msgstr "vaihda asusteeksi %m.costume"
+
+msgid "tempo"
+msgstr "tempo"
+
+msgid "think %s"
+msgstr "ajattele %s"
+
+msgid "think %s for %n secs"
+msgstr "ajattele %s %n sekunnin ajan"
+
+msgid "tilt"
+msgstr "kallista"
+
+msgid "timer"
+msgstr "ajastin"
+
+msgid "touching %m.touching?"
+msgstr "koskettaako %m.touching?"
+
+msgid "touching color %c?"
+msgstr "koskettaako väriä %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "käänny @turnLeft %n astetta"
+
+msgid "turn @turnRight %n degrees"
+msgstr "käänny @turnRight %n astetta"
+
+# 82%
+msgid "turn %m.motor off"
+msgstr "laita %m.motor pois päältä"
+
+# 81%
+msgid "turn %m.motor on"
+msgstr "laita %m.motor päälle"
+
+# 80%
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "laita %m.motor päälle %n sekunniksi"
+
+# no idea what this does
+msgid "turn video %m.videoState"
+msgstr "käännä video %m.videoState"
+
+msgid "username"
+msgstr "käyttäjänimi"
+
+# no idea what this does
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "video %m.videoMotionType kohteessa %m.stageOrThis"
+
+msgid "volume"
+msgstr "äänenvoimakkuus"
+
+msgid "wait %n secs"
+msgstr "odota %n sekuntia"
+
+msgid "wait until %b"
+msgstr "odota kunnes %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "sensori %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "kun painetaan %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "kun %m.sensor %m.lessMore %n"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "kun %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "kun klikataan @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "kun taustaksi vaihtuu %m.backdrop"
+
+msgid "when distance %m.lessMore %n"
+msgstr "kun etäisyys %m.lessMore %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "kun vastaanotan %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "kun aloitan kloonina"
+
+msgid "when this sprite clicked"
+msgstr "kun tätä hahmoa klikataan"
+
+msgid "when tilt %m.eNe %n"
+msgstr "kun kallistuminen %m.eNe %n"
+
+msgid "x position"
+msgstr "x-sijainti"
+
+msgid "y position"
+msgstr "y-sijainti"
+
+#: commands-online.txt:7 commands-offline.txt:7
+msgid "%m.list contains %s?"
+msgstr "%m.list sisältää %s?"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be "
+"removed<br>For more info, <a href=\"/help/faq/#clouddata\" target=\"_blank"
+"\">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Tietoa pilvipalveluista ja -muuttujista</b><br>&nbsp;<br>Tällä hetkellä "
+"vain numerot on tuettuja<br>Keskustelufoorumeja ei sallita ja ne "
+"poistetaan<br>Lisätietoa: <a href= target=>usein kysytyt kysymykset</a>"
+
+msgid "A connected"
+msgstr "A liitetty"
+
+msgid "a copy of the project file on your computer."
+msgstr "kopio projektitiedostosta tietokoneessasi."
+
+msgid "A newer version of Scratch is available"
+msgstr ""
+
+msgid "About"
+msgstr "Tietoa"
+
+msgid "abs"
+msgstr "itseisarvo"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add"
+msgstr ""
+
+msgid "Add an Extension"
+msgstr "Lisää laajennus"
+
+# 90%
+msgid "Add boolean input:"
+msgstr "Lisää totuusarvo:"
+
+msgid "add comment"
+msgstr "lisää kommentti"
+
+msgid "add comment here..."
+msgstr ""
+
+msgid "Add label text:"
+msgstr "Lisää otsaketeksti:"
+
+# 89%
+msgid "Add number input:"
+msgstr "Lisää numerosyöttö:"
+
+# 89%
+msgid "Add string input:"
+msgstr "Lisää tekstisyöttö:"
+
+msgid "all"
+msgstr "kaikki"
+
+msgid "All"
+msgstr "Kaikki"
+
+msgid "all around"
+msgstr "joka suuntaan"
+
+msgid "Animal"
+msgstr "Eläin"
+
+msgid "Animals"
+msgstr "Eläimet"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "assets loaded"
+msgstr "tarpeet ladattu"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "B connected"
+msgstr "B liitetty"
+
+msgid "Back a layer"
+msgstr "Kerros takaisin"
+
+# 88%
+msgid "backdrop"
+msgstr "tausta"
+
+# 88%
+# 87%
+msgid "Backdrop"
+msgstr "Tausta"
+
+msgid "Backdrop Library"
+msgstr "Taustakirjasto"
+
+msgid "backdrop1"
+msgstr "tausta1"
+
+# 88%
+msgid "backdrops"
+msgstr "taustat"
+
+# 88%
+msgid "Backdrops"
+msgstr "Taustat"
+
+msgid "Backpack"
+msgstr "Reppu"
+
+msgid "Bass"
+msgstr "Basso"
+
+msgid "Bass Drum"
+msgstr "Bassorumpu"
+
+msgid "Bassoon"
+msgstr "Fagotti"
+
+msgid ""
+"Because you have a new Scratch account, any changes to cloud data won't be "
+"saved yet. Keep participating on the site you'll be able to use cloud data "
+"soon!"
+msgstr ""
+"Koska sinulla on uusi Scratch-tili, mitään muutoksia pilvidataan ei "
+"tallenneta vielä. Jatka työskentelyä sivulla ja pääset käyttämään pilvidataa "
+"pian!"
+
+msgid "Bitmap"
+msgstr "Bittikartta"
+
+msgid "Bitmap Mode"
+msgstr "Bittikarttatila"
+
+msgid "Block help"
+msgstr "Palikan apua"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "kirkkaus"
+
+msgid "Bring to front"
+msgstr "Tuo eteen"
+
+msgid "Broadcast"
+msgstr "Lähetä"
+
+msgid "Brush"
+msgstr "Sivellin"
+
+msgid "button pressed"
+msgstr "näppäin painettu"
+
+msgid "by"
+msgstr "tehnyt"
+
+msgid "bytes loaded"
+msgstr "tavuja ladattu"
+
+msgid "C connected"
+msgstr "C liitetty"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "can drag in player:"
+msgstr "voidaan raahata pelissä:"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Cannot Add"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr "Ei voi poistaa"
+
+msgid "Can’t find network connection or reach server."
+msgstr "Verkkoyhteyttä ei löydy tai palvelimeen ei saada yhteyttä."
+
+msgid "Castle"
+msgstr "Linna"
+
+msgid "Category"
+msgstr "Luokka"
+
+msgid "ceiling"
+msgstr "pyöristys ylös"
+
+msgid "Cello"
+msgstr "Sello"
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Choir"
+msgstr "Kuoro"
+
+msgid "Choose backdrop from library"
+msgstr "Valitse tausta kirjastosta"
+
+msgid "Choose costume from library"
+msgstr "Valitse asuste kirjastosta"
+
+msgid "Choose sound from library"
+msgstr "Valitse ääni kirjastosta"
+
+msgid "Choose sprite from library"
+msgstr "Valitse hahmo kirjastosta"
+
+msgid "Circle"
+msgstr "Ympyrä"
+
+msgid "City"
+msgstr "Kaupunki"
+
+msgid "Clarinet"
+msgstr "Klarinetti"
+
+msgid "Claves"
+msgstr "Palikat"
+
+#, fuzzy
+msgid "clean up"
+msgstr "siivoa"
+
+msgid "Clear"
+msgstr "Puhdista"
+
+msgid "clear senders/receivers"
+msgstr "pyyhi lähettimet/vastaanottimet"
+
+msgid "Click \"Save now\" to try again or \"Download\" to save"
+msgstr "Klikkaa uudellaan tai tallenna"
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Closed Hi-Hat"
+msgstr "Suljettu hi-hat"
+
+msgid "Cloud data"
+msgstr "Pilvidata"
+
+msgid "Cloud variable (stored on server)"
+msgstr ""
+
+msgid "color"
+msgstr "väri"
+
+msgid "Color a shape"
+msgstr "Täytä värillä"
+
+msgid "Conga"
+msgstr "Konga"
+
+msgid "Connecting to Cloud data server..."
+msgstr "Liitetty pilvipalvelimeen"
+
+msgid "Convert to bitmap"
+msgstr "Muuta bittikartaksi"
+
+msgid "Convert to vector"
+msgstr "Muuta vektoriksi"
+
+msgid "Converting mp3..."
+msgstr "Muunnetaan mp3..."
+
+msgid "copy"
+msgstr "kopioi"
+
+msgid "Copying..."
+msgstr "Kopioidaan..."
+
+msgid "cos"
+msgstr "cos"
+
+# 75%
+msgid "Costume"
+msgstr "Asuste"
+
+msgid "Costume Library"
+msgstr "Asustekirjasto"
+
+msgid "costume name"
+msgstr "asusteen nimi"
+
+msgid "costume1"
+msgstr "asuste1"
+
+# 87%
+msgid "costume2"
+msgstr "asuste2"
+
+# 75%
+msgid "Costumes"
+msgstr "Asusteet"
+
+msgid "Costumes > 1"
+msgstr "Asusteet > 1"
+
+msgid "Could not retrieve new application from server."
+msgstr ""
+
+msgid "Cowbell"
+msgstr "Lehmänkello"
+
+msgid "Crash Cymbal"
+msgstr "Crash Cymbal"
+
+msgid "Creating..."
+msgstr "Luodaan..."
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Tällä hetkellä vain numeroita voidaan tallentaa pilvimuuttujiksi."
+
+msgid "cut"
+msgstr "leikkaa"
+
+msgid "D connected"
+msgstr "D liitetty"
+
+msgid "date"
+msgstr "päiväys"
+
+msgid "day of week"
+msgstr "viikonpäivä"
+
+msgid "delete"
+msgstr "poista"
+
+# 83%
+msgid "Delete"
+msgstr "Poista"
+
+msgid "delete variable"
+msgstr "poista muuttuja"
+
+# 90%
+msgid "direction:"
+msgstr "suunta:"
+
+msgid "don't rotate"
+msgstr "älä kierrä"
+
+msgid "Don't save"
+msgstr ""
+
+msgid "down"
+msgstr "alas"
+
+msgid "down arrow"
+msgstr "nuoli alas"
+
+msgid "Download"
+msgstr "Lataa"
+
+msgid "Download to your computer"
+msgstr "Lataa tietokoneeseen"
+
+msgid "Downloading new version"
+msgstr ""
+
+msgid "duplicate"
+msgstr "kopioi"
+
+msgid "Duplicate"
+msgstr "Kopioi"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "reuna"
+
+msgid "Edit"
+msgstr "Muokkaa"
+
+msgid "edit"
+msgstr "muokkaa"
+
+msgid "Edit Block"
+msgstr "Muokkaa lohkoa"
+
+msgid "Effects"
+msgstr "Efekti"
+
+msgid "Electric Guitar"
+msgstr "Sähkökitara"
+
+msgid "Electric Piano"
+msgstr "Sähköpiano"
+
+msgid "Electronic"
+msgstr "Sähköinen"
+
+msgid "Ellipse"
+msgstr "Ellipsi"
+
+msgid "empty"
+msgstr ""
+
+msgid "Erase"
+msgstr "Kumita"
+
+msgid "Erase all"
+msgstr ""
+
+# 92%
+msgid "Eraser width"
+msgstr "Kumin leveys"
+
+msgid "Error!"
+msgstr "Virhe!"
+
+msgid "export"
+msgstr "vie"
+
+msgid "fade in"
+msgstr "vaimenna alku"
+
+msgid "fade out"
+msgstr "vaimenna loppu"
+
+msgid "false"
+msgstr ""
+
+msgid "Fantasy"
+msgstr "Fantasia"
+
+msgid "Features"
+msgstr "Ominaisuudet"
+
+msgid "File"
+msgstr "Tiedosto"
+
+msgid "Fill with color"
+msgstr "Täytä värillä"
+
+msgid "fisheye"
+msgstr "kalansilmä"
+
+msgid "Flip left-right"
+msgstr "Peilaa vaakasuunnassa"
+
+msgid "Flip up-down"
+msgstr "Peilaa pystysuunnassa"
+
+msgid "floor"
+msgstr "pyöristä alaspäin"
+
+msgid "Flute"
+msgstr "Huilu"
+
+msgid "Flying"
+msgstr "Lentävä"
+
+msgid "Font:"
+msgstr "Fontti:"
+
+msgid "For all sprites"
+msgstr "Kaikille hahmoille"
+
+msgid "For this sprite only"
+msgstr "Vain tälle hahmolle"
+
+msgid "Forward a layer"
+msgstr "Kerros eteenpäin"
+
+msgid "ghost"
+msgstr "haamu"
+
+msgid "Group"
+msgstr "Ryhmä"
+
+msgid "Grow"
+msgstr "Kasvata"
+
+msgid "Guiro"
+msgstr "Guiro"
+
+msgid "Guitar"
+msgstr "Kitara"
+
+msgid "Hand Clap"
+msgstr "Taputus"
+
+msgid "Hardware"
+msgstr "Laitteisto"
+
+msgid "help"
+msgstr ""
+
+msgid "Hello!"
+msgstr ""
+
+msgid "Hmm..."
+msgstr ""
+
+#, fuzzy
+msgid "hello"
+msgstr "Sello"
+
+msgid "High C"
+msgstr "Ylä-C"
+
+msgid "Holiday"
+msgstr ""
+
+msgid "hour"
+msgstr "tunti"
+
+msgid "Human"
+msgstr "Ihminen"
+
+# 83%
+msgid "import"
+msgstr "tuo"
+
+msgid "Import"
+msgstr "Tuo"
+
+msgid "Importing sound..."
+msgstr "Tuodaan ääntä..."
+
+msgid "Indoors"
+msgstr "Sisällä"
+
+msgid "Installing..."
+msgstr "Asennetaan..."
+
+msgid "Instruments"
+msgstr "Soittimet"
+
+msgid "large readout"
+msgstr "suuri lukuasu"
+
+msgid "last"
+msgstr "viimeinen"
+
+msgid "left"
+msgstr "vasen"
+
+msgid "left arrow"
+msgstr "nuoli vasemmalle"
+
+msgid "left-right"
+msgstr "vasen-oikea"
+
+msgid "length"
+msgstr "pituus"
+
+msgid "Letters"
+msgstr ""
+
+msgid "Library"
+msgstr "Kirjasto"
+
+msgid "light"
+msgstr "vaalea"
+
+msgid "Line"
+msgstr "Viiva"
+
+# 90%
+msgid "Line width"
+msgstr "Viivanleveys"
+
+# 75%
+msgid "list"
+msgstr "luettelo"
+
+msgid "List name"
+msgstr "Luettelonimi"
+
+msgid "ln"
+msgstr "luonnollinen logaritmi"
+
+msgid "Loading project..."
+msgstr "Projektia ladataan..."
+
+msgid "log"
+msgstr "10-logaritmi"
+
+msgid "louder"
+msgstr "voimakkaammin"
+
+msgid "Low C"
+msgstr "Ala-C"
+
+msgid "Make a Block"
+msgstr "Tee lohko"
+
+msgid "Make a List"
+msgstr "Tee lista"
+
+msgid "Make a Variable"
+msgstr "Tee muuttuja"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr "Maksimi"
+
+msgid "meow"
+msgstr "naukuna"
+
+msgid "Message Name"
+msgstr "Viestinnimi"
+
+msgid "message1"
+msgstr "viesti1"
+
+#, fuzzy
+msgid "Microphone volume:"
+msgstr "Mikrofonin äänenvoimakkuus:"
+
+msgid "Middle C"
+msgstr "Keski-C"
+
+msgid "Min"
+msgstr "Minimi"
+
+msgid "minute"
+msgstr "minuutti"
+
+msgid "month"
+msgstr "kuukausi"
+
+msgid "mosaic"
+msgstr "mosaiikki"
+
+msgid "motion"
+msgstr "liike"
+
+msgid "mouse-pointer"
+msgstr "hiiriosoitin"
+
+msgid "Multiple"
+msgstr "Monta"
+
+msgid "Music and Dance"
+msgstr "Musiikki ja tanssi"
+
+msgid "Music Box"
+msgstr "Soittopeli"
+
+msgid "Music Loops"
+msgstr "Musiikkiluuppeja"
+
+msgid "myself"
+msgstr "minä itse"
+
+msgid "Nature"
+msgstr "Luonto"
+
+msgid "New"
+msgstr "Uusi"
+
+msgid "New backdrop from camera"
+msgstr "Uusi tausta kamerasta"
+
+# 92%
+msgid "New backdrop:"
+msgstr "Uusi tausta:"
+
+msgid "New Block"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr "Uusi asuste kamerasta"
+
+# 91%
+msgid "New costume:"
+msgstr "Uusi asuste:"
+
+msgid "New List"
+msgstr "Uusi lista"
+
+msgid "New Message"
+msgstr ""
+
+msgid "new message..."
+msgstr "uusi viesti..."
+
+msgid "New name"
+msgstr "Uusi nimi"
+
+# 90%
+msgid "New sound:"
+msgstr "Uusi ääni:"
+
+msgid "New sprite from camera"
+msgstr "Uusi hahmo kamerasta"
+
+msgid "New sprite:"
+msgstr "Uusi hahmo:"
+
+msgid "New Variable"
+msgstr "Uusi muuttuja"
+
+msgid "No motion blocks"
+msgstr "Ei liikelohkoja"
+
+msgid "normal readout"
+msgstr "normaali lukuasu"
+
+msgid "Not saved; network or server problem."
+msgstr "Ei tallennettu; verkko- tai palvelinongelmia."
+
+msgid "Not saved; project did not load."
+msgstr "Ei tallennettu; projekti ei latautunut"
+
+msgid "of"
+msgstr "määrästä"
+
+msgid "off"
+msgstr "pois"
+
+msgid "Offline Editor"
+msgstr "Offline-editori"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "on"
+msgstr "päälle"
+
+msgid "on-flipped"
+msgstr "päälle-käännetty"
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "avoin Cuica"
+
+msgid "Open Hi-Hat"
+msgstr "Avoin Hi-Hat"
+
+msgid "Options"
+msgstr "Vaihtoehdot"
+
+msgid "Organ"
+msgstr "Urut"
+
+msgid "Other"
+msgstr "Muu"
+
+# 82%
+msgid "other scripts in sprite"
+msgstr "muut hahmossa olevat skriptit"
+
+msgid "other scripts in stage"
+msgstr "muut skriptit kentällä"
+
+msgid "Outdoors"
+msgstr "Ulkona"
+
+msgid "Paint new backdrop"
+msgstr "Piirrä uusi tausta"
+
+msgid "Paint new costume"
+msgstr "Piirrä uusi asuste"
+
+msgid "Paint new sprite"
+msgstr "Piirrä uusi hahmo"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is required"
+msgstr ""
+
+msgid "paste"
+msgstr "liitä"
+
+msgid "Pencil"
+msgstr "Kynä"
+
+msgid "People"
+msgstr "Ihmiset"
+
+msgid "Percussion"
+msgstr "Rummut"
+
+msgid "photo1"
+msgstr "valokuva1"
+
+msgid "Piano"
+msgstr "Piano"
+
+msgid "Pick up color"
+msgstr "Poimi väri"
+
+msgid "pixelate"
+msgstr "pikselöi"
+
+msgid "Pizzicato"
+msgstr "Pizzicato"
+
+msgid "pop"
+msgstr "pop"
+
+msgid "previous backdrop"
+msgstr ""
+
+msgid "Project did not load."
+msgstr "Projekti ei latautunut."
+
+msgid "Project not saved!"
+msgstr "Projektia ei ole tallennettu!"
+
+msgid "Project name"
+msgstr ""
+
+msgid "Project name is required"
+msgstr ""
+
+msgid "random"
+msgstr "satunnainen"
+
+msgid "Record"
+msgstr "Nauhoita"
+
+msgid "Record new sound"
+msgstr "Äänitä uusi ääni"
+
+msgid "record..."
+msgstr ""
+
+msgid "recording1"
+msgstr "nauhoitus1"
+
+msgid "Rectangle"
+msgstr "Neliö"
+
+# 75%
+msgid "Redo"
+msgstr "Tee uudelleen"
+
+msgid "redo"
+msgstr "tee uudelleen"
+
+msgid "Remix"
+msgstr "Remix"
+
+msgid "Remixing..."
+msgstr "Remixaa..."
+
+msgid "Rename"
+msgstr "Uudelleennimeä"
+
+msgid "rename variable"
+msgstr "uudelleennimeä muuttuja"
+
+msgid "Replace existing project"
+msgstr ""
+
+msgid "Reshape"
+msgstr "Uudelleenhahmota"
+
+msgid "resistance-A"
+msgstr "vastus-A"
+
+msgid "resistance-B"
+msgstr "vastus-B"
+
+msgid "resistance-C"
+msgstr "vastus-C"
+
+msgid "resistance-D"
+msgstr "vastus-D"
+
+msgid "reverse"
+msgstr "vaihda suuntaa"
+
+msgid "Revert"
+msgstr "Palaa"
+
+msgid "Reverting..."
+msgstr "Palaa..."
+
+msgid "right"
+msgstr "oikea"
+
+msgid "right arrow"
+msgstr "nuoli oikealle"
+
+msgid "rotation style:"
+msgstr "kiertotyyli:"
+
+msgid "Run without screen refresh"
+msgstr "Aja ilman ruudunpäivitystä"
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid "Save a copy of this project and add your own ideas."
+msgstr ""
+
+msgid "Save as"
+msgstr ""
+
+msgid "Save now"
+msgstr "Tallenna nyt"
+
+msgid "Save project?"
+msgstr ""
+
+msgid "save to local file"
+msgstr "tallenna paikalliseen tiedostoon"
+
+msgid "Saved"
+msgstr "Tallennettu"
+
+msgid "Saving changes..."
+msgstr "Tallennetaan muutoksia..."
+
+msgid "Saving..."
+msgstr "Tallennetaan..."
+
+msgid "Saxophone"
+msgstr "Saksofoni"
+
+msgid "Scratch Updater"
+msgstr ""
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr ""
+
+msgid "Script"
+msgstr "Skripti"
+
+msgid "Scripts"
+msgstr "Skriptit"
+
+msgid "second"
+msgstr "sekunti"
+
+msgid "See project page"
+msgstr "Katso projektisivu"
+
+msgid "Select"
+msgstr "Valitse"
+
+msgid "select all"
+msgstr "valitse kaikki"
+
+msgid "Select and duplicate"
+msgstr "Valitse ja monista"
+
+msgid "Send to back"
+msgstr "Vie taakse"
+
+msgid "Set Costume Center"
+msgstr "Aseta asusteen keskipiste"
+
+msgid "Set costume center"
+msgstr "Aseta asusteen keskipiste"
+
+msgid "set slider min and max"
+msgstr "aseta säätimen minimi ja maksimi"
+
+msgid "Share"
+msgstr "Jaa"
+
+msgid "Share to website"
+msgstr ""
+
+msgid "Share to Scratch website"
+msgstr ""
+
+msgid "shared"
+msgstr "jaettu"
+
+msgid "Shift:"
+msgstr "Siirrä:"
+
+msgid "show receivers"
+msgstr "näytä vastaanottajat"
+
+msgid "show senders"
+msgstr "näytä lähettäjät"
+
+msgid "show:"
+msgstr "näytä:"
+
+msgid "Shrink"
+msgstr "Pienennä"
+
+msgid "Side Stick"
+msgstr "Tartu reunaan"
+
+msgid "Sign in"
+msgstr "Sisäänkirjaudu"
+
+msgid "Sign in to save"
+msgstr "Sisäänkirjaudu tallentaaksesi"
+
+msgid "silence"
+msgstr "hiljaisuus"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "slider"
+msgstr "säädin"
+
+msgid "Slider Range"
+msgstr "Säätimen rajat"
+
+msgid "Small stage layout"
+msgstr "Pienen esiintymislavan ulkoasu"
+
+msgid "Smooth"
+msgstr "Liukuva"
+
+msgid "Snare Drum"
+msgstr "Snare rumpu"
+
+msgid "softer"
+msgstr "pehmeämmin"
+
+msgid "sound"
+msgstr "ääni"
+
+msgid "Sound Library"
+msgstr "Äänikirjasto"
+
+msgid "Sounds"
+msgstr "Äänet"
+
+# 80%
+msgid "Space"
+msgstr "Välilyönti"
+
+msgid "space"
+msgstr "välilyönti"
+
+msgid "Sports"
+msgstr "Urheilu"
+
+# 85%
+msgid "Sprite"
+msgstr "Hahmo"
+
+msgid "Sprite Library"
+msgstr "Hahmokirjasto"
+
+# 85%
+msgid "Sprite1"
+msgstr "Hahmo1"
+
+msgid "Sprites"
+msgstr "Hahmot"
+
+msgid "sqrt"
+msgstr "neliöjuuri"
+
+msgid "Square"
+msgstr "Neliö"
+
+msgid "Stage"
+msgstr "Esiintymislava"
+
+msgid "Stage selected:"
+msgstr "Valittu esiintymislava:"
+
+msgid "Steel Drum"
+msgstr "Teräsrumpu"
+
+msgid "Synth Lead"
+msgstr "Synth Lead"
+
+msgid "Synth Pad"
+msgstr "Synth Pad"
+
+msgid "Tambourine"
+msgstr "Tamburiini"
+
+msgid "tan"
+msgstr "tan"
+
+#, fuzzy
+msgid "text"
+msgstr "Teksti"
+
+msgid "Text"
+msgstr "Teksti"
+
+msgid "that way"
+msgstr "tuohon suuntaan"
+
+msgid "The name is already in use."
+msgstr ""
+
+msgid ""
+"The project failed to load and Scratch Team has been notified. Press OK to "
+"leave this page."
+msgstr ""
+
+msgid "Theme"
+msgstr "Aihe"
+
+msgid "Things"
+msgstr "Asiat"
+
+msgid "thing"
+msgstr ""
+
+msgid "This is the current version."
+msgstr ""
+
+msgid ""
+"This project can detect who is using it, through the “username” block. To "
+"hide your identity, sign out before using the project."
+msgstr ""
+"Tämä projekti voi tunnistaa kuka käyttää sitä, hyödyntäen \"käyttäjänimi\" -"
+"lohkoa. Piilottaaksesi omat tietosi, kirjaudu ulos ennen kuin käytät tätä "
+"projektia."
+
+msgid ""
+"This project uses Cloud data ‒ a feature that is available only to signed in "
+"users."
+msgstr ""
+"Tämä projekti käyttää Pilvitietoja - toiminne joka on sallittu vain "
+"kirjautuneille käyttäjille."
+
+msgid "this script"
+msgstr "tämä skripti"
+
+msgid "this sprite"
+msgstr "tämä hahmo"
+
+msgid "this way"
+msgstr "tähän suuntaan"
+
+msgid "Throw away all changes since opening this project?"
+msgstr "Hylkää kaikki muutokset jota olet tehnyt tähän projektiin?"
+
+msgid "Tips"
+msgstr "Vinkit"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+"Poistaaksesi lohkon määrityksen, poista ensin kaikki missä tätä lohkoa "
+"käytetään."
+
+msgid "Transportation"
+msgstr "kulkuneuvot"
+
+msgid "Triangle"
+msgstr "Kolmio"
+
+msgid "Trombone"
+msgstr "Trumpetti"
+
+msgid "true"
+msgstr ""
+
+msgid "Turbo mode"
+msgstr "Turbomoodi"
+
+msgid "Turbo Mode"
+msgstr "Turbomoodi"
+
+msgid "Type"
+msgstr "Tyyppi"
+
+# 75%
+msgid "Undelete"
+msgstr "Peruuta poisto"
+
+msgid "Underwater"
+msgstr "Vedenalainen"
+
+msgid "undo"
+msgstr "peruuta"
+
+# 75%
+msgid "Undo"
+msgstr "Peruuta"
+
+msgid "Undo Revert"
+msgstr "Poista palautus"
+
+msgid "Ungroup"
+msgstr "Pura ryhmitys"
+
+msgid "unshared"
+msgstr "jakamaton"
+
+msgid "up"
+msgstr "ylös"
+
+msgid "up arrow"
+msgstr "nuoli ylös"
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update not needed"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Upload backdrop from file"
+msgstr "Lataa tausta tiedostoista"
+
+msgid "Upload costume from file"
+msgstr "Lataa asuste tiedostosta"
+
+msgid "Upload from your computer"
+msgstr "Lataa tietokoneestasi"
+
+msgid "Upload sound from file"
+msgstr "Lataa ääni tiedostosta"
+
+msgid "Upload sprite from file"
+msgstr "Lataa hahmo tiedostosta"
+
+msgid "Uploading image..."
+msgstr "Ladataan kuvaa..."
+
+msgid "Uploading sound..."
+msgstr "Ladataan ääntä..."
+
+msgid "Uploading sprite..."
+msgstr "Ladataan hahmoa..."
+
+msgid "variable"
+msgstr "muuttuja"
+
+msgid "Variable name"
+msgstr "Muuttujanimi"
+
+msgid "Vector"
+msgstr "Vektori"
+
+msgid "Vector Mode"
+msgstr "Vektoritila"
+
+msgid "Vibraphone"
+msgstr "Vibraphone"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video direction"
+msgstr ""
+
+msgid "video motion"
+msgstr "videoliike"
+
+msgid "Video on:"
+msgstr "Video päällä:"
+
+msgid "Vocals"
+msgstr "Äänet"
+
+msgid "Walking"
+msgstr "Kävely"
+
+msgid "Want to save? Click remix"
+msgstr "Haluatko tallentaa? Valitse remix"
+
+msgid "Which column do you want to import"
+msgstr "Minkä sarakkeen haluat tuoda"
+
+msgid "What's your name?"
+msgstr ""
+
+msgid "whirl"
+msgstr "pyörre"
+
+msgid "Wood Block"
+msgstr "Puupalikka"
+
+msgid "Wooden Flute"
+msgstr "Puuhuilu"
+
+msgid "world"
+msgstr ""
+
+msgid "year"
+msgstr "vuosi"
+
+msgid ""
+"You cannot edit cloud data in someone else's project.<br>Any change that you "
+"make in the editor will be temporary and not persistent."
+msgstr ""
+"Et voi muokata pilvitietoa jonkun toisen projektissa.<br>Kaikki muutokset "
+"joita teet ovat paikallisia eivät tallennu."
+
+msgid "Your Scratch name"
+msgstr ""
+
+msgid "Your Scratch name is required"
+msgstr ""
+
+# Offline editor only
+msgid "All Tips"
+msgstr ""
+
+# Offline editor only
+msgid ""
+"An updated version of the Scratch offline editor is available on the Scratch "
+"website."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve update location from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not retrieve version information from server."
+msgstr ""
+
+# Offline editor only
+msgid "Could not write file:"
+msgstr ""
+
+# Offline editor only
+msgid "Downloading new version..."
+msgstr ""
+
+# Offline editor only
+msgid "Error saving project"
+msgstr ""
+
+# Offline editor only
+msgid "Force help file update"
+msgstr ""
+
+# Offline editor only
+msgid "Import experimental HTTP extension"
+msgstr ""
+
+# Offline editor only
+msgid "Loading help files..."
+msgstr ""
+
+# Offline editor only
+msgid "Manual Update Available"
+msgstr ""
+
+# Offline editor only
+msgid "Open Project"
+msgstr ""
+
+# Offline editor only
+msgid "Please visit the download page to install it."
+msgstr ""
+
+# Offline editor only
+msgid "Quit"
+msgstr ""
+
+# Offline editor only
+msgid "Replace existing project?"
+msgstr ""
+
+# Offline editor only
+msgid "Running pre-release"
+msgstr ""
+
+# Offline editor only
+msgid "Save Project"
+msgstr ""
+
+# Offline editor only
+msgid "Server error:"
+msgstr ""
+
+# Offline editor only
+msgid "Share to Scratch Website"
+msgstr ""
+
+# Offline editor only
+msgid "Success"
+msgstr ""
+
+# Offline editor only
+msgid "This version is newer than the current release version."
+msgstr ""
+
+# Offline editor only
+msgid "Update check failed"
+msgstr ""
+
+# Offline editor only
+msgid "Upload failed"
+msgstr ""
+
+# Offline editor only
+msgid "Visit download page"
+msgstr ""
+
+# Offline editor only
+msgid "Your project has been uploaded to scratch.mit.edu"
+msgstr ""
+
+# The language name as it will appear in the language menu
+#~ msgid "Language-Name"
+#~ msgstr "Suomi"
+
+#~ msgid "%m.list contains %s"
+#~ msgstr "%m.list sisältää %s"
+
+#~ msgid "when Stage clicked"
+#~ msgstr "kun taustaa klikataan"
+
+# 89%
+#~ msgid "set motor direction %m.motorDirection"
+#~ msgstr "moottorinsuunta %m.motorDirection"
+
+# 77%
+#~ msgid "set motor power %n"
+#~ msgstr "moottorin voima %n"
+
+#~ msgid "turn motor off"
+#~ msgstr "moottori pois päältä"
+
+#~ msgid "turn motor on"
+#~ msgstr "moottori päälle"
+
+# 80%
+#~ msgid "turn motor on for %n secs"
+#~ msgstr "moottori päälle %n sekunniksi"
+
+#~ msgid "when distance < %n"
+#~ msgstr "kun etäisyys < %n"
+
+#~ msgid "when tilt = %n"
+#~ msgstr "kun kallistuminen = %n"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "aseta moottorin suunnaksi %m.motorDirection"
+
+#~ msgid "user id"
+#~ msgstr "käyttäjätunnus"
+
+#~ msgid "clone startup"
+#~ msgstr "kloonaa aloitus"
+
+#~ msgid "forever if %b"
+#~ msgstr "ikuisesti jos %b"
+
+#~ msgid "hide all sprites"
+#~ msgstr "piilota kaikki hahmot"
+
+#~ msgid "if %b"
+#~ msgstr "jos %b"
+
+#~ msgid "Scratch days"
+#~ msgstr "Scratch päiviä"
+
+#~ msgid "hide monitor %m.varOrList"
+#~ msgstr "piilota näyttö %m.varOrList"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "moottorinsuunta %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "moottori pois"
+
+#~ msgid "motor on"
+#~ msgstr "moottori päälle"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "moottori päälle %n sekunniksi"
+
+#~ msgid "motor power %n"
+#~ msgstr "moottorin voima %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "soita nuottia %d.note %n iskun ajan"
+
+#~ msgid "show monitor %m.varOrList"
+#~ msgstr "näytä arvo %m.varOrList"
+
+#~ msgid "when I am clicked"
+#~ msgstr "kun minua klikataan"
+
+#~ msgid "About LEGO WeDo extension..."
+#~ msgstr "Tietoa LEGO WeDo laajennuksesta..."
+
+#~ msgid "About PicoBoard extension..."
+#~ msgstr "Tietoa PicoBoard laajennuksesta..."
+
+#~ msgid "Account settings"
+#~ msgstr "Tiliasetukset"
+
+#~ msgid "all motors"
+#~ msgstr "kaikki moottorit"
+
+#~ msgid "Cloud"
+#~ msgstr "Pilvi"
+
+#~ msgid "Costumes:"
+#~ msgstr "Asusteet:"
+
+#~ msgid "everything"
+#~ msgstr "kaikki"
+
+#~ msgid "Extension Library"
+#~ msgstr "Laajennuskirjasto"
+
+#~ msgid "Extension Problem"
+#~ msgstr "Laajennusongelma"
+
+#~ msgid "Go to My Stuff"
+#~ msgstr "Mene minun juttuihini"
+
+# 83%
+#~ msgid "lights"
+#~ msgstr "valot"
+
+#~ msgid "limit reached"
+#~ msgstr "raja saavutettu"
+
+#~ msgid "motor"
+#~ msgstr "moottori"
+
+#~ msgid "motor A"
+#~ msgstr "moottori A"
+
+#~ msgid "motor B"
+#~ msgstr "moottori B"
+
+#~ msgid "My Stuff"
+#~ msgstr "Omat jutut"
+
+#~ msgid "not ="
+#~ msgstr "ei ="
+
+#~ msgid "Profile"
+#~ msgstr "Profiili"
+
+#~ msgid "Remove extension blocks"
+#~ msgstr "Poista laajennuslohkot"
+
+#~ msgid "requires sign in"
+#~ msgstr "vaatii sisäänkirjautumisen"
+
+#~ msgid "Save as a copy"
+#~ msgstr "Tallenna kopio"
+
+#~ msgid "Scripts:"
+#~ msgstr "Skriptit:"
+
+#~ msgid ""
+#~ "See the Tips window (on the right) to install the plug-in and get the "
+#~ "extension working."
+#~ msgstr ""
+#~ "Katso ohjeet ikkuna (oikealla) asentaaksesi liitännäisen ja saadaksesi "
+#~ "laajennuksen toimimaan."
+
+#~ msgid "Sign out"
+#~ msgstr "Kirjaudu ulos"
+
+#~ msgid "stored on server"
+#~ msgstr "tallennettu palvelimeen"
+
+#~ msgid ""
+#~ "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+#~ "numbers are supported<br>Chat rooms are not allowed, and will be "
+#~ "removed<br>For more info, <a href= target=>see the cloud data FAQ!</a>"
+#~ msgstr ""
+#~ "<b>Tietoa pilvipalveluista ja -muuttujista</b><br>&nbsp;<br>Tällä "
+#~ "hetkellä vain numerot on tuettuja<br>Keskustelufoorumeja ei sallita ja ne "
+#~ "poistetaan<br>Lisätietoa: <a href= target=>usein kysytyt kysymykset</a>"
+
+#~ msgid "Click  to try again or  to save"
+#~ msgstr "Klikkaa uudellaan tai tallenna"
+
+#~ msgid "Eraser width:"
+#~ msgstr "Kumin leveys"
+
+#~ msgid "Line width:"
+#~ msgstr "Viivanleveys:"
+
+#~ msgid "cleanup"
+#~ msgstr "siivoa"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "LEGO WeDo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Mikrofonin äänenvoimakkuus:"
+
+#~ msgid "Add a boolean input:"
+#~ msgstr "lisää boolean input"
+
+#~ msgid "Add a number input:"
+#~ msgstr "lisää numeraalinen input"
+
+#~ msgid "Add a string input:"
+#~ msgstr "Lisää teksti input"
+
+#~ msgid "login"
+#~ msgstr "kirjaudu"
+
+#~ msgid "New backdrop"
+#~ msgstr "Uusi tausta"
+
+#~ msgid "New costume"
+#~ msgstr "Uusi asuste"
+
+#~ msgid "New sound"
+#~ msgstr "Uusi ääni"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Uusi hahmo:"
+
+#~ msgid "Paint"
+#~ msgstr "Piirrä"
+
+#~ msgid "bottom-left"
+#~ msgstr "vasen-alareuna"
+
+#~ msgid "bottom-right"
+#~ msgstr "oikea-alareuna"
+
+#~ msgid "middle"
+#~ msgstr "keskimmäinen"
+
+#~ msgid "name"
+#~ msgstr "nimi"
+
+#~ msgid "say"
+#~ msgstr "sano"
+
+#~ msgid "shout"
+#~ msgstr "huuda"
+
+#~ msgid "think"
+#~ msgstr "ajattele"
+
+#~ msgid "top-left"
+#~ msgstr "vasen-yläreuna"
+
+#~ msgid "top-right"
+#~ msgstr "oikea-yläreuna"
+
+#~ msgid "whisper"
+#~ msgstr "kuiskaus"
+
+#~ msgid "any"
+#~ msgstr "joku"
+
+#~ msgid "Floor Tom"
+#~ msgstr "Lattia Tom"
+
+#~ msgid "High Bongo"
+#~ msgstr "High Bongo"
+
+#~ msgid "High Tom"
+#~ msgstr "High Tom"
+
+#~ msgid "High Wood Block"
+#~ msgstr "High Wood Block"
+
+#~ msgid "int"
+#~ msgstr "int"
+
+#~ msgid "Kick Drum"
+#~ msgstr "Kick rumpu"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Long Guiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Low Bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Low Conga"
+
+#~ msgid "Low Tom"
+#~ msgstr "Low Tom"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Low Wood Block"
+
+#~ msgid "Maracas"
+#~ msgstr "Marakassi"
+
+#~ msgid "Mid Tom"
+#~ msgstr "Mid Tom"
+
+#~ msgid "More"
+#~ msgstr "lisää"
+
+#~ msgid "Mute High Conga"
+#~ msgstr "Mute High Conga"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Vaimennettu triangeli"
+
+#~ msgid "Open High Conga"
+#~ msgstr "Open High Conga"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Open Triangle"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Pedal Hi-Hat"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Short Guiro"
