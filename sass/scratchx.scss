@@ -17,8 +17,15 @@ body > main {
             @include outer-container;
             > div {
                 @include row();
+                margin-bottom: 3em;
                 .main {
                     @include span-columns(8);
+                    h1 {
+                        font-size: 2em
+                    }
+                    h2, h3, h4, h5, h6 {
+                        margin: 1em 0 0.25em 0;
+                    }
                 }
                 nav {
                     border-left: 1px solid $base-border-color;

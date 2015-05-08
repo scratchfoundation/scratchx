@@ -78,6 +78,8 @@ article header p {
 }
 
 article header h1 + p {
+    font-size: 1.125em;
+    margin-bottom: 1.5em;
     @include span-columns(10);
     @include shift(1);
 }

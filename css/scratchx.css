@@ -815,6 +815,8 @@ article header p {
   text-align: center; }
 
 article header h1 + p {
+  font-size: 1.125em;
+  margin-bottom: 1.5em;
   float: left;
   display: block;
   margin-right: 1.25%;
@@ -901,7 +903,8 @@ body > main > footer > div {
   body > main > article > header > div > div,
   body > main > article > section > div > div,
   body > main > footer > div > div {
-    display: block; }
+    display: block;
+    margin-bottom: 3em; }
     body > main > header > div > div::after,
     body > main > article > header > div > div::after,
     body > main > article > section > div > div::after,
@@ -922,6 +925,28 @@ body > main > footer > div {
       body > main > article > section > div > div .main:last-child,
       body > main > footer > div > div .main:last-child {
         margin-right: 0; }
+      body > main > header > div > div .main h1,
+      body > main > article > header > div > div .main h1,
+      body > main > article > section > div > div .main h1,
+      body > main > footer > div > div .main h1 {
+        font-size: 2em; }
+      body > main > header > div > div .main h2, body > main > header > div > div .main h3, body > main > header > div > div .main h4, body > main > header > div > div .main h5, body > main > header > div > div .main h6,
+      body > main > article > header > div > div .main h2,
+      body > main > article > header > div > div .main h3,
+      body > main > article > header > div > div .main h4,
+      body > main > article > header > div > div .main h5,
+      body > main > article > header > div > div .main h6,
+      body > main > article > section > div > div .main h2,
+      body > main > article > section > div > div .main h3,
+      body > main > article > section > div > div .main h4,
+      body > main > article > section > div > div .main h5,
+      body > main > article > section > div > div .main h6,
+      body > main > footer > div > div .main h2,
+      body > main > footer > div > div .main h3,
+      body > main > footer > div > div .main h4,
+      body > main > footer > div > div .main h5,
+      body > main > footer > div > div .main h6 {
+        margin: 1em 0 0.25em 0; }
     body > main > header > div > div nav,
     body > main > article > header > div > div nav,
     body > main > article > section > div > div nav,
