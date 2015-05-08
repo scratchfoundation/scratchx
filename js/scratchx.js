@@ -136,7 +136,7 @@ function sendFileToFlash(file) {
     fileReader.readAsArrayBuffer(file);
 }
 
-$("[data-action='load-file']").click(function(e) {
+$(document).on('click', "[data-action='load-file']", function(e) {
     /*
      * Buttons with data-action="load-file" trigger a file input
      * prompt, passed to a handler that passes the file to Flash.
@@ -163,7 +163,7 @@ function sendURLtoFlash(url) {
 
 
 /* Load from URL */
-$("[data-action='load-url']").click(function(e) {
+$(document).on('click', "[data-action='load-url']", function(e) {
     /*
      * Links with data-action="load-url" send their href to Flash
      * So use like...
@@ -174,7 +174,7 @@ $("[data-action='load-url']").click(function(e) {
     showPage(editorId);
 });
 
-$(".url-load-form").submit(function(e) {
+$(document).on('submit', ".url-load-form", function(e) {
     // Load text input value on submit
     e.preventDefault();
     showPage(editorId);
@@ -269,7 +269,7 @@ function showModal(templateId) {
     });
 }
 
-$("[data-action='modal']").click(function(e){
+$(document).on('click', "[data-action='modal']", function(e){
     /*
      * Usage:
      *     <a href="#content" data-action="modal" data-template="id-for-content">Popup</a>
@@ -282,7 +282,7 @@ $("[data-action='modal']").click(function(e){
 
 /* Page switching */
 
-$("[data-action='static-link']").click(function(e) {
+$(document).on('click', "[data-action='static-link']", function(e) {
     /*
      * Links with data-action="static-link" should switch the view
      * to that page. Works like tabs sort of. Use like...
