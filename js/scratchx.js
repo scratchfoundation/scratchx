@@ -239,6 +239,7 @@ function showModal(templateId) {
     $("body").addClass("modal-open");
     $(document).on("modal:exit", function(){
         $("body").removeClass("modal-open");
+        Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
         $(".modal-fade-screen", $modal).removeClass("visible");
         $(this).off();
     });
