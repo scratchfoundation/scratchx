@@ -269,6 +269,11 @@ function showModal(templateId) {
     });
 }
 
+$(document).keyup(function(e) {
+    // Exit modals with esc key
+    if (e.keyCode == 27) $(document).trigger("modal:exit");
+});
+
 $(document).on('click', "[data-action='modal']", function(e){
     /*
      * Usage:
