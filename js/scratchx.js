@@ -317,14 +317,7 @@ function initPage() {
     /*
      * On load, show the page identified by the URL fragment. Default to #home.
      */
-    if (window.location.hash) {
-        if (window.location.hash.charAt(1) == "#") {
-            sendURLtoFlash(LZString.decompress(window.location.hash.substr(2)));
-            initialID = editorId;
-        } else {
-            initialID = window.location.hash.substr(1);
-        }
-    }
+    if (window.location.hash) initialID = window.location.hash.substr(1);
     showPage(initialID);
     loadFromURLParameter(window.location.search);
 }
