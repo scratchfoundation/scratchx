@@ -243,6 +243,7 @@ function showModal(templateId) {
         $(".modal-fade-screen", $modal).removeClass("visible");
         $(this).off();
     });
+    return $modal;
 }
 
 $(document).keyup(function(e) {
@@ -261,6 +262,15 @@ $(document).on('click', "[data-action='modal']", function(e){
     e.preventDefault();
     showModal($(this).data("template"));
 });
+
+function JSshowWarning(extensionData) {
+    $modal = showModal("template-warning");
+    $("button, .modal-close", $modal).click(function(e){
+        e.preventDefault();
+        $(document).trigger("modal:exit")
+    });
+
+}
 
 
 /* Page switching */

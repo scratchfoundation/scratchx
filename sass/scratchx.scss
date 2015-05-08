@@ -47,7 +47,7 @@ body {
     }
 }
 
-#dialogs, #modal-dialogs .modal-inner {
+#dialogs, .modal-inner {
     @include row();
     dialog {
         @include span-columns(4);

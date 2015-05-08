@@ -412,6 +412,11 @@ button {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
+  button.success:hover, button.success:focus, input[type="button"].success:hover, input[type="button"].success:focus, input[type="reset"].success:hover, input[type="reset"].success:focus, input[type="submit"].success:hover, input[type="submit"].success:focus,
+  button.success:hover,
+  button.success:focus {
+    background-color: #0f7623;
+    color: #fff; }
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
@@ -699,8 +704,8 @@ picture {
     cursor: pointer; }
 .modal .modal-close {
   position: absolute;
-  top: 1.5em;
-  right: 1.5em;
+  top: 0.75em;
+  right: 0.75em;
   height: 1.5em;
   width: 1.5em;
   background: #fff;
@@ -734,7 +739,6 @@ picture {
   -webkit-transition: opacity 0.25s ease;
   -moz-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
-  background: #fff;
   border-radius: 5px;
   padding: 1.5em;
   position: relative;
@@ -794,7 +798,7 @@ dialog {
     */
     border: 1px solid; }
 
-.message, .warning, .info {
+.message {
   border-radius: 5px;
   text-align: center;
   margin: 1.5em 0;
@@ -807,6 +811,10 @@ dialog {
 .info {
   background-color: #dfe3e7;
   color: #58595b; }
+
+.success {
+  background-color: #18ba37;
+  color: #fff; }
 
 article header h1 {
   text-align: center; }
@@ -881,6 +889,29 @@ article header h1 + p {
   border-radius: 0.9375em;
   background-color: #21b4f0;
   color: #fff; }
+
+#modal-template-warning .modal-inner {
+  border: 1px solid #dfe3e7;
+  padding: 0;
+  width: 50%;
+  text-align: center; }
+#modal-template-warning section {
+  padding: 2em;
+  overflow: hidden; }
+#modal-template-warning header {
+  background: #dfe3e7;
+  text-align: right;
+  line-height: 1.5;
+  position: relative;
+  height: 3em; }
+#modal-template-warning .modal-close {
+  background: #dfe3e7; }
+  #modal-template-warning .modal-close:before, #modal-template-warning .modal-close:after {
+    background: #556372; }
+  #modal-template-warning .modal-close:hover:before, #modal-template-warning .modal-close:hover:after {
+    background: #3f4a55; }
+#modal-template-warning button {
+  width: auto; }
 
 a[href=""] {
   outline: 1px solid red; }
@@ -969,20 +1000,20 @@ body > section {
 body #home {
   display: block; }
 
-#dialogs, #modal-dialogs .modal-inner {
+#dialogs, .modal-inner {
   display: block; }
-  #dialogs::after, #modal-dialogs .modal-inner::after {
+  #dialogs::after, .modal-inner::after {
     clear: both;
     content: "";
     display: table; }
-  #dialogs dialog, #modal-dialogs .modal-inner dialog {
+  #dialogs dialog, .modal-inner dialog {
     float: left;
     display: block;
     margin-right: 1.25%;
     width: 32.5%; }
-    #dialogs dialog:last-child, #modal-dialogs .modal-inner dialog:last-child {
+    #dialogs dialog:last-child, .modal-inner dialog:last-child {
       margin-right: 0; }
-    #dialogs dialog p, #modal-dialogs .modal-inner dialog p {
+    #dialogs dialog p, .modal-inner dialog p {
       text-align: center; }
 
 #modal-dialogs .modal-inner {

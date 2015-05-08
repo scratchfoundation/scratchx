@@ -58,15 +58,18 @@ dialog {
 }
 
 .warning {
-    @extend .message;
     background-color: $yellow;
     color: $dark-gray;
 }
 
 .info {
-    @extend .message;
     background-color: $light-gray;
     color: $dark-gray;
+}
+
+.success {
+    background-color: $green;
+    color: $white;
 }
 
 article header h1 {
@@ -122,4 +125,42 @@ body > main > article > section {
         background-color: $blue;
         color: $white;
     }
+}
+
+#modal-template-warning {
+    .modal-inner {
+        border: 1px solid $light-gray;
+        padding: 0;
+        width: 50%;
+        text-align: center;
+    }
+    section {
+        padding: 2em;
+        overflow: hidden;
+    }
+
+    header {
+        background: $light-gray;
+        text-align: right;
+        line-height: 1.5;
+        position: relative;
+        height: 3em;
+    }
+
+    .modal-close {
+        background: $light-gray;
+
+        &:before, &:after {
+            background: darken($light-gray, 50%);
+        }
+
+        &:hover:before, &:hover:after {
+            background: darken($light-gray, 60%);
+        }
+    }
+
+    button {
+        width: auto;
+    }
+
 }

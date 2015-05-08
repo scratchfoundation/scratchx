@@ -58,7 +58,7 @@
   }
 
   .modal-close {
-    @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
+    @include position(absolute, ($modal-padding /4) ($modal-padding /4) null null);
     @include size(1.5em);
     background: $modal-background;
     cursor: pointer;
@@ -86,7 +86,6 @@
 
   .modal-inner {
     @include transition(opacity 0.25s ease);
-    background: $modal-background;
     border-radius: $base-border-radius;
     padding: $modal-padding / 2;
     position: relative;

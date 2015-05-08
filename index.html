@@ -83,7 +83,7 @@
                     </dialog>
                 </section>
 
-                <aside class="info">
+                <aside class="info message">
                     <strong>Note:</strong> To use any physical extensions, you need to download the <a href="https://scratch.mit.edu/scratchr2/static/ext/download.html">Hardware Plugin</a>.<br />
                     Official Scratch Extensions (such as LEGO WeDo) are available on the main <a href="https://scratch.mit.edu">Scratch site</a>.
                 </aside>
@@ -246,6 +246,19 @@
     </div>
     <div class="scratch_loading"></div>
 </section>
+<script type="text/template" id="template-warning">
+<div>
+<header><a class="modal-close" href="#"></a></header>
+<section class="warning">
+    <h2>Warning: all extensions are experimental</h2>
+    <p>Content on this site is <strong>not</strong> a product of the Scratch Team. Please use caution when using publically created extensions. <a href="#faq">Learn More</a></p>
+</section>
+<section>
+<button data-action="show" data-target="#home">Back to ScratchX Home</button>
+<button class="success">I understand, continue</button>
+</section>
+</div>
+</script>
 <script type="text/javascript" src="libs/base64ab.js"></script>
 <script type="text/javascript" src="scratch_extensions/scratch_ext.js"></script>
 <script type="text/javascript" src="js/scratchx.js"></script>
