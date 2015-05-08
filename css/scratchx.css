@@ -796,9 +796,9 @@ dialog {
 
 .message, .warning, .info {
   border-radius: 5px;
-  line-height: 49px;
   text-align: center;
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  padding: 0.75em; }
 
 .warning {
   background-color: #fff447;

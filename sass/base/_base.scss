@@ -52,9 +52,9 @@ dialog {
 
 .message {
     border-radius: $base-border-radius;
-    line-height: 49px;
     text-align: center;
     margin: $vertical-base * 4 0;
+    padding: $vertical-base * 2;
 }
 
 .warning {
