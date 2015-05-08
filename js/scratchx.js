@@ -265,20 +265,25 @@ $(document).on('click', "[data-action='modal']", function(e){
 
 /* Page switching */
 
-$(document).on('click', "[data-action='static-link']", function(e) {
+$(document).on('click', "[data-action='show']", function(e) {
     /*
-     * Links with data-action="static-link" should switch the view
+     * Anything with data-action="show" should switch the view
      * to that page. Works like tabs sort of. Use like...
      *     <!-- Makes a link to the Privacy Policy section -->
-     *     <a href="#privacy-policy" data-action="static-link">Privacy Policy</a>
+     *     <button data-target="#privacy-policy" data-action="show">Privacy Policy</button>
      * 
      */
-    var path = $(this).attr("href").substring(1);
-    showPage(path);
+    window.location.hash = $(this).data("target");
 });
 
 $(window).bind('hashchange', function(e) {
-    if (document.location.hash == '') showPage('home');
+    var page = '';
+    if (document.location.hash == '') {
+        page = 'home';
+    } else {
+        page = window.location.hash.substr(1);
+    }
+    showPage(page);
 });
 
 function showPage(path) {
