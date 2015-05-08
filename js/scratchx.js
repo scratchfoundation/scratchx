@@ -2,9 +2,11 @@
 var Scratch = Scratch || {};
 Scratch.FlashApp = Scratch.FlashApp || {};
 
+var editorId = "scratch";
+
 function handleEmbedStatus(e) {
     $('#scratch-loader').hide();
-    var scratch = $('#editor');
+    var scratch = $('#' + editorId);
     if (!e.success) {
         scratch.css('marginTop', '10');
         scratch.find('IMG.proj_thumb').css('width', '179px');
@@ -24,7 +26,7 @@ function JSthrowError(e) {
 function JSeditorReady() {
     try {
         handleParameters();
-        $("#editor").trigger("editorReady");
+        $("#" + editorId).trigger("editorReady");
         return true;
     } catch (error) {
         console.error(error.message, "\n", error.stack);
@@ -106,7 +108,7 @@ $.each(flashVars, function (prop, val) {
 
 swfobject.switchOffAutoHideShow();
 
-swfobject.embedSWF('Scratch.swf', 'editor', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
+swfobject.embedSWF('Scratch.swf', 'scratch', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
         flashVars, params, null, handleEmbedStatus);
 
 
@@ -120,7 +122,7 @@ function sendFileToFlash(file) {
     var fileReader = new FileReader();
     fileReader.onload = function (e) {
         var fileAsB64 = ab_to_b64(fileReader.result);
-        showPage("editor");
+        showPage(editorId);
         if (Scratch.FlashApp.ASobj.ASloadBase64SBX !== undefined) {
             Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
         } else {
@@ -168,14 +170,14 @@ $("[data-action='load-url']").click(function(e) {
      *    <a href="?url=urlToLoad" data-action="load-url">Load this</a>
      */
     e.preventDefault();
-    showPage("editor");
     sendURLtoFlash($(this).attr("href"));
+    showPage(editorId);
 });
 
 $(".url-load-form").submit(function(e) {
     // Load text input value on submit
     e.preventDefault();
-    showPage("editor");
+    showPage(editorId);
     sendURLtoFlash($('input[type="text"]', this).val());
 });
 
@@ -193,7 +195,7 @@ function loadFromURLParameter() {
         if (pair.length > 1 && pair[0]=="url") {
             if (!showedEditor) {
                 // Only try to switch to the editor once
-                showPage("editor");
+                showPage(editorId);
                 showedEditor = true;
             }
             sendURLtoFlash(pair[1]);
@@ -322,10 +324,10 @@ function showPage(path) {
     if (!$toShow.length) return;
 
     $(toHide).filter(":visible").hide();
-    if (toShow != "#editor") $("#editor").css({top: "-9999px"});
+    if (toShow != "#" + editorId) $("#" + editorId).css({top: "-9999px"});
     $("body > main, body > main > article").has($toShow).show();
     $toShow.show();
-    if (path == "editor") {
+    if (path == editorId) {
         $toShow.css({top: 0});
     }
 }
@@ -337,8 +339,8 @@ function initPage() {
      */
     if (window.location.hash) {
         if (window.location.hash.charAt(1) == "#") {
-            initialID = "editor";
             sendURLtoFlash(LZString.decompress(window.location.hash.substr(2)));
+            initialID = editorId;
         } else {
             initialID = window.location.hash.substr(1);
         }
