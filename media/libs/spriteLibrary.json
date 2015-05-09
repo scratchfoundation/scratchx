@@ -1,4 +1,4 @@
 [
 {"name": "Cat1", "md5": "21d7c8705a0fdeea32affb616ee6c984.json", "type": "sprite", "tags": ["animals", "drawing", "vector"], "info": [0, 2, 1]},
-{"name": "Cat2", "md5": "842ce138a74c38c5c3173f6822bbccb9.json", "type": "sprite", "tags": ["animals","drawing", "vector"], "info": [0, 1, 1]},
+{"name": "Cat2", "md5": "842ce138a74c38c5c3173f6822bbccb9.json", "type": "sprite", "tags": ["animals","drawing", "vector"], "info": [0, 1, 1]}
 ]
