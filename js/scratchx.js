@@ -3,7 +3,7 @@ var Scratch = Scratch || {};
 Scratch.FlashApp = Scratch.FlashApp || {};
 
 var editorId = "scratch";
-var initialID = "home";
+var initialPage = "home";
 var ShortURL = {
     key : "AIzaSyBlaftRUIOLFVs8nfrWvp4IBrqq9-az46A",
     api : "https://www.googleapis.com/urlshortener/v1/url",
@@ -12,7 +12,7 @@ var ShortURL = {
 
 function handleEmbedStatus(e) {
     $('#scratch-loader').hide();
-    var scratch = $('#' + editorId);
+    var scratch = $(document.getElementById(editorId));
     if (!e.success) {
         scratch.css('marginTop', '10');
         scratch.find('IMG.proj_thumb').css('width', '179px');
@@ -20,6 +20,7 @@ function handleEmbedStatus(e) {
         scratch.find('DIV.scratch_loading').hide();
     } else {
         Scratch.FlashApp.ASobj = scratch[0];
+        Scratch.FlashApp.$ASobj = $(Scratch.FlashApp.ASobj);
     }
 }
 
@@ -32,7 +33,7 @@ function JSthrowError(e) {
 function JSeditorReady() {
     try {
         handleParameters();
-        $("#" + editorId).trigger("editorReady");
+        Scratch.FlashApp.$ASobj.trigger("editorReady");
         return true;
     } catch (error) {
         console.error(error.message, "\n", error.stack);
@@ -225,9 +226,9 @@ function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, w
     appendTo = appendTo || "body";
     data = data || {};
 
-    var $element = $("#" + elementId);
+    var $element = $(document.getElementById(elementId));
     if (!$element.length) {
-        $template = _.template($("#" + templateId).html());
+        $template = _.template($(document.getElementById(templateId)).html());
         $element = $("<"+elementType+"></"+elementType+">")
             .attr("id", elementId)
             .html($template(data));
@@ -345,10 +346,10 @@ function showPage(path) {
     if (!$toShow.length) return;
 
     $(toHide).filter(":visible").hide();
-    if (toShow != "#" + editorId) $("#" + editorId).css({top: "-9999px"});
+    if (!$toShow.is(Scratch.FlashApp.$ASobj)) $(document.getElementById(editorId)).css({top: "-9999px"});
     $("body > main, body > main > article").has($toShow).show();
     $toShow.show();
-    if (path == editorId) {
+    if ($toShow.is(Scratch.FlashApp.$ASobj)) {
         $toShow.css({top: 0});
     }
 }
@@ -435,10 +436,10 @@ function initPage() {
                 return;
             });
         } else {
-            initialID = window.location.hash.substr(1);
+            initialPage = window.location.hash.substr(1);
         }
     }
-    showPage(initialID);
+    showPage(initialPage);
     loadFromURLParameter(window.location.search);
 }
 $(initPage);
