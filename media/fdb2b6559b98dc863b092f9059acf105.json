@@ -1,0 +1,118 @@
+{
+	"objName": "D-Money Hip-Hop",
+	"sounds": [{
+			"soundName": "dance celebrate",
+			"soundID": -1,
+			"md5": "0edb8fb88af19e6e17d0f8cf64c1d136.wav",
+			"sampleCount": 176401,
+			"rate": 22050,
+			"format": "adpcm"
+		}],
+	"costumes": [{
+			"costumeName": "dm stance",
+			"baseLayerID": -1,
+			"baseLayerMD5": "6b407fcc8f6de1cc1fb7e25573c9ca77.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 110,
+			"rotationCenterY": 238
+		},
+		{
+			"costumeName": "dm top stand",
+			"baseLayerID": -1,
+			"baseLayerMD5": "e6420480c1eb56d099338004897cef11.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 82,
+			"rotationCenterY": 244
+		},
+		{
+			"costumeName": "dm top R leg",
+			"baseLayerID": -1,
+			"baseLayerMD5": "91984aa82ef0f3c299d149b24971c81b.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 218,
+			"rotationCenterY": 232
+		},
+		{
+			"costumeName": "dm top L leg",
+			"baseLayerID": -1,
+			"baseLayerMD5": "a404329c0b114b71ffe345798ea81a4b.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 230,
+			"rotationCenterY": 240
+		},
+		{
+			"costumeName": "dm freeze",
+			"baseLayerID": -1,
+			"baseLayerMD5": "029c5b39376b0eed5dd713698313df52.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 220,
+			"rotationCenterY": 234
+		},
+		{
+			"costumeName": "dm pop front",
+			"baseLayerID": -1,
+			"baseLayerMD5": "2a6a70b41636e83316e730c101e703ab.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 92,
+			"rotationCenterY": 234
+		},
+		{
+			"costumeName": "dm pop down",
+			"baseLayerID": -1,
+			"baseLayerMD5": "abe5ef64c96464d0465dff005c7229bf.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 64,
+			"rotationCenterY": 74
+		},
+		{
+			"costumeName": "dm pop left",
+			"baseLayerID": -1,
+			"baseLayerMD5": "0b0b3133ee0bea08c71016f325dc164d.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 204,
+			"rotationCenterY": 250
+		},
+		{
+			"costumeName": "dm pop right",
+			"baseLayerID": -1,
+			"baseLayerMD5": "2bba05532fafb33f1765c9f807a5edd3.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 78,
+			"rotationCenterY": 238
+		},
+		{
+			"costumeName": "dm pop L arm",
+			"baseLayerID": -1,
+			"baseLayerMD5": "e884992f789eb7f607cdb3cdbd7817cb.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 90,
+			"rotationCenterY": 238
+		},
+		{
+			"costumeName": "dm pop stand",
+			"baseLayerID": -1,
+			"baseLayerMD5": "aab23b414b87d1b861aaccb7e35ce2c1.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 100,
+			"rotationCenterY": 244
+		},
+		{
+			"costumeName": "dm pop R arm",
+			"baseLayerID": -1,
+			"baseLayerMD5": "619965d131d42c839b9da618dbcebd65.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 80,
+			"rotationCenterY": 240
+		}],
+	"currentCostumeIndex": 0,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 1,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}

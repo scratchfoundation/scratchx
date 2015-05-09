@@ -1,0 +1,126 @@
+{
+	"objName": "Nina Hip-Hop",
+	"sounds": [{
+			"soundName": "dance celebrate",
+			"soundID": -1,
+			"md5": "0edb8fb88af19e6e17d0f8cf64c1d136.wav",
+			"sampleCount": 176401,
+			"rate": 22050,
+			"format": "adpcm"
+		}],
+	"costumes": [{
+			"costumeName": "nina stance",
+			"baseLayerID": -1,
+			"baseLayerMD5": "dd5816625c51d069acb99b2f5a9b1e88.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 76,
+			"rotationCenterY": 252
+		},
+		{
+			"costumeName": "nina top stand",
+			"baseLayerID": -1,
+			"baseLayerMD5": "8526c3467423920072fe4ab0c149761e.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 74,
+			"rotationCenterY": 280
+		},
+		{
+			"costumeName": "nina top R step",
+			"baseLayerID": -1,
+			"baseLayerMD5": "5bb03058da5afa0a46b37c4a37cc49db.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 248,
+			"rotationCenterY": 272
+		},
+		{
+			"costumeName": "nina top L step",
+			"baseLayerID": -1,
+			"baseLayerMD5": "a837ae565e110c4613d371451c92fddc.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 228,
+			"rotationCenterY": 274
+		},
+		{
+			"costumeName": "nina top freeze",
+			"baseLayerID": -1,
+			"baseLayerMD5": "20506c556cfd41f039c14173ee84ce6b.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 110,
+			"rotationCenterY": 268
+		},
+		{
+			"costumeName": "nina R cross",
+			"baseLayerID": -1,
+			"baseLayerMD5": "d8d551a8b01e1e3ca136dc65553210b0.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 126,
+			"rotationCenterY": 268
+		},
+		{
+			"costumeName": "nina pop front",
+			"baseLayerID": -1,
+			"baseLayerMD5": "98119b197cb3c50daa394e960b6cb448.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 68,
+			"rotationCenterY": 270
+		},
+		{
+			"costumeName": "nina pop down",
+			"baseLayerID": -1,
+			"baseLayerMD5": "6f6a6917fa0daab7d913587fa981de69.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 74,
+			"rotationCenterY": 156
+		},
+		{
+			"costumeName": "nina pop left",
+			"baseLayerID": -1,
+			"baseLayerMD5": "0f0f03379ca9cb9b435868ec42c50a45.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 238,
+			"rotationCenterY": 266
+		},
+		{
+			"costumeName": "nina pop right",
+			"baseLayerID": -1,
+			"baseLayerMD5": "20114a2a8eeb9e3bc2a30ca3bf3bef6c.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 66,
+			"rotationCenterY": 268
+		},
+		{
+			"costumeName": "nina pop L arm",
+			"baseLayerID": -1,
+			"baseLayerMD5": "6da72fa7e05e185f0b13b90660aeebdc.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 68,
+			"rotationCenterY": 274
+		},
+		{
+			"costumeName": "nina pop stand",
+			"baseLayerID": -1,
+			"baseLayerMD5": "c7027239f27f50018b66bfb2578c007e.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 76,
+			"rotationCenterY": 276
+		},
+		{
+			"costumeName": "nina pop R arm",
+			"baseLayerID": -1,
+			"baseLayerMD5": "be8c44e31c2dee7d8c455fbd126461bd.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 88,
+			"rotationCenterY": 272
+		}],
+	"currentCostumeIndex": 0,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 1,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}

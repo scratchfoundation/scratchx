@@ -1,0 +1,30 @@
+{
+	"objName": "Cake",
+	"costumes": [{
+			"costumeName": "cake-a",
+			"baseLayerID": -1,
+			"baseLayerMD5": "97ab3596dc06510e963fa29795e663bf.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 64,
+			"rotationCenterY": 50
+		},
+		{
+			"costumeName": "cake-b",
+			"baseLayerID": -1,
+			"baseLayerMD5": "61d5481955a2f42cb843d09506f6744e.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 64,
+			"rotationCenterY": 42
+		}],
+	"currentCostumeIndex": 0,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 1,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}
