@@ -136,7 +136,7 @@ function sendFileToFlash(file) {
     fileReader.readAsArrayBuffer(file);
 }
 
-$(document).on('click', "[data-action='load-file']", function(e) {
+var loadFileListener = function(e) {
     /*
      * Buttons with data-action="load-file" trigger a file input
      * prompt, passed to a handler that passes the file to Flash.
@@ -144,7 +144,8 @@ $(document).on('click', "[data-action='load-file']", function(e) {
     $('<input type="file" />').on('change', function(){
         sendFileToFlash(this.files[0])
     }).click();
-});
+}
+
 
 function sendURLtoFlash() {
     /*
@@ -168,7 +169,7 @@ function sendURLtoFlash() {
 
 
 /* Load from URL */
-$(document).on('click', "[data-action='load-url']", function(e) {
+var loadURLlistener = function(e) {
     /*
      * Links with data-action="load-url" send their href to Flash
      * So use like...
@@ -177,14 +178,14 @@ $(document).on('click', "[data-action='load-url']", function(e) {
     e.preventDefault();
     showPage(editorId);
     loadFromURLParameter($(this).attr("href"));
-});
+}
 
-$(document).on('submit', ".url-load-form", function(e) {
+var loadURLformListener = function(e) {
     // Load text input value on submit
     e.preventDefault();
     showPage(editorId);
     sendURLtoFlash($('input[type="text"]', this).val());
-});
+}
 
 function loadFromURLParameter(queryString) {
     /*
@@ -244,6 +245,10 @@ function showModal(templateId) {
         .click(function(e){$(this).trigger("modal:exit")});
     $(".modal-inner", $modal).click(function(e){e.stopPropagation();})
     $("body").addClass("modal-open");
+    attachListeners();
+    var triggerExit = function (e) {$(this).trigger("modal:exit");}
+    $(document).on("click", "[data-action='load-file'], [data-action='load-url'], [data-action='show']", triggerExit);
+    $(document).on("submit", ".url-load-form", triggerExit)
     $(document).on("modal:exit", function(){
         $("body").removeClass("modal-open");
         Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
@@ -282,7 +287,7 @@ function JSshowWarning(extensionData) {
 
 /* Page switching */
 
-$(document).on('click', "[data-action='show']", function(e) {
+var showClickListener = function(e) {
     /*
      * Anything with data-action="show" should switch the view
      * to that page. Works like tabs sort of. Use like...
@@ -291,7 +296,7 @@ $(document).on('click', "[data-action='show']", function(e) {
      * 
      */
     window.location.hash = $(this).data("target");
-});
+}
 
 $(window).bind('hashchange', function(e) {
     var page = '';
@@ -341,11 +346,19 @@ function showPage(path) {
     }
 }
 
+function attachListeners(){
+    $("[data-action='load-file']").on('click', loadFileListener);
+    $("[data-action='load-url']").on('click', loadURLlistener);
+    $(".url-load-form").on('submit', loadURLformListener);
+    $("[data-action='show']").on('click', showClickListener);
+}
+
 var initialID = "home";
 function initPage() {
     /*
      * On load, show the page identified by the URL fragment. Default to #home.
      */
+    attachListeners();
     if (window.location.hash) initialID = window.location.hash.substr(1);
     showPage(initialID);
     loadFromURLParameter(window.location.search);
