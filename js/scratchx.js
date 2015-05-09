@@ -289,23 +289,18 @@ function JSshowWarning(extensionData) {
 
 var showClickListener = function(e) {
     /*
-     * Anything with data-action="show" should switch the view
+     * Links with data-action="static-link" should switch the view
      * to that page. Works like tabs sort of. Use like...
      *     <!-- Makes a link to the Privacy Policy section -->
-     *     <button data-target="#privacy-policy" data-action="show">Privacy Policy</button>
+     *     <a href="#privacy-policy" data-action="static-link">Privacy Policy</a>
      * 
      */
-    window.location.hash = $(this).data("target");
-}
+    var path = $(this).attr("href").substring(1);
+    showPage(path);
+};
 
 $(window).bind('hashchange', function(e) {
-    var page = '';
-    if (document.location.hash == '') {
-        page = 'home';
-    } else {
-        page = window.location.hash.substr(1);
-    }
-    showPage(page);
+    if (document.location.hash == '') showPage('home');
 });
 
 function showPage(path) {
