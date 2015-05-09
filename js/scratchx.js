@@ -151,11 +151,16 @@ function sendURLtoFlash() {
      * Send a URL to Flash with ASloadGithubURL, or do it when the
      * editor is ready.
      */
+    var urls = [];
+    for (var i = 0; i < arguments.length; i++) {
+        urls.push(arguments[i]);
+    }
+    if (urls.length <= 0) return;
     if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
-        Scratch.FlashApp.ASobj.ASloadGithubURL(arguments);
+        Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
     } else {
         $(document).on("editorReady",  function(e) {
-            Scratch.FlashApp.ASobj.ASloadGithubURL(arguments);
+            Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
             $(this).off(e);
         });
     }
