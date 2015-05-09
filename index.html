@@ -5,8 +5,6 @@
     <title>ScratchX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/scratchx.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="libs/swfobject.js"></script>
-    <script type="text/javascript" src="libs/jquery-1.11.2.min.js"></script>
 </head>
 <body>
 <main>
@@ -248,19 +246,37 @@
 </section>
 <script type="text/template" id="template-warning">
 <div>
-<header><a class="modal-close" href="#"></a></header>
-<section class="warning">
-    <h2>Warning: all extensions are experimental</h2>
-    <p>Content on this site is <strong>not</strong> a product of the Scratch Team. Please use caution when using publically created extensions. <a href="#faq">Learn More</a></p>
-</section>
-<section>
-<button data-action="show" data-target="#home">Back to ScratchX home</button>
-<button class="success">I understand, continue</button>
-</section>
+    <header><a class="modal-close" href="#"></a></header>
+    <section class="warning">
+        <h2>Warning: all extensions are experimental</h2>
+        <p>Content on this site is <strong>not</strong> a product of the Scratch Team. Please use caution when using publically created extensions. <a href="#faq">Learn More</a></p>
+    </section>
+    <section>
+        <button data-action="show" data-target="#home">Back to ScratchX home</button>
+        <button class="success">I understand, continue</button>
+    </section>
 </div>
 </script>
-<script type="text/javascript" src="libs/base64ab.js"></script>
-<script type="text/javascript" src="scratch_extensions/scratch_ext.js"></script>
-<script type="text/javascript" src="js/scratchx.js"></script>
+<script type="text/template" id="template-short-url">
+<dialog class="single">
+    <section>
+        <h2>Short URL</h2>
+    </section>
+    <section>
+        <p>Click to copy the short url for this project</p>
+        <div class="input-plus-button">
+            <input type="text" value="<%- shortUrl %>" name="shortUrl" disabled />
+            <button data-clipboard-text="<%- shortUrl %>">Copy</button>
+        </div>
+    </section>
+</dialog>
+</script>
+<script type="text/javascript" src="libs/base64ab.js" async></script>
+<script type="text/javascript" src="libs/swfobject.js" defer></script>
+<script type="text/javascript" src="libs/jquery-1.11.2.min.js" defer></script>
+<script type="text/javascript" src="libs/underscore-min.js" async></script>
+<script type="text/javascript" src="libs/ZeroClipboard.min.js" defer></script>
+<script type="text/javascript" src="scratch_extensions/scratch_ext.js" async></script>
+<script type="text/javascript" src="js/scratchx.js" async defer></script>
 </body>
 </html>

@@ -47,7 +47,7 @@ body {
     }
 }
 
-#dialogs, .modal-inner {
+#dialogs, #modal-dialogs {
     @include row();
     dialog {
         @include span-columns(4);
@@ -57,8 +57,8 @@ body {
     }
 }
 
-#modal-dialogs .modal-inner {
-    background-color: transparent;
+.modal .single {
+    width: 50%;
 }
 
 .extension-file {
@@ -99,7 +99,7 @@ body {
 
 .extension-feature,
 #dialogs .extension-feature,
-#modal-dialogs .extension-feature
+.modal .extension-feature
  {
     section:first-child {
         h2 {

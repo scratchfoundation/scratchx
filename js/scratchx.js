@@ -3,6 +3,12 @@ var Scratch = Scratch || {};
 Scratch.FlashApp = Scratch.FlashApp || {};
 
 var editorId = "scratch";
+var initialID = "home";
+var ShortURL = {
+    key : "AIzaSyBlaftRUIOLFVs8nfrWvp4IBrqq9-az46A",
+    api : "https://www.googleapis.com/urlshortener/v1/url",
+    domain : "http://goo.gl"
+}
 
 function handleEmbedStatus(e) {
     $('#scratch-loader').hide();
@@ -214,21 +220,24 @@ function loadFromURLParameter(queryString) {
 
 /* Modals */
 
-function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, wrapper) {
-    elementType = elementType ? elementType : "div";
+function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, wrapper, data) {
+    elementType = elementType || "div";
+    appendTo = appendTo || "body";
+    data = data || {};
+
     var $element = $("#" + elementId);
     if (!$element.length) {
-        $template = $("#" + templateId);
+        $template = _.template($("#" + templateId).html());
         $element = $("<"+elementType+"></"+elementType+">")
             .attr("id", elementId)
-            .html($template.html());
+            .html($template(data));
         if (wrapper) $element.wrapInner(wrapper);
         $element.appendTo(appendTo)
     }
     return $element;
 };
 
-function showModal(templateId) {
+function showModal(templateId, data) {
     /*
      * Copies the HTML referenced by data-template into a new element,
      * with id="modal-[template value]" and creates an overlay on the
@@ -238,23 +247,26 @@ function showModal(templateId) {
     var zIndex = 100;
     var modalId = "modal-" + templateId;
     $modalwrapper = $("<div class='modal-fade-screen'><div class='modal-inner'></div></div>");
-    var $modal = getOrCreateFromTemplate(modalId, templateId, "dialog", "body", $modalwrapper);
+    var $modal = getOrCreateFromTemplate(modalId, templateId, "dialog", "body", $modalwrapper, data);
     $modal.addClass("modal");
     $(".modal-fade-screen", $modal)
         .addClass("visible")
         .click(function(e){$(this).trigger("modal:exit")});
-    $(".modal-inner", $modal).click(function(e){e.stopPropagation();})
+    
     $("body").addClass("modal-open");
+
     attachListeners();
     var triggerExit = function (e) {$(this).trigger("modal:exit");}
+    $(".modal-inner", $modal).click(function(e){e.stopPropagation();})
     $(document).on("click", "[data-action='load-file'], [data-action='load-url'], [data-action='show']", triggerExit);
     $(document).on("submit", ".url-load-form", triggerExit)
     $(document).on("modal:exit", function(){
         $("body").removeClass("modal-open");
         Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
-        $(".modal-fade-screen", $modal).removeClass("visible");
+        $modal.remove();
         $(this).off();
     });
+    
     return $modal;
 }
 
@@ -341,6 +353,68 @@ function showPage(path) {
     }
 }
 
+
+/* URL Shortening */
+function shorten(url, done) {
+    var data = {longUrl: url};
+    $.ajax({
+        url : ShortURL.api + '?' + $.param({key : ShortURL.key}),
+        type : "post",
+        data : JSON.stringify(data),
+        dataType : "json",
+        contentType : "application/json"
+    }).done(done);
+}
+
+function getUrlFor(extensions) {
+    return document.location.origin + '/?' + $.param(
+        extensions.map(function(url){
+            return {name: 'url', value: url}
+        })
+    );
+}
+
+function UrlParser(url) {
+    parser = document.createElement('a');
+    parser.href = url;
+    return parser
+
+}
+
+function showShortUrl(url) {
+    shorten(url, function(data) {
+        var parser = UrlParser(data.id);
+        var id = parser.pathname.replace('/', '');
+        parser.href = window.location.origin;
+        parser.hash = "#!" + id;
+        var shortUrl = parser.href;
+        var context = {
+            longUrl : data.longUrl,
+            shortUrl : shortUrl
+        }
+
+        $modal = showModal("template-short-url", context);
+        var client = new ZeroClipboard($('button', $modal));
+    });
+}
+
+function JSshowShortUrlFor() {
+    showShortUrl(getUrlFor(Array.prototype.slice.call(arguments)));
+}
+
+function decompress(id, done) {
+    var data = {shortUrl: ShortURL.domain + id}
+    $.ajax({
+        url : ShortURL.api + '?' + $.param({
+            key : ShortURL.key,
+            shortUrl : ShortURL.domain + '/' + id}),
+        dataType : "json",
+        contentType : "application/json"
+    }).done(done);
+}
+
+/* Setup */
+
 function attachListeners(){
     $("[data-action='load-file']").on('click', loadFileListener);
     $("[data-action='load-url']").on('click', loadURLlistener);
@@ -348,13 +422,22 @@ function attachListeners(){
     $("[data-action='show']").on('click', showClickListener);
 }
 
-var initialID = "home";
 function initPage() {
     /*
      * On load, show the page identified by the URL fragment. Default to #home.
      */
     attachListeners();
-    if (window.location.hash) initialID = window.location.hash.substr(1);
+    if (window.location.hash) {
+        if (window.location.hash.charAt(1) == "!") {
+            decompress(window.location.hash.substr(2), function(data) {
+                var parser = UrlParser(data.longUrl);
+                if (parser.hostname == window.location.hostname) window.location = data.longUrl;
+                return;
+            });
+        } else {
+            initialID = window.location.hash.substr(1);
+        }
+    }
     showPage(initialID);
     loadFromURLParameter(window.location.search);
 }

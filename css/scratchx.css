@@ -691,7 +691,7 @@ picture {
   padding-top: 0.6em;
   text-align: left;
   visibility: hidden;
-  z-index: 99999999999; }
+  z-index: 99999; }
   @media screen and (min-width: 60em) {
     .modal .modal-fade-screen {
       padding-top: 10em; } }
@@ -708,7 +708,7 @@ picture {
   right: 0.75em;
   height: 1.5em;
   width: 1.5em;
-  background: #fff;
+  background: transparent;
   cursor: pointer; }
   .modal .modal-close:after, .modal .modal-close:before {
     position: absolute;
@@ -1000,24 +1000,24 @@ body > section {
 body #home {
   display: block; }
 
-#dialogs, .modal-inner {
+#dialogs, #modal-dialogs {
   display: block; }
-  #dialogs::after, .modal-inner::after {
+  #dialogs::after, #modal-dialogs::after {
     clear: both;
     content: "";
     display: table; }
-  #dialogs dialog, .modal-inner dialog {
+  #dialogs dialog, #modal-dialogs dialog {
     float: left;
     display: block;
     margin-right: 1.25%;
     width: 32.5%; }
-    #dialogs dialog:last-child, .modal-inner dialog:last-child {
+    #dialogs dialog:last-child, #modal-dialogs dialog:last-child {
       margin-right: 0; }
-    #dialogs dialog p, .modal-inner dialog p {
+    #dialogs dialog p, #modal-dialogs dialog p {
       text-align: center; }
 
-#modal-dialogs .modal-inner {
-  background-color: transparent; }
+.modal .single {
+  width: 50%; }
 
 .extension-file section:first-child {
   /* Add a border equal to the number of featured extensions - 1 */
@@ -1084,26 +1084,26 @@ body #home {
 
 .extension-feature section:first-child h2,
 #dialogs .extension-feature section:first-child h2,
-#modal-dialogs .extension-feature section:first-child h2 {
+.modal .extension-feature section:first-child h2 {
   margin-top: 0.375em; }
 .extension-feature section:last-child,
 #dialogs .extension-feature section:last-child,
-#modal-dialogs .extension-feature section:last-child {
+.modal .extension-feature section:last-child {
   padding: 0px; }
 .extension-feature ul li,
 #dialogs .extension-feature ul li,
-#modal-dialogs .extension-feature ul li {
+.modal .extension-feature ul li {
   border-bottom: 1px solid #dfe3e7;
   padding: 0.75em; }
   .extension-feature ul li a,
   #dialogs .extension-feature ul li a,
-  #modal-dialogs .extension-feature ul li a {
+  .modal .extension-feature ul li a {
     position: relative;
     display: block;
     padding-right: 25px; }
     .extension-feature ul li a:before,
     #dialogs .extension-feature ul li a:before,
-    #modal-dialogs .extension-feature ul li a:before {
+    .modal .extension-feature ul li a:before {
       content: "";
       font-family: "ScratchX";
       speak: none;
@@ -1124,13 +1124,13 @@ body #home {
       font-size: 1.5em; }
   .extension-feature ul li h3,
   #dialogs .extension-feature ul li h3,
-  #modal-dialogs .extension-feature ul li h3 {
+  .modal .extension-feature ul li h3 {
     font-size: 1.125em;
     font-weight: 600;
     margin-bottom: 0.375em; }
   .extension-feature ul li p,
   #dialogs .extension-feature ul li p,
-  #modal-dialogs .extension-feature ul li p {
+  .modal .extension-feature ul li p {
     text-align: left;
     margin: 0;
     color: #58595b;
