@@ -146,16 +146,16 @@ $(document).on('click', "[data-action='load-file']", function(e) {
     }).click();
 });
 
-function sendURLtoFlash(url) {
+function sendURLtoFlash() {
     /*
      * Send a URL to Flash with ASloadGithubURL, or do it when the
      * editor is ready.
      */
     if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
-        Scratch.FlashApp.ASobj.ASloadGithubURL(url);
+        Scratch.FlashApp.ASobj.ASloadGithubURL(arguments);
     } else {
         $(document).on("editorReady",  function(e) {
-            Scratch.FlashApp.ASobj.ASloadGithubURL(url);
+            Scratch.FlashApp.ASobj.ASloadGithubURL(arguments);
             $(this).off(e);
         });
     }
@@ -190,6 +190,7 @@ function loadFromURLParameter(queryString) {
     var paramString = queryString.replace(/^\?|\/$/g, '');
     var vars = paramString.split("&");
     var showedEditor = false;
+    var urls = [];
     for (var i=0; i<vars.length; i++) {
         var pair = vars[i].split("=");
         if (pair.length > 1 && pair[0]=="url") {
@@ -198,9 +199,10 @@ function loadFromURLParameter(queryString) {
                 showPage(editorId);
                 showedEditor = true;
             }
-            sendURLtoFlash(pair[1]);
+            urls.push(pair[1]);
         }
     }
+    if (urls.length > 0) sendURLtoFlash.apply(window, urls);
 }
 
 
