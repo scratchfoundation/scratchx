@@ -5,7 +5,7 @@ Scratch.FlashApp = Scratch.FlashApp || {};
 var editorId = "scratch";
 var initialPage = "home";
 var ShortURL = {
-    key : "AIzaSyBlaftRUIOLFVs8nfrWvp4IBrqq9-az46A",
+    key : "AIzaSyBcY0K1LO09zqBYUPbFWgSCDCVHNPUfiJc",
     api : "https://www.googleapis.com/urlshortener/v1/url",
     domain : "http://goo.gl"
 }
