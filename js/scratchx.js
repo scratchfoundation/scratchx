@@ -352,6 +352,13 @@ function showPage(path) {
     if ($toShow.is(Scratch.FlashApp.$ASobj)) {
         $toShow.css({top: 0});
     }
+    if (document.location.hash.substr(1) != path) {
+        if (path != "home") {
+            document.location.hash = '#' + path;
+        } else {
+            document.location.hash = '';
+        }
+    }
 }
 
 
