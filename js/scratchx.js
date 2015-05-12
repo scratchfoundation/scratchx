@@ -207,11 +207,6 @@ function loadFromURLParameter(queryString) {
     for (var i=0; i<vars.length; i++) {
         var pair = vars[i].split("=");
         if (pair.length > 1 && pair[0]=="url") {
-            if (!showedEditor) {
-                // Only try to switch to the editor once
-                showPage(editorId);
-                showedEditor = true;
-            }
             urls.push(pair[1]);
         }
     }
@@ -316,7 +311,7 @@ $(window).bind('hashchange', function(e) {
     if (document.location.hash == '') showPage('home');
 });
 
-function showPage(path) {
+function showPage(path, force) {
     /*
      * Show a part of the page.  The site is set up like
      * body
@@ -342,23 +337,24 @@ function showPage(path) {
     var toHide = "body > main, body > main > article";
     var toShow = "#" + path;
     var $toShow = $(toShow);
+    var showEditor = $toShow.is(Scratch.FlashApp.$ASobj);
+    var editorShown = parseInt(Scratch.FlashApp.$ASobj.css("top")) == 0;
 
-    if (!$toShow.length) return;
+    if (!$toShow.length || (!showEditor && $toShow.filter(":visible").length > 0) || (showEditor && editorShown)) return;
+    
+    if (editorShown && !force) {
+        Scratch.FlashApp.ASobj.AScreateNewProject(["showPage", path, true]);
+        return;
+    }
 
     $(toHide).filter(":visible").hide();
-    if (!$toShow.is(Scratch.FlashApp.$ASobj)) $(document.getElementById(editorId)).css({top: "-9999px"});
+    if (!showEditor && editorShown) $(document.getElementById(editorId)).css({top: "-9999px"});
     $("body > main, body > main > article").has($toShow).show();
     $toShow.show();
-    if ($toShow.is(Scratch.FlashApp.$ASobj)) {
-        $toShow.css({top: 0});
-    }
-    if (document.location.hash.substr(1) != path) {
-        if (path != "home") {
-            document.location.hash = '#' + path;
-        } else {
-            document.location.hash = '';
-        }
-    }
+
+    if (showEditor) $toShow.css({top: 0});
+    
+    if (document.location.hash.substr(1) != path) document.location.hash = path;
 }
 
 
@@ -446,7 +442,7 @@ function initPage() {
             initialPage = window.location.hash.substr(1);
         }
     }
-    showPage(initialPage);
-    loadFromURLParameter(window.location.search);
+    showPage(initialPage, true);
+    loadFromURLParameter(window.location.search, true);
 }
 $(initPage);
