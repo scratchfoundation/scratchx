@@ -307,10 +307,6 @@ var showClickListener = function(e) {
     showPage(path);
 };
 
-$(window).bind('hashchange', function(e) {
-    if (document.location.hash == '') showPage('home');
-});
-
 function showPage(path, force) {
     /*
      * Show a part of the page.  The site is set up like
@@ -355,6 +351,7 @@ function showPage(path, force) {
     if (showEditor) $toShow.css({top: 0});
     
     if (document.location.hash.substr(1) != path) document.location.hash = path;
+    $toShow[0].scrollIntoView(true);
 }
 
 
@@ -425,6 +422,11 @@ function attachListeners(){
     $(".url-load-form").on('submit', loadURLformListener);
     $("[data-action='show']").on('click', showClickListener);
 }
+$(window).on('hashchange', function(e) {
+    var path = document.location.hash.split('#')[1] || document.location.hash || 'home';
+    showPage(path);
+});
+
 
 function initPage() {
     /*
