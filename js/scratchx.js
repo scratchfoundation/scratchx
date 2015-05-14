@@ -286,7 +286,6 @@ function showPage(path, force) {
      if it's hidden.
           If we are linking to an anchor within a page, then show its parent.
     */
-
     var toHide = "body > main, body > main > article";
     var toShow = "#" + path;
     var $toShow = $(toShow);
@@ -309,9 +308,10 @@ function showPage(path, force) {
     
     if (document.location.hash.substr(1) != path) document.location.hash = path;
     $toShow[0].scrollIntoView(true);
-    $(document).trigger("page:show");
+    $(document).trigger("page:show", path);
 }
 
+$(document).on("page:show", function(e, page){ga("send", "pageview", page)});
 
 /* URL Shortening */
 function shorten(url, done) {
