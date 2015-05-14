@@ -422,7 +422,6 @@ function initPage() {
     /*
     On load, show the page identified by the URL fragment. Default to #home.
     */
-    showPage(initialPage, true);
     if (window.location.hash) {
         if (window.location.hash.charAt(1) == "!") {
             decompress(window.location.hash.substr(2), function(data) {
@@ -434,6 +433,7 @@ function initPage() {
             initialPage = window.location.hash.substr(1);
         }
     }
+    showPage(initialPage, true);
     loadFromURLParameter(window.location.search, true);
 }
 $(initPage);
