@@ -130,12 +130,12 @@ function sendFileToFlash(file) {
     fileReader.onload = function (e) {
         var fileAsB64 = ab_to_b64(fileReader.result);
         if (Scratch.FlashApp.ASobj.ASloadBase64SBX !== undefined) {
-            $(document).trigger("editor:extensionLoaded");
+            $(document).trigger("editor:extensionLoaded", {method: "file"});
             showPage(editorId);
             Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
         } else {
             $(document).on("editor:ready", function(e) {
-                $(document).trigger("editor:extensionLoaded");
+                $(document).trigger("editor:extensionLoaded", {method: "file"});
                 showPage(editorId);
                 Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
                 $(this).off(e);
@@ -157,11 +157,11 @@ function sendURLtoFlash() {
     }
     if (urls.length <= 0) return;
     if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
-        $(document).trigger("editor:extensionLoaded");
+        $(document).trigger("editor:extensionLoaded", {method: "url", urls: urls});
         Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
     } else {
         $(document).on("editor:ready",  function(e) {
-            $(document).trigger("editor:extensionLoaded");
+            $(document).trigger("editor:extensionLoaded", {method: "url", urls: urls});
             Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
             $(this).off(e);
         });
@@ -189,7 +189,6 @@ function loadFromURLParameter(queryString) {
     }
     if (urls.length > 0) sendURLtoFlash.apply(window, urls);
 }
-
 
 /* Modals */
 
@@ -421,6 +420,17 @@ $(document).on("page:show", function(e, page){
     ga("send", "pageview", page);
     ga("set", "referrer", document.location.origin + document.location.pathname + document.location.hash)
 });
+
+$(document).on("editor:extensionLoaded", function(e, data){
+    if (data.method == "url") {
+        for (var i = 0; url = data['urls'][i]; i++) {
+            ga("send", "event", "extensionLoaded", data.method, url);
+        }
+    } else {
+        ga("send", "event", "extensionLoaded", data.method);
+    }
+});
+
 function initPage() {
     /*
     On load, show the page identified by the URL fragment. Default to #home.
