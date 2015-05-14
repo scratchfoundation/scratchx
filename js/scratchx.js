@@ -311,8 +311,6 @@ function showPage(path, force) {
     $(document).trigger("page:show", path);
 }
 
-$(document).on("page:show", function(e, page){ga("send", "pageview", page)});
-
 /* URL Shortening */
 function shorten(url, done) {
     var data = {longUrl: url};
@@ -418,6 +416,11 @@ $(window).on('hashchange', function(e) {
 });
 
 
+
+$(document).on("page:show", function(e, page){
+    ga("send", "pageview", page);
+    ga("set", "referrer", document.location.origin + document.location.pathname + document.location.hash)
+});
 function initPage() {
     /*
     On load, show the page identified by the URL fragment. Default to #home.
