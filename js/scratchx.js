@@ -33,7 +33,7 @@ function JSthrowError(e) {
 function JSeditorReady() {
     try {
         handleParameters();
-        Scratch.FlashApp.$ASobj.trigger("editorReady");
+        Scratch.FlashApp.$ASobj.trigger("editor:ready");
         return true;
     } catch (error) {
         console.error(error.message, "\n", error.stack);
@@ -129,11 +129,14 @@ function sendFileToFlash(file) {
     var fileReader = new FileReader();
     fileReader.onload = function (e) {
         var fileAsB64 = ab_to_b64(fileReader.result);
-        showPage(editorId);
         if (Scratch.FlashApp.ASobj.ASloadBase64SBX !== undefined) {
+            $(document).trigger("editor:extensionLoaded");
+            showPage(editorId);
             Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
         } else {
-            $(document).on("editorReady", function(e) {
+            $(document).on("editor:ready", function(e) {
+                $(document).trigger("editor:extensionLoaded");
+                showPage(editorId);
                 Scratch.FlashApp.ASobj.ASloadBase64SBX(fileAsB64);
                 $(this).off(e);
             });
@@ -142,17 +145,6 @@ function sendFileToFlash(file) {
     }
     fileReader.readAsArrayBuffer(file);
 }
-
-var loadFileListener = function(e) {
-    /*
-     * Buttons with data-action="load-file" trigger a file input
-     * prompt, passed to a handler that passes the file to Flash.
-     */
-    $('<input type="file" />').on('change', function(){
-        sendFileToFlash(this.files[0])
-    }).click();
-}
-
 
 function sendURLtoFlash() {
     /*
@@ -165,9 +157,11 @@ function sendURLtoFlash() {
     }
     if (urls.length <= 0) return;
     if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
+        $(document).trigger("editor:extensionLoaded");
         Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
     } else {
-        $(document).on("editorReady",  function(e) {
+        $(document).on("editor:ready",  function(e) {
+            $(document).trigger("editor:extensionLoaded");
             Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
             $(this).off(e);
         });
@@ -176,23 +170,6 @@ function sendURLtoFlash() {
 
 
 /* Load from URL */
-var loadURLlistener = function(e) {
-    /*
-     * Links with data-action="load-url" send their href to Flash
-     * So use like...
-     *    <a href="?url=urlToLoad" data-action="load-url">Load this</a>
-     */
-    e.preventDefault();
-    showPage(editorId);
-    loadFromURLParameter($(this).attr("href"));
-}
-
-var loadURLformListener = function(e) {
-    // Load text input value on submit
-    e.preventDefault();
-    showPage(editorId);
-    sendURLtoFlash($('input[type="text"]', this).val());
-}
 
 function loadFromURLParameter(queryString) {
     /*
@@ -247,20 +224,14 @@ function showModal(templateId, data) {
     $modal.addClass("modal");
     $(".modal-fade-screen", $modal)
         .addClass("visible")
-        .click(function(e){$(this).trigger("modal:exit")});
+        .click(function(e){if ($(e.target).is($(this))) $(this).trigger("modal:exit")});
     
     $("body").addClass("modal-open");
 
-    attachListeners();
-    var triggerExit = function (e) {$(this).trigger("modal:exit");}
-    $(".modal-inner", $modal).click(function(e){e.stopPropagation();})
-    $(document).on("click", "[data-action='load-file'], [data-action='load-url'], [data-action='show']", triggerExit);
-    $(document).on("submit", ".url-load-form", triggerExit)
-    $(document).on("modal:exit", function(){
+    $(document).one("modal:exit page:show editor:extensionLoaded", function(e){
         $("body").removeClass("modal-open");
         Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
         $modal.remove();
-        $(this).off();
     });
     
     return $modal;
@@ -284,52 +255,38 @@ $(document).on('click', "[data-action='modal']", function(e){
 });
 
 function JSshowWarning(extensionData) {
-    $modal = showModal("template-warning");
+    $modal = showModal("template-warning", extensionData);
     $("button, .modal-close", $modal).click(function(e){
         e.preventDefault();
         $(document).trigger("modal:exit")
     });
-
+    return $modal;
 }
 
 
 /* Page switching */
-
-var showClickListener = function(e) {
-    /*
-     * Links with data-action="static-link" should switch the view
-     * to that page. Works like tabs sort of. Use like...
-     *     <!-- Makes a link to the Privacy Policy section -->
-     *     <a href="#privacy-policy" data-action="static-link">Privacy Policy</a>
-     * 
-     */
-    var path = $(this).attr("href").substring(1);
-    showPage(path);
-};
-
 function showPage(path, force) {
     /*
-     * Show a part of the page.  The site is set up like
-     * body
-     *   main
-     *     article#home
-     *     article#privacy-policy
-     *     ...
-     *   editor
-     * 
-     * Each <article> is a "page" of the site, plus one special
-     * view, which is the editor.
-     * 
-     * The editor is not actually hidden, but located -9999px above
-     * the viewport. This is because if it's hidden, it doesn't load
-     * when the page is loaded.
-     *
-     * So first we have to hide everything that we're not going to show
-     * or move the editor up, then display everything we're going to show
-     * if it's hidden.
-     *
-     * If we are linking to an anchor within a page, then show its parent.
-     */
+     Show a part of the page.  The site is set up like
+     body
+       main
+         article#home
+         article#privacy-policy
+         ...
+       editor
+     
+     Each <article> is a "page" of the site, plus one special
+     view, which is the editor.
+     
+     The editor is not actually hidden, but located -9999px above
+     the viewport. This is because if it's hidden, it doesn't load
+     when the page is loaded.
+          So first we have to hide everything that we're not going to show
+     or move the editor up, then display everything we're going to show
+     if it's hidden.
+          If we are linking to an anchor within a page, then show its parent.
+    */
+
     var toHide = "body > main, body > main > article";
     var toShow = "#" + path;
     var $toShow = $(toShow);
@@ -352,6 +309,7 @@ function showPage(path, force) {
     
     if (document.location.hash.substr(1) != path) document.location.hash = path;
     $toShow[0].scrollIntoView(true);
+    $(document).trigger("page:show");
 }
 
 
@@ -379,7 +337,6 @@ function UrlParser(url) {
     parser = document.createElement('a');
     parser.href = url;
     return parser
-
 }
 
 function showShortUrl(url) {
@@ -416,12 +373,45 @@ function decompress(id, done) {
 
 /* Setup */
 
-function attachListeners(){
-    $("[data-action='load-file']").on('click', loadFileListener);
-    $("[data-action='load-url']").on('click', loadURLlistener);
-    $(".url-load-form").on('submit', loadURLformListener);
-    $("[data-action='show']").on('click', showClickListener);
-}
+$(document).on('click', "[data-action='load-file']", function(e) {
+    /*
+    Buttons with data-action="load-file" trigger a file input
+    prompt, passed to a handler that passes the file to Flash.
+    */
+    $('<input type="file" />').on('change', function(){
+        sendFileToFlash(this.files[0])
+    }).click();
+});
+
+$(document).on('click', "[data-action='load-url']", function(e) {
+    /*
+    Links with data-action="load-url" send their href to Flash
+    So use like...
+       <a href="?url=urlToLoad" data-action="load-url">Load this</a>
+    */
+    e.preventDefault();
+    showPage(editorId);
+    loadFromURLParameter($(this).attr("href"));
+});
+
+$(document).on('submit', ".url-load-form", function(e) {
+    // Load text input value on submit
+    e.preventDefault()
+    showPage(editorId);
+    sendURLtoFlash($('input[type="text"]', this).val());
+});
+
+$(document).on('click', "[data-action='show']", function(e) {
+    /*
+    Links with data-action="static-link" should switch the view
+    to that page. Works like tabs sort of. Use like...
+        <!-- Makes a link to the Privacy Policy section -->
+        <a href="#privacy-policy" data-action="static-link">Privacy Policy</a>
+    */
+    var path = $(this).data('target') || $(this).attr("href").substring(1);
+    showPage(path);
+});
+
 $(window).on('hashchange', function(e) {
     var path = document.location.hash.split('#')[1] || document.location.hash || 'home';
     showPage(path);
@@ -430,9 +420,9 @@ $(window).on('hashchange', function(e) {
 
 function initPage() {
     /*
-     * On load, show the page identified by the URL fragment. Default to #home.
-     */
-    attachListeners();
+    On load, show the page identified by the URL fragment. Default to #home.
+    */
+    showPage(initialPage, true);
     if (window.location.hash) {
         if (window.location.hash.charAt(1) == "!") {
             decompress(window.location.hash.substr(2), function(data) {
@@ -444,7 +434,6 @@ function initPage() {
             initialPage = window.location.hash.substr(1);
         }
     }
-    showPage(initialPage, true);
     loadFromURLParameter(window.location.search, true);
 }
 $(initPage);
