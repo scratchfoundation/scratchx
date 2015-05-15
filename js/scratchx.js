@@ -417,7 +417,7 @@ $(window).on('hashchange', function(e) {
 
 
 $(document).on("page:show", function(e, page){
-    ga("send", "pageview", page);
+    ga("send", "pageview", '#' + page);
     ga("set", "referrer", document.location.origin + document.location.pathname + document.location.hash)
 });
 
