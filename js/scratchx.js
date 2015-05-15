@@ -411,7 +411,7 @@ $(document).on('click', "[data-action='show']", function(e) {
 
 $(window).on('hashchange', function(e) {
     var path = document.location.hash.split('#')[1] || document.location.hash || 'home';
-    showPage(path);
+    if (path.charAt(0) != '!') showPage(path);
 });
 
 $(document).on("page:show", function(e, page){
