@@ -158,10 +158,12 @@ function sendURLtoFlash() {
     if (urls.length <= 0) return;
     if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
         $(document).trigger("editor:extensionLoaded", {method: "url", urls: urls});
+        showPage(editorId);
         Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
     } else {
         $(document).on("editor:ready",  function(e) {
             $(document).trigger("editor:extensionLoaded", {method: "url", urls: urls});
+            showPage(editorId);
             Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
             $(this).off(e);
         });
