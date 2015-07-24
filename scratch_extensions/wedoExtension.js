@@ -285,7 +285,9 @@
         device = dev;
         device.open();
         poller = setInterval(function() {
-            rawData = device.read();
+            device.read(function(data) {
+                rawData = data;
+            });
         }, 20);
     };
 

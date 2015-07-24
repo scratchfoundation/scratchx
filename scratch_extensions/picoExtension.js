@@ -127,15 +127,24 @@
         }
     }
 
-    var poller = null;
-    var watchdog = null;
     function tryNextDevice() {
         // If potentialDevices is empty, device will be undefined.
         // That will get us back here next time a device is connected.
         device = potentialDevices.shift();
-        if (!device) return;
 
-        device.open({ stopBits: 0, bitRate: 38400, ctsFlowControl: 0 });
+        if (device) {
+            device.open({ stopBits: 0, bitRate: 38400, ctsFlowControl: 0 }, deviceOpened);
+        }
+    }
+
+    var poller = null;
+    var watchdog = null;
+    function deviceOpened(dev) {
+        if (!dev) {
+            // Opening the port failed.
+            tryNextDevice();
+            return;
+        }
         device.set_receive_handler(function(data) {
             //console.log('Received: ' + data.byteLength);
             if(!rawData || rawData.byteLength == 18) rawData = new Uint8Array(data);
