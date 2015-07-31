@@ -728,7 +728,7 @@ picture {
     display: block;
     margin: -3px 0 0 -1px; }
   .modal .modal-close:hover:after, .modal .modal-close:hover:before {
-    background: #c2c9d1; }
+    background: #c2cad1; }
   .modal .modal-close:before {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -907,7 +907,7 @@ article header h1 + p {
 #modal-template-warning .modal-close {
   background: #dfe3e7; }
   #modal-template-warning .modal-close:before, #modal-template-warning .modal-close:after {
-    background: #556372; }
+    background: #556472; }
   #modal-template-warning .modal-close:hover:before, #modal-template-warning .modal-close:hover:after {
     background: #3f4a55; }
 #modal-template-warning button {
