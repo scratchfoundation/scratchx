@@ -37,7 +37,8 @@ body > main {
     }
 }
 
-body > main > article > section {
+section.intro {
+    @include outer-container;
     > div {
         @include row();
 

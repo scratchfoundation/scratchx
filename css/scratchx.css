@@ -994,22 +994,30 @@ body > main > footer > div {
       body > main > footer > div > div nav:last-child {
         margin-right: 0; }
 
-body > main > article > section > div {
-  display: block; }
-  body > main > article > section > div::after {
+section.intro {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto; }
+  section.intro::after {
     clear: both;
     content: "";
     display: table; }
-  body > main > article > section > div > div {
-    text-align: center;
-    float: left;
-    display: block;
-    margin-right: 1.25%;
-    width: 83.125%;
-    margin-left: 8.4375%;
-    margin-bottom: 0; }
-    body > main > article > section > div > div:last-child {
-      margin-right: 0; }
+  section.intro > div {
+    display: block; }
+    section.intro > div::after {
+      clear: both;
+      content: "";
+      display: table; }
+    section.intro > div > div {
+      text-align: center;
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 83.125%;
+      margin-left: 8.4375%;
+      margin-bottom: 0; }
+      section.intro > div > div:last-child {
+        margin-right: 0; }
 
 body > main > article,
 body > section {
@@ -1269,7 +1277,8 @@ body > main > article {
   .gallery ul {
     max-width: 60em;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding-left: 0; }
     .gallery ul::after {
       clear: both;
       content: "";
