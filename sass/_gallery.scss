@@ -1,0 +1,90 @@
+.gallery {
+    background: $gallery-background-color;
+
+    div {
+        padding: $vertical-base * 10 0;
+    }
+
+    ul {
+        @include outer-container;
+    }
+
+    li {
+        /* Grid of 3 wide */
+        @include span-columns(4);
+        @include omega(3n);
+        margin-bottom: $gutter;
+
+        section, header {
+            padding: $gutter;
+            background-color: $base-background-color;
+            font-size: $small-font-size;
+
+            p {
+                margin-bottom: 0;
+                text-align: left;
+            }
+        }
+
+        header {
+            @include border-top-radius($base-border-radius);
+
+            background-color: $bright-blue;
+            color: $white;
+            position: relative;
+
+            @include icon(before, right-arrow) {
+                position: absolute;
+                font-size: 1.5em;
+                line-height: 1.5;
+                right: $gutter;
+            }
+
+            h2 {
+                font-size: $h3-font-size;
+                margin-bottom: 0;
+                line-height: 1;
+            }
+        }
+
+        img {
+            display: block;
+            height: 150px;
+        }
+
+        .description {
+            overflow: hidden;
+
+            a {
+                width: 50%;
+                float: left;
+                display: block;
+            }
+
+        }
+
+        .tags {
+            @include border-bottom-radius($base-border-radius);
+
+            border-top: $base-border;
+        }
+    }
+
+
+}
+
+aside + .gallery {
+    margin-top: $vertical-base * -4;
+}
+
+.tag {
+    font-size: 1.5em;
+    line-height: 1;
+    &.web {
+        @include icon(before, wifi);
+    }
+
+    &.hardware {
+        @include icon(before, gear);
+    }
+}

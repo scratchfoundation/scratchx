@@ -37,6 +37,19 @@ body > main {
     }
 }
 
+body > main > article > section {
+    > div {
+        @include row();
+
+        > div {
+            text-align: center;
+            @include span-columns(10);
+            @include shift(1);
+            margin-bottom: 0;
+        }
+    }
+}
+
 body {
     > main > article,
     > section {
@@ -207,3 +220,4 @@ body > main > article {
 
 @import "home";
 @import "editor";
+@import "gallery";

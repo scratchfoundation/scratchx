@@ -7,6 +7,8 @@ $base-font-size: 1em;
 
 $h1-font-size: 1.5 * $base-font-size;
 $h2-font-size: $h1-font-size;
+$h3-font-size: 1.1 * $base-font-size;
+$small-font-size: .9 * $base-font-size;
 
 // Line height
 $base-line-height: 1.5;
@@ -22,6 +24,7 @@ $base-z-index: 0;
 $white: #fff;
 $blue: #21b4f0;
 $bright-blue: #24a3ec;
+$light-blue: #d7e5f3;
 $dark-blue: #3f5975;
 $dark-gray: #58595b;
 $medium-gray: #c5c5c5;
@@ -33,6 +36,7 @@ $yellow: #fff447;
 // Font Colors
 $base-background-color: #fff;
 $alt-background-color: $dark-blue;
+$gallery-background-color: $light-blue;
 $base-font-color: $dark-gray;
 $alt-font-color: $white;
 $action-color: $blue;

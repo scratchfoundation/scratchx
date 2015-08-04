@@ -18,6 +18,14 @@ $icon-link: "\e603";
 $icon-right-arrow: "\e604";
 $icon-twitter: "\e605";
 $icon-upload: "\e606";
+$icon-warning: "\e607";
+$icon-new-link: "\e608";
+$icon-wifi: "\e609";
+$icon-faq: "\e60a";
+$icon-doc: "\e60b";
+$icon-blocks: "\e60c";
+$icon-gears: "\e60d";
+$icon-gear: "\e60e";
 
 $icons: (
     "documentation": "#{$icon-documentation}",
@@ -27,6 +35,14 @@ $icons: (
     "right-arrow":   "#{$icon-right-arrow}",
     "twitter":       "#{$icon-twitter}",
     "upload":        "#{$icon-upload}",
+    "warning":       "#{$icon-warning}",
+    "new-link":      "#{$icon-new-link}",
+    "wifi":          "#{$icon-wifi}",
+    "faq":           "#{$icon-faq}",
+    "doc":           "#{$icon-doc}",
+    "blocks":        "#{$icon-blocks}",
+    "gears":         "#{$icon-gears}",
+    "gear":          "#{$icon-gear}",
 );
 
 @mixin icon($position: before, $icon: false, $style: plain, $centered: false, $font-size: 1em) {

@@ -994,6 +994,23 @@ body > main > footer > div {
       body > main > footer > div > div nav:last-child {
         margin-right: 0; }
 
+body > main > article > section > div {
+  display: block; }
+  body > main > article > section > div::after {
+    clear: both;
+    content: "";
+    display: table; }
+  body > main > article > section > div > div {
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 1.25%;
+    width: 83.125%;
+    margin-left: 8.4375%;
+    margin-bottom: 0; }
+    body > main > article > section > div > div:last-child {
+      margin-right: 0; }
+
 body > main > article,
 body > section {
   display: none; }
@@ -1244,5 +1261,111 @@ body > main > article {
   font-size: 22px;
   margin-top: 14px;
   line-height: 28px; }
+
+.gallery {
+  background: #d7e5f3; }
+  .gallery div {
+    padding: 3.75em 0; }
+  .gallery ul {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto; }
+    .gallery ul::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .gallery li {
+    /* Grid of 3 wide */
+    float: left;
+    display: block;
+    margin-right: 1.25%;
+    width: 32.5%;
+    margin-bottom: 12px; }
+    .gallery li:last-child {
+      margin-right: 0; }
+    .gallery li:nth-child(3n) {
+      margin-right: 0; }
+    .gallery li:nth-child(3n+1) {
+      clear: left; }
+    .gallery li section, .gallery li header {
+      padding: 12px;
+      background-color: #fff;
+      font-size: 0.9em; }
+      .gallery li section p, .gallery li header p {
+        margin-bottom: 0;
+        text-align: left; }
+    .gallery li header {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: #24a3ec;
+      color: #fff;
+      position: relative; }
+      .gallery li header:before {
+        content: "";
+        font-family: "ScratchX";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        font-size: 1em;
+        text-transform: none;
+        line-height: 1;
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        font-size: 1.5em;
+        line-height: 1.5;
+        right: 12px; }
+      .gallery li header h2 {
+        font-size: 1.1em;
+        margin-bottom: 0;
+        line-height: 1; }
+    .gallery li img {
+      display: block;
+      height: 150px; }
+    .gallery li .description {
+      overflow: hidden; }
+      .gallery li .description a {
+        width: 50%;
+        float: left;
+        display: block; }
+    .gallery li .tags {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top: 1px solid #c5c5c5; }
+
+aside + .gallery {
+  margin-top: -1.5em; }
+
+.tag {
+  font-size: 1.5em;
+  line-height: 1; }
+  .tag.web:before {
+    content: "";
+    font-family: "ScratchX";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 1em;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .tag.hardware:before {
+    content: "";
+    font-family: "ScratchX";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 1em;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
 
 /*# sourceMappingURL=scratchx.css.map */
