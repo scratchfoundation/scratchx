@@ -46,7 +46,7 @@ function JSprojectLoaded() {
 }
 
 function JSshowExtensionDialog() {
-    showModal("dialogs");
+    showModal(["template-extension-file", "template-extension-url"]);
 }
 
 var extensionQueue = [];
@@ -201,7 +201,15 @@ function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, w
 
     var $element = $(document.getElementById(elementId));
     if (!$element.length) {
-        $template = _.template($(document.getElementById(templateId)).html());
+        var templateContent = "";
+        if (typeof(templateId) != "string") {
+            for (var id in templateId) {
+                templateContent += $(document.getElementById(templateId[id])).html();
+            }
+        } else {
+            templateContent += $(document.getElementById(templateId)).html()
+        }
+        $template = _.template(templateContent);
         $element = $("<"+elementType+"></"+elementType+">")
             .attr("id", elementId)
             .html($template(data));
