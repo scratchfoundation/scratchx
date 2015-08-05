@@ -17,6 +17,9 @@
 dialog {
     display: block;
     position: static;
+    overflow: hidden;
+    border-radius: $base-border-radius;
+    text-align: center;
 
     h2 {
         text-align: center;

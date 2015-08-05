@@ -21,77 +21,105 @@
     </header>
     <article id="home">
         <header>
-            <div>
-                <aside class="warning message"><strong>Warning:</strong> These extensions are experimental. <a href="#faq">Please read the FAQ before trying them.</a></aside>
+            <section>
+                <div>
+                    <h1>Play with Experimental Extensions to Scratch!</h1>
+                    <p>With Experimental Extensions, you can create Scratch projects that connect with external hardware (such as electronic devices and robotics) and online resources (including web data and web services).</p>
+                </div>
+                <div class="open-extension">
+                    <a href="#" data-action="modal" data-template="template-extension-file">Open Extension File</a>
+                </div>
+                <div class="open-url">
+                    <a href="#" data-action="modal" data-template="template-extension-url">Open Extension URL</a>
+                </div>
+            </section>
 
-                <h1>About ScratchX</h1>
-                <p>
-                    ScratchX allows you to try out experimental extensions to the Scratch programming environment. With extensions, you can connect Scratch to the physical world (such as electronic devices and robotics) and online resources (including web data and web services). 
-                </p>
+            <ul class="featured-extensions">
+                <li class="featured-extension">
+                    <a href="?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js" data-action="load-url">
+                        <img src="/images/extensions/ISSTracker_small.png" />
+                        <span class="button tryit">Try it!</span>
+                    </a>
+                    <section>
+                        <h2>ISS Tracker</h2>
+                        <p class="author">Kreg Hanning</p>
+                    </section>
+                </li>
+                <li class="featured-extension">
+                    <a href="?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js" data-action="load-url">
+                        <img src="/images/extensions/ISSTracker_small.png" />
+                        <span class="button tryit">Try it!</span>
+                    </a>
+                    <section>
+                        <h2>ISS Tracker</h2>
+                        <p class="author">Kreg Hanning</p>
+                    </section>
+                </li>
+                <li class="featured-extension">
+                    <a href="?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js" data-action="load-url">
+                        <img src="/images/extensions/ISSTracker_small.png" />
+                        <span class="button tryit">Try it!</span>
+                    </a>
+                    <section>
+                        <h2>ISS Tracker</h2>
+                        <p class="author">Kreg Hanning</p>
+                    </section>
+                </li>
+                <li class="featured-extension">
+                    <a href="?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js" data-action="load-url">
+                        <img src="/images/extensions/ISSTracker_small.png" />
+                        <span class="button tryit">Try it!</span>
+                    </a>
+                    <section>
+                        <h2>ISS Tracker</h2>
+                        <p class="author">Kreg Hanning</p>
+                    </section>
+                </li>
+            </ul>
 
-                <section id="dialogs">
-                    <dialog open class="extension-file">
-                        <section>
-                            <h2>Open an Extension Project</h2>
-                            <p>Choose a .sbx file from your local drive</p>
-                            <p><a href="#faq-sbx-file">What is a .sbx file?</a></p>
-                        </section>
-                        <section>
-                            <button data-action="load-file">Browse for local file</button>
-                        </section>
-                    </dialog>
+            <div class="bottom-row">
+                <div>
 
-                    <dialog open class="extension-url">
-                        <section>
-                            <h2>Open an Extension URL</h2>
-                            <p>Paste the web address below</p>
-                            <p><a href="#faq-scratchx-url">What is a ScratchX URL?</a></p>
-                        </section>
-                        <section>
-                            <form class="input-plus-button url-load-form">
-                                <input type="text" placeholder="paste url..." />
-                                <button type="submit">Open</button>
-                            </form>
-                        </section>
-                    </dialog>
+                    <aside class="icon-gears">Most physical extensions require the Scratch Device Plugin - <a href="https://scratch.mit.edu/info/ext_download/">Download here</a></aside>
 
-                    <dialog open class="extension-feature">
-                        <section>
-                            <h2>Featured Extensions</h2>
-                            <p><a href="https://scratch.mit.edu/scratchr2/static/ext/download.html">Download hardware plugin</a></p>
-                        </section>
-                        <section>
-                            <ul>
-                                <li><a href="?url=http://sayamindu.github.io/scratch-extensions/text_to_speech_extension.js" data-action="load-url">
-                                    <h3>Text to Speech</h3>
-                                    <p>Use Scratch to read text out loud</p>
-                                </a></li>
-                                <li><a href="?url=http://technoboy10.github.io/mesh/mesh.js"  data-action="load-url">
-                                    <h3>Mesh</h3>
-                                    <p>Communicate across projects</p>
-                                </a></li>
-                                <li><a href="?url=http://khanning.github.io/scratch-arduino-extension/arduino_extension.js"  data-action="load-url">
-                                    <h3>Arduino</h3>
-                                    <p>Control your Arduino using Scratch</p>
-                                </a></li>
-                            </ul>
-                        </section>
-                    </dialog>
-                </section>
-
-                <aside class="info message">
-                    <strong>Note:</strong> To use any physical extensions, you need to download the <a href="https://scratch.mit.edu/info/ext_download/">Hardware Plugin</a>.<br />
-                    Official Scratch Extensions (such as LEGO WeDo) are available on the main <a href="https://scratch.mit.edu">Scratch site</a>.
-                </aside>
+                    <a href="#extensions"><button>See all Extensions</button></a>
+                </div>  
             </div>
         </header>
-        <section>
-            <div>
-                <h2>Developer Documentation</h2>
-                <p>Developers can create new Experimental Extensions using Javascript. To learn more, read the <a href="https://github.com/LLK/scratchx/wiki">Developer Documentation</a>.</p>
-                <p><a href="#scratch"><button>Open editor</button></a></p>
-            </div>
+        <aside class="warning message"><strong>Warning:</strong> all extensions are experimental and not a product of the Scratch Team. <a href="#faq">Find out more</a></aside>
+        <section class="scratch-vs-scratchx">
+            <div><div>
+                <div>
+                    <div>
+                        <h2 class="logo-scratch">Scratch</h2>
+                        <p>With the Scratch programming language, you can create your own interactive stories, games, and animations &emdash; and share your creations with others in an online community. <a href="http://scratch.mit.edu/">Take me to Scratch</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h2 class="logo-scratchx">ScratchX</h2>
+                        <p>On the ScratchX website, you can play with Experimental Extensions to Scratch. Because these extensions are experimental and not enforsed or supported by the Scratch Team, they are available only on the ScratchX site, not the main Scratch site. <a href="#scratch">Try out ScratchX</a></p>
+                    </div>
+                </div>
+            </div></div>
         </section>
+        <section class="who-uses-scratchx">
+            <div><div>
+                <div>
+                    <h2>Who uses ScratchX?</h2>
+                    <p><strong>Anyone</strong> can access and play with Experimental Extensions on ScratchX. Integrate <a href="">Twitter</a> feeds into your Scratch project, connect with hardware like <a href="">Arduino</a> and <a href="">Raspberry Pi</a>, and <a href="">much much more.</a></p>
+
+                    <p><strong>Developers</strong> can use ScratchX to create and test new Experimental Extensions. Learn more about ScratchX in our <a href="https://github.com/LLK/scratchx/wiki/">developer documentation</a></p>
+                </div>
+            </div></div>
+        </section>
+        <nav>
+            <ul>
+                <li class="faq"><a href="#faq">Frequently Asked Questions</a></li>
+                <li class="extensions"><a href="#extensions">See all Extensions</a></li>
+                <li class="documentation"><a href="https://github.com/LLK/scratchx/wiki/">Developer Documentation</a></li>
+            </ul>
+        </nav>
     </article>
     <article id="extensions">
         <section class="intro">
@@ -135,7 +163,7 @@
                         </a>
                         <section class="description">
                             <p>Broadcast messages to other projects!</p>
-                            <a href="#">Sample Project</a>
+                            <a href="">Sample Project</a>
                             <a href="http://technoboy10.tk/mesh/">Documentation</a>
                         </section>
                         <section class="tags">
@@ -220,8 +248,8 @@
                         </a>
                         <section class="description">
                             <p>Use Scratch to read text out loud</p>
-                            <a href="#">Sample Project</a>
-                            <a href="#">Documentation</a>
+                            <a href="">Sample Project</a>
+                            <a href="">Documentation</a>
                         </section>
                         <section class="tags">
                             <span class="tag web" title="Web Extension"></span>
@@ -439,6 +467,33 @@
             <input type="text" value="<%- shortUrl %>" name="shortUrl" disabled />
             <button data-clipboard-text="<%- shortUrl %>">Copy</button>
         </div>
+    </section>
+</dialog>
+</script>
+<script type="text/template" id="template-extension-url">
+<dialog class="single extension-url">
+    <section>
+        <h2>Open an Extension URL</h2>
+        <p>Paste the web address below</p>
+        <p><a href="#faq-scratchx-url">What is a ScratchX URL?</a></p>
+    </section>
+    <section>
+        <form class="input-plus-button url-load-form">
+            <input type="text" placeholder="paste url..." />
+            <button type="submit">Open</button>
+        </form>
+    </section>
+</dialog>
+</script>
+<script type="text/template" id="template-extension-file">
+<dialog class="single extension-file">
+    <section>
+        <h2>Open an Extension Project</h2>
+        <p>Choose a .sbx file from your local drive</p>
+        <p><a href="#faq-sbx-file">What is a .sbx file?</a></p>
+    </section>
+    <section>
+        <button data-action="load-file">Browse for local file</button>
     </section>
 </dialog>
 </script>

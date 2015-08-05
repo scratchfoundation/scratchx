@@ -61,19 +61,21 @@ body {
     }
 }
 
-#dialogs, #modal-dialogs {
-    @include row();
-    dialog {
-        @include span-columns(4);
-        p {
-            text-align: center;
-        }
+
+.modal dialog {
+    float: left;
+    margin-right: $gutter;
+    width: 49%;
+
+    &:last-child {
+        margin-right: auto;
+    }
+
+    &:only-child {
+        float: none;
     }
 }
 
-.modal .single {
-    width: 50%;
-}
 
 .extension-file {
     section:first-child {

@@ -774,7 +774,10 @@ picture {
 
 dialog {
   display: block;
-  position: static; }
+  position: static;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center; }
   dialog h2 {
     text-align: center;
     margin: 1.5em 0 0.375em 0; }
@@ -1025,24 +1028,14 @@ body > section {
 body #home {
   display: block; }
 
-#dialogs, #modal-dialogs {
-  display: block; }
-  #dialogs::after, #modal-dialogs::after {
-    clear: both;
-    content: "";
-    display: table; }
-  #dialogs dialog, #modal-dialogs dialog {
-    float: left;
-    display: block;
-    margin-right: 1.25%;
-    width: 32.5%; }
-    #dialogs dialog:last-child, #modal-dialogs dialog:last-child {
-      margin-right: 0; }
-    #dialogs dialog p, #modal-dialogs dialog p {
-      text-align: center; }
-
-.modal .single {
-  width: 50%; }
+.modal dialog {
+  float: left;
+  margin-right: 12px;
+  width: 49%; }
+  .modal dialog:last-child {
+    margin-right: auto; }
+  .modal dialog:only-child {
+    float: none; }
 
 .extension-file section:first-child {
   /* Add a border equal to the number of featured extensions - 1 */
@@ -1223,40 +1216,287 @@ body > main > article {
 #home > header {
   background: url(../images/editor.png);
   background-size: cover; }
-
-#home > header > div {
-  /* To stop child elements from adding margin */
-  padding: 1px 0; }
-
-#home > section > div {
-  border-top: 1px solid #c5c5c5;
-  margin-top: 3.75em;
-  padding: 3.75em 0;
-  position: relative; }
-  #home > section > div:before {
-    content: "";
-    font-family: "ScratchX";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-size: 1em;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 2em;
-    color: #c5c5c5;
-    position: absolute;
-    top: -.55em;
-    left: 50%;
-    margin-left: -1.3em;
-    background-color: #fff;
-    border: 1em solid #fff;
-    border-width: 0 0.4em; }
-  #home > section > div h2, #home > section > div p {
+  #home > header h1 {
+    font-weight: normal; }
+  #home > header > section {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em; }
+    #home > header > section::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #home > header > section div {
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 83.125%;
+      margin-left: 8.4375%; }
+      #home > header > section div:last-child {
+        margin-right: 0; }
+    #home > header > section .open-extension, #home > header > section .open-url {
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 24.0625%;
+      text-align: center; }
+      #home > header > section .open-extension:last-child, #home > header > section .open-url:last-child {
+        margin-right: 0; }
+      #home > header > section .open-extension a, #home > header > section .open-url a {
+        color: #fff; }
+    #home > header > section .open-extension {
+      margin-left: 25.3125%; }
+      #home > header > section .open-extension a:before {
+        content: "";
+        font-family: "ScratchX";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        font-size: 1em;
+        text-transform: none;
+        line-height: 1;
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding-right: 0.375em; }
+    #home > header > section .open-url {
+      margin-left: 0%; }
+      #home > header > section .open-url a:before {
+        content: "";
+        font-family: "ScratchX";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        font-size: 1em;
+        text-transform: none;
+        line-height: 1;
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding-right: 0.375em; }
+  #home > header > ul {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em; }
+    #home > header > ul::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #home > header > ul li {
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 24.0625%; }
+      #home > header > ul li:last-child {
+        margin-right: 0; }
+      #home > header > ul li:nth-child(4n) {
+        margin-right: 0; }
+      #home > header > ul li:nth-child(4n+1) {
+        clear: left; }
+  #home > header .bottom-row {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto; }
+    #home > header .bottom-row::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #home > header .bottom-row > div {
+      display: block;
+      margin-top: 1.125em;
+      margin-bottom: 1.5em; }
+      #home > header .bottom-row > div::after {
+        clear: both;
+        content: "";
+        display: table; }
+      #home > header .bottom-row > div > aside {
+        float: left;
+        display: block;
+        margin-right: 1.25%;
+        width: 74.6875%;
+        vertical-align: middle;
+        line-height: 2.5em; }
+        #home > header .bottom-row > div > aside:last-child {
+          margin-right: 0; }
+        #home > header .bottom-row > div > aside:before {
+          content: "";
+          font-family: "ScratchX";
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          font-size: 1em;
+          text-transform: none;
+          line-height: 1;
+          /* Better Font Rendering =========== */
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          font-size: 1.5em;
+          padding-right: 0.375em; }
+      #home > header .bottom-row > div > a {
+        float: left;
+        display: block;
+        margin-right: 1.25%;
+        width: 24.0625%; }
+        #home > header .bottom-row > div > a:last-child {
+          margin-right: 0; }
+        #home > header .bottom-row > div > a button {
+          width: 100%; }
+#home header + aside {
+  margin: 0; }
+#home > section {
+  padding: 2.25em 0; }
+  #home > section > div {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto; }
+    #home > section > div::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #home > section > div > div {
+      display: block;
+      margin-bottom: 0; }
+      #home > section > div > div::after {
+        clear: both;
+        content: "";
+        display: table; }
+  #home > section.scratch-vs-scratchx {
+    background-color: #dfe3e7; }
+    #home > section.scratch-vs-scratchx > div > div {
+      display: table;
+      width: 100%;
+      table-layout: fixed; }
+      #home > section.scratch-vs-scratchx > div > div > div {
+        display: table-cell;
+        width: 50%;
+        vertical-align: top; }
+        #home > section.scratch-vs-scratchx > div > div > div:first-child {
+          border-right: 1px solid #c5c5c5; }
+        #home > section.scratch-vs-scratchx > div > div > div > div {
+          float: left;
+          display: block;
+          margin-right: 2.53165%;
+          width: 82.91139%; }
+          #home > section.scratch-vs-scratchx > div > div > div > div:last-child {
+            margin-right: 0; }
+        #home > section.scratch-vs-scratchx > div > div > div:last-child > div {
+          margin-left: 17.08861%; }
+  #home > section.who-uses-scratchx {
     text-align: center; }
+    #home > section.who-uses-scratchx > div > div > div {
+      float: left;
+      display: block;
+      margin-right: 1.25%;
+      width: 83.125%;
+      margin-left: 8.4375%; }
+      #home > section.who-uses-scratchx > div > div > div:last-child {
+        margin-right: 0; }
+    #home > section.who-uses-scratchx h2 {
+      font-weight: normal; }
+#home nav {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto; }
+  #home nav::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #home nav ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 2.25em 0;
+    vertical-align: top;
+    border-top: 1px solid #c5c5c5; }
+    #home nav ul li {
+      display: table-cell;
+      width: 33.33333%;
+      text-align: center; }
+      #home nav ul li a {
+        display: block;
+        position: relative;
+        padding-top: 95px; }
+        #home nav ul li a:before {
+          font-family: "ScratchX";
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          font-size: 1em;
+          text-transform: none;
+          line-height: 1;
+          /* Better Font Rendering =========== */
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          color: #fff;
+          background-color: #24a3ec;
+          font-size: 3.5em;
+          border-radius: 38px;
+          width: 76px;
+          height: 76px;
+          line-height: 76px;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          right: 50%;
+          margin-right: -38px;
+          box-shadow: 0 7px 0 0 #dfe3e7; }
+      #home nav ul li.documentation a:before {
+        content: ""; }
+      #home nav ul li.extensions a:before {
+        content: ""; }
+      #home nav ul li.faq a:before {
+        content: ""; }
+
+.logo-scratch {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background: url(../images/scratch-heading.png) no-repeat;
+  height: 49px; }
+
+.logo-scratchx {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background: url(../images/scratchx-heading.png) no-repeat;
+  height: 49px; }
+
+.featured-extension {
+  border-radius: 5px;
+  overflow: hidden; }
+  .featured-extension > a {
+    position: relative;
+    display: block; }
+    .featured-extension > a img {
+      display: block; }
+    .featured-extension > a .tryit {
+      display: inline-block;
+      position: absolute;
+      background-color: #24a3ec;
+      color: #fff;
+      padding: 0 1em;
+      border-radius: 1em;
+      top: 0.375em;
+      right: 0.375em; }
+  .featured-extension > section {
+    background-color: #fff;
+    color: #58595b;
+    padding: 0.75em;
+    line-height: 1; }
+    .featured-extension > section h2 {
+      color: #24a3ec;
+      margin-bottom: 0;
+      font-size: 1.25em; }
+    .featured-extension > section p {
+      text-align: left;
+      font-size: 0.9em;
+      margin-bottom: 0; }
 
 #scratch {
   position: absolute;
@@ -1289,7 +1529,9 @@ body > main > article {
     display: block;
     margin-right: 1.25%;
     width: 32.5%;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    overflow: hidden;
+    border-radius: 5px; }
     .gallery li:last-child {
       margin-right: 0; }
     .gallery li:nth-child(3n) {
@@ -1304,8 +1546,6 @@ body > main > article {
         margin-bottom: 0;
         text-align: left; }
     .gallery li header {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
       background-color: #24a3ec;
       color: #fff;
       position: relative; }
@@ -1340,8 +1580,6 @@ body > main > article {
         float: left;
         display: block; }
     .gallery li .tags {
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
       border-top: 1px solid #c5c5c5; }
 
 aside + .gallery {

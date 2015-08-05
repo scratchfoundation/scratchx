@@ -7,6 +7,7 @@
 
     ul {
         @include outer-container;
+        @include reset-display;
         padding-left: 0;
     }
 
@@ -15,6 +16,9 @@
         @include span-columns(4);
         @include omega(3n);
         margin-bottom: $gutter;
+
+        overflow: hidden;
+        border-radius: $base-border-radius;
 
         section, header {
             padding: $gutter;
@@ -28,8 +32,6 @@
         }
 
         header {
-            @include border-top-radius($base-border-radius);
-
             background-color: $bright-blue;
             color: $white;
             position: relative;
@@ -65,8 +67,6 @@
         }
 
         .tags {
-            @include border-bottom-radius($base-border-radius);
-
             border-top: $base-border;
         }
     }

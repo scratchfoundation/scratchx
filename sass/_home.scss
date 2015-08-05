@@ -1,34 +1,258 @@
 /* Homepage */
 
-#home > header {
-    background: url(../images/editor.png);
-    background-size: cover;
-}
+#home {
+    > header {
+        background: url(../images/editor.png);
+        background-size: cover;
 
-#home > header > div {
-    /* To stop child elements from adding margin */
-    padding: 1px 0;
-}
+        h1 {
+            font-weight: normal;
+        }
 
-#home > section > div {
-    border-top: $base-border;
-    margin-top: 10 * $vertical-base;
-    padding: 10 * $vertical-base 0;
-    position: relative;
+        > section {
+            @include outer-container;
+            padding-top: $vertical-base * 8;
 
-    @include icon(before, documentation) {
-        font-size: 2em;
-        color: $base-border-color;
-        position: absolute;
-        top: -.55em;
-        left: 50%;
-        margin-left: -1.3em;
-        background-color: $white;
-        border: 1em solid $white;
-        border-width: 0 0.4em;
+            div {
+                @include span-columns(10);
+                @include shift(1);
+            }
+
+            .open-extension, .open-url {
+                @include span-columns(3);
+                text-align: center;
+
+                a {
+                    color: $white
+                }
+            }
+
+            .open-extension {
+                @include shift(3);
+
+                a {
+                    @include icon(before, upload){
+                        padding-right: $vertical-base;
+                    };
+                }
+            }
+
+            .open-url {
+                @include shift(0);
+
+                a {
+                    @include icon(before, link){
+                        padding-right: $vertical-base;
+                    };
+                }
+            }
+        }
+        
+        > ul {
+            @include outer-container;
+
+            padding-top: $vertical-base * 8;
+
+            li {
+                @include span-columns(3);
+                @include omega(4n);
+            }
+        }
+
+        .bottom-row {
+            @include outer-container;
+
+
+            > div {
+                @include row;
+                margin-top: 3 * $vertical-base;
+                margin-bottom: 4 * $vertical-base;
+
+                > aside{
+                    @include span-columns(9);
+                    vertical-align: middle;
+                    line-height: 2.5em;
+
+                    @include icon(before, gears) {
+                        font-size: 1.5 * $base-font-size;
+                        padding-right: $vertical-base;
+                    }
+                }
+
+                > a {
+                    @include span-columns(3);
+
+                    button {
+                        @include fill-parent;
+                    }
+                }
+            }
+        }
     }
 
-    h2, p {
-        text-align: center;
+    header + aside {
+        margin: 0;
+    }
+    
+    > section {
+
+        padding: 6 * $vertical-base 0;
+
+        > div {
+            @include outer-container;
+
+            > div {
+                @include row();
+                margin-bottom: 0;
+            }
+        }
+
+        &.scratch-vs-scratchx {
+
+            background-color: $light-gray;
+
+            > div > div {
+
+                @include row(table);
+
+                > div {
+                    @include span-columns(6);
+                    vertical-align: top;
+
+                    &:first-child {
+                        border-right: $base-border;
+                    }
+
+                    > div {
+                        @include reset-display;
+                        @include span-columns(5 of 6);
+
+                    }
+
+                    &:last-child > div {
+                        @include shift(1);
+                    }
+                }
+            }
+        }
+
+        &.who-uses-scratchx {
+            > div > div > div {
+                @include span-columns(10);
+                @include shift(1);
+            }
+
+            text-align: center;
+
+            h2 {
+                font-weight: normal;
+            }
+        }
+    }
+
+    nav {
+        @include outer-container;
+
+        ul {
+            @include row(table);
+            padding: 6 * $vertical-base 0;
+            vertical-align: top;
+            border-top: $base-border;
+
+            li {
+                @include span-columns(4);
+                text-align: center;
+
+                a {
+                    display: block;
+                    position: relative;
+                    padding-top: 76px * 1.25;
+                    @include icon(before) {
+                        color: $white;
+                        background-color: $bright-blue;
+                        font-size: 3.5em;
+                        border-radius: 38px;
+                        width: 76px;
+                        height: 76px;
+                        line-height: 76px;
+                        text-align: center;
+                        position: absolute;
+                        top: 0;
+                        right: 50%;
+                        margin-right: -38px;
+                        box-shadow: 0 7px 0 0 $light-gray;
+                    }
+                }
+
+                &.documentation a:before {
+                    content: $icon-doc;
+                }
+
+                &.extensions a:before {
+                    content: $icon-blocks;
+                }
+
+                &.faq a:before {
+                    content: $icon-faq;
+                }
+            }
+        }
+    }
+}
+
+.logo-scratch {
+    @include hide-text;
+    background: url(../images/scratch-heading.png) no-repeat;
+    height: 49px;
+}
+
+.logo-scratchx {
+    @include hide-text;
+    background: url(../images/scratchx-heading.png) no-repeat;
+    height: 49px;
+}
+
+.featured-extension {
+    border-radius: $base-border-radius;
+    overflow: hidden;
+
+    > a {
+        position: relative;
+        display: block;
+
+        img {
+            display: block;
+        }
+
+        .tryit {
+            display: inline-block;
+            position: absolute;
+            background-color: $bright-blue;
+            color: $white;
+            padding: 0 1em;
+            border-radius: 1em;
+            top: $vertical-base;
+            right: $vertical-base;
+        }
+    }
+
+    > section {
+        background-color: $white;
+        color: $base-font-color;
+        padding: 2 * $vertical-base;
+
+        line-height: 1;
+
+        h2 {
+            color: $bright-blue;
+            margin-bottom: 0;
+            font-size: 1.25 * $base-font-size;
+        }
+
+        p {
+            text-align: left;
+            font-size: $small-font-size;
+            margin-bottom: 0;
+        }
     }
 }
