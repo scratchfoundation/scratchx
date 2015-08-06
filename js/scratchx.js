@@ -311,6 +311,7 @@ function showPage(path, force) {
     $(toHide).filter(":visible").hide();
     if (!showEditor && editorShown) $(document.getElementById(editorId)).css({top: "-9999px"});
     $("body > main, body > main > article").has($toShow).show();
+    setBodyClass(path);
     $toShow.show();
 
     if (showEditor) $toShow.css({top: 0});
@@ -318,6 +319,17 @@ function showPage(path, force) {
     if (document.location.hash.substr(1) != path) document.location.hash = path;
     $toShow[0].scrollIntoView(true);
     $(document).trigger("page:show", path);
+}
+
+function setBodyClass(path) {
+    var pageClassPrefix = "page-";
+    var currentPageClasses = ($("body").attr("class") || "").split(" ");
+    for (c in currentPageClasses) {
+        if (currentPageClasses[c].indexOf(pageClassPrefix) != -1) {
+            $("body").removeClass(currentPageClasses[c]);
+        }
+    }
+    $("body").addClass(pageClassPrefix + path);
 }
 
 /* URL Shortening */
@@ -454,6 +466,7 @@ function initPage() {
             initialPage = window.location.hash.substr(1);
         }
     }
+    setBodyClass(initialPage);
     showPage(initialPage, true);
     loadFromURLParameter(window.location.search, true);
 }

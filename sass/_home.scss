@@ -1,9 +1,24 @@
 /* Homepage */
 
+body.page-home > main > header {
+    background-color: transparent;
+
+    > div {
+        border-bottom: $base-border;
+    }
+
+    a {
+        color: $white;
+    }
+}
+
 #home {
+    padding-top: 0;
+
     > header {
         background: url(../images/editor.png);
         background-size: cover;
+        padding-top: $vertical-base * 10;
 
         h1 {
             font-weight: normal;
@@ -222,6 +237,7 @@
 
         img {
             display: block;
+            height: 107px;
         }
 
         .tryit {
