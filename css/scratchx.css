@@ -1029,13 +1029,14 @@ body #home {
   display: block; }
 
 .modal dialog {
-  float: left;
-  margin-right: 12px;
-  width: 49%; }
-  .modal dialog:last-child {
-    margin-right: auto; }
-  .modal dialog:only-child {
-    float: none; }
+  width: 50%; }
+  .modal dialog:not(:only-child) {
+    float: left;
+    display: block;
+    margin-right: 2.53165%;
+    width: 48.73418%; }
+    .modal dialog:not(:only-child):last-child {
+      margin-right: 0; }
 
 .extension-file section:first-child {
   /* Add a border equal to the number of featured extensions - 1 */

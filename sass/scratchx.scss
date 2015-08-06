@@ -63,17 +63,13 @@ body {
 
 
 .modal dialog {
-    float: left;
-    margin-right: $gutter;
-    width: 49%;
 
-    &:last-child {
-        margin-right: auto;
+    width: 50%;
+
+    &:not(:only-child) {
+        @include span-columns(3 of 6);
     }
 
-    &:only-child {
-        float: none;
-    }
 }
 
 
