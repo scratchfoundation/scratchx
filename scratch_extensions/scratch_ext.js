@@ -30,14 +30,6 @@ window.ScratchExtensions = new (function () {
             return false;
         }
 
-        if (deviceSpec && !plugin) {
-            if (pluginAvailable()) {
-                setTimeout(createDevicePlugin, 10);
-            } else if (window.ScratchPlugin.useActiveX) {
-                JSsetProjectBanner('Sorry, your version of Internet Explorer is not supported.  Please upgrade to version 10 or 11.');
-            }
-        }
-
         handlers[name] = handler;
         blockDefs[name] = descriptor.blocks;
         if (descriptor.menus) menuDefs[name] = descriptor.menus;
@@ -52,6 +44,22 @@ window.ScratchExtensions = new (function () {
             javascriptURL: loadingURL
         };
         Scratch.FlashApp.ASobj.ASloadExtension(extObj);
+
+	    if (deviceSpec) {
+		    if (!plugin) {
+			    if (pluginAvailable()) {
+				    // createDevicePlugin() will eventually call checkPolling() if it succeeds
+				    setTimeout(createDevicePlugin, 10);
+			    } else if (window.ScratchPlugin.useActiveX) {
+				    JSsetProjectBanner('Sorry, your version of Internet Explorer is not supported.  Please upgrade to version 10 or 11.');
+			    }
+		    }
+		    else {
+			    // Second hardware-using project in the same tab
+			    checkPolling();
+		    }
+	    }
+
         return true;
     };
 
@@ -245,17 +253,14 @@ window.ScratchExtensions = new (function () {
         }
 
         this.open = function (readyCallback) {
-            try {
-                plugin.hid_open(this.id, function (d) {
-                    dev = d;
-                    dev.set_nonblocking(true);
-                    //devices[ext_name][path] = this;
-                    devices[ext_name] = this;
+            plugin.hid_open(self.id, function (d) {
+                dev = d;
+                dev.set_nonblocking(true);
+                //devices[ext_name][path] = self;
+                devices[ext_name] = self;
 
-                    if (readyCallback) readyCallback(this);
-                });
-            }
-            catch (e) { }
+                if (readyCallback) readyCallback(self);
+            });
         };
         this.close = function () {
             if (!dev) return;
@@ -292,20 +297,20 @@ window.ScratchExtensions = new (function () {
         this.id = id;
         this.open = function (opts, readyCallback) {
             try {
-                plugin.serial_open(this.id, opts, function (d) {
+                plugin.serial_open(self.id, opts, function (d) {
 //                    dev.set_disconnect_handler(function () {
 //                        self.close();
 //                        handlers[ext_name]._deviceRemoved(self);
 //                    });
-//                    devices[ext_name][path] = this;
+//                    devices[ext_name][path] = self;
                     dev = d;
-                    devices[ext_name] = this;
+                    devices[ext_name] = self;
 
                     dev.set_error_handler(function (message) {
                         alert('Serial device error\n\nDevice: ' + id + '\nError: ' + message);
                     });
 
-                    if (readyCallback) readyCallback(this);
+                    if (readyCallback) readyCallback(self);
                 });
             }
             catch (e) {
