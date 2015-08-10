@@ -16,7 +16,7 @@ body.page-home > main > header {
     padding-top: 0;
 
     > header {
-        background-image: linear-gradient(to bottom, rgba($bright-blue, 0.5) 67%, rgba($dark-blue, 1) 33%), url(../images/editor.png);
+        background-image: linear-gradient(to bottom, rgba(117, 161, 202, 0.5) 67%, rgba($dark-blue, 1) 33%), url(../images/editor.png);
         background-size: cover, cover;
         padding-top: $vertical-base * 10;
 

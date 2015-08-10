@@ -1226,7 +1226,7 @@ body.page-home > main > header {
 #home {
   padding-top: 0; }
   #home > header {
-    background-image: linear-gradient(to bottom, rgba(36, 163, 236, 0.5) 67%, #3f5975 33%), url(../images/editor.png);
+    background-image: linear-gradient(to bottom, rgba(117, 161, 202, 0.5) 67%, #3f5975 33%), url(../images/editor.png);
     background-size: cover, cover;
     padding-top: 3.75em; }
     #home > header h1 {
