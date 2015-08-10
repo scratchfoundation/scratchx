@@ -227,13 +227,26 @@ function showModal(templateId, data) {
      */
 
     var zIndex = 100;
-    var modalId = "modal-" + templateId;
-    $modalwrapper = $("<div class='modal-fade-screen'><div class='modal-inner'></div></div>");
+    var modalId = ("modal-" + templateId).replace(",", "-");
+    $modalwrapper = $("<div class='modal-fade-screen'><div class='modal-inner'><div class='modal-content'></div></div></div>");
     var $modal = getOrCreateFromTemplate(modalId, templateId, "dialog", "body", $modalwrapper, data);
+    $(".modal-inner", $modal).append('<div class="modal-close" for="'+modalId+'"></div>');
     $modal.addClass("modal");
+
+    if (typeof(templateId) != "string") {
+        $modal.addClass("n-children-" + templateId.length);
+    } else {
+        $modal.addClass("n-children-1");
+    }
+
     $(".modal-fade-screen", $modal)
         .addClass("visible")
         .click(function(e){if ($(e.target).is($(this))) $(this).trigger("modal:exit")});
+
+    $(".modal-close", $modal).click(function(e){
+        e.preventDefault();
+        $(document).trigger("modal:exit")
+    });
     
     $("body").addClass("modal-open");
 
@@ -265,7 +278,7 @@ $(document).on('click', "[data-action='modal']", function(e){
 
 function JSshowWarning(extensionData) {
     $modal = showModal("template-warning", extensionData);
-    $("button, .modal-close", $modal).click(function(e){
+    $("button", $modal).click(function(e){
         e.preventDefault();
         $(document).trigger("modal:exit")
     });

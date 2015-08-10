@@ -62,16 +62,28 @@ body {
 }
 
 
-.modal dialog {
+.modal {
 
-    width: 50%;
+    &.n-children-1 {
+        dialog {
+            width: 100%;
+        }
 
-    &:not(:only-child) {
-        @include span-columns(3 of 6);
+        .modal-inner {
+            @include outer-container(25%);
+        }
     }
 
-}
+    &.n-children-2 {
+        dialog {
+            @include span-columns(3 of 6);
+        }
 
+        .modal-inner {
+            @include outer-container(50%);
+        }
+    }
+}
 
 .extension-file {
     section:first-child {

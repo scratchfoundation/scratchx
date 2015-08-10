@@ -741,19 +741,7 @@ picture {
   transition: opacity 0.25s ease;
   border-radius: 5px;
   padding: 1.5em;
-  position: relative;
-  max-width: 60em;
-  margin-left: auto;
-  margin-right: auto; }
-  .modal .modal-inner::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .modal .modal-inner .modal-content {
-    color: #58595b;
-    -webkit-columns: 2 8em;
-    -moz-columns: 2 8em;
-    columns: 2 8em; }
+  position: relative; }
   .modal .modal-inner a.cta {
     color: white;
     display: inline-block;
@@ -1028,15 +1016,31 @@ body > section {
 body #home {
   display: block; }
 
-.modal dialog {
-  width: 50%; }
-  .modal dialog:not(:only-child) {
-    float: left;
-    display: block;
-    margin-right: 2.53165%;
-    width: 48.73418%; }
-    .modal dialog:not(:only-child):last-child {
-      margin-right: 0; }
+.modal.n-children-1 dialog {
+  width: 100%; }
+.modal.n-children-1 .modal-inner {
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto; }
+  .modal.n-children-1 .modal-inner::after {
+    clear: both;
+    content: "";
+    display: table; }
+.modal.n-children-2 dialog {
+  float: left;
+  display: block;
+  margin-right: 2.53165%;
+  width: 48.73418%; }
+  .modal.n-children-2 dialog:last-child {
+    margin-right: 0; }
+.modal.n-children-2 .modal-inner {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+  .modal.n-children-2 .modal-inner::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .extension-file section:first-child {
   /* Add a border equal to the number of featured extensions - 1 */

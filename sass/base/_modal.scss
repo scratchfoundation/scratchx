@@ -89,12 +89,6 @@
     border-radius: $base-border-radius;
     padding: $modal-padding / 2;
     position: relative;
-    @include outer-container;
-
-    .modal-content {
-      color: $base-font-color;
-      @include columns(2 8em);
-    }
 
     a.cta {
       color: white;
