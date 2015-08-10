@@ -79,13 +79,24 @@ aside + .gallery {
 }
 
 .tag {
-    font-size: 1.5em;
-    line-height: 1;
+
+    &:before {
+        padding-right: $vertical-base;
+    }
+
     &.web {
-        @include icon(before, wifi);
+        @include icon(before, wifi) {
+            font-size: 1.25em;
+            display: inline-block;
+            vertical-align: baseline;
+        }
     }
 
     &.hardware {
-        @include icon(before, gear);
+        @include icon(before, gear) {
+            font-size: 1.5em;
+            display: inline-block;
+            vertical-align: middle;
+        }
     }
 }

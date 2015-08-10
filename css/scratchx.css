@@ -1603,34 +1603,39 @@ body.page-home > main > header {
 aside + .gallery {
   margin-top: -1.5em; }
 
-.tag {
+.tag:before {
+  padding-right: 0.375em; }
+.tag.web:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.25em;
+  display: inline-block;
+  vertical-align: baseline; }
+.tag.hardware:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 1.5em;
-  line-height: 1; }
-  .tag.web:before {
-    content: "";
-    font-family: "ScratchX";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-size: 1em;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  .tag.hardware:before {
-    content: "";
-    font-family: "ScratchX";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-size: 1em;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+  display: inline-block;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=scratchx.css.map */
