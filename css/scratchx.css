@@ -1226,8 +1226,8 @@ body.page-home > main > header {
 #home {
   padding-top: 0; }
   #home > header {
-    background: url(../images/editor.png);
-    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(63, 89, 117, 0) 67%, #3f5975 33%), url(../images/editor.png);
+    background-size: cover, cover;
     padding-top: 3.75em; }
     #home > header h1 {
       font-weight: normal; }
@@ -1350,6 +1350,10 @@ body.page-home > main > header {
             -moz-osx-font-smoothing: grayscale;
             font-size: 1.5em;
             padding-right: 0.375em; }
+          #home > header .bottom-row > div > aside a {
+            color: #4ABFF9; }
+            #home > header .bottom-row > div > aside a:hover {
+              color: #fff; }
         #home > header .bottom-row > div > a {
           float: left;
           display: block;
