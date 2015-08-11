@@ -71,17 +71,27 @@ body {
     }
 }
 
-.extension-file {
+
+dialog.with-icon {
     section:first-child {
         /* Add a border equal to the number of featured extensions - 1 */
         border-top: 2px solid $alt-background-color;
         position: relative;
         padding-top: 18 * $vertical-base;
 
+        &:before {
+            background-color: $blue;
+            color: $white;
+            top: 2 * $vertical-base
+        }
+        
+    }
+}
+
+.extension-file {
+    &.with-icon section:first-child {
         @include icon(before, upload, circular, true, 8*$vertical-base) {
             background-color: $green;
-            color: $white;
-            top: 2 * $vertical-base;
         }
     }
 
@@ -92,25 +102,27 @@ body {
 }
 
 .extension-url {
-    section:first-child {
-        /* Add a border equal to the number of featured extensions - 1 */
-        border-top: 2px solid $alt-background-color;
-        position: relative;
-        padding-top: 18 * $vertical-base;
+    &.with-icon section:first-child {
+        @include icon(before, link, circular, true, 8*$vertical-base);
+    }
+}
 
-        @include icon(before, link, circular, true, 8*$vertical-base) {
-            background-color: $blue;
-            color: $white;
-            top: 2 * $vertical-base;
+.extension-warning {
+    &.with-icon section:first-child {
+        @include icon(before, warning, circular, true, 8*$vertical-base) {
+            background-color: $yellow;
+            color: $dark-gray;
         }
     }
 
+    button {
+        width: 49%;
+        display: inline-block;
+        margin-top: 2 * $vertical-base;
+    }
 }
 
-.extension-feature,
-#dialogs .extension-feature,
-.modal .extension-feature
- {
+.extension-feature {
     section:first-child {
         h2 {
             margin-top: $vertical-base;

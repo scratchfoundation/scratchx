@@ -881,30 +881,6 @@ article header h1 + p {
   border-radius: 0.9375em;
   background-color: #21b4f0;
   color: #fff; }
-
-#modal-template-warning .modal-inner {
-  border: 1px solid #dfe3e7;
-  padding: 0;
-  width: 50%;
-  text-align: center; }
-#modal-template-warning section {
-  padding: 2em;
-  overflow: hidden; }
-#modal-template-warning header {
-  background: #dfe3e7;
-  text-align: right;
-  line-height: 1.5;
-  position: relative;
-  height: 3em; }
-#modal-template-warning .modal-close {
-  background: #dfe3e7; }
-  #modal-template-warning .modal-close:before, #modal-template-warning .modal-close:after {
-    background: #556472; }
-  #modal-template-warning .modal-close:hover:before, #modal-template-warning .modal-close:hover:after {
-    background: #3f4a55; }
-#modal-template-warning button {
-  width: auto; }
-
 a[href=""] {
   outline: 1px solid red; }
 
@@ -1024,91 +1000,132 @@ body #home {
   .modal dialog:last-child {
     margin-right: auto; }
 
-.extension-file section:first-child {
-  /* Add a border equal to the number of featured extensions - 1 */
-  border-top: 2px solid #3f5975;
-  position: relative;
-  padding-top: 6.75em; }
-  .extension-file section:first-child:before {
-    content: "";
-    font-family: "ScratchX";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-size: 3em;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    border-radius: 0.75em;
-    width: 1.5em;
-    height: 1.5em;
+dialog {
+  display: block;
+  position: static;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center; }
+  dialog h2 {
     text-align: center;
-    line-height: 1.5;
-    position: absolute;
-    left: 50%;
-    margin-left: -0.75em;
-    background-color: #18ba37;
+    margin: 1.5em 0 0.375em 0; }
+  dialog section {
+    background-color: #3f5975;
     color: #fff;
-    top: 0.75em; }
-.extension-file button {
-  background-color: #18ba37;
-  color: #fff; }
+    padding: 1.5em; }
+  dialog section:last-child {
+    background-color: #fff;
+    padding: 1.5em;
+    color: #58595b; }
+  dialog button {
+    display: inline-block;
+    line-height: normal;
+    width: 100%;
+    padding: 0.375em;
+    /*
+        Needed so that all buttons are the same height
+        as text inputs
+    */
+    border: 1px solid; }
 
-.extension-url section:first-child {
+dialog.with-icon section:first-child {
   /* Add a border equal to the number of featured extensions - 1 */
   border-top: 2px solid #3f5975;
   position: relative;
   padding-top: 6.75em; }
-  .extension-url section:first-child:before {
-    content: "";
-    font-family: "ScratchX";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-size: 3em;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    border-radius: 0.75em;
-    width: 1.5em;
-    height: 1.5em;
-    text-align: center;
-    line-height: 1.5;
-    position: absolute;
-    left: 50%;
-    margin-left: -0.75em;
+  dialog.with-icon section:first-child:before {
     background-color: #21b4f0;
     color: #fff;
     top: 0.75em; }
 
-.extension-feature section:first-child h2,
-#dialogs .extension-feature section:first-child h2,
-.modal .extension-feature section:first-child h2 {
+.extension-file.with-icon section:first-child:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 3em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.75em;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.75em;
+  background-color: #18ba37; }
+.extension-file button {
+  background-color: #18ba37;
+  color: #fff; }
+
+.extension-url.with-icon section:first-child:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 3em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.75em;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.75em; }
+
+.extension-warning.with-icon section:first-child:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 3em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.75em;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.75em;
+  background-color: #fff447;
+  color: #58595b; }
+.extension-warning button {
+  width: 49%;
+  display: inline-block;
+  margin-top: 0.75em; }
+
+.extension-feature section:first-child h2 {
   margin-top: 0.375em; }
-.extension-feature section:last-child,
-#dialogs .extension-feature section:last-child,
-.modal .extension-feature section:last-child {
+.extension-feature section:last-child {
   padding: 0px; }
-.extension-feature ul li,
-#dialogs .extension-feature ul li,
-.modal .extension-feature ul li {
+.extension-feature ul li {
   border-bottom: 1px solid #dfe3e7;
   padding: 0.75em; }
-  .extension-feature ul li a,
-  #dialogs .extension-feature ul li a,
-  .modal .extension-feature ul li a {
+  .extension-feature ul li a {
     position: relative;
     display: block;
     padding-right: 25px; }
-    .extension-feature ul li a:before,
-    #dialogs .extension-feature ul li a:before,
-    .modal .extension-feature ul li a:before {
+    .extension-feature ul li a:before {
       content: "";
       font-family: "ScratchX";
       speak: none;
@@ -1127,15 +1144,11 @@ body #home {
       top: 50%;
       margin-top: -.5em;
       font-size: 1.5em; }
-  .extension-feature ul li h3,
-  #dialogs .extension-feature ul li h3,
-  .modal .extension-feature ul li h3 {
+  .extension-feature ul li h3 {
     font-size: 1.125em;
     font-weight: 600;
     margin-bottom: 0.375em; }
-  .extension-feature ul li p,
-  #dialogs .extension-feature ul li p,
-  .modal .extension-feature ul li p {
+  .extension-feature ul li p {
     text-align: left;
     margin: 0;
     color: #58595b;

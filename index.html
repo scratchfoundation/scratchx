@@ -456,18 +456,18 @@
     <div class="scratch_loading"></div>
 </section>
 <script type="text/template" id="template-warning">
-<div>
-    <header><a class="modal-close" href="#"></a></header>
-    <section class="warning">
-        <h2>Warning: all extensions are experimental</h2>
-        <p><strong>Warning:</strong> The extensions on this site are experimental</p>
-        <p>The Scratch Team is <strong>not</strong> responsible for the extensions and projects on this site. Please use caution when using these extensions. <a href="#faq">Learn More.</a></p>
+<dialog class="extension-warning with-icon">
+    <section>
+        <h2>Warning</h2>
+        <p>The extensions on this site are experimental</p>
     </section>
     <section>
+        <p>The Scratch Team is <strong>not</strong> responsible for the extensions and projects on this site. Please use caution when using these extensions. <a href="#faq">Learn More</a></p>
+
         <button data-action="show" data-target="home">Back to ScratchX home</button>
         <button class="success">I understand, continue</button>
     </section>
-</div>
+</dialog>
 </script>
 <script type="text/template" id="template-short-url">
 <dialog class="single">
@@ -484,7 +484,7 @@
 </dialog>
 </script>
 <script type="text/template" id="template-extension-url">
-<dialog class="single extension-url">
+<dialog class="extension-url with-icon">
     <section>
         <h2>Open an Extension URL</h2>
         <p>Paste the web address below</p>
@@ -499,7 +499,7 @@
 </dialog>
 </script>
 <script type="text/template" id="template-extension-file">
-<dialog class="single extension-file">
+<dialog class="extension-file with-icon">
     <section>
         <h2>Open an Extension Project</h2>
         <p>Choose a .sbx file from your local drive</p>

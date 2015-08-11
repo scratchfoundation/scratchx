@@ -228,16 +228,10 @@ function showModal(templateId, data) {
 
     var zIndex = 100;
     var modalId = ("modal-" + templateId).replace(",", "-");
-    $modalwrapper = $("<div class='modal-fade-screen'><div class='modal-inner'><div class='modal-content'></div></div></div>");
+    $modalwrapper = $("<div class='modal-fade-screen'><div class='modal-inner'></div></div>");
     var $modal = getOrCreateFromTemplate(modalId, templateId, "dialog", "body", $modalwrapper, data);
-    $(".modal-inner", $modal).append('<div class="modal-close" for="'+modalId+'"></div>');
-    $modal.addClass("modal");
 
-    if (typeof(templateId) != "string") {
-        $modal.addClass("n-children-" + templateId.length);
-    } else {
-        $modal.addClass("n-children-1");
-    }
+    $modal.addClass("modal");
 
     $(".modal-fade-screen", $modal)
         .addClass("visible")
