@@ -242,25 +242,26 @@ body.page-home > main > header {
     > a {
         position: relative;
         display: block;
-
-        img {
-            display: block;
-            height: 107px;
-        }
-
-        .tryit {
-            display: inline-block;
-            position: absolute;
-            background-color: $bright-blue;
-            color: $white;
-            padding: 0 1em;
-            border-radius: 1em;
-            top: $vertical-base;
-            right: $vertical-base;
-        }
+        font-weight: normal;
     }
 
-    > section {
+    img {
+        display: block;
+        height: 107px;
+    }
+
+    .tryit {
+        display: inline-block;
+        position: absolute;
+        background-color: $bright-blue;
+        color: $white;
+        padding: 0 1em;
+        border-radius: 1em;
+        top: $vertical-base;
+        right: $vertical-base;
+    }
+
+    section {
         background-color: $white;
         color: $base-font-color;
         padding: 2 * $vertical-base;

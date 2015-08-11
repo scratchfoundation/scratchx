@@ -1493,29 +1493,30 @@ body.page-home > main > header {
   overflow: hidden; }
   .featured-extension > a {
     position: relative;
-    display: block; }
-    .featured-extension > a img {
-      display: block;
-      height: 107px; }
-    .featured-extension > a .tryit {
-      display: inline-block;
-      position: absolute;
-      background-color: #24a3ec;
-      color: #fff;
-      padding: 0 1em;
-      border-radius: 1em;
-      top: 0.375em;
-      right: 0.375em; }
-  .featured-extension > section {
+    display: block;
+    font-weight: normal; }
+  .featured-extension img {
+    display: block;
+    height: 107px; }
+  .featured-extension .tryit {
+    display: inline-block;
+    position: absolute;
+    background-color: #24a3ec;
+    color: #fff;
+    padding: 0 1em;
+    border-radius: 1em;
+    top: 0.375em;
+    right: 0.375em; }
+  .featured-extension section {
     background-color: #fff;
     color: #58595b;
     padding: 0.75em;
     line-height: 1; }
-    .featured-extension > section h2 {
+    .featured-extension section h2 {
       color: #24a3ec;
       margin-bottom: 0;
       font-size: 1.1em; }
-    .featured-extension > section p {
+    .featured-extension section p {
       text-align: left;
       font-size: 0.9em;
       margin-bottom: 0; }
