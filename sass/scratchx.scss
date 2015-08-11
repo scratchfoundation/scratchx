@@ -61,27 +61,13 @@ body {
     }
 }
 
+.modal dialog {
+    width: 25em;
+    float: left;
+    margin-right: $gutter;
 
-.modal {
-
-    &.n-children-1 {
-        dialog {
-            width: 100%;
-        }
-
-        .modal-inner {
-            @include outer-container(25%);
-        }
-    }
-
-    &.n-children-2 {
-        dialog {
-            @include span-columns(3 of 6);
-        }
-
-        .modal-inner {
-            @include outer-container(50%);
-        }
+    &:last-child {
+        margin-right: auto;
     }
 }
 

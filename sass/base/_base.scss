@@ -29,8 +29,7 @@ dialog {
     section {
         background-color: $alt-background-color;
         color: $alt-font-color;
-        /* Kill margin collapse */
-        padding: 1px;
+        padding: 2 * $vertical-base;
     }
 
     section:last-child {

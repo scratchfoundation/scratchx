@@ -89,6 +89,8 @@
     border-radius: $base-border-radius;
     padding: $modal-padding / 2;
     position: relative;
+    display: table;
+    margin: auto;
 
     a.cta {
       color: white;
