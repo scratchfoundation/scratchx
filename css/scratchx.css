@@ -762,51 +762,8 @@ picture {
 .modal-open {
   overflow: hidden; }
 
-dialog {
-  display: block;
-  position: static;
-  overflow: hidden;
-  border-radius: 5px;
-  text-align: center; }
-  dialog h2 {
-    text-align: center;
-    margin: 1.5em 0 0.375em 0; }
-  dialog section {
-    background-color: #3f5975;
-    color: #fff;
-    padding: 0.75em; }
-  dialog section:last-child {
-    background-color: #fff;
-    padding: 0.75em;
-    color: #58595b; }
-  dialog button {
-    display: inline-block;
-    line-height: normal;
-    width: 100%;
-    padding: 0.375em;
-    /*
-        Needed so that all buttons are the same height
-        as text inputs
-    */
-    border: 1px solid; }
-
-.message {
-  border-radius: 5px;
-  text-align: center;
-  margin: 1.5em 0;
-  padding: 0.75em; }
-
-.warning {
-  background-color: #fff447;
-  color: #58595b; }
-
-.info {
-  background-color: #dfe3e7;
-  color: #58595b; }
-
-.success {
-  background-color: #18ba37;
-  color: #fff; }
+a[href=""] {
+  outline: 1px solid red; }
 
 article header h1 {
   text-align: center; }
@@ -824,65 +781,6 @@ article header h1 + p {
   margin-left: 8.4375%; }
   article header h1 + p:last-child {
     margin-right: 0; }
-
-.twitter, .github {
-  display: block;
-  float: left;
-  margin-right: 24px; }
-  .twitter span, .github span {
-    display: none; }
-
-.twitter:before {
-  content: "";
-  font-family: "ScratchX";
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  font-size: 1.5em;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  border-radius: 0.375em;
-  width: 0.75em;
-  height: 0.75em;
-  text-align: center;
-  display: inline-block;
-  line-height: 1.875em;
-  width: 1.875em;
-  height: 1.875em;
-  border-radius: 0.9375em;
-  background-color: #21b4f0;
-  color: #fff; }
-
-.github:before {
-  content: "";
-  font-family: "ScratchX";
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  font-size: 1.5em;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  border-radius: 0.375em;
-  width: 0.75em;
-  height: 0.75em;
-  text-align: center;
-  display: inline-block;
-  line-height: 1.875em;
-  width: 1.875em;
-  height: 1.875em;
-  border-radius: 0.9375em;
-  background-color: #21b4f0;
-  color: #fff; }
-a[href=""] {
-  outline: 1px solid red; }
 
 body > main > header > div,
 body > main > article > header > div,
@@ -1213,6 +1111,81 @@ body > main > article {
     display: inline-block; }
   .main-nav li {
     margin-left: 50px; }
+
+.message {
+  border-radius: 5px;
+  text-align: center;
+  margin: 1.5em 0;
+  padding: 0.75em; }
+
+.warning {
+  background-color: #fff447;
+  color: #58595b; }
+
+.info {
+  background-color: #dfe3e7;
+  color: #58595b; }
+
+.success {
+  background-color: #18ba37;
+  color: #fff; }
+
+.twitter, .github {
+  display: block;
+  float: left;
+  margin-right: 24px; }
+  .twitter span, .github span {
+    display: none; }
+
+.twitter:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.5em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.375em;
+  width: 0.75em;
+  height: 0.75em;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.875em;
+  width: 1.875em;
+  height: 1.875em;
+  border-radius: 0.9375em;
+  background-color: #21b4f0;
+  color: #fff; }
+
+.github:before {
+  content: "";
+  font-family: "ScratchX";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.5em;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0.375em;
+  width: 0.75em;
+  height: 0.75em;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.875em;
+  width: 1.875em;
+  height: 1.875em;
+  border-radius: 0.9375em;
+  background-color: #21b4f0;
+  color: #fff; }
 
 /* Homepage */
 body.page-home > main > header {

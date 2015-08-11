@@ -8,6 +8,28 @@ a[href=""] {
     outline: 1px solid red;
 }
 
+article header h1 {
+    text-align: center;
+}
+
+article header p {
+    text-align: center;
+}
+
+article header h1 + p {
+    font-size: 1.125em;
+    margin-bottom: 1.5em;
+    @include span-columns(10);
+    @include shift(1);
+}
+
+body > main > article > section {
+    ul {
+        @extend %default-ul;
+    }
+
+}
+
 body > main {
     > header,
     > article > header,
@@ -69,6 +91,45 @@ body {
     &:last-child {
         margin-right: auto;
     }
+}
+
+
+dialog {
+    display: block;
+    position: static;
+    overflow: hidden;
+    border-radius: $base-border-radius;
+    text-align: center;
+
+    h2 {
+        text-align: center;
+        margin: 4 * $vertical-base 0 $vertical-base 0;
+    }
+    
+    section {
+        background-color: $alt-background-color;
+        color: $alt-font-color;
+        padding: 4 * $vertical-base;
+    }
+
+    section:last-child {
+        background-color: $base-background-color;
+        padding: 4 * $vertical-base;
+        color: $base-font-color;
+    }
+
+    button {
+        display: inline-block;
+        line-height: normal;
+        width: 100%;
+        padding: $vertical-base;
+        /*
+            Needed so that all buttons are the same height
+            as text inputs
+        */
+        border: 1px solid;
+    }
+
 }
 
 
@@ -228,6 +289,62 @@ body > main > article {
         margin-left: 50px;
     }
 }
+
+.message {
+    border-radius: $base-border-radius;
+    text-align: center;
+    margin: $vertical-base * 4 0;
+    padding: $vertical-base * 2;
+}
+
+.warning {
+    background-color: $yellow;
+    color: $dark-gray;
+}
+
+.info {
+    background-color: $light-gray;
+    color: $dark-gray;
+}
+
+.success {
+    background-color: $green;
+    color: $white;
+}
+
+.twitter, .github {
+    display: block;
+    float: left;
+    margin-right: 2 * $gutter;
+    span {
+        display: none;
+    }
+}
+
+.twitter {
+    @include icon(before, twitter, circular, false, 4 * $vertical-base){
+        display: inline-block;
+        line-height: 5 * $vertical-base;
+        width: 5 * $vertical-base;
+        height: 5 * $vertical-base;
+        border-radius: 2.5 * $vertical-base;
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.github {
+    @include icon(before, github, circular, false, 4 * $vertical-base){
+        display: inline-block;
+        line-height: 5 * $vertical-base;
+        width: 5 * $vertical-base;
+        height: 5 * $vertical-base;
+        border-radius: 2.5 * $vertical-base;
+        background-color: $blue;
+        color: $white;
+    }
+}
+
 
 @import "home";
 @import "editor";
