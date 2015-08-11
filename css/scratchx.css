@@ -1483,7 +1483,8 @@ body.page-home > main > header {
     .featured-extension section h2 {
       color: #24a3ec;
       margin-bottom: 0;
-      font-size: 1.1em; }
+      font-size: 1.1em;
+      font-weight: 600; }
     .featured-extension section p {
       text-align: left;
       font-size: 0.9em;
@@ -1501,9 +1502,12 @@ body.page-home > main > header {
   margin-top: 14px;
   line-height: 28px; }
 
+article .intro {
+  padding-top: 1.875em; }
+
 .gallery {
   background: #d7e5f3; }
-  .gallery div {
+  .gallery > div {
     padding: 3.75em 0; }
   .gallery ul {
     max-width: 60em;

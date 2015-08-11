@@ -1,7 +1,11 @@
+article .intro {
+    padding-top: $vertical-base * 5;
+}
+
 .gallery {
     background: $gallery-background-color;
 
-    div {
+    > div {
         padding: $vertical-base * 10 0;
     }
 
