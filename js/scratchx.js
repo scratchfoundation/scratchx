@@ -276,7 +276,6 @@ function JSshowWarning(extensionData) {
         e.preventDefault();
         $(document).trigger("modal:exit")
     });
-    return $modal;
 }
 
 
