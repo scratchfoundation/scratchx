@@ -246,7 +246,11 @@ function showModal(templateId, data) {
 
     $(document).one("modal:exit page:show editor:extensionLoaded", function(e){
         $("body").removeClass("modal-open");
-        Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
+        try {
+            Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
+        } catch (e) {
+            // SWF not yet loaded
+        }
         $modal.remove();
     });
     
@@ -258,7 +262,13 @@ $(document).keyup(function(e) {
     if (e.keyCode == 27) $(document).trigger("modal:exit");
 });
 
-$(document).on("modal:exit", function(e){Scratch.FlashApp.ASobj.ASsetModalOverlay(false);});
+$(document).on("modal:exit", function(e){
+    try {
+        Scratch.FlashApp.ASobj.ASsetModalOverlay(false);
+    } catch (e) {
+        // SWF not yet loaded
+    }
+});
 
 $(document).on('click', "[data-action='modal']", function(e){
     /*
