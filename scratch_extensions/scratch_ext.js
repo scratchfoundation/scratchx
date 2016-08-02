@@ -14,8 +14,8 @@ window.ScratchExtensions = new (function () {
     var poller = null;
     var lib = this;
 
-    var isOffline = (Scratch && Scratch.FlashApp && Scratch.FlashApp.ASobj &&
-            Scratch.FlashApp.ASobj.isOffline && Scratch.FlashApp.ASobj.isOffline());
+    var isOffline = Scratch && Scratch.FlashApp && Scratch.FlashApp.ASobj &&
+        Scratch.FlashApp.ASobj.isOffline && Scratch.FlashApp.ASobj.isOffline();
     var pluginAvailable = function () {
         return !!window.ArrayBuffer && !!(
                 isOffline ||
@@ -45,20 +45,23 @@ window.ScratchExtensions = new (function () {
         };
         Scratch.FlashApp.ASobj.ASloadExtension(extObj);
 
-	    if (deviceSpec) {
-		    if (!plugin) {
-			    if (pluginAvailable()) {
-				    // createDevicePlugin() will eventually call checkPolling() if it succeeds
-				    setTimeout(createDevicePlugin, 10);
-			    } else if (window.ScratchPlugin.useActiveX) {
-				    JSsetProjectBanner('Sorry, your version of Internet Explorer is not supported.  Please upgrade to version 10 or 11.');
-			    }
-		    }
-		    else {
-			    // Second hardware-using project in the same tab
-			    checkPolling();
-		    }
-	    }
+        if (deviceSpec) {
+            if (!plugin) {
+                if (pluginAvailable()) {
+                    // createDevicePlugin() will eventually call checkPolling() if it succeeds
+                    setTimeout(createDevicePlugin, 10);
+                } else if (ScratchDeviceManager) {
+                    // No plugin is NBD if we're using the SDM
+                    checkPolling();
+                } else if (window.ScratchPlugin.useActiveX) {
+                    JSsetProjectBanner('Sorry, your version of Internet Explorer is not supported.  Please upgrade to version 10 or 11.');
+                }
+            }
+            else {
+                // Second hardware-using project in the same tab
+                checkPolling();
+            }
+        }
 
         return true;
     };
@@ -81,14 +84,20 @@ window.ScratchExtensions = new (function () {
     };
 
     lib.unregister = function (name) {
-        try { handlers[name]._shutdown(); } catch (e) { }
+        try {
+            handlers[name]._shutdown();
+        } catch (e) {
+        }
         delete handlers[name];
         delete blockDefs[name];
         delete menuDefs[name];
         delete deviceSpecs[name];
     };
 
-    lib.canAccessDevices = function () { return pluginAvailable(); };
+    lib.canAccessDevices = function () {
+        return pluginAvailable();
+    };
+
     lib.getReporter = function (ext_name, reporter, args) {
         return handlers[ext_name][reporter].apply(handlers[ext_name], args);
     };
@@ -96,7 +105,7 @@ window.ScratchExtensions = new (function () {
     lib.getReporterAsync = function (ext_name, reporter, args, job_id) {
         var callback = function (retval) {
             Scratch.FlashApp.ASobj.ASextensionReporterDone(ext_name, job_id, retval);
-        }
+        };
         args.push(callback);
         handlers[ext_name][reporter].apply(handlers[ext_name], args);
     };
@@ -113,24 +122,50 @@ window.ScratchExtensions = new (function () {
     lib.runAsync = function (ext_name, command, args, job_id) {
         var callback = function () {
             Scratch.FlashApp.ASobj.ASextensionCallDone(ext_name, job_id);
-        }
+        };
         args.push(callback);
         handlers[ext_name][command].apply(handlers[ext_name], args);
     };
 
     lib.getStatus = function (ext_name) {
-        if (!(ext_name in handlers))
-            return { status: 0, msg: 'Not loaded' };
+        if (!(ext_name in handlers)) {
+            return {status: 0, msg: 'Not loaded'};
+        }
 
-        if (ext_name in deviceSpecs && !pluginAvailable())
-            return { status: 0, msg: 'Missing browser plugin' };
+        if (ext_name in deviceSpecs) {
+            switch (deviceSpecs[ext_name].type) {
+                case 'wedo2':
+                    if (!ScratchDeviceManager) {
+                        return {status: 0, msg: 'Missing Scratch Device Manager'};
+                    }
+                    break;
+                default:
+                    if (!pluginAvailable()) {
+                        return {status: 0, msg: 'Missing browser plugin'};
+                    }
+                    break;
+            }
+        }
 
         return handlers[ext_name]._getStatus();
     };
 
+    lib.stop = function (ext_name) {
+        var ext = handlers[ext_name];
+        if (ext._stop) {
+            ext._stop();
+        }
+        else if (ext.resetAll) { // old, undocumented call
+            ext.resetAll();
+        }
+    };
+
     lib.notify = function (text) {
-        if (window.JSsetProjectBanner) JSsetProjectBanner(text);
-        else alert(text);
+        if (window.JSsetProjectBanner) {
+            JSsetProjectBanner(text);
+        } else {
+            alert(text);
+        }
     };
 
     lib.resetPlugin = function () {
@@ -143,47 +178,67 @@ window.ScratchExtensions = new (function () {
     });
 
     function shutdown() {
-        for (var extName in handlers)
+        for (var extName in handlers) {
             handlers[extName]._shutdown();
+        }
         handlers = {};
         stopPolling();
     }
 
     function checkDevices() {
         var awaitingSpecs = {};
-        for (var ext_name in deviceSpecs)
+        var ext_name;
+        for (ext_name in deviceSpecs) {
             if (!devices[ext_name]) {
                 var spec = deviceSpecs[ext_name];
                 if (spec.type == 'hid') {
                     if (!awaitingSpecs['hid']) awaitingSpecs['hid'] = {};
                     awaitingSpecs['hid'][spec.vendor + '_' + spec.product] = ext_name;
                 }
-                else if (spec.type == 'serial')
+                else if (spec.type == 'serial') {
                     awaitingSpecs['serial'] = ext_name;
+                }
+                else if (spec.type == 'wedo2') {
+                    awaitingSpecs['wedo2'] = ext_name;
+                }
+            }
+        }
+
+        if (plugin) {
+            if (awaitingSpecs['hid']) {
+                plugin.hid_list(function (deviceList) {
+                    var hidList = awaitingSpecs['hid'];
+                    for (var i = 0; i < deviceList.length; i++) {
+                        var ext_name = hidList[deviceList[i]["vendor_id"] + '_' + deviceList[i]["product_id"]];
+                        if (ext_name) {
+                            handlers[ext_name]._deviceConnected(new HidDevice(deviceList[i], ext_name));
+                        }
+                    }
+                });
             }
 
-        if (awaitingSpecs['hid']) {
-            plugin.hid_list(function (deviceList) {
-                var hidList = awaitingSpecs['hid'];
-                for (var i = 0; i < deviceList.length; i++) {
-                    var ext_name = hidList[deviceList[i]["vendor_id"] + '_' + deviceList[i]["product_id"]];
-                    if (ext_name)
-                        handlers[ext_name]._deviceConnected(new hidDevice(deviceList[i], ext_name));
+            if (awaitingSpecs['serial']) {
+                ext_name = awaitingSpecs['serial'];
+                plugin.serial_list(function (deviceList) {
+                    for (var i = 0; i < deviceList.length; i++) {
+                        handlers[ext_name]._deviceConnected(new SerialDevice(deviceList[i], ext_name));
+                    }
+                });
+            }
+        }
+
+        if (ScratchDeviceManager && awaitingSpecs['wedo2']) {
+            ext_name = awaitingSpecs['wedo2'];
+            ScratchDeviceManager.wedo2_list(function(deviceList) {
+                for (var i = 0; i < deviceList.length; ++i) {
+                    handlers[ext_name]._deviceConnected(new WeDo2Device(deviceList[i].id, ext_name));
                 }
             });
         }
 
-        if (awaitingSpecs['serial']) {
-            var ext_name = awaitingSpecs['serial'];
-            plugin.serial_list(function (deviceList) {
-                for (var i = 0; i < deviceList.length; i++) {
-                    handlers[ext_name]._deviceConnected(new serialDevice(deviceList[i], ext_name));
-                }
-            });
-        }
-
-        if (!shouldLookForDevices())
+        if (!shouldLookForDevices()) {
             stopPolling();
+        }
     }
 
     function checkPolling() {
@@ -198,9 +253,11 @@ window.ScratchExtensions = new (function () {
     }
 
     function shouldLookForDevices() {
-        for (var ext_name in deviceSpecs)
-            if (!devices[ext_name])
+        for (var ext_name in deviceSpecs) {
+            if (!devices[ext_name]) {
                 return true;
+            }
+        }
 
         return false;
     }
@@ -223,7 +280,8 @@ window.ScratchExtensions = new (function () {
                 // Not IE: try NPAPI
                 var pluginContainer = document.createElement('div');
                 document.getElementById('scratch').parentNode.appendChild(pluginContainer);
-                pluginContainer.innerHTML = '<object type="application/x-scratchdeviceplugin" width="1" height="1"> </object>';
+                pluginContainer.innerHTML =
+                    '<object type="application/x-scratchdeviceplugin" width="1" height="1"> </object>';
                 plugin = pluginContainer.firstChild;
             }
             // Talk to the actual plugin, but make it pretend to be asynchronous.
@@ -235,7 +293,7 @@ window.ScratchExtensions = new (function () {
         setTimeout(checkPolling, 100);
     }
 
-    function hidDevice(info, ext_name) {
+    function HidDevice(info, ext_name) {
         var dev = null;
         var self = this;
 
@@ -255,11 +313,11 @@ window.ScratchExtensions = new (function () {
         this.open = function (readyCallback) {
             plugin.hid_open(self.id, function (d) {
                 dev = d;
-                dev.set_nonblocking(true);
-                //devices[ext_name][path] = self;
-                devices[ext_name] = self;
-
-                if (readyCallback) readyCallback(self);
+                if (dev) {
+                    devices[ext_name] = self;
+                    dev.set_nonblocking(true);
+                }
+                if (readyCallback) readyCallback(d ? self : null);
             });
         };
         this.close = function () {
@@ -287,7 +345,7 @@ window.ScratchExtensions = new (function () {
         };
     }
 
-    function serialDevice(id, ext_name) {
+    function SerialDevice(id, ext_name) {
         var dev = null;
         var self = this;
 
@@ -296,26 +354,16 @@ window.ScratchExtensions = new (function () {
 
         this.id = id;
         this.open = function (opts, readyCallback) {
-            try {
-                plugin.serial_open(self.id, opts, function (d) {
-//                    dev.set_disconnect_handler(function () {
-//                        self.close();
-//                        handlers[ext_name]._deviceRemoved(self);
-//                    });
-//                    devices[ext_name][path] = self;
-                    dev = d;
+            plugin.serial_open(self.id, opts, function (d) {
+                dev = d;
+                if (dev) {
                     devices[ext_name] = self;
-
                     dev.set_error_handler(function (message) {
                         alert('Serial device error\n\nDevice: ' + id + '\nError: ' + message);
                     });
-
-                    if (readyCallback) readyCallback(self);
-                });
-            }
-            catch (e) {
-                console.log('Error opening serial device ' + id + ': ' + e);
-            }
+                }
+                if (readyCallback) readyCallback(d ? self : null);
+            });
         };
         this.close = function () {
             if (!dev) return;
@@ -332,6 +380,76 @@ window.ScratchExtensions = new (function () {
         this.set_receive_handler = function (handler) {
             if (!dev) return;
             dev.set_receive_handler(handler);
+        };
+    }
+
+    // TODO: create a base class for these device classes so that we can share common code
+    function WeDo2Device(id, ext_name) {
+        var dev = null;
+        var self = this;
+
+        this.id = id;
+
+        function disconnect() {
+            setTimeout(function () {
+                self.close();
+                handlers[ext_name]._deviceRemoved(self);
+            }, 0);
+        }
+
+        this.open = function(readyCallback) {
+            ScratchDeviceManager.wedo2_open(self.id, function(d) {
+                dev = d;
+                if (dev) {
+                    devices[ext_name] = self;
+                    dev.setDeviceWasClosedHandler(disconnect);
+                }
+                if (readyCallback) readyCallback(d ? self : null);
+            });
+        };
+        this.close = function() {
+            if (!dev) return;
+            dev.close();
+            delete devices[ext_name];
+            dev = null;
+
+            checkPolling();
+        };
+        this.is_open = function() {
+            return !!dev;
+        };
+
+        // The `handler` should be a function like: function handler(event) {...}
+        // The `event` will contain properties called `sensorName` and `sensorValue`.
+        // Sensor names include `tilt` and `distance`.
+        this.set_sensor_handler = function(handler) {
+            if (!dev) return;
+            dev.setSensorHandler(handler);
+        };
+
+        // Starts motor at given power, 0-100. Use negative power for reverse.
+        this.set_motor_on = function(motorIndex, power) {
+            dev.setMotorOn(motorIndex, power);
+        };
+        // Applies active braking.
+        this.set_motor_brake = function(motorIndex) {
+            dev.setMotorBrake(motorIndex);
+        };
+        // Turns motor off. Depending on power and load, the motor will drift to a stop.
+        this.set_motor_off = function(motorIndex) {
+            dev.setMotorOff(motorIndex);
+        };
+
+        // Sets the RGB LED color. The RGB color should be specified in 0xRRGGBB format.
+        this.set_led = function(rgb) {
+            dev.setLED(rgb);
+        };
+
+        this.play_tone = function(tone, durationMs) {
+            dev.playTone(tone, durationMs);
+        };
+        this.stop_tone = function() {
+            dev.stopTone();
         };
     }
 })();

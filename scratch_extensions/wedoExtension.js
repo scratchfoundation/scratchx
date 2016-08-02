@@ -4,7 +4,7 @@
 //
 // This is an extension for development and testing of the Scratch Javascript Extension API.
 
-(function(ext) {
+(function (ext) {
     var device = null;
     var rawData = null;
 
@@ -22,127 +22,140 @@
     var weDoTilt = 0;
 
     // Commands
-    ext.motorOnFor = function(motor, time, callback) {
+    ext.motorOnFor = function (motor, time, callback) {
         //ext.allMotorsOn();
-	ext.motorOn(motor);
+        ext.motorOn(motor);
 
-        setTimeout(function() {
-	    ext.motorOff(motor);
+        setTimeout(function () {
+            ext.motorOff(motor);
             //callback();
-	    if (typeof callback=="function") callback();
+            if (typeof callback == "function") callback();
         }, 1000 * time);
     };
-    
-    ext.motorOn = function(motor) {
-	switch(motor) {
-	    case "motor":
-		ext.allMotorsOn('m');
-		break;
-	    case "motor A":
-		setMotorOn('m', 0, true);
-		break;
-	    case "motor B":
-		setMotorOn('m', 1, true);
-		break;
-	    case "lights":
-		ext.allMotorsOn('l');
-		break;
-	    default:
-		ext.allMotorsOn('a');
-	}
+
+    ext.motorOn = function (motor) {
+        switch (motor) {
+            case "motor":
+                ext.allMotorsOn('m');
+                break;
+            case "motor A":
+                setMotorOn('m', 0, true);
+                break;
+            case "motor B":
+                setMotorOn('m', 1, true);
+                break;
+            case "lights":
+                ext.allMotorsOn('l');
+                break;
+            default:
+                ext.allMotorsOn('a');
+        }
     };
 
-    ext.allMotorsOn = function(type) {
+    ext.allMotorsOn = function (type) {
         setMotorOn(type, 0, true);
         setMotorOn(type, 1, true);
     };
 
-    ext.motorOff = function(motor) {
-	switch(motor) {
-	    case "motor":
-		ext.allMotorsOff('m');
-		break;
-	    case "motor A":
-		setMotorOn('m', 0, false);
-		break;
-	    case "motor B":
-		setMotorOn('m', 1, false);
-		break;
-	    case "lights":
-		ext.allMotorsOff('l');
-		break;
-	    default:
-		ext.allMotorsOff('a');
-	}
+    ext.motorOff = function (motor) {
+        switch (motor) {
+            case "motor":
+                ext.allMotorsOff('m');
+                break;
+            case "motor A":
+                setMotorOn('m', 0, false);
+                break;
+            case "motor B":
+                setMotorOn('m', 1, false);
+                break;
+            case "lights":
+                ext.allMotorsOff('l');
+                break;
+            default:
+                ext.allMotorsOff('a');
+        }
     };
 
-    ext.resetAll = function() {
-	ext.allMotorsOff('a');
+    ext._stop = function () {
+        ext.allMotorsOff('a');
     };
-    ext.allMotorsOff = function(type) {
+    ext.allMotorsOff = function (type) {
         setMotorOn(type, 0, false);
         setMotorOn(type, 1, false);
     };
 
-    ext.startMotorPower = function(motor, power) {
-	switch(motor) {
-	    case "motor":
-		setMotorPower('m', 0, power);
-		setMotorPower('m', 1, power);
-		setMotorOn('m', 0, true);
-		setMotorOn('m', 1, true);
-		break;
-	    case "motor A":
-		setMotorPower('m', 0, power);
-		setMotorOn('m', 0, true);
-		break;
-	    case "motor B":
-		setMotorPower('m', 1, power);
-		setMotorOn('m', 1, true);
-		break;
-	    case "lights":
-		setMotorPower('l', 0, power);
-		setMotorPower('l', 1, power);
-		setMotorOn('l', 0, true);
-		setMotorOn('l', 1, true);
-		break;
-	    default:
-		setMotorPower('a', 0, power);
-		setMotorPower('a', 1, power);
-		setMotorOn('a', 0, true);
-		setMotorOn('a', 1, true);
-	}
+    ext.startMotorPower = function (motor, power) {
+        switch (motor) {
+            case "motor":
+                setMotorPower('m', 0, power);
+                setMotorPower('m', 1, power);
+                setMotorOn('m', 0, true);
+                setMotorOn('m', 1, true);
+                break;
+            case "motor A":
+                setMotorPower('m', 0, power);
+                setMotorOn('m', 0, true);
+                break;
+            case "motor B":
+                setMotorPower('m', 1, power);
+                setMotorOn('m', 1, true);
+                break;
+            case "lights":
+                setMotorPower('l', 0, power);
+                setMotorPower('l', 1, power);
+                setMotorOn('l', 0, true);
+                setMotorOn('l', 1, true);
+                break;
+            default:
+                setMotorPower('a', 0, power);
+                setMotorPower('a', 1, power);
+                setMotorOn('a', 0, true);
+                setMotorOn('a', 1, true);
+        }
     };
 
-    ext.setMotorDirection = function(motor, s) {
+    ext.setMotorDirection = function (motor, s) {
         var dir;
-        if('this way' == s) dir = 1;
-        else if('that way' == s) dir = -1;
-        else if('reverse' == s) dir = 0;
-        else return;
+        if ('this way' == s) {
+            dir = 1;
+        } else if ('that way' == s) {
+            dir = -1;
+        } else if ('reverse' == s) {
+            dir = 0;
+        } else {
+            return;
+        }
 
-	switch(motor) {
-	    case "motor A":
-		setMotorDirection(0, dir);
-		break;
-	    case "motor B":
-		setMotorDirection(1, dir);
-		break;
-	    default:
-		setMotorDirection(0, dir);
-		setMotorDirection(1, dir);
-	}
+        switch (motor) {
+            case "motor A":
+                setMotorDirection(0, dir);
+                break;
+            case "motor B":
+                setMotorDirection(1, dir);
+                break;
+            default:
+                setMotorDirection(0, dir);
+                setMotorDirection(1, dir);
+        }
     };
 
     // Hat blocks
-    ext.whenDistance = function(s, dist) { return device!=null && ('<' == s ? (getDistance() < dist) : (getDistance() > dist)); };
-    ext.whenTilt = function(s, tilt) { return device!=null && ('=' == s ? (getTilt() == tilt) : (getTilt() != tilt)); };
+    ext.whenDistance = function (s, dist) {
+        return device != null && ('<' == s ? (getDistance() < dist) : (getDistance() > dist));
+    };
+    ext.whenTilt = function (s, tilt) {
+        return device != null && ('=' == s ? (getTilt() == tilt) : (getTilt() != tilt));
+    };
     //ext.whenDistanceLessThan = function(dist) { return device!=null && getDistance() < dist; };
     //ext.whenTiltIs = function(tilt) { return device!=null && getTilt() == tilt; };
 
     // Reporters
-    ext.getDistance = function() { return getDistance(); };
-    ext.getTilt = function() { return getTilt(); };
+    ext.getDistance = function () {
+        return getDistance();
+    };
+    ext.getTilt = function () {
+        return getTilt();
+    };
 
     // Internal logic
     function setMotorDirection(motorID, dir) {
@@ -152,7 +165,7 @@
         if ((dir == -1) || (dir == 1)) motor.dir = dir;
         if (dir == 0) motor.dir = -motor.dir; // reverse
         if (motor.isOn) sendMotorState();
-    };
+    }
 
     function setMotorOn(type, motorID, flag) {
         var motor = getMotor(type, motorID);
@@ -161,7 +174,7 @@
         motor.isOn = (flag == true);
         if (wasOn) checkForMotorsOff();
         sendMotorState();
-    };
+    }
 
     function setMotorPower(type, motorID, pwr) {
         // Pwr: 0..100
@@ -172,9 +185,11 @@
         if (motor.power > 0) motor.isOn = true;
         if (wasOn) checkForMotorsOff();
         sendMotorState();
-    };
+    }
 
-    var wedoCommand = new Uint8Array(9); wedoCommand[1] = 0x40;
+    var wedoCommand = new Uint8Array(9);
+    wedoCommand[1] = 0x40;
+
     function sendMotorState() {
         if (device) {
             // Each motor is controlled by a signed byte whose sign determines the direction and absolute value the power
@@ -194,29 +209,29 @@
     }
 
     function getMotor(type, motorID) {
-	if(rawData && okayToReadIDs()) {
-	    var s = new Uint8Array(rawData);
-	    id0 = s[3];
-	    id1 = s[5];
-	}
-	//console.log(id0);
-	//console.log(id0.toString(2));
-	//console.log(id1);
-	//console.log(id1.toString(2));
-	//console.log();
+        if (rawData && okayToReadIDs()) {
+            var s = new Uint8Array(rawData);
+            id0 = s[3];
+            id1 = s[5];
+        }
+        //console.log(id0);
+        //console.log(id0.toString(2));
+        //console.log(id1);
+        //console.log(id1.toString(2));
+        //console.log();
         if ((motorID == 0) && isMotor(type, id0)) return motors[0];
         if ((motorID == 1) && isMotor(type, id1)) return motors[1];
         return null;
     }
 
     function isMotor(type, id) {
-	switch (type) {
-	    case 'm': // motor
-		return (234 <= id) && (id <= 246);
-	    case 'l': // light
-		return (200 <= id) && (id <= 205);
-	}
-	return ((234 <= id) && (id <= 246)) || ((200 <= id) && (id <= 205));
+        switch (type) {
+            case 'm': // motor
+                return (234 <= id) && (id <= 246);
+            case 'l': // light
+                return (200 <= id) && (id <= 205);
+        }
+        return ((234 <= id) && (id <= 246)) || ((200 <= id) && (id <= 205));
     }
 
     function checkForMotorsOff() {
@@ -246,21 +261,27 @@
             weDoDistance = Math.max(0, Math.min(weDoDistance, 100));
         }
         if ((28 <= id) && (id <= 47)) { // tilt sensor
-            if (rawValue < 49) weDoTilt = 3;
-            else if (rawValue < 100) weDoTilt = 2;
-            else if (rawValue < 154) weDoTilt = 0;
-            else if (rawValue < 205) weDoTilt = 1;
-            else weDoTilt = 4;
+            if (rawValue < 49) {
+                weDoTilt = 3;
+            } else if (rawValue < 100) {
+                weDoTilt = 2;
+            } else if (rawValue < 154) {
+                weDoTilt = 0;
+            } else if (rawValue < 205) {
+                weDoTilt = 1;
+            } else {
+                weDoTilt = 4;
+            }
         }
     }
 
     function getDistance() {
-        if(rawData) processData();
+        if (rawData) processData();
         return weDoDistance;
     }
 
     function getTilt() {
-        if(rawData) processData();
+        if (rawData) processData();
         return weDoTilt;
     }
 
@@ -279,58 +300,58 @@
     }
 
     var poller = null;
-    ext._deviceConnected = function(dev) {
-        if(device) return;
+    ext._deviceConnected = function (dev) {
+        if (device) return;
 
         device = dev;
         device.open();
-        poller = setInterval(function() {
-            device.read(function(data) {
+        poller = setInterval(function () {
+            device.read(function (data) {
                 rawData = data;
             });
         }, 20);
     };
 
-    ext._deviceRemoved = function(dev) {
-        if(device != dev) return;
-        if(poller) poller = clearInterval(poller);
+    ext._deviceRemoved = function (dev) {
+        if (device != dev) return;
+        if (poller) poller = clearInterval(poller);
         device = null;
     };
 
-    ext._shutdown = function() {
+    ext._shutdown = function () {
         setMotorOn('a', 0, false);
         setMotorOn('a', 1, false);
 
-        if(poller) poller = clearInterval(poller);
-        if(device) device.close();
+        if (poller) poller = clearInterval(poller);
+        if (device) device.close();
         device = null;
     };
 
-    ext._getStatus = function() {
-        if(!device) return {status: 1, msg: 'LEGO WeDo disconnected'};
+    ext._getStatus = function () {
+        if (!device) return {status: 1, msg: 'LEGO WeDo disconnected'};
         return {status: 2, msg: ' LEGO WeDo connected'};
-    }
+    };
 
     var descriptor = {
         blocks: [
-            ['w', 'turn %m.motor on for %n secs',               'motorOnFor',       'motor',1],
-            [' ', 'turn %m.motor on',                           'motorOn',          'motor'],
-            [' ', 'turn %m.motor off',                          'motorOff',         'motor'],
-            [' ', 'set %m.motor power to %n',                   'startMotorPower',  'motor',100],
-            [' ', 'set %m.motor2 direction to %m.motorDirection','setMotorDirection','motor','this way'],
-            ['h', 'when distance %m.lessMore %n',               'whenDistance',     '<',    20],
-            ['h', 'when tilt %m.eNe %n',                        'whenTilt',         '=',    1],
-            ['r', 'distance',                                   'getDistance'],
-            ['r', 'tilt',                                       'getTilt']
+            ['w', 'turn %m.motor on for %n secs',                 'motorOnFor',        'motor', 1],
+            [' ', 'turn %m.motor on',                             'motorOn',           'motor'],
+            [' ', 'turn %m.motor off',                            'motorOff',          'motor'],
+            [' ', 'set %m.motor power to %n',                     'startMotorPower',   'motor', 100],
+            [' ', 'set %m.motor2 direction to %m.motorDirection', 'setMotorDirection', 'motor', 'this way'],
+            ['h', 'when distance %m.lessMore %n',                 'whenDistance',      '<', 20],
+            ['h', 'when tilt %m.eNe %n',                          'whenTilt',          '=', 1],
+            ['r', 'distance',                                     'getDistance'],
+            ['r', 'tilt',                                         'getTilt']
         ],
         menus: {
             motor: ['motor', 'motor A', 'motor B', 'lights', 'everything'],
-	    motor2: ['motor', 'motor A', 'motor B', 'all motors'],
+            motor2: ['motor', 'motor A', 'motor B', 'all motors'],
             motorDirection: ['this way', 'that way', 'reverse'],
             lessMore: ['<', '>'],
-            eNe: ['=','not =']
+            eNe: ['=', 'not =']
         },
-	url: '/info/help/studio/tips/ext/LEGO WeDo/'
+        url: '/info/help/studio/tips/ext/LEGO WeDo/'
     };
-    ScratchExtensions.register('LEGO WeDo', descriptor, ext, {type: 'hid', vendor:1684, product:3});
+    ScratchExtensions.register('LEGO WeDo', descriptor, ext, {type: 'hid', vendor: 1684, product: 3});
 })({});

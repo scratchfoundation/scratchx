@@ -54,6 +54,7 @@ window.ScratchDeviceHost = new (function () {
     };
 
     var pendingCallbacks = {};
+
     function sendMessage(message, callback) {
         var callbackToken = (callNumber++).toString();
         pendingCallbacks[callbackToken] = callback;

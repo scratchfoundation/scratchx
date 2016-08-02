@@ -71,7 +71,7 @@ window.ScratchPlugin = new (function () {
         self.close = function () {
             device.close();
         };
-    };
+    }
 
     function SerialWrapper(device) {
         var self = this;
@@ -92,5 +92,5 @@ window.ScratchPlugin = new (function () {
         self.set_error_handler = function (callback) {
             device.set_error_handler(callback);
         };
-    };
+    }
 })();
