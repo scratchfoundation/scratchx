@@ -231,7 +231,7 @@ window.ScratchExtensions = new (function () {
             ext_name = awaitingSpecs['wedo2'];
             ScratchDeviceManager.wedo2_list(function(deviceList) {
                 for (var i = 0; i < deviceList.length; ++i) {
-                    handlers[ext_name]._deviceConnected(new WeDo2Device(deviceList[i].id, ext_name));
+                    handlers[ext_name]._deviceConnected(new WeDo2Device(deviceList[i].id || deviceList[i], ext_name));
                 }
             });
         }
