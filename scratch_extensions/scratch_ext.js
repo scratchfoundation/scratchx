@@ -359,7 +359,7 @@ window.ScratchExtensions = new (function () {
                 if (dev) {
                     devices[ext_name] = self;
                     dev.set_error_handler(function (message) {
-                        alert('Serial device error\n\nDevice: ' + id + '\nError: ' + message);
+                        console.log('Serial device error\nDevice: ' + id + '\nError: ' + message);
                     });
                 }
                 if (readyCallback) readyCallback(d ? self : null);
