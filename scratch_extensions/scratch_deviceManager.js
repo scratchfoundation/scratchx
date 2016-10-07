@@ -1,91 +1,99 @@
 // Communicate with the Scratch Device Manager through Socket.IO
 window.ScratchDeviceManager = new (function () {
-    var self = this;
+    var instance = this;
+    var sockets = [];
+
+    // Assume it's OK until we find out otherwise
+    var isConnected = true;
 
     // device-manager.scratch.mit.edu = 127.0.0.1
-    self.deviceManagerHost = 'https://device-manager.scratch.mit.edu:3030';
+    instance.deviceManagerHost = 'https://device-manager.scratch.mit.edu:3030';
 
     // work around https://github.com/socketio/socket.io-client/issues/812
     function connectNamespace(namespace) {
-        return io(self.deviceManagerHost + namespace, {forceNew: true});
+        return io(instance.deviceManagerHost + namespace, {forceNew: true});
     }
 
-    self.wedo2_list = function (callback) {
-        $.ajax(self.deviceManagerHost + '/wedo2/list', {
-            dataType: 'text',
+    function onClose(){
+        for(var i=0; i<sockets.length; i++){
+            sockets[i].disconnect();
+        } 
+    }
+
+    window.onbeforeunload = onClose;
+
+    instance.device_list = function (ext_type, ext_name, device_spec, callback) {
+        var url = instance.deviceManagerHost + '/' + ext_type + '/list';
+        var data = {
+            name: ext_name,
+            spec: device_spec
+        };
+        $.ajax(url, {
+            data: {data: JSON.stringify(data)},
+            dataType: 'json',
             success: function (data, textStatus, jqXHR) {
-                var deviceList = JSON.parse(data);
-                if (deviceList.constructor == Array) {
-                    callback(deviceList);
+                isConnected = true;
+                if (data.constructor == Array) {
+                    callback(data, ext_type, ext_name);
                 }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                isConnected = false;
             }
         });
     };
 
-    // TODO: handle multiple devices
-    self.wedo2_open = function (deviceId, callback) {
-        var socket = connectNamespace('/wedo2');
-        var pluginDevice = new RawWeDo2(deviceId, socket);
-        socket.on('deviceWasOpened', function (event) {
-            callback(pluginDevice);
-        });
-        socket.emit('open', {deviceId: deviceId});
-    };
-
-    function RawWeDo2(deviceId, socket) {
-        var WeDo = this;
-        var eventHandlers = {};
-
-        WeDo.close = function() {
-            socket.close();
-        };
-
-        WeDo.setMotorOn = function(motorIndex, power) {
-            socket.emit('motorOn', {motorIndex:motorIndex, power:power});
-        };
-
-        WeDo.setMotorOff = function(motorIndex) {
-            socket.emit('motorOff', {motorIndex:motorIndex});
-        };
-
-        WeDo.setMotorBrake = function(motorIndex) {
-            socket.emit('motorBrake', {motorIndex:motorIndex});
-        };
-
-        WeDo.setLED = function(rgb) {
-            socket.emit('setLED', {rgb:rgb});
-        };
-
-        WeDo.playTone = function(tone, durationMs) {
-            socket.emit('playTone', {tone:tone, ms:durationMs});
-        };
-
-        WeDo.stopTone = function() {
-            socket.emit('stopTone');
-        };
-
-        function setHandler(eventName, handler) {
-            if (eventHandlers.hasOwnProperty(eventName)) {
-                var oldHandler = eventHandlers[eventName];
-                if (oldHandler) {
-                    socket.removeListener(eventName, oldHandler);
-                }
+    // Attempt to open a device-specific socket connection to the Device Manager.
+    // This must call `callback` exactly once no matter what.
+    // The callback will receive a connected socket on success or `null` on failure.
+    instance.socket_open = function (ext_name, deviceType, deviceId, callback) {
+        function onDeviceWasOpened () {
+            // If this is the first event on this socket then respond with success.
+            if (clearOpenTimeout()) {
+                callback(socket);
             }
-            if (handler) {
-                socket.on(eventName, handler);
-            }
-            eventHandlers[eventName] = handler;
         }
 
-        // function handler(event) { access event.sensorName and event.sensorValue }
-        WeDo.setSensorHandler = function (handler) {
-            setHandler('sensorChanged', handler);
-        };
+        function onDisconnect () {
+            var socketIndex = sockets.indexOf(socket);
+            if (socketIndex >= 0) {
+                sockets.splice(socketIndex, 1);
+            }
+            // If this is the first event on this socket then respond with failure.
+            if (clearOpenTimeout()) {
+                callback(null);
+            }
+        }
 
-        WeDo.setDeviceWasClosedHandler = function (handler) {
-            // TODO: resolve this ambiguity
-            setHandler('disconnect', handler);
-            setHandler('deviceWasClosed', handler);
-        };
-    }
+        function onTimeout () {
+            // This will trigger `onDisconnect()`
+            socket.disconnect();
+        }
+
+        // If the timeout is still pending, clear it and return true. Otherwise, return false.
+        // Callers can use the return value to determine whether they are the first to respond on this socket.
+        function clearOpenTimeout () {
+            if (openTimeout !== null) {
+                clearTimeout(openTimeout);
+                openTimeout = null;
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        var socket = connectNamespace('/' + deviceType);
+        sockets.push(socket);
+
+        socket.on('deviceWasOpened', onDeviceWasOpened);
+        socket.on('disconnect', onDisconnect);
+        var openTimeout = setTimeout(onTimeout, 10 * 1000);
+
+        socket.emit('open', {deviceId: deviceId, name: ext_name});
+    };
+
+    instance.isConnected = function () {
+        return isConnected;
+    };
 })();

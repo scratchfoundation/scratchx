@@ -148,6 +148,9 @@
         return false;
     };
 
+    // Each block must have a unique function name even if the implementation is identical.
+    ext.whenTilted = ext.isTilted;
+
     ext.getTilt = function (tiltDir) {
         var tiltValue;
         switch(tiltDir) {
@@ -332,7 +335,7 @@
             [' ', 'set light color to %n', 'setLED', 50],
             ['w', 'play note %d.note for %n seconds', 'playNote', 60, 0.5],
             ['h', 'when distance %m.lessMore %n', 'whenDistance', strings.COMP_LESS, 50],
-            ['h', 'when tilted %m.tiltDirAny', 'isTilted', strings.TILT_ANY],
+            ['h', 'when tilted %m.tiltDirAny', 'whenTilted', strings.TILT_ANY],
             ['r', 'distance', 'getDistance'],
             ['b', 'tilted %m.tiltDirAny ?', 'isTilted', strings.TILT_ANY],
             ['r', 'tilt angle %m.tiltDir', 'getTilt', strings.TILT_UP]

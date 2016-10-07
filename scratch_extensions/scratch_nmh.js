@@ -7,7 +7,9 @@ window.ScratchDeviceHost = new (function () {
         return isConnected;
     };
 
-    if (!window.chrome) return;
+    if (!(window.chrome && window.chrome.runtime && window.chrome.runtime.connect)) {
+        return;
+    }
 
     var extensionID = 'clmabinlolakdafkoajkfjjengcdmnpm';
     var callNumber = 0;
