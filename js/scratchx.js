@@ -109,14 +109,35 @@ var params = {
 };
 
 $.each(flashVars, function (prop, val) {
-    if ($.isPlainObject(val))
-        flashVars[prop] = encodeURIComponent(JSON.stringify(val));
+    if ($.isPlainObject(val)) {
+        val = encodeURIComponent(JSON.stringify(val));
+    }
+    if (typeof params.flashvars !== 'undefined') {
+        params.flashvars += '&' + prop + '=' + val;
+    } else {
+        params.flashvars = prop + '=' + val;
+    }
 });
 
 swfobject.switchOffAutoHideShow();
 
-swfobject.embedSWF('Scratch.swf', 'scratch', '100%', '100%', '11.7.0', 'libs/expressInstall.swf',
-        flashVars, params, null, handleEmbedStatus);
+var swfAttributes = {
+    data: 'Scratch.swf',
+    width: '100%',
+    height: '100%'
+};
+
+swfobject.addDomLoadEvent(function() {
+    // check if mobile/tablet browser user bowser
+    if(bowser.mobile || bowser.tablet) {
+        // if on mobile, show error screen
+        handleEmbedStatus({success: false});
+    } else {
+        // if not on ie, let browser try to handle flash loading
+        var swf = swfobject.createSWF(swfAttributes, params, "scratch");
+        handleEmbedStatus({success: true, ref: swf});
+    }
+});
 
 
 /* File uploads */
