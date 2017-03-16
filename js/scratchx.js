@@ -1,5 +1,6 @@
 // Simulate the bare minimum of the view that exists on the main site
 var Scratch = Scratch || {};
+Scratch.editorIsReady = false;
 Scratch.FlashApp = Scratch.FlashApp || {};
 
 var editorId = "scratch";
@@ -8,7 +9,7 @@ var ShortURL = {
     key : "AIzaSyBlaftRUIOLFVs8nfrWvp4IBrqq9-az46A",
     api : "https://www.googleapis.com/urlshortener/v1/url",
     domain : "http://goo.gl"
-}
+};
 
 function handleEmbedStatus(e) {
     $('#scratch-loader').hide();
@@ -32,7 +33,7 @@ function JSthrowError(e) {
 
 function JSeditorReady() {
     try {
-        handleParameters();
+        Scratch.editorIsReady = true;
         Scratch.FlashApp.$ASobj.trigger("editor:ready");
         return true;
     } catch (error) {
@@ -41,44 +42,8 @@ function JSeditorReady() {
     }
 }
 
-function JSprojectLoaded() {
-    loadExtensionQueue();
-}
-
 function JSshowExtensionDialog() {
     showModal(["template-extension-file", "template-extension-url"]);
-}
-
-var extensionQueue = [];
-function handleParameters() {
-    var project;
-    var queryString = window.location.search.substring(1);
-    var queryVars = queryString.split(/[&;]/);
-    for (var i = 0; i < queryVars.length; i++) {
-        var nameVal = queryVars[i].split('=');
-        switch(nameVal[0]){
-            case 'ext':
-                extensionQueue.push(nameVal[1]);
-                break;
-            case 'proj':
-                project = nameVal[1];
-                break;
-        }
-    }
-    if (project) {
-        Scratch.FlashApp.ASobj.ASloadSBXFromURL(project);
-    }
-    else {
-        loadExtensionQueue();
-    }
-}
-
-function loadExtensionQueue() {
-    for (var i = 0; i < extensionQueue.length; ++i) {
-        var extensionURL = extensionQueue[i];
-        ScratchExtensions.loadExternalJS(extensionURL);
-    }
-    extensionQueue = [];
 }
 
 var flashVars = {
@@ -163,7 +128,7 @@ function sendFileToFlash(file) {
             });
         }
         
-    }
+    };
     fileReader.readAsArrayBuffer(file);
 }
 
@@ -177,7 +142,7 @@ function sendURLtoFlash() {
         urls.push(arguments[i]);
     }
     if (urls.length <= 0) return;
-    if (Scratch.FlashApp.ASobj.ASloadGithubURL !== undefined) {
+    if (Scratch.editorIsReady) {
         $(document).trigger("editor:extensionLoaded", {method: "url", urls: urls});
         showPage(editorId);
         Scratch.FlashApp.ASobj.ASloadGithubURL(urls);
@@ -202,7 +167,6 @@ function loadFromURLParameter(queryString) {
      */
     var paramString = queryString.replace(/^\?|\/$/g, '');
     var vars = paramString.split("&");
-    var showedEditor = false;
     var urls = [];
     for (var i=0; i<vars.length; i++) {
         var pair = vars[i].split("=");
@@ -238,7 +202,7 @@ function getOrCreateFromTemplate(elementId, templateId, elementType, appendTo, w
         $element.appendTo(appendTo)
     }
     return $element;
-};
+}
 
 function showModal(templateId, data) {
     /*
@@ -405,7 +369,7 @@ function showShortUrl(url) {
         var context = {
             longUrl : data.longUrl,
             shortUrl : shortUrl
-        }
+        };
 
         $modal = showModal("template-short-url", context);
         var client = new ZeroClipboard($('button', $modal));
@@ -417,7 +381,7 @@ function JSshowShortUrlFor() {
 }
 
 function decompress(id, done) {
-    var data = {shortUrl: ShortURL.domain + id}
+    var data = {shortUrl: ShortURL.domain + id};
     $.ajax({
         url : ShortURL.api + '?' + $.param({
             key : ShortURL.key,
@@ -452,7 +416,7 @@ $(document).on('click', "[data-action='load-url']", function(e) {
 
 $(document).on('submit', ".url-load-form", function(e) {
     // Load text input value on submit
-    e.preventDefault()
+    e.preventDefault();
     showPage(editorId);
     sendURLtoFlash($('input[type="text"]', this).val());
 });
