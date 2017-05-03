@@ -3,7 +3,10 @@
 /* Kreg Hanning <khanning@media.mit.edu>, July 2016 */
 
 (function(ext) {
-  var APPID = '960f7f58abbc5c98030d1899739c1ba8';
+  // You will need to obtain an API key to query
+  // the OpenWeatherMap.org server
+  // https://openweathermap.org/api
+  var APPID = 'INSERT_API_KEY_HERE';
 
   var cacheDuration = 1800000 //ms, 30 minutes
   var cachedTemps = {};
