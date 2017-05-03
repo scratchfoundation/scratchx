@@ -26,5 +26,5 @@ new (function() {
     };
 
     // Register the extension
-    ScratchExtensions.register('Sample extension', descriptor, ext);
+    ScratchExtensions.register('Exponent Extension', descriptor, ext);
 })();
