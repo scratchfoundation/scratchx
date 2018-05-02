@@ -8,7 +8,7 @@ var initialPage = "home";
 var ShortURL = {
     key : "AIzaSyBlaftRUIOLFVs8nfrWvp4IBrqq9-az46A",
     api : "https://www.googleapis.com/urlshortener/v1/url",
-    domain : "http://goo.gl"
+    domain : "https://goo.gl"
 };
 
 function handleEmbedStatus(e) {
@@ -53,12 +53,12 @@ var flashVars = {
     cloudToken: '4af4863d-a921-4004-b2cb-e0ad00ee1927',
     cdnToken: '34f16bc63e8ada7dfd7ec12c715d0c94',
     urlOverrides: {
-        sitePrefix: "http://scratch.mit.edu/",
-        siteCdnPrefix: "http://cdn.scratch.mit.edu/",
-        assetPrefix: "http://assets.scratch.mit.edu/",
-        assetCdnPrefix: "http://cdn.assets.scratch.mit.edu/",
-        projectPrefix: "http://projects.scratch.mit.edu/",
-        projectCdnPrefix: "http://cdn.projects.scratch.mit.edu/",
+        sitePrefix: "https://scratch.mit.edu/",
+        siteCdnPrefix: "https://cdn.scratch.mit.edu/",
+        assetPrefix: "https://assets.scratch.mit.edu/",
+        assetCdnPrefix: "https://cdn.assets.scratch.mit.edu/",
+        projectPrefix: "https://projects.scratch.mit.edu/",
+        projectCdnPrefix: "https://cdn.projects.scratch.mit.edu/",
         internalAPI: "internalapi/",
         siteAPI: "site-api/",
         staticFiles: "scratchr2/static/"
